@@ -10,5 +10,12 @@
   "devDependencies": {
     "@playwright/test": "^1.45.0",
     "@types/node": "^20.14.9"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "fs": "0.0.1-security",
+    "module": "^1.2.5",
+    "path": "^0.12.7",
+    "type": "^2.7.3"
   }
 }

@@ -9,21 +9,21 @@ on:
           - dev
           - test
           - prod
-      app:
-        type: choice
-        required: true
-        default: all
-        options:
-          - atlas
-          - disaster-ninja
-          - smart-city
-          - oam
-          - all
 jobs:
   tests:
     name: Run front-facing API tests
     timeout-minutes: 60
     runs-on: ubuntu-latest
+    env:
+      ENVIRONMENT: ${{ github.event.inputs.env || 'prod'}}
+      TEST_EMAIL: ${{ secrets.TEST_EMAIL }}
+      TEST_PASSWORD: ${{ secrets.TEST_PASSWORD }}
+      DEV_EMAIL: ${{ secrets.DEV_EMAIL }}
+      DEV_PASSWORD: ${{ secrets.DEV_PASSWORD }}
+      PROD_EMAIL: ${{ secrets.PROD_EMAIL }}
+      PROD_PASSWORD: ${{ secrets.PROD_PASSWORD }}
+      SLACK_BOT_USER_OAUTH_TOKEN: ${{secrets.PLAYWRIGHT_TOKEN }}
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -35,6 +35,18 @@ jobs:
         uses: pnpm/action-setup@v4
         with:
           version: 9
+      - name: Create .env file
+        shell: bash
+        run: |
+          ENV_PREFIX=$(echo "$ENVIRONMENT" | tr '[:lower:]' '[:upper:]') # Convert to uppercase
+          EMAIL_VAR_NAME="${ENV_PREFIX}_EMAIL"
+          PASSWORD_VAR_NAME="${ENV_PREFIX}_PASSWORD"
+          EMAIL="${!EMAIL_VAR_NAME}"
+          PASSWORD="${!PASSWORD_VAR_NAME}"
+          rm -rf .env.playwright.production
+          echo "EMAIL=$EMAIL" >> .env.playwright.production
+          echo "PASSWORD=$PASSWORD" >> .env.playwright.production
+          echo "SLACK_BOT_USER_OAUTH_TOKEN=${SLACK_BOT_USER_OAUTH_TOKEN}" >> .env.playwright.production
       - name: Cache node modules
         id: cache-npm
         uses: actions/cache@v4
