@@ -43,10 +43,11 @@ jobs:
           PASSWORD_VAR_NAME="${ENV_PREFIX}_PASSWORD"
           EMAIL="${!EMAIL_VAR_NAME}"
           PASSWORD="${!PASSWORD_VAR_NAME}"
-          rm -rf .env.playwright.production
-          echo "EMAIL=$EMAIL" >> .env.playwright.production
-          echo "PASSWORD=$PASSWORD" >> .env.playwright.production
-          echo "SLACK_BOT_USER_OAUTH_TOKEN=${SLACK_BOT_USER_OAUTH_TOKEN}" >> .env.playwright.production
+          rm -rf .env.playwright
+          echo "EMAIL=$EMAIL" >> .env.playwright
+          echo "PASSWORD=$PASSWORD" >> .env.playwright
+          echo "SLACK_BOT_USER_OAUTH_TOKEN=${SLACK_BOT_USER_OAUTH_TOKEN}" >> .env.playwright
+          echo "ENVIRONMENT=$ENVIRONMENT" >> .env.playwright
       - name: Cache node modules
         id: cache-npm
         uses: actions/cache@v4
