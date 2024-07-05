@@ -1,40 +1,32 @@
 import { test, expect } from "@playwright/test";
-import fs from "fs";
-import path from "path";
-
-type Api = {
-  env: string;
-  name: string;
-  url: string;
-};
-
-function getApis() {
-  const data = fs.readFileSync(path.join(__dirname, "./apis.json")).toString();
-
-  const environment = process.env.ENVIRONMENT ?? "prod";
-  const apis: Api[] = JSON.parse(data).filter(
-    (api: Api) => api.env === environment
-  );
-
-  return apis;
-}
-
-// Playwright has no timeout function for responses
-
-function rejectIfTimeout(sec: number) {
-  return new Promise<never>((_, reject) => {
-    setTimeout(function () {
-      reject(new Error(`Response is taking longer than ${sec} seconds 🫠`));
-    }, sec * 1000);
-  });
-}
+import { getApis, rejectIfTimeout } from "./helper";
 
 const apis = getApis();
-const apiNames = ["atlas main", "atlas config", "basemap"];
+const apiNames = [
+  "atlas main",
+  "atlas config",
+  "basemap",
+  "atlas layers",
+  "atlas global layers",
+  "intercom 3-party",
+  "atlas event feed",
+];
 
-const [mainConfigUrl, staticConfigUrl, basemapStylesUrl] = apiNames.map(
-  (name) => apis.find((api) => api.name === name)?.url
-);
+const appIds: string[] = [];
+const [
+  mainConfigUrl,
+  staticConfigUrl,
+  basemapStylesUrl,
+  atlasLayersUrl,
+  atlasGlobalLayersUrl,
+  intercomUrl,
+  eventFeedUrl,
+] = apiNames.map((name) => {
+  const currentApi = apis.find((api) => api.name === name);
+  if (currentApi?.appId) appIds.push(currentApi.appId);
+  return currentApi?.url;
+});
+const [atlasAppId, intercomAppId] = appIds;
 
 test(`Check ${mainConfigUrl} availability`, async ({ request }) => {
   expect(mainConfigUrl).toBeDefined();
@@ -72,4 +64,62 @@ test(`Check ${basemapStylesUrl} availability`, async ({ request }) => {
   expect(response.status()).toEqual(200);
   const responseObj = await response.json();
   expect(responseObj.layers[0]).toBeDefined();
+});
+
+test(`Check ${atlasLayersUrl} availability`, async ({ request }) => {
+  expect(atlasLayersUrl).toBeDefined();
+  const response = await Promise.race([
+    request.get(atlasLayersUrl!),
+    rejectIfTimeout(10),
+  ]);
+  expect(response.status()).toEqual(200);
+  const responseObj = await response.json();
+  expect(responseObj[0]).toBeDefined();
+  expect(responseObj[0].id).toEqual("focused-geometry");
+  expect(responseObj[1].id).toEqual("kontur_lines");
+});
+
+test(`Check ${atlasGlobalLayersUrl} availability`, async ({ request }) => {
+  expect(atlasGlobalLayersUrl).toBeDefined();
+  const response = await Promise.race([
+    request.post(atlasGlobalLayersUrl!, {
+      data: {
+        appId: atlasAppId,
+      },
+    }),
+    rejectIfTimeout(10),
+  ]);
+  expect(response.status()).toEqual(200);
+  const responseObj = await response.json();
+  expect(responseObj[0]).toBeDefined();
+  expect(responseObj[0].id).toEqual("BIV__Kontur OpenStreetMap Quantity");
+});
+
+test(`Check ${intercomUrl} availability`, async ({ request }) => {
+  expect(intercomUrl).toBeDefined();
+  const response = await Promise.race([
+    request.post(intercomUrl!, {
+      data: {
+        app_id: intercomAppId,
+      },
+      headers: {
+        Accept: "application/json",
+      },
+    }),
+    rejectIfTimeout(10),
+  ]);
+  expect(response.status()).toEqual(200);
+  const responseObj = await response.json();
+  expect(responseObj.app.name).toEqual("Kontur");
+});
+
+test(`Check ${eventFeedUrl} availability`, async ({ request }) => {
+  expect(eventFeedUrl).toBeDefined();
+  const response = await Promise.race([
+    request.get(eventFeedUrl!),
+    rejectIfTimeout(10),
+  ]);
+  expect(response.status()).toEqual(200);
+  const responseObj = await response.json();
+  expect(responseObj[0].feed).toEqual("kontur-public");
 });
