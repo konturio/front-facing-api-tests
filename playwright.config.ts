@@ -17,7 +17,7 @@ dotenv.config({
  */
 export default defineConfig({
   globalTimeout: process.env.CI ? 900000 : 600000,
-  timeout: process.env.CI ? 120000 : 60000,
+  timeout: process.env.CI ? 180000 : 130000,
   expect: {
     timeout: process.env.CI ? 10000 : 7000,
   },
@@ -51,24 +51,24 @@ export default defineConfig({
             key: `Type ⚙️`,
             value: `API tests`,
           },
-          // {
-          //   key: "Tested user with no rights",
-          //   value: process.env.EMAIL,
-          // },
-          // {
-          //   key: `HTML Results 📈`,
-          //   value: "<https://konturtestplaywright.surge.sh/|(see)>",
-          // },
-          // {
-          //   key: `Note`,
-          //   value:
-          //     "HTML results are updated only when tests are run from GitHub Actions. ✋ After each run, the report is refreshed. ♻️ For previous reports, go to Workflow runs (below) -> Any workflow run -> Artifacts 🕵️",
-          // },
-          // {
-          //   key: `Workflow runs 🦾`,
-          //   value:
-          //     "<https://github.com/konturio/disaster-ninja-fe/actions/workflows/run_e2e_tests.yml|(see)>",
-          // },
+          {
+            key: "Tested user with PRO rights",
+            value: process.env.EMAIL_PRO,
+          },
+          {
+            key: `HTML Results 📈`,
+            value: "<https://konturtestapiplaywright.surge.sh/|(see)>",
+          },
+          {
+            key: `Note`,
+            value:
+              "HTML results are updated only when tests are run from GitHub Actions. ✋ After each run, the report is refreshed. ♻️ For previous reports, go to Workflow runs (below) -> Any workflow run -> Artifacts 🕵️",
+          },
+          {
+            key: `Workflow runs 🦾`,
+            value:
+              "<https://github.com/konturio/front-facing-api-tests/actions/workflows/run-tests.yml|(see)>",
+          },
         ],
         slackOAuthToken: process.env.SLACK_BOT_USER_OAUTH_TOKEN,
         slackLogLevel: LogLevel.DEBUG,

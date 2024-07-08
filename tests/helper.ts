@@ -18,11 +18,10 @@ export function getApis() {
   return apis;
 }
 
-// Playwright has no timeout function for responses
-export function rejectIfTimeout(sec: number) {
-  return new Promise<never>((_, reject) => {
-    setTimeout(function () {
-      reject(new Error(`Response is taking longer than ${sec} seconds 🫠`));
-    }, sec * 1000);
-  });
+export function getLlmRequestBody() {
+  const data = fs
+    .readFileSync(path.join(__dirname, "./llm-request.json"))
+    .toString();
+  const request = JSON.parse(data);
+  return request;
 }

@@ -43,8 +43,8 @@
   },
   {
     "env": "prod",
-    "name": "user profile",
-    "url": "https://apps.kontur.io/userprofile/apps/9043acf9-2cf3-48ac-9656-a5d7c4b7593d"
+    "name": "app info",
+    "url": "https://atlas.kontur.io/active/api/apps/9043acf9-2cf3-48ac-9656-a5d7c4b7593d"
   },
   {
     "env": "prod",
@@ -52,13 +52,108 @@
     "url": "https://atlas.kontur.io/active/api/llm_analytics"
   },
   {
-    "env": "prod",
-    "name": "events",
-    "url": "https://apps.kontur.io/events/'"
+    "env": "test",
+    "name": "atlas layers",
+    "url": "https://test-apps-ninja01.konturlabs.com/active/api/apps/9043acf9-2cf3-48ac-9656-a5d7c4b7593d/layers"
   },
   {
-    "env": "prod",
-    "name": "insights api",
-    "url": "https://apps.kontur.io/insights-api"
+    "env": "test",
+    "name": "atlas global layers",
+    "url": "https://test-apps-ninja01.konturlabs.com/active/api/layers/search/global",
+    "appId": "9043acf9-2cf3-48ac-9656-a5d7c4b7593d"
+  },
+  {
+    "env": "test",
+    "name": "atlas main",
+    "url": "https://test-apps-ninja01.konturlabs.com/active/api/apps/configuration?appId=9043acf9-2cf3-48ac-9656-a5d7c4b7593d"
+  },
+  {
+    "env": "test",
+    "name": "atlas config",
+    "url": "https://test-apps-ninja01.konturlabs.com/active/static/config/appconfig.json"
+  },
+  {
+    "env": "test",
+    "name": "intercom 3-party",
+    "url": "https://api-iam.intercom.io/messenger/web/ping",
+    "appId": "e59cl64z"
+  },
+  {
+    "env": "test",
+    "name": "basemap",
+    "url": "https://test-basemap-tileserver.k8s-01.konturlabs.com/layers/tiles/basemap/style_ninja.json"
+  },
+  {
+    "env": "test",
+    "name": "atlas event feed",
+    "url": "https://test-apps-ninja01.konturlabs.com/active/api/events/user_feeds"
+  },
+  {
+    "env": "test",
+    "name": "current user",
+    "url": "https://test-apps-ninja01.konturlabs.com/active/api/users/current_user"
+  },
+  {
+    "env": "test",
+    "name": "app info",
+    "url": "https://test-apps-ninja01.konturlabs.com/active/api/apps/9043acf9-2cf3-48ac-9656-a5d7c4b7593d"
+  },
+  {
+    "env": "test",
+    "name": "llmAnalytics",
+    "url": "https://test-apps-ninja01.konturlabs.com/active/api/llm_analytics"
+  },
+
+  {
+    "env": "dev",
+    "name": "atlas layers",
+    "url": "https://test-apps-ninja02.konturlabs.com/active/api/apps/9043acf9-2cf3-48ac-9656-a5d7c4b7593d/layers"
+  },
+  {
+    "env": "dev",
+    "name": "atlas global layers",
+    "url": "https://test-apps-ninja02.konturlabs.com/active/api/layers/search/global",
+    "appId": "9043acf9-2cf3-48ac-9656-a5d7c4b7593d"
+  },
+  {
+    "env": "dev",
+    "name": "atlas main",
+    "url": "https://test-apps-ninja02.konturlabs.com/active/api/apps/configuration?appId=9043acf9-2cf3-48ac-9656-a5d7c4b7593d"
+  },
+  {
+    "env": "dev",
+    "name": "atlas config",
+    "url": "https://test-apps-ninja02.konturlabs.com/active/static/config/appconfig.json"
+  },
+  {
+    "env": "dev",
+    "name": "intercom 3-party",
+    "url": "https://api-iam.intercom.io/messenger/web/ping",
+    "appId": "e59cl64z"
+  },
+  {
+    "env": "dev",
+    "name": "basemap",
+    "url": "https://dev-basemap-tileserver.k8s-01.konturlabs.com/layers/tiles/basemap/style_ninja.json"
+  },
+  {
+    "env": "dev",
+    "name": "atlas event feed",
+    "url": "https://test-apps-ninja02.konturlabs.com/active/api/events/user_feeds"
+  },
+  {
+    "env": "dev",
+    "name": "current user",
+    "url": "https://test-apps-ninja02.konturlabs.com/active/api/users/current_user"
+  },
+  {
+    "env": "dev",
+    "name": "app info",
+    "url": "https://test-apps-ninja02.konturlabs.com/active/api/apps/9043acf9-2cf3-48ac-9656-a5d7c4b7593d"
+  },
+  {
+    "env": "dev",
+    "name": "llmAnalytics",
+    "url": "https://test-apps-ninja02.konturlabs.com/active/api/llm_analytics"
   }
 ]

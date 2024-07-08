@@ -21,6 +21,10 @@ jobs:
       ENVIRONMENT: ${{ github.event.inputs.env || 'prod'}}
       PROD_PRO_EMAIL: ${{ secrets.PROD_PRO_EMAIL }}
       PROD_PRO_PASSWORD: ${{ secrets.PROD_PRO_PASSWORD }}
+      TEST_PRO_EMAIL: ${{ secrets.TEST_PRO_EMAIL }}
+      TEST_PRO_PASSWORD: ${{ secrets.TEST_PRO_PASSWORD }}
+      DEV_PRO_EMAIL: ${{ secrets.DEV_PRO_EMAIL }}
+      DEV_PRO_PASSWORD: ${{ secrets.DEV_PRO_PASSWORD }}
       SLACK_BOT_USER_OAUTH_TOKEN: ${{secrets.PLAYWRIGHT_TOKEN }}
 
     steps:

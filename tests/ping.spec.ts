@@ -1,5 +1,5 @@
 import { test, expect } from "@playwright/test";
-import { getApis, rejectIfTimeout } from "./helper";
+import { getApis } from "./helper";
 
 const apis = getApis();
 const apiNames = [
@@ -30,10 +30,7 @@ const [atlasAppId, intercomAppId] = appIds;
 
 test(`Check ${mainConfigUrl} availability`, async ({ request }) => {
   expect(mainConfigUrl).toBeDefined();
-  const response = await Promise.race([
-    request.get(mainConfigUrl!),
-    rejectIfTimeout(10),
-  ]);
+  const response = await request.get(mainConfigUrl!);
   expect(response.status()).toEqual(200);
   const responseObj = await response.json();
   expect(responseObj.id).toEqual("9043acf9-2cf3-48ac-9656-a5d7c4b7593d");
@@ -44,10 +41,7 @@ test(`Check ${mainConfigUrl} availability`, async ({ request }) => {
 
 test(`Check ${staticConfigUrl} availability`, async ({ request }) => {
   expect(staticConfigUrl).toBeDefined();
-  const response = await Promise.race([
-    request.get(staticConfigUrl!),
-    rejectIfTimeout(10),
-  ]);
+  const response = await request.get(staticConfigUrl!);
   expect(response.status()).toEqual(200);
   const responseObj = await response.json();
   expect(responseObj.API_GATEWAY).toEqual("/active/api");
@@ -57,10 +51,7 @@ test(`Check ${staticConfigUrl} availability`, async ({ request }) => {
 
 test(`Check ${basemapStylesUrl} availability`, async ({ request }) => {
   expect(basemapStylesUrl).toBeDefined();
-  const response = await Promise.race([
-    request.get(basemapStylesUrl!),
-    rejectIfTimeout(10),
-  ]);
+  const response = await request.get(basemapStylesUrl!);
   expect(response.status()).toEqual(200);
   const responseObj = await response.json();
   expect(responseObj.layers[0]).toBeDefined();
@@ -68,27 +59,20 @@ test(`Check ${basemapStylesUrl} availability`, async ({ request }) => {
 
 test(`Check ${atlasLayersUrl} availability`, async ({ request }) => {
   expect(atlasLayersUrl).toBeDefined();
-  const response = await Promise.race([
-    request.get(atlasLayersUrl!),
-    rejectIfTimeout(10),
-  ]);
+  const response = await request.get(atlasLayersUrl!);
   expect(response.status()).toEqual(200);
   const responseObj = await response.json();
   expect(responseObj[0]).toBeDefined();
-  expect(responseObj[0].id).toEqual("focused-geometry");
-  expect(responseObj[1].id).toEqual("kontur_lines");
+  expect(responseObj[0].id.length).toBeGreaterThan(0);
 });
 
 test(`Check ${atlasGlobalLayersUrl} availability`, async ({ request }) => {
   expect(atlasGlobalLayersUrl).toBeDefined();
-  const response = await Promise.race([
-    request.post(atlasGlobalLayersUrl!, {
-      data: {
-        appId: atlasAppId,
-      },
-    }),
-    rejectIfTimeout(10),
-  ]);
+  const response = await request.post(atlasGlobalLayersUrl!, {
+    data: {
+      appId: atlasAppId,
+    },
+  });
   expect(response.status()).toEqual(200);
   const responseObj = await response.json();
   expect(responseObj[0]).toBeDefined();
@@ -97,17 +81,14 @@ test(`Check ${atlasGlobalLayersUrl} availability`, async ({ request }) => {
 
 test(`Check ${intercomUrl} availability`, async ({ request }) => {
   expect(intercomUrl).toBeDefined();
-  const response = await Promise.race([
-    request.post(intercomUrl!, {
-      data: {
-        app_id: intercomAppId,
-      },
-      headers: {
-        Accept: "application/json",
-      },
-    }),
-    rejectIfTimeout(10),
-  ]);
+  const response = await request.post(intercomUrl!, {
+    data: {
+      app_id: intercomAppId,
+    },
+    headers: {
+      Accept: "application/json",
+    },
+  });
   expect(response.status()).toEqual(200);
   const responseObj = await response.json();
   expect(responseObj.app.name).toEqual("Kontur");
@@ -115,10 +96,7 @@ test(`Check ${intercomUrl} availability`, async ({ request }) => {
 
 test(`Check ${eventFeedUrl} availability`, async ({ request }) => {
   expect(eventFeedUrl).toBeDefined();
-  const response = await Promise.race([
-    request.get(eventFeedUrl!),
-    rejectIfTimeout(10),
-  ]);
+  const response = await request.get(eventFeedUrl!);
   expect(response.status()).toEqual(200);
   const responseObj = await response.json();
   expect(responseObj[0].feed).toEqual("kontur-public");

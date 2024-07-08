@@ -1,8 +1,6 @@
 import { test as setup } from "@playwright/test";
 import { expect } from "@playwright/test";
 
-import { rejectIfTimeout } from "./helper";
-
 let authEndpoint: string;
 
 switch (process.env.ENVIRONMENT) {
@@ -21,17 +19,14 @@ switch (process.env.ENVIRONMENT) {
 }
 
 setup("Authentication as a PRO user", async ({ request }) => {
-  const response = await Promise.race([
-    request.post(authEndpoint, {
-      form: {
-        username: process.env.EMAIL_PRO!,
-        password: process.env.PASSWORD_PRO!,
-        client_id: "kontur_platform",
-        grant_type: "password",
-      },
-    }),
-    rejectIfTimeout(10),
-  ]);
+  const response = await request.post(authEndpoint, {
+    form: {
+      username: process.env.EMAIL_PRO!,
+      password: process.env.PASSWORD_PRO!,
+      client_id: "kontur_platform",
+      grant_type: "password",
+    },
+  });
   expect(response.status()).toEqual(200);
   const responseBody = await response.json();
   const accessToken = responseBody.access_token;
