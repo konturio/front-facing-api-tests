@@ -56,13 +56,9 @@ export default defineConfig({
             value: process.env.EMAIL_PRO,
           },
           {
-            key: `HTML Results 📈`,
-            value: "<https://konturtestapiplaywright.surge.sh/|(see)>",
-          },
-          {
             key: `Note`,
             value:
-              "HTML results are updated only when tests are run from GitHub Actions. ✋ After each run, the report is refreshed. ♻️ For previous reports, go to Workflow runs (below) -> Any workflow run -> Artifacts 🕵️",
+              "📩 For reports, go to Workflow runs (below) -> Any workflow run -> Artifacts 🕵️",
           },
           {
             key: `Workflow runs 🦾`,
