@@ -68,7 +68,7 @@ test(`Check ${llmAnalyticsUrl} response`, async ({ request }) => {
       Accept: "application/json",
     },
     data: requestBody,
-    timeout: 120000,
+    timeout: 60000,
   });
   expect(response.status()).toEqual(200);
   const responseObj = await response.json();
