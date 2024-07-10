@@ -1,0 +1,31 @@
+{
+  "name": "front-facing-api-tests",
+  "version": "1.0.0",
+  "description": "Autotests for front facing apis",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/web-api": "^7.3.0",
+    "dotenv": "^16.4.5",
+    "fs": "0.0.1-security",
+    "module": "^1.2.5",
+    "path": "^0.12.7",
+    "playwright-slack-report": "^1.1.81",
+    "prettier": "^3.3.2",
+    "type": "^2.7.3"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "@playwright/test": "^1.42.1",
+    "chalk": "^5.3.0",
+    "dotenv": "^16.4.5",
+    "husky": "^8.0.3",
+    "open-cli": "^7.2.0",
+    "playwright-slack-report": "^1.1.81",
+    "prompts": "^2.4.2",
+    "semver": "^7.6.0"
+  }
+}
