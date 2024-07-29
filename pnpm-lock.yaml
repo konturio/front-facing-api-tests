@@ -17,6 +17,9 @@ importers:
       fs:
         specifier: 0.0.1-security
         version: 0.0.1-security
+      langdetect:
+        specifier: ^0.2.1
+        version: 0.2.1
       module:
         specifier: ^1.2.5
         version: 1.2.5
@@ -25,7 +28,7 @@ importers:
         version: 0.12.7
       playwright-slack-report:
         specifier: ^1.1.81
-        version: 1.1.81(@types/node@20.14.9)(debug@2.6.9)(typescript@5.5.3)
+        version: 1.1.81(@types/node@22.0.0)(debug@2.6.9)(typescript@5.5.3)
       prettier:
         specifier: ^3.3.2
         version: 3.3.2
@@ -39,6 +42,9 @@ importers:
       '@playwright/test':
         specifier: ^1.42.1
         version: 1.45.1
+      '@types/node':
+        specifier: ^22.0.0
+        version: 22.0.0
       chalk:
         specifier: ^5.3.0
         version: 5.3.0
@@ -141,8 +147,8 @@ packages:
   '@types/minimist@1.2.5':
     resolution: {integrity: sha512-hov8bUuiLiyFPGyFPE1lwWhmzYbirOXQNNo40+y3zow8aFVTeyn3VWL0VFFfdNddA8S4Vf0Tc062rzyNr7Paag==}
 
-  '@types/node@20.14.9':
-    resolution: {integrity: sha512-06OCtnTXtWOZBJlRApleWndH4JsRVs1pDCc8dLSQp+7PpUpX3ePdHyeNSFTeSe7FtKyQkrlPvHwJOW3SLd8Oyg==}
+  '@types/node@22.0.0':
+    resolution: {integrity: sha512-VT7KSYudcPOzP5Q0wfbowyNLaVR8QWUdw+088uFWwfvpY6uCWaXpqV6ieLAu9WBcnTa7H4Z5RLK8I5t2FuOcqw==}
 
   '@types/normalize-package-data@2.4.4':
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
@@ -719,6 +725,9 @@ packages:
   kleur@3.0.3:
     resolution: {integrity: sha512-eTIzlVOSUR+JxdDFepEYcBMtZ9Qqdef+rnzWdRZuMbOywu5tO2w2N7rqjoANZ5k9vywhL6Br1VRjUIgTQx4E8w==}
     engines: {node: '>=6'}
+
+  langdetect@0.2.1:
+    resolution: {integrity: sha512-vWK2xz8Urp6J0RFwnrR8+d0DQ2yIGjCOqAxBoXNMVFv4ZDmFsbCcNEtwuVnaQ5+ltwZ4Z5rTtuTwHSaEWFdw+A==}
 
   lazy-debug-legacy@0.0.1:
     resolution: {integrity: sha512-GFWaIBcBjxWWKI5OghwYEsPOR8JFh2xEcc3ZFV0ONYL0oHz0PHINJCfxJyztUq2XzcHncyO7fsRR550Gtfnk6g==}
@@ -1322,8 +1331,12 @@ packages:
     engines: {node: '>=14.17'}
     hasBin: true
 
-  undici-types@5.26.5:
-    resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
+  undici-types@6.11.1:
+    resolution: {integrity: sha512-mIDEX2ek50x0OlRgxryxsenE5XaQD4on5U2inY7RApK3SOJpofyw7uW2AyfMKkhAxXIceo2DeWGVGwyvng1GNQ==}
+
+  unicode-9.0.0@0.7.0:
+    resolution: {integrity: sha512-aqL0GQ3LB2nC3ZEKBZ93hfn7QY80sVGk+OT9Sc6lTxl4wRiwzUBRlAjJB9Fe4+5XydXOV+tb8udp5oRBoED5Tw==}
+    deprecated: Use @unicode/unicode-9.0.0 instead.
 
   unique-stream@2.3.1:
     resolution: {integrity: sha512-2nY4TnBE70yoxHkDli7DMazpWiP7xMdCYqU2nBRO0UB+ZpEkGsSija7MvmvnZFUeC+mrgiUfcHSr3LmRFIg4+A==}
@@ -1454,11 +1467,11 @@ snapshots:
 
   '@slack/logger@3.0.0':
     dependencies:
-      '@types/node': 20.14.9
+      '@types/node': 22.0.0
 
   '@slack/logger@4.0.0':
     dependencies:
-      '@types/node': 20.14.9
+      '@types/node': 22.0.0
 
   '@slack/types@2.12.0': {}
 
@@ -1467,7 +1480,7 @@ snapshots:
       '@slack/logger': 3.0.0
       '@slack/types': 2.12.0
       '@types/is-stream': 1.1.0
-      '@types/node': 20.14.9
+      '@types/node': 22.0.0
       axios: 1.7.2(debug@2.6.9)
       eventemitter3: 3.1.2
       form-data: 2.5.1
@@ -1482,7 +1495,7 @@ snapshots:
     dependencies:
       '@slack/logger': 4.0.0
       '@slack/types': 2.12.0
-      '@types/node': 20.14.9
+      '@types/node': 22.0.0
       '@types/retry': 0.12.0
       axios: 1.7.2(debug@2.6.9)
       eventemitter3: 5.0.1
@@ -1498,7 +1511,7 @@ snapshots:
   '@slack/webhook@7.0.2(debug@2.6.9)':
     dependencies:
       '@slack/types': 2.12.0
-      '@types/node': 20.14.9
+      '@types/node': 22.0.0
       axios: 1.7.2(debug@2.6.9)
     transitivePeerDependencies:
       - debug
@@ -1515,13 +1528,13 @@ snapshots:
 
   '@types/is-stream@1.1.0':
     dependencies:
-      '@types/node': 20.14.9
+      '@types/node': 22.0.0
 
   '@types/minimist@1.2.5': {}
 
-  '@types/node@20.14.9':
+  '@types/node@22.0.0':
     dependencies:
-      undici-types: 5.26.5
+      undici-types: 6.11.1
 
   '@types/normalize-package-data@2.4.4': {}
 
@@ -2046,6 +2059,10 @@ snapshots:
 
   kleur@3.0.3: {}
 
+  langdetect@0.2.1:
+    dependencies:
+      unicode-9.0.0: 0.7.0
+
   lazy-debug-legacy@0.0.1(debug@2.6.9):
     dependencies:
       debug: 2.6.9
@@ -2368,13 +2385,13 @@ snapshots:
 
   playwright-core@1.45.1: {}
 
-  playwright-slack-report@1.1.81(@types/node@20.14.9)(debug@2.6.9)(typescript@5.5.3):
+  playwright-slack-report@1.1.81(@types/node@22.0.0)(debug@2.6.9)(typescript@5.5.3):
     dependencies:
       '@slack/web-api': 6.12.0(debug@2.6.9)
       '@slack/webhook': 7.0.2(debug@2.6.9)
       commander: 11.1.0
       https-proxy-agent: 7.0.5
-      ts-node: 10.9.2(@types/node@20.14.9)(typescript@5.5.3)
+      ts-node: 10.9.2(@types/node@22.0.0)(typescript@5.5.3)
       zod: 3.23.8
     transitivePeerDependencies:
       - '@swc/core'
@@ -2646,14 +2663,14 @@ snapshots:
 
   trim-newlines@4.1.1: {}
 
-  ts-node@10.9.2(@types/node@20.14.9)(typescript@5.5.3):
+  ts-node@10.9.2(@types/node@22.0.0)(typescript@5.5.3):
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
       '@tsconfig/node10': 1.0.11
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
-      '@types/node': 20.14.9
+      '@types/node': 22.0.0
       acorn: 8.12.1
       acorn-walk: 8.3.3
       arg: 4.1.3
@@ -2676,7 +2693,9 @@ snapshots:
 
   typescript@5.5.3: {}
 
-  undici-types@5.26.5: {}
+  undici-types@6.11.1: {}
+
+  unicode-9.0.0@0.7.0: {}
 
   unique-stream@2.3.1:
     dependencies:
