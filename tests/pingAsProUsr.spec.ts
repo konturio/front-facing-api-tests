@@ -1,5 +1,6 @@
 import { test, expect } from "@playwright/test";
 import { getApis, getLlmRequestBody } from "./helper";
+import langdetect from "langdetect";
 
 const apis = getApis();
 const languagesToTestLlm = ["ar", "en"];
@@ -65,7 +66,6 @@ languagesToTestLlm.forEach((languageToTestLlm) => {
   test(`Check ${llmAnalyticsUrl} to give correct language response (${languageToTestLlm})`, async ({
     request,
   }) => {
-    const langdetect = await import("langdetect");
     expect(llmAnalyticsUrl).toBeDefined();
     const response = await request.post(llmAnalyticsUrl!, {
       headers: {
