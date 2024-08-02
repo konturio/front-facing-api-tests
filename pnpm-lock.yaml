@@ -42,6 +42,9 @@ importers:
       '@playwright/test':
         specifier: ^1.42.1
         version: 1.45.1
+      '@types/langdetect':
+        specifier: ^0.2.2
+        version: 0.2.2
       '@types/node':
         specifier: ^22.0.0
         version: 22.0.0
@@ -143,6 +146,9 @@ packages:
 
   '@types/is-stream@1.1.0':
     resolution: {integrity: sha512-jkZatu4QVbR60mpIzjINmtS1ZF4a/FqdTUTBeQDVOQ2PYyidtwFKr0B5G6ERukKwliq+7mIXvxyppwzG5EgRYg==}
+
+  '@types/langdetect@0.2.2':
+    resolution: {integrity: sha512-wBYdB/PlRN7K30x37Pi/A7+KIFDNaqliz8IpUY0joG0Coyfszenspx0ID2s0KBAdNHXbd2WoMmpV5orFwGojUQ==}
 
   '@types/minimist@1.2.5':
     resolution: {integrity: sha512-hov8bUuiLiyFPGyFPE1lwWhmzYbirOXQNNo40+y3zow8aFVTeyn3VWL0VFFfdNddA8S4Vf0Tc062rzyNr7Paag==}
@@ -1529,6 +1535,8 @@ snapshots:
   '@types/is-stream@1.1.0':
     dependencies:
       '@types/node': 22.0.0
+
+  '@types/langdetect@0.2.2': {}
 
   '@types/minimist@1.2.5': {}
 

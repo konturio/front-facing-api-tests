@@ -27,7 +27,9 @@ setup("Authentication as a PRO user", async ({ request }) => {
       grant_type: "password",
     },
   });
-  expect(response.status()).toEqual(200);
+  expect(response.status(), `Keycloak says: ${await response.body()}`).toEqual(
+    200
+  );
   const responseBody = await response.json();
   const accessToken = responseBody.access_token;
   process.env["ACCESS_TOKEN"] = accessToken;
