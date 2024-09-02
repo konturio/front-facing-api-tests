@@ -26,4 +26,4 @@ export function getLlmRequestBody() {
   return request;
 }
 
-export const apis = getApis();
+export const apis: Api[] = getApis();

@@ -58,7 +58,7 @@ const linksAtTermsPage = [
   "hello@kontur.io",
 ];
 
-const polishAtTermsPage = [
+const polishTextAtTermsPage = [
   "PRZEGLĄD",
   "NIP spółki to 7011042997",
   "MAPY KONTUROWE spółka z ograniczoną odpowiedzialnością z siedzibą w Warszawie, Polska",
@@ -90,12 +90,13 @@ const assetsDataObjs = assetsNames.map((assetName) => {
 });
 
 assetsDataObjs.forEach((assetsDataObj) => {
-  test.describe(`Testing ${assetsDataObj!.name}`, () => {
+  test.describe(`Testing ${assetsDataObj?.name ?? "unknown assets data object"}`, () => {
     languagesToTestAssets.forEach((expectedLanguage) => {
       test.describe(`${expectedLanguage.toUpperCase()} locale`, () => {
-        test(`Check ${assetsDataObj?.url} language response and links correctness`, async ({
+        test(`Check ${assetsDataObj?.url ?? "unknown"} language response and links correctness`, async ({
           request,
         }) => {
+          test.fail(!assetsDataObj?.url, "Asset data not found");
           // Send a GET request to the URL with the specific language header
           const response = await request.get(assetsDataObj!.url, {
             headers: {
@@ -164,7 +165,7 @@ assetsDataObjs.forEach((assetsDataObj) => {
                 linksAtTermsPage.forEach((link) =>
                   expect(responseTxt).toContain(link)
                 );
-                polishAtTermsPage.forEach((text) =>
+                polishTextAtTermsPage.forEach((text) =>
                   expect(responseTxt).toContain(text)
                 );
               }
