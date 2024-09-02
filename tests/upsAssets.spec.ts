@@ -96,7 +96,10 @@ assetsDataObjs.forEach((assetsDataObj) => {
         test(`Check ${assetsDataObj?.url ?? "unknown"} language response and links correctness`, async ({
           request,
         }) => {
-          test.fail(!assetsDataObj?.url, "Asset data not found");
+          test.fail(
+            !assetsDataObj?.url || !assetsDataObj?.name,
+            "Asset data not found"
+          );
           // Send a GET request to the URL with the specific language header
           const response = await request.get(assetsDataObj!.url, {
             headers: {
