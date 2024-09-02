@@ -8,7 +8,7 @@ type Api = {
   appId?: string;
 };
 
-export function getApis() {
+function getApis() {
   const data = fs.readFileSync(path.join(__dirname, "./apis.json")).toString();
 
   const environment = process.env.ENVIRONMENT ?? "prod";
@@ -25,3 +25,5 @@ export function getLlmRequestBody() {
   const request = JSON.parse(data);
   return request;
 }
+
+export const apis = getApis();

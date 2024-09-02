@@ -1,5 +1,185 @@
 [
   {
+    "env": "test",
+    "name": "atlas about page",
+    "url": "https://test-apps-ninja01.konturlabs.com/active/api/apps/9043acf9-2cf3-48ac-9656-a5d7c4b7593d/assets/about.md"
+  },
+  {
+    "env": "test",
+    "name": "atlas terms page",
+    "url": "https://test-apps-ninja01.konturlabs.com/active/api/apps/9043acf9-2cf3-48ac-9656-a5d7c4b7593d/assets/terms.md"
+  },
+  {
+    "env": "test",
+    "name": "atlas privacy page",
+    "url": "https://test-apps-ninja01.konturlabs.com/active/api/apps/9043acf9-2cf3-48ac-9656-a5d7c4b7593d/assets/privacy.md"
+  },
+  {
+    "env": "dev",
+    "name": "atlas about page",
+    "url": "https://test-apps-ninja02.konturlabs.com/active/api/apps/9043acf9-2cf3-48ac-9656-a5d7c4b7593d/assets/about.md"
+  },
+  {
+    "env": "dev",
+    "name": "atlas terms page",
+    "url": "https://test-apps-ninja02.konturlabs.com/active/api/apps/9043acf9-2cf3-48ac-9656-a5d7c4b7593d/assets/terms.md"
+  },
+  {
+    "env": "dev",
+    "name": "atlas privacy page",
+    "url": "https://test-apps-ninja02.konturlabs.com/active/api/apps/9043acf9-2cf3-48ac-9656-a5d7c4b7593d/assets/privacy.md"
+  },
+  {
+    "env": "prod",
+    "name": "atlas about page",
+    "url": "https://atlas.kontur.io/active/api/apps/9043acf9-2cf3-48ac-9656-a5d7c4b7593d/assets/about.md"
+  },
+  {
+    "env": "prod",
+    "name": "atlas terms page",
+    "url": "https://atlas.kontur.io/active/api/apps/9043acf9-2cf3-48ac-9656-a5d7c4b7593d/assets/terms.md"
+  },
+  {
+    "env": "prod",
+    "name": "atlas privacy page",
+    "url": "https://atlas.kontur.io/active/api/apps/9043acf9-2cf3-48ac-9656-a5d7c4b7593d/assets/privacy.md"
+  },
+  {
+    "env": "test",
+    "name": "oam about page",
+    "url": "https://test-apps-ninja01.konturlabs.com/active/api/apps/1dc6fe68-8802-4672-868d-7f17943bf1c8/assets/about.md"
+  },
+  {
+    "env": "test",
+    "name": "oam terms page",
+    "url": "https://test-apps-ninja01.konturlabs.com/active/api/apps/1dc6fe68-8802-4672-868d-7f17943bf1c8/assets/terms.md"
+  },
+  {
+    "env": "test",
+    "name": "oam privacy page",
+    "url": "https://test-apps-ninja01.konturlabs.com/active/api/apps/1dc6fe68-8802-4672-868d-7f17943bf1c8/assets/privacy.md"
+  },
+  {
+    "env": "dev",
+    "name": "oam about page",
+    "url": "https://test-apps-ninja02.konturlabs.com/active/api/apps/1dc6fe68-8802-4672-868d-7f17943bf1c8/assets/about.md"
+  },
+  {
+    "env": "dev",
+    "name": "oam terms page",
+    "url": "https://test-apps-ninja02.konturlabs.com/active/api/apps/1dc6fe68-8802-4672-868d-7f17943bf1c8/assets/terms.md"
+  },
+  {
+    "env": "dev",
+    "name": "oam privacy page",
+    "url": "https://test-apps-ninja02.konturlabs.com/active/api/apps/1dc6fe68-8802-4672-868d-7f17943bf1c8/assets/privacy.md"
+  },
+  {
+    "env": "prod",
+    "name": "oam about page",
+    "url": "https://new.openaerialmap.org/active/api/apps/1dc6fe68-8802-4672-868d-7f17943bf1c8/assets/about.md"
+  },
+  {
+    "env": "prod",
+    "name": "oam terms page",
+    "url": "https://new.openaerialmap.org/active/api/apps/1dc6fe68-8802-4672-868d-7f17943bf1c8/assets/terms.md"
+  },
+  {
+    "env": "prod",
+    "name": "oam privacy page",
+    "url": "https://new.openaerialmap.org/active/api/apps/1dc6fe68-8802-4672-868d-7f17943bf1c8/assets/privacy.md"
+  },
+  {
+    "env": "test",
+    "name": "disaster-ninja about page",
+    "url": "https://test-apps-ninja01.konturlabs.com/active/api/apps/58851b50-9574-4aec-a3a6-425fa18dcb54/assets/about.md"
+  },
+  {
+    "env": "test",
+    "name": "disaster-ninja terms page",
+    "url": "https://test-apps-ninja01.konturlabs.com/active/api/apps/58851b50-9574-4aec-a3a6-425fa18dcb54/assets/terms.md"
+  },
+  {
+    "env": "test",
+    "name": "disaster-ninja privacy page",
+    "url": "https://test-apps-ninja01.konturlabs.com/active/api/apps/58851b50-9574-4aec-a3a6-425fa18dcb54/assets/privacy.md"
+  },
+  {
+    "env": "dev",
+    "name": "disaster-ninja about page",
+    "url": "https://test-apps-ninja02.konturlabs.com/active/api/apps/58851b50-9574-4aec-a3a6-425fa18dcb54/assets/about.md"
+  },
+  {
+    "env": "dev",
+    "name": "disaster-ninja terms page",
+    "url": "https://test-apps-ninja02.konturlabs.com/active/api/apps/58851b50-9574-4aec-a3a6-425fa18dcb54/assets/terms.md"
+  },
+  {
+    "env": "dev",
+    "name": "disaster-ninja privacy page",
+    "url": "https://test-apps-ninja02.konturlabs.com/active/api/apps/58851b50-9574-4aec-a3a6-425fa18dcb54/assets/privacy.md"
+  },
+  {
+    "env": "prod",
+    "name": "disaster-ninja about page",
+    "url": "https://disaster.ninja/active/api/apps/58851b50-9574-4aec-a3a6-425fa18dcb54/assets/about.md"
+  },
+  {
+    "env": "prod",
+    "name": "disaster-ninja terms page",
+    "url": "https://disaster.ninja/active/api/apps/58851b50-9574-4aec-a3a6-425fa18dcb54/assets/terms.md"
+  },
+  {
+    "env": "prod",
+    "name": "disaster-ninja privacy page",
+    "url": "https://disaster.ninja/active/api/apps/58851b50-9574-4aec-a3a6-425fa18dcb54/assets/privacy.md"
+  },
+  {
+    "env": "test",
+    "name": "smart-city about page",
+    "url": "https://test-apps-ninja01.konturlabs.com/active/api/apps/634f23f5-f898-4098-a8bd-09eb7c1e1ae5/assets/about.md"
+  },
+  {
+    "env": "test",
+    "name": "smart-city terms page",
+    "url": "https://test-apps-ninja01.konturlabs.com/active/api/apps/634f23f5-f898-4098-a8bd-09eb7c1e1ae5/assets/terms.md"
+  },
+  {
+    "env": "test",
+    "name": "smart-city privacy page",
+    "url": "https://test-apps-ninja01.konturlabs.com/active/api/apps/634f23f5-f898-4098-a8bd-09eb7c1e1ae5/assets/privacy.md"
+  },
+  {
+    "env": "dev",
+    "name": "smart-city about page",
+    "url": "https://test-apps-ninja02.konturlabs.com/active/api/apps/634f23f5-f898-4098-a8bd-09eb7c1e1ae5/assets/about.md"
+  },
+  {
+    "env": "dev",
+    "name": "smart-city terms page",
+    "url": "https://test-apps-ninja02.konturlabs.com/active/api/apps/634f23f5-f898-4098-a8bd-09eb7c1e1ae5/assets/terms.md"
+  },
+  {
+    "env": "dev",
+    "name": "smart-city privacy page",
+    "url": "https://test-apps-ninja02.konturlabs.com/active/api/apps/634f23f5-f898-4098-a8bd-09eb7c1e1ae5/assets/privacy.md"
+  },
+  {
+    "env": "prod",
+    "name": "smart-city about page",
+    "url": "https://maps.kontur.io/active/api/apps/634f23f5-f898-4098-a8bd-09eb7c1e1ae5/assets/about.md"
+  },
+  {
+    "env": "prod",
+    "name": "smart-city terms page",
+    "url": "https://maps.kontur.io/active/api/apps/634f23f5-f898-4098-a8bd-09eb7c1e1ae5/assets/terms.md"
+  },
+  {
+    "env": "prod",
+    "name": "smart-city privacy page",
+    "url": "https://maps.kontur.io/active/api/apps/634f23f5-f898-4098-a8bd-09eb7c1e1ae5/assets/privacy.md"
+  },
+  {
     "env": "prod",
     "name": "atlas layers",
     "url": "https://atlas.kontur.io/active/api/apps/9043acf9-2cf3-48ac-9656-a5d7c4b7593d/layers"
