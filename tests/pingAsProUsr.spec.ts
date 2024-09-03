@@ -1,8 +1,7 @@
 import { test, expect } from "@playwright/test";
-import { getApis, getLlmRequestBody } from "./helper";
+import { apis, getLlmRequestBody } from "./helper";
 import langdetect from "langdetect";
 
-const apis = getApis();
 const languagesToTestLlm = ["ar", "en"];
 const requestLlmBody = getLlmRequestBody();
 const apiNames = ["current user", "app info", "llmAnalytics"];

@@ -1,11 +1,10 @@
 import { test, expect } from "@playwright/test";
-import { getApis } from "./helper";
+import { apis } from "./helper";
 
 type Layer = {
   id: string;
 };
 
-const apis = getApis();
 const languagesToTestLayers = ["es", "en", "ar", "de", "uk", "id", "ko"];
 const apiNames = [
   "atlas main",
