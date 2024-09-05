@@ -1,6 +1,21 @@
 [
   {
     "env": "test",
+    "name": "live sensor",
+    "url": "https://test-apps-ninja01.konturlabs.com/active/api/features/live-sensor"
+  },
+  {
+    "env": "dev",
+    "name": "live sensor",
+    "url": "https://test-apps-ninja02.konturlabs.com/active/api/features/live-sensor"
+  },
+  {
+    "env": "prod",
+    "name": "live sensor",
+    "url": "https://atlas.kontur.io/active/api/features/live-sensor"
+  },
+  {
+    "env": "test",
     "name": "atlas about page",
     "url": "https://test-apps-ninja01.konturlabs.com/active/api/apps/9043acf9-2cf3-48ac-9656-a5d7c4b7593d/assets/about.md"
   },

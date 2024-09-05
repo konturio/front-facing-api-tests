@@ -1,15 +1,14 @@
 import { test, expect } from "@playwright/test";
-import { apis, getLlmRequestBody } from "./helper";
+import { getApis, getRequestBody } from "./helper";
 import langdetect from "langdetect";
 
 const languagesToTestLlm = ["ar", "en"];
-const requestLlmBody = getLlmRequestBody();
-const apiNames = ["current user", "app info", "llmAnalytics"];
-
-const [currentUserUrl, appInfoUrl, llmAnalyticsUrl] = apiNames.map((name) => {
-  const currentApi = apis.find((api) => api.name === name);
-  return currentApi?.url;
-});
+const requestLlmBody = getRequestBody("llm-request.json");
+const [currentUserUrl, appInfoUrl, llmAnalyticsUrl] = getApis([
+  "current user",
+  "app info",
+  "llmAnalytics",
+]).map((apiObj) => apiObj?.url);
 
 test(`Check ${currentUserUrl} availability`, async ({ request }) => {
   expect(currentUserUrl).toBeDefined();

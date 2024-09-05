@@ -1,12 +1,12 @@
 import { test, expect } from "@playwright/test";
-import { apis } from "./helper";
+import { getApis } from "./helper";
 
 type Layer = {
   id: string;
 };
 
 const languagesToTestLayers = ["es", "en", "ar", "de", "uk", "id", "ko"];
-const apiNames = [
+const apiObjsToTest = getApis([
   "atlas main",
   "atlas config",
   "basemap",
@@ -14,7 +14,7 @@ const apiNames = [
   "atlas global layers",
   "intercom 3-party",
   "atlas event feed",
-];
+]);
 
 const appIds: string[] = [];
 const [
@@ -25,11 +25,11 @@ const [
   atlasGlobalLayersUrl,
   intercomUrl,
   eventFeedUrl,
-] = apiNames.map((name) => {
-  const currentApi = apis.find((api) => api.name === name);
-  if (currentApi?.appId) appIds.push(currentApi.appId);
-  return currentApi?.url;
+] = apiObjsToTest.map((apiObj) => {
+  if (apiObj?.appId) appIds.push(apiObj.appId);
+  return apiObj?.url;
 });
+
 const [atlasAppId, intercomAppId] = appIds;
 
 test(`Check ${mainConfigUrl} availability`, async ({ request }) => {
