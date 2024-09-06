@@ -39,6 +39,6 @@ export function getRequestBody(fileName: string) {
   const data = fs
     .readFileSync(path.join(__dirname, `./testsData/${fileName}`))
     .toString();
-  const request = JSON.parse(data);
-  return request;
+  const requestBody = JSON.parse(data);
+  return requestBody;
 }
