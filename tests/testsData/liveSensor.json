@@ -1,0 +1,22 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "2P7tG0oWN_osEcW0ImSBbl",
+      "geometry": { "type": "Point", "coordinates": [21.0140153, 52.1938522] },
+      "properties": {
+        "lng": 21.014,
+        "lat": 52.1939,
+        "alt": null,
+        "altAccuracy": null,
+        "accuracy": 13.839,
+        "speed": null,
+        "heading": null,
+        "coordTimestamp": 1712829607924,
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "coordSystTimestamp": 1712829612897
+      }
+    }
+  ]
+}

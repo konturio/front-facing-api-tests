@@ -100,7 +100,7 @@ export default defineConfig({
       name: "pro_user",
       use: { ...devices["Desktop Chrome"] },
       dependencies: ["setup"],
-      testMatch: "pingAsProUsr.spec.ts",
+      testMatch: ["pingAsProUsr.spec.ts", "liveSensor.spec.ts"],
     },
   ],
 });

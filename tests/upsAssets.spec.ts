@@ -1,9 +1,9 @@
 import { test, expect } from "@playwright/test";
-import { apis } from "./helper";
+import { getApis } from "./helper";
 import langdetect from "langdetect";
 
 const languagesToTestAssets = ["en", "es", "ar", "de", "uk", "id", "ko"];
-const assetsNames = [
+const assetsDataObjs = getApis([
   "atlas about page",
   "atlas terms page",
   "atlas privacy page",
@@ -16,7 +16,8 @@ const assetsNames = [
   "smart-city about page",
   "smart-city terms page",
   "smart-city privacy page",
-];
+]);
+
 const linksAtDNAboutPage = [
   "https://www.kontur.io/",
   "https://www.kontur.io/portfolio/event-feed/",
@@ -83,11 +84,6 @@ const linksAtPrivacyPage = [
   "www.youronlinechoices.com",
   "mailto:hello@kontur.io",
 ];
-
-const assetsDataObjs = assetsNames.map((assetName) => {
-  const apiData = apis.find((api) => api.name === assetName);
-  return apiData;
-});
 
 assetsDataObjs.forEach((assetsDataObj) => {
   test.describe(`Testing ${assetsDataObj?.name ?? "unknown assets data object"}`, () => {
