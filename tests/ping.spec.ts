@@ -26,7 +26,7 @@ const [
   intercomUrl,
   eventFeedUrl,
 ] = apiObjsToTest.map((apiObj) => {
-  if (apiObj?.appId) appIds.push(apiObj.appId);
+  if (apiObj?.appId) appIds.push(apiObj?.appId);
   return apiObj?.url;
 });
 

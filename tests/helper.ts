@@ -15,18 +15,27 @@ type Api = {
  */
 
 export function getApis(apisNames: string[]) {
-  const data = fs
-    .readFileSync(path.join(__dirname, "./testsData/apisToTest.json"))
-    .toString();
+  try {
+    const data = fs
+      .readFileSync(path.join(__dirname, "./testsData/apisToTest.json"))
+      .toString();
 
-  const environment = process.env.ENVIRONMENT ?? "prod";
-  const apis: Api[] = JSON.parse(data).filter(
-    (api: Api) => api.env === environment
-  );
-  const apisToTest = apisNames.map((name) =>
-    apis.find((api) => api.name === name)
-  );
-  return apisToTest;
+    const environment = process.env.ENVIRONMENT ?? "prod";
+    const apis: Api[] = JSON.parse(data).reduce(
+      (acc, api: Api) => {
+        if (api.env === environment) {
+          acc[api.name] = api;
+        }
+        return acc;
+      },
+      {} as Record<string, Api>
+    );
+
+    const apisToTest = apisNames.map((name) => apis[name]);
+    return apisToTest;
+  } catch (error) {
+    throw new Error(error);
+  }
 }
 
 /**
@@ -36,9 +45,13 @@ export function getApis(apisNames: string[]) {
  */
 
 export function getRequestBody(fileName: string) {
-  const data = fs
-    .readFileSync(path.join(__dirname, `./testsData/${fileName}`))
-    .toString();
-  const requestBody = JSON.parse(data);
-  return requestBody;
+  try {
+    const data = fs
+      .readFileSync(path.join(__dirname, `./testsData/${fileName}`))
+      .toString();
+    const requestBody = JSON.parse(data);
+    return requestBody;
+  } catch (error) {
+    throw new Error(error);
+  }
 }
