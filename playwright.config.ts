@@ -94,7 +94,7 @@ export default defineConfig({
     {
       name: "guest",
       use: { ...devices["Desktop Chrome"] },
-      testMatch: ["ping.spec.ts", "upsAssets.spec.ts"],
+      testMatch: ["ping.spec.ts", "upsAssets.spec.ts", "oam.spec.ts"],
     },
     {
       name: "pro_user",

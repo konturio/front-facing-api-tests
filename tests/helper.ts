@@ -1,15 +1,16 @@
 import fs from "fs";
 import path from "path";
 
-type Api = {
+export type Api = {
   env: string;
   name: string;
   url: string;
   appId?: string;
+  expectedImgAddress?: string;
 };
 
 /**
- * Get the list of APIs from the apis.json file
+ * Get the list of APIs from a json file
  * @param apisNames The list of APIs names to get
  * @returns An array of API objects
  */

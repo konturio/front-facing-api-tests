@@ -1,5 +1,27 @@
 [
   {
+    "env": "prod",
+    "name": "oam tiles",
+    "url": "https://prod-raster-tiler.k8s-01.konturlabs.com/oam/mosaic/9/308/257.png",
+    "expectedImgAddress": "tests/testsData/oamTiles/256px-imageWithTiles.png"
+  },
+  {
+    "env": "prod",
+    "name": "oam no tiles",
+    "url": "https://prod-raster-tiler.k8s-01.konturlabs.com/oam/mosaic/9/307/254.png",
+    "expectedImgAddress": "tests/testsData/oamTiles/256px-imageWithNoTiles.png"
+  },
+  {
+    "env": "prod",
+    "name": "cluster with tiles",
+    "url": "https://prod-raster-tiler.k8s-01.konturlabs.com/clusters/10/608/509.mvt"
+  },
+  {
+    "env": "prod",
+    "name": "cluster with no tiles",
+    "url": "https://prod-raster-tiler.k8s-01.konturlabs.com/clusters/10/609/509.mvt"
+  },
+  {
     "env": "test",
     "name": "live sensor",
     "url": "https://test-apps-ninja01.konturlabs.com/active/api/features/live-sensor"
