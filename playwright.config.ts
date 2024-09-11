@@ -72,7 +72,7 @@ export default defineConfig({
         showInThread: true,
       },
     ],
-    ["html"], // other reporters
+    ["html", { open: "always" }], // other reporters
   ],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {

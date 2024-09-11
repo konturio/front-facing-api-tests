@@ -3,18 +3,23 @@
     "env": "prod",
     "name": "oam tiles",
     "url": "https://prod-raster-tiler.k8s-01.konturlabs.com/oam/mosaic/9/308/257.png",
-    "expectedImgAddress": "tests/testsData/oamTiles/256px-imageWithTiles.png"
+    "urlLargeImg": "https://prod-raster-tiler.k8s-01.konturlabs.com/oam/mosaic/9/308/257@2x.png",
+    "expectedImgAddress": "tests/testsData/oamTiles/256px-imageWithTiles.png",
+    "expectedLargeImgAddress": "tests/testsData/oamTiles/512px-imageWithTiles.png"
   },
   {
     "env": "prod",
     "name": "oam no tiles",
     "url": "https://prod-raster-tiler.k8s-01.konturlabs.com/oam/mosaic/9/307/254.png",
-    "expectedImgAddress": "tests/testsData/oamTiles/256px-imageWithNoTiles.png"
+    "urlLargeImg": "https://prod-raster-tiler.k8s-01.konturlabs.com/oam/mosaic/9/307/254@2x.png",
+    "expectedImgAddress": "tests/testsData/oamTiles/256px-imageWithNoTiles.png",
+    "expectedLargeImgAddress": "tests/testsData/oamTiles/512px-imageWithTiles.png"
   },
   {
     "env": "prod",
     "name": "cluster with tiles",
-    "url": "https://prod-raster-tiler.k8s-01.konturlabs.com/clusters/10/608/509.mvt"
+    "url": "https://prod-raster-tiler.k8s-01.konturlabs.com/clusters/10/608/509.mvt",
+    "expectedNumImages": "7"
   },
   {
     "env": "prod",

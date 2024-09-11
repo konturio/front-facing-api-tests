@@ -5,8 +5,11 @@ export type Api = {
   env: string;
   name: string;
   url: string;
+  urlLargeImg?: string;
   appId?: string;
   expectedImgAddress?: string;
+  expectedLargeImgAddress?: string;
+  expectedNumImages?: number;
 };
 
 /**
