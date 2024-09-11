@@ -13,7 +13,7 @@
     "url": "https://prod-raster-tiler.k8s-01.konturlabs.com/oam/mosaic/9/307/254.png",
     "urlLargeImg": "https://prod-raster-tiler.k8s-01.konturlabs.com/oam/mosaic/9/307/254@2x.png",
     "expectedImgAddress": "tests/testsData/oamTiles/256px-imageWithNoTiles.png",
-    "expectedLargeImgAddress": "tests/testsData/oamTiles/512px-imageWithTiles.png"
+    "expectedLargeImgAddress": "tests/testsData/oamTiles/512px-imageWithNoTiles.png"
   },
   {
     "env": "prod",
