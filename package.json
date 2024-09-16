@@ -14,6 +14,7 @@
     "langdetect": "^0.2.1",
     "module": "^1.2.5",
     "path": "^0.12.7",
+    "pixelmatch": "^5.3.0",
     "playwright-slack-report": "^1.1.81",
     "prettier": "^3.3.2",
     "type": "^2.7.3"
@@ -23,6 +24,8 @@
     "@playwright/test": "^1.42.1",
     "@types/langdetect": "^0.2.2",
     "@types/node": "^22.0.0",
+    "@types/pixelmatch": "^5.2.6",
+    "@types/pngjs": "^6.0.5",
     "chalk": "^5.3.0",
     "dotenv": "^16.4.5",
     "husky": "^8.0.3",

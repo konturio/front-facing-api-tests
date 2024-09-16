@@ -72,7 +72,7 @@ export default defineConfig({
         showInThread: true,
       },
     ],
-    ["html"], // other reporters
+    ["html", { open: "always" }], // other reporters
   ],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
@@ -94,7 +94,7 @@ export default defineConfig({
     {
       name: "guest",
       use: { ...devices["Desktop Chrome"] },
-      testMatch: ["ping.spec.ts", "upsAssets.spec.ts"],
+      testMatch: ["ping.spec.ts", "upsAssets.spec.ts", "oam.spec.ts"],
     },
     {
       name: "pro_user",
