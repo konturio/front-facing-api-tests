@@ -96,6 +96,10 @@ const testOAMTiles = async function ({
 // Test cases are here
 
 test.describe(`Testing OAM mosaic`, () => {
+  test.fixme(
+    !oamWithTiles && !oamNoTiles,
+    "No data for OAM tiles data, no data at test/dev is related to https://kontur.fibery.io/Tasks/Task/BE,-OPS-Activate-test-mosaic-for-dev-purposes-19697 issue"
+  );
   sizes.forEach((size) => {
     test(`${makeFirstLetterCapital(oamWithTiles?.name || "no data")} are shown (${size}px) and give 200 ok`, async ({
       request,
@@ -114,7 +118,7 @@ test.describe(`Testing OAM mosaic`, () => {
         expectedPixelsDifference: 0,
       });
     });
-    test(`At ${makeFirstLetterCapital(oamNoTiles?.name || "no data")} are shown (${size}px), but endpoint gives 200 ok`, async ({
+    test(`At ${makeFirstLetterCapital(oamNoTiles?.name || "no data")} are shown (${size}px), and endpoint gives 200 ok`, async ({
       request,
     }, testInfo) => {
       await testOAMTiles({
@@ -135,7 +139,11 @@ test.describe(`Testing OAM mosaic`, () => {
 });
 
 test.describe(`Testing OAM mosaic clusters`, () => {
-  test(`${makeFirstLetterCapital(clusterWithTiles?.name || "no data")} endpoint should say about ${clusterWithTiles?.expectedNumImages} images in it and response 200 ok`, async ({
+  test.fixme(
+    !clusterWithTiles && !clusterWithNoTiles,
+    "No data for OAM mosaic clusters data, no data at test/dev is related to https://kontur.fibery.io/Tasks/Task/BE,-OPS-Activate-test-mosaic-for-dev-purposes-19697 issue"
+  );
+  test(`${makeFirstLetterCapital(clusterWithTiles?.name || "no data")} endpoint should say about ${clusterWithTiles?.expectedNumImages} images in the tile and response 200 ok`, async ({
     request,
   }) => {
     const response =
@@ -155,7 +163,7 @@ test.describe(`Testing OAM mosaic clusters`, () => {
     ).toEqual(clusterWithTiles?.expectedNumImages);
   });
 
-  test(`Test ${clusterWithNoTiles?.name} to give 200 ok and no answer`, async ({
+  test(`Test ${clusterWithNoTiles?.name} to give 200 ok and no data in response`, async ({
     request,
   }) => {
     const response =
