@@ -13,7 +13,7 @@ type testOAMTilesOptions = {
   url: string;
   expectedPNGWidth: 256 | 512;
   expectedPNGHeight: 256 | 512;
-  expectedPixelsDifference: number;
+  expectedPixelsDiff: number;
   testInfo: TestInfo;
 };
 
@@ -25,7 +25,7 @@ const [oamWithTiles, oamNoTiles, clusterWithTiles, clusterWithNoTiles] =
     "cluster with no tiles",
   ]);
 
-const makeFirstLetterCapital = (text: string) =>
+const capitalizeFirstLetter = (text: string) =>
   `${text[0].toUpperCase()}${text.slice(1)}`;
 
 const getPositiveNumbersOutOfString = (text: string) =>
@@ -42,7 +42,7 @@ const testOAMTiles = async function ({
   expectedRespStatus,
   expectedPNGWidth,
   expectedPNGHeight,
-  expectedPixelsDifference,
+  expectedPixelsDiff,
   testInfo,
 }: testOAMTilesOptions) {
   const response =
@@ -61,16 +61,16 @@ const testOAMTiles = async function ({
   const expectedImg = PNG.sync.read(fs.readFileSync(expectedImgLocation));
 
   // Create a PNG obj with expected demensions (they should be equal to dimensions from response and from a sample)
-  const differenceImg = new PNG({
+  const diffImg = new PNG({
     width: expectedPNGWidth,
     height: expectedPNGHeight,
   });
 
   // Run main function that gives out a number of pixels that differ between images
-  const numDifferencePixels = pixelmatch(
+  const numDiffPixels = pixelmatch(
     expectedImg.data,
     actualImg.data,
-    differenceImg.data,
+    diffImg.data,
     expectedPNGWidth,
     expectedPNGHeight
   );
@@ -78,7 +78,7 @@ const testOAMTiles = async function ({
   // Write image with difference manually to test-results
   fs.writeFileSync(
     `test-results/${testInfo.title}.png`,
-    PNG.sync.write(differenceImg)
+    PNG.sync.write(diffImg)
   );
 
   // Add image with difference to the report
@@ -88,9 +88,9 @@ const testOAMTiles = async function ({
   });
 
   expect(
-    numDifferencePixels,
-    `The OAM image got differs from expected one in ${numDifferencePixels === 0 ? "no" : numDifferencePixels} pixel(s)`
-  ).toEqual(expectedPixelsDifference);
+    numDiffPixels,
+    `The OAM image got differs from expected one in ${numDiffPixels === 0 ? "no" : numDiffPixels} pixel(s)`
+  ).toEqual(expectedPixelsDiff);
 };
 
 // Test cases are here
@@ -101,7 +101,7 @@ test.describe(`Testing OAM mosaic`, () => {
     "No data for OAM tiles data, no data at test/dev is related to https://kontur.fibery.io/Tasks/Task/BE,-OPS-Activate-test-mosaic-for-dev-purposes-19697 issue"
   );
   sizes.forEach((size) => {
-    test(`${makeFirstLetterCapital(oamWithTiles?.name || "no data")} are shown (${size}px) and give 200 ok`, async ({
+    test(`${capitalizeFirstLetter(oamWithTiles?.name || "no data")} are shown (${size}px) and give 200 ok`, async ({
       request,
     }, testInfo) => {
       await testOAMTiles({
@@ -115,10 +115,10 @@ test.describe(`Testing OAM mosaic`, () => {
         expectedRespStatus: 200,
         expectedPNGWidth: size,
         expectedPNGHeight: size,
-        expectedPixelsDifference: 0,
+        expectedPixelsDiff: 0,
       });
     });
-    test(`At ${makeFirstLetterCapital(oamNoTiles?.name || "no data")} are shown (${size}px), and endpoint gives 200 ok`, async ({
+    test(`At ${capitalizeFirstLetter(oamNoTiles?.name || "no data")} are shown (${size}px), and endpoint gives 200 ok`, async ({
       request,
     }, testInfo) => {
       await testOAMTiles({
@@ -132,7 +132,7 @@ test.describe(`Testing OAM mosaic`, () => {
         expectedRespStatus: 200,
         expectedPNGWidth: size,
         expectedPNGHeight: size,
-        expectedPixelsDifference: 0,
+        expectedPixelsDiff: 0,
       });
     });
   });
@@ -143,7 +143,7 @@ test.describe(`Testing OAM mosaic clusters`, () => {
     !clusterWithTiles && !clusterWithNoTiles,
     "No data for OAM mosaic clusters data, no data at test/dev is related to https://kontur.fibery.io/Tasks/Task/BE,-OPS-Activate-test-mosaic-for-dev-purposes-19697 issue"
   );
-  test(`${makeFirstLetterCapital(clusterWithTiles?.name || "no data")} endpoint should say about ${clusterWithTiles?.expectedNumImages} images in the tile and response 200 ok`, async ({
+  test(`${capitalizeFirstLetter(clusterWithTiles?.name || "no data")} endpoint should say about ${clusterWithTiles?.expectedNumImages} images in the tile and response 200 ok`, async ({
     request,
   }) => {
     const response =
