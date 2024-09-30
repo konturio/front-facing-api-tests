@@ -1,14 +1,10 @@
 import { test, expect } from "@playwright/test";
-import { getApis, getRequestBody } from "./helper";
-import langdetect from "langdetect";
+import { getApis } from "./helper";
 
-const languagesToTestLlm = ["ar", "en"];
-const requestLlmBody = getRequestBody("llm-request.json");
-const [currentUserUrl, appInfoUrl, llmAnalyticsUrl] = getApis([
-  "current user",
-  "app info",
-  "llmAnalytics",
-]).map((apiObj) => apiObj?.url);
+const [currentUserUrl, appInfoUrl] = getApis(
+  ["current user", "app info"],
+  "main-endpoints"
+).map((apiObj) => apiObj?.url);
 
 test(`Check ${currentUserUrl} availability`, async ({ request }) => {
   expect(currentUserUrl).toBeDefined();
@@ -58,26 +54,4 @@ test(`Check ${appInfoUrl} data`, async ({ request }) => {
       "/active/api/apps/9043acf9-2cf3-48ac-9656-a5d7c4b7593d/assets/icon-512x512.png",
   });
   expect(responseObj.public).toStrictEqual(true);
-});
-
-languagesToTestLlm.forEach((languageToTestLlm) => {
-  test(`Check ${llmAnalyticsUrl} to give correct language response (${languageToTestLlm})`, async ({
-    request,
-  }) => {
-    expect(llmAnalyticsUrl).toBeDefined();
-    const response = await request.post(llmAnalyticsUrl!, {
-      headers: {
-        Authorization: `Bearer ${process.env.ACCESS_TOKEN}`,
-        Accept: "application/json",
-        "User-Language": languageToTestLlm,
-      },
-      data: requestLlmBody,
-      timeout: 60000,
-    });
-    expect(response.status()).toEqual(200);
-    const responseObj = await response.json();
-    expect(responseObj.data.length).toBeGreaterThan(0);
-    const language = langdetect.detectOne(responseObj.data.slice(0, 300));
-    expect(language).toEqual(languageToTestLlm);
-  });
 });

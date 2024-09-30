@@ -18,12 +18,15 @@ type testOAMTilesOptions = {
 };
 
 const [oamWithTiles, oamNoTiles, clusterWithTiles, clusterWithNoTiles] =
-  getApis([
-    "oam tiles",
-    "oam no tiles",
-    "cluster with tiles",
-    "cluster with no tiles",
-  ]);
+  getApis(
+    [
+      "oam tiles",
+      "oam no tiles",
+      "cluster with tiles",
+      "cluster with no tiles",
+    ],
+    "oam-apis"
+  );
 
 const capitalizeFirstLetter = (text: string) =>
   `${text[0].toUpperCase()}${text.slice(1)}`;

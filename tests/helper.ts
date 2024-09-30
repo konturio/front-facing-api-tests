@@ -14,14 +14,17 @@ export type Api = {
 
 /**
  * Get the list of APIs from a json file
- * @param apisNames The list of APIs names to get
+ * @param apisNames The list of APIs names to get from the file
+ * @param fileName The name of the file containing the APIs
  * @returns An array of API objects
  */
 
-export function getApis(apisNames: string[]) {
+export function getApis(apisNames: string[], fileName: string) {
   try {
     const data = fs
-      .readFileSync(path.join(__dirname, "./testsData/apisToTest.json"))
+      .readFileSync(
+        path.join(__dirname, `./testsData/apisToTest/${fileName}.json`)
+      )
       .toString();
 
     const environment = process.env.ENVIRONMENT ?? "prod";
@@ -51,7 +54,9 @@ export function getApis(apisNames: string[]) {
 export function getRequestBody(fileName: string) {
   try {
     const data = fs
-      .readFileSync(path.join(__dirname, `./testsData/${fileName}`))
+      .readFileSync(
+        path.join(__dirname, `./testsData/requestBodies/${fileName}.json`)
+      )
       .toString();
     const requestBody = JSON.parse(data);
     return requestBody;

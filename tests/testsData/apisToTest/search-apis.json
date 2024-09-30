@@ -1,0 +1,62 @@
+[
+  {
+    "env": "dev",
+    "name": "search oam",
+    "url": "https://test-apps-ninja02.konturlabs.com/active/api/search?appId=1dc6fe68-8802-4672-868d-7f17943bf1c8"
+  },
+  {
+    "env": "test",
+    "name": "search oam",
+    "url": "https://test-apps-ninja01.konturlabs.com/active/api/search?appId=1dc6fe68-8802-4672-868d-7f17943bf1c8"
+  },
+  {
+    "env": "prod",
+    "name": "search oam",
+    "url": "https://atlas.kontur.io/active/api/search?appId=9043acf9-2cf3-48ac-9656-a5d7c4b7593d"
+  },
+  {
+    "env": "dev",
+    "name": "search atlas",
+    "url": "https://test-apps-ninja02.konturlabs.com/active/api/search?appId=9043acf9-2cf3-48ac-9656-a5d7c4b7593d"
+  },
+  {
+    "env": "test",
+    "name": "search atlas",
+    "url": "https://test-apps-ninja01.konturlabs.com/active/api/search?appId=9043acf9-2cf3-48ac-9656-a5d7c4b7593d"
+  },
+  {
+    "env": "prod",
+    "name": "search atlas",
+    "url": "https://new.openaerialmap.org/active/api/search?appId=1dc6fe68-8802-4672-868d-7f17943bf1c8"
+  },
+  {
+    "env": "dev",
+    "name": "search disaster-ninja",
+    "url": "https://test-apps-ninja02.konturlabs.com/active/api/search?appId=58851b50-9574-4aec-a3a6-425fa18dcb54"
+  },
+  {
+    "env": "test",
+    "name": "search disaster-ninja",
+    "url": "https://test-apps-ninja01.konturlabs.com/active/api/search?appId=58851b50-9574-4aec-a3a6-425fa18dcb54"
+  },
+  {
+    "env": "prod",
+    "name": "search disaster-ninja",
+    "url": "https://disaster.ninja/active/api/search?appId=58851b50-9574-4aec-a3a6-425fa18dcb54"
+  },
+  {
+    "env": "dev",
+    "name": "search smart-city",
+    "url": "https://test-apps-ninja02.konturlabs.com/active/api/search?appId=634f23f5-f898-4098-a8bd-09eb7c1e1ae5"
+  },
+  {
+    "env": "test",
+    "name": "search smart-city",
+    "url": "https://test-apps-ninja01.konturlabs.com/active/api/search?appId=634f23f5-f898-4098-a8bd-09eb7c1e1ae5"
+  },
+  {
+    "env": "prod",
+    "name": "search smart-city",
+    "url": "https://maps.kontur.io/active/api/search?appId=634f23f5-f898-4098-a8bd-09eb7c1e1ae5"
+  }
+]

@@ -3,20 +3,23 @@ import { getApis } from "./helper";
 import langdetect from "langdetect";
 
 const languagesToTestAssets = ["en", "es", "ar", "de", "uk", "id", "ko"];
-const assetsDataObjs = getApis([
-  "atlas about page",
-  "atlas terms page",
-  "atlas privacy page",
-  "oam about page",
-  "oam terms page",
-  "oam privacy page",
-  "disaster-ninja about page",
-  "disaster-ninja terms page",
-  "disaster-ninja privacy page",
-  "smart-city about page",
-  "smart-city terms page",
-  "smart-city privacy page",
-]);
+const assetsDataObjs = getApis(
+  [
+    "atlas about page",
+    "atlas terms page",
+    "atlas privacy page",
+    "oam about page",
+    "oam terms page",
+    "oam privacy page",
+    "disaster-ninja about page",
+    "disaster-ninja terms page",
+    "disaster-ninja privacy page",
+    "smart-city about page",
+    "smart-city terms page",
+    "smart-city privacy page",
+  ],
+  "ups-assets"
+);
 
 const linksAtDNAboutPage = [
   "https://www.kontur.io/",

@@ -1,0 +1,17 @@
+[
+  {
+    "env": "dev",
+    "name": "llmAnalytics",
+    "url": "https://test-apps-ninja02.konturlabs.com/active/api/llm_analytics"
+  },
+  {
+    "env": "test",
+    "name": "llmAnalytics",
+    "url": "https://test-apps-ninja01.konturlabs.com/active/api/llm_analytics"
+  },
+  {
+    "env": "prod",
+    "name": "llmAnalytics",
+    "url": "https://atlas.kontur.io/active/api/llm_analytics"
+  }
+]

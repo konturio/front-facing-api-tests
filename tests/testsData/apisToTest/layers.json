@@ -1,0 +1,35 @@
+[
+  {
+    "env": "prod",
+    "name": "atlas layers",
+    "url": "https://atlas.kontur.io/active/api/apps/9043acf9-2cf3-48ac-9656-a5d7c4b7593d/layers"
+  },
+  {
+    "env": "prod",
+    "name": "atlas global layers",
+    "url": "https://atlas.kontur.io/active/api/layers/search/global",
+    "appId": "9043acf9-2cf3-48ac-9656-a5d7c4b7593d"
+  },
+  {
+    "env": "test",
+    "name": "atlas layers",
+    "url": "https://test-apps-ninja01.konturlabs.com/active/api/apps/9043acf9-2cf3-48ac-9656-a5d7c4b7593d/layers"
+  },
+  {
+    "env": "test",
+    "name": "atlas global layers",
+    "url": "https://test-apps-ninja01.konturlabs.com/active/api/layers/search/global",
+    "appId": "9043acf9-2cf3-48ac-9656-a5d7c4b7593d"
+  },
+  {
+    "env": "dev",
+    "name": "atlas layers",
+    "url": "https://test-apps-ninja02.konturlabs.com/active/api/apps/9043acf9-2cf3-48ac-9656-a5d7c4b7593d/layers"
+  },
+  {
+    "env": "dev",
+    "name": "atlas global layers",
+    "url": "https://test-apps-ninja02.konturlabs.com/active/api/layers/search/global",
+    "appId": "9043acf9-2cf3-48ac-9656-a5d7c4b7593d"
+  }
+]

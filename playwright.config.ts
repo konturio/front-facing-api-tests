@@ -5,6 +5,12 @@ import { LogLevel } from "@slack/web-api/dist/index.js";
 dotenv.config({
   path: ".env.playwright",
 });
+
+const testsToRunAsProUsr = [
+  "mainEndpointsAsProUsr.spec.ts",
+  "liveSensor.spec.ts",
+  "llmAnalytics.spec.ts",
+];
 /**
  * Read environment variables from file.
  * https://github.com/motdotla/dotenv
@@ -93,14 +99,12 @@ export default defineConfig({
     },
     {
       name: "guest",
-      use: { ...devices["Desktop Chrome"] },
-      testMatch: ["ping.spec.ts", "upsAssets.spec.ts", "oam.spec.ts"],
+      testIgnore: testsToRunAsProUsr,
     },
     {
       name: "pro_user",
-      use: { ...devices["Desktop Chrome"] },
       dependencies: ["setup"],
-      testMatch: ["pingAsProUsr.spec.ts", "liveSensor.spec.ts"],
+      testMatch: testsToRunAsProUsr,
     },
   ],
 });
