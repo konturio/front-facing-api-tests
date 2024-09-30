@@ -92,98 +92,100 @@ assetsDataObjs.forEach((assetsDataObj) => {
   test.describe(`Testing ${assetsDataObj?.name ?? "unknown assets data object"}`, () => {
     languagesToTestAssets.forEach((expectedLanguage) => {
       test.describe(`${expectedLanguage.toUpperCase()} locale`, () => {
-        test(`Check ${assetsDataObj?.url ?? "unknown"} language response and links correctness`, async ({
-          request,
-        }) => {
-          test.fail(
-            !assetsDataObj?.url || !assetsDataObj?.name,
-            "Asset data not found"
-          );
-          // Send a GET request to the URL with the specific language header
-          const response = await request.get(assetsDataObj!.url, {
-            headers: {
-              "User-Language": expectedLanguage,
-            },
-          });
-          expect(response.status()).toEqual(200);
+        test(
+          `Check ${assetsDataObj?.url ?? "unknown"} language response and links correctness`,
+          { tag: "@guest" },
+          async ({ request }) => {
+            test.fail(
+              !assetsDataObj?.url || !assetsDataObj?.name,
+              "Asset data not found"
+            );
+            // Send a GET request to the URL with the specific language header
+            const response = await request.get(assetsDataObj!.url, {
+              headers: {
+                "User-Language": expectedLanguage,
+              },
+            });
+            expect(response.status()).toEqual(200);
 
-          // Extract the response text to perform language and link checks
-          const responseTxt = await response.text();
-          expect(responseTxt.length).toBeGreaterThan(0);
+            // Extract the response text to perform language and link checks
+            const responseTxt = await response.text();
+            expect(responseTxt.length).toBeGreaterThan(0);
 
-          // Detect the actual language of the response text
-          const actualLanguage = langdetect.detectOne(
-            responseTxt.slice(0, 1000)
-          );
+            // Detect the actual language of the response text
+            const actualLanguage = langdetect.detectOne(
+              responseTxt.slice(0, 1000)
+            );
 
-          switch (assetsDataObj!.name) {
-            case "atlas about page":
-              test.fixme(
-                expectedLanguage !== "en",
-                "Implement https://kontur.fibery.io/Tasks/Task/add-translated-About-pages-to-user-profile-api-repo-18359 to activate this test"
-              );
-              linksAtAtlasAboutPage.forEach((link) =>
-                expect(responseTxt).toContain(link)
-              );
-              break;
-
-            case "oam about page":
-              test.fixme(
-                expectedLanguage !== "en",
-                "Implement https://kontur.fibery.io/Tasks/Task/add-translated-About-pages-to-user-profile-api-repo-18359 to activate this test"
-              );
-              linksAtOAMAboutPage.forEach((link) =>
-                expect(responseTxt).toContain(link)
-              );
-              break;
-
-            case "disaster-ninja about page":
-              test.fixme(
-                expectedLanguage === "uk",
-                "Fix https://kontur.fibery.io/Tasks/Task/About-page-UK-locale-fix-go-to-map-link-and-github-link-19533 to activate this test"
-              );
-              linksAtDNAboutPage.forEach((link) =>
-                expect(responseTxt).toContain(link)
-              );
-              break;
-
-            case "smart-city about page":
-              test.fixme(
-                expectedLanguage !== "en",
-                "Implement https://kontur.fibery.io/Tasks/Task/add-translated-About-pages-to-user-profile-api-repo-18359 to activate this test"
-              );
-              linksAtSmartCityAboutPage.forEach((link) =>
-                expect(responseTxt).toContain(link)
-              );
-              break;
-
-            default:
-              // Handle terms and privacy pages with separate fixme and link checks
-              if (assetsDataObj!.name.includes("terms page")) {
+            switch (assetsDataObj!.name) {
+              case "atlas about page":
                 test.fixme(
                   expectedLanguage !== "en",
                   "Implement https://kontur.fibery.io/Tasks/Task/add-translated-About-pages-to-user-profile-api-repo-18359 to activate this test"
                 );
-                linksAtTermsPage.forEach((link) =>
+                linksAtAtlasAboutPage.forEach((link) =>
                   expect(responseTxt).toContain(link)
                 );
-                polishTextAtTermsPage.forEach((text) =>
-                  expect(responseTxt).toContain(text)
-                );
-              }
-              if (assetsDataObj!.name.includes("privacy page")) {
+                break;
+
+              case "oam about page":
                 test.fixme(
                   expectedLanguage !== "en",
                   "Implement https://kontur.fibery.io/Tasks/Task/add-translated-About-pages-to-user-profile-api-repo-18359 to activate this test"
                 );
-                linksAtPrivacyPage.forEach((link) =>
+                linksAtOAMAboutPage.forEach((link) =>
                   expect(responseTxt).toContain(link)
                 );
-              }
-              break;
+                break;
+
+              case "disaster-ninja about page":
+                test.fixme(
+                  expectedLanguage === "uk",
+                  "Fix https://kontur.fibery.io/Tasks/Task/About-page-UK-locale-fix-go-to-map-link-and-github-link-19533 to activate this test"
+                );
+                linksAtDNAboutPage.forEach((link) =>
+                  expect(responseTxt).toContain(link)
+                );
+                break;
+
+              case "smart-city about page":
+                test.fixme(
+                  expectedLanguage !== "en",
+                  "Implement https://kontur.fibery.io/Tasks/Task/add-translated-About-pages-to-user-profile-api-repo-18359 to activate this test"
+                );
+                linksAtSmartCityAboutPage.forEach((link) =>
+                  expect(responseTxt).toContain(link)
+                );
+                break;
+
+              default:
+                // Handle terms and privacy pages with separate fixme and link checks
+                if (assetsDataObj!.name.includes("terms page")) {
+                  test.fixme(
+                    expectedLanguage !== "en",
+                    "Implement https://kontur.fibery.io/Tasks/Task/add-translated-About-pages-to-user-profile-api-repo-18359 to activate this test"
+                  );
+                  linksAtTermsPage.forEach((link) =>
+                    expect(responseTxt).toContain(link)
+                  );
+                  polishTextAtTermsPage.forEach((text) =>
+                    expect(responseTxt).toContain(text)
+                  );
+                }
+                if (assetsDataObj!.name.includes("privacy page")) {
+                  test.fixme(
+                    expectedLanguage !== "en",
+                    "Implement https://kontur.fibery.io/Tasks/Task/add-translated-About-pages-to-user-profile-api-repo-18359 to activate this test"
+                  );
+                  linksAtPrivacyPage.forEach((link) =>
+                    expect(responseTxt).toContain(link)
+                  );
+                }
+                break;
+            }
+            expect(actualLanguage).toEqual(expectedLanguage);
           }
-          expect(actualLanguage).toEqual(expectedLanguage);
-        });
+        );
       });
     });
   });

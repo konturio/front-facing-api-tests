@@ -19,7 +19,7 @@ export type Api = {
  * @returns An array of API objects
  */
 
-export function getApis(apisNames: string[], fileName: string) {
+export function getApis(apisNames: string[], fileName: string): Api[] {
   try {
     const data = fs
       .readFileSync(
@@ -46,16 +46,23 @@ export function getApis(apisNames: string[], fileName: string) {
 }
 
 /**
- * Get the request body from a JSON file
- * @param fileName The name of the file containing the request body
+ * Get the request/response body from a JSON file
+ * @param fileName The name of the file containing the request/response body
+ * @param isRequest Whether the body is a request body or a response body
  * @returns The request body as a JS object
  */
 
-export function getRequestBody(fileName: string) {
+export function getBody(
+  fileName: string,
+  { isRequest }: { isRequest: boolean }
+): [] {
   try {
     const data = fs
       .readFileSync(
-        path.join(__dirname, `./testsData/requestBodies/${fileName}.json`)
+        path.join(
+          __dirname,
+          `./testsData/${isRequest ? "requestBodies" : "responseBodies"}/${fileName}.json`
+        )
       )
       .toString();
     const requestBody = JSON.parse(data);

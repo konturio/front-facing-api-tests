@@ -6,11 +6,6 @@ dotenv.config({
   path: ".env.playwright",
 });
 
-const testsToRunAsProUsr = [
-  "mainEndpointsAsProUsr.spec.ts",
-  "liveSensor.spec.ts",
-  "llmAnalytics.spec.ts",
-];
 /**
  * Read environment variables from file.
  * https://github.com/motdotla/dotenv
@@ -98,13 +93,8 @@ export default defineConfig({
       testMatch: "auth.setup.ts",
     },
     {
-      name: "guest",
-      testIgnore: testsToRunAsProUsr,
-    },
-    {
-      name: "pro_user",
+      name: "api_tests",
       dependencies: ["setup"],
-      testMatch: testsToRunAsProUsr,
     },
   ],
 });

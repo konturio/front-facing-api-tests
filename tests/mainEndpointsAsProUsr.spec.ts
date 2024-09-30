@@ -6,19 +6,23 @@ const [currentUserUrl, appInfoUrl] = getApis(
   "main-endpoints"
 ).map((apiObj) => apiObj?.url);
 
-test(`Check ${currentUserUrl} availability`, async ({ request }) => {
-  expect(currentUserUrl).toBeDefined();
-  const response = await request.get(currentUserUrl!, {
-    headers: {
-      Authorization: `Bearer ${process.env.ACCESS_TOKEN}`,
-    },
-  });
-  expect(response.status()).toEqual(200);
-  const responseObj = await response.json();
-  expect(responseObj.username).toEqual(process.env.EMAIL_PRO);
-});
+test(
+  `Check ${currentUserUrl} availability`,
+  { tag: "@pro_user" },
+  async ({ request }) => {
+    expect(currentUserUrl).toBeDefined();
+    const response = await request.get(currentUserUrl!, {
+      headers: {
+        Authorization: `Bearer ${process.env.ACCESS_TOKEN}`,
+      },
+    });
+    expect(response.status()).toEqual(200);
+    const responseObj = await response.json();
+    expect(responseObj.username).toEqual(process.env.EMAIL_PRO);
+  }
+);
 
-test(`Check ${appInfoUrl} data`, async ({ request }) => {
+test(`Check ${appInfoUrl} data`, { tag: "@pro_user" }, async ({ request }) => {
   expect(appInfoUrl).toBeDefined();
   const response = await request.get(appInfoUrl!, {
     headers: {
