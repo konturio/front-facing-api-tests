@@ -14,14 +14,17 @@ export type Api = {
 
 /**
  * Get the list of APIs from a json file
- * @param apisNames The list of APIs names to get
+ * @param apisNames The list of APIs names to get from the file.
+ * @param fileName The name of the file containing the APIs
  * @returns An array of API objects
  */
 
-export function getApis(apisNames: string[]) {
+export function getApis(apisNames: string[], fileName: string): Api[] {
   try {
     const data = fs
-      .readFileSync(path.join(__dirname, "./testsData/apisToTest.json"))
+      .readFileSync(
+        path.join(__dirname, `./testsData/apisToTest/${fileName}.json`)
+      )
       .toString();
 
     const environment = process.env.ENVIRONMENT ?? "prod";
@@ -43,15 +46,24 @@ export function getApis(apisNames: string[]) {
 }
 
 /**
- * Get the request body from a JSON file
- * @param fileName The name of the file containing the request body
+ * Get the request/response body from a JSON file
+ * @param fileName The name of the file containing the request/response body
+ * @param isRequest Whether the body is a request body or a response body. Defaults to `true` (request body) if not specified
  * @returns The request body as a JS object
  */
 
-export function getRequestBody(fileName: string) {
+export function getBody(
+  fileName: string,
+  { isRequest }: { isRequest: boolean }
+): [] {
   try {
     const data = fs
-      .readFileSync(path.join(__dirname, `./testsData/${fileName}`))
+      .readFileSync(
+        path.join(
+          __dirname,
+          `./testsData/${isRequest ? "requestBodies" : "responseBodies"}/${fileName}.json`
+        )
+      )
       .toString();
     const requestBody = JSON.parse(data);
     return requestBody;

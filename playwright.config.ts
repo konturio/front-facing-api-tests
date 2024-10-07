@@ -5,6 +5,7 @@ import { LogLevel } from "@slack/web-api/dist/index.js";
 dotenv.config({
   path: ".env.playwright",
 });
+
 /**
  * Read environment variables from file.
  * https://github.com/motdotla/dotenv
@@ -92,15 +93,8 @@ export default defineConfig({
       testMatch: "auth.setup.ts",
     },
     {
-      name: "guest",
-      use: { ...devices["Desktop Chrome"] },
-      testMatch: ["ping.spec.ts", "upsAssets.spec.ts", "oam.spec.ts"],
-    },
-    {
-      name: "pro_user",
-      use: { ...devices["Desktop Chrome"] },
+      name: "api_tests",
       dependencies: ["setup"],
-      testMatch: ["pingAsProUsr.spec.ts", "liveSensor.spec.ts"],
     },
   ],
 });

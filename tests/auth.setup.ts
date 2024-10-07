@@ -32,5 +32,9 @@ setup("Authentication as a PRO user", async ({ request }) => {
   );
   const responseBody = await response.json();
   const accessToken = responseBody.access_token;
+  expect(
+    accessToken,
+    "Access token should be defined in response"
+  ).toBeDefined();
   process.env["ACCESS_TOKEN"] = accessToken;
 });

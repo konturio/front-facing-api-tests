@@ -1,8 +1,10 @@
 import { test, expect, APIRequestContext } from "@playwright/test";
-import { getApis, getRequestBody } from "./helper";
+import { getApis, getBody } from "./helper";
 
-const [liveSensorUrl] = getApis(["live sensor"]).map((apiObj) => apiObj?.url);
-const liveSensorBody = getRequestBody("liveSensor.json");
+const [liveSensorUrl] = getApis(["live sensor"], "live-sensor").map(
+  (apiObj) => apiObj?.url
+);
+const liveSensorBody = getBody("live-sensor", { isRequest: true });
 const accessToken = process.env.ACCESS_TOKEN;
 
 type liveSensorRequestOptions = {
@@ -37,7 +39,7 @@ const testLiveSensor = async function ({
 };
 
 test.describe(`Check ${liveSensorUrl}`, () => {
-  test(`Answer is 200 ok`, async ({ request }) => {
+  test(`Answer is 200 ok`, { tag: "@pro_user" }, async ({ request }) => {
     await testLiveSensor({
       request,
       liveSensorUrl,
@@ -47,28 +49,32 @@ test.describe(`Check ${liveSensorUrl}`, () => {
       expectedResponseStatus: 200,
     });
   });
-  test(`Answer is 400 (wrong body)`, async ({ request }) => {
+  test(
+    `Answer is 400 (wrong body)`,
+    { tag: "@pro_user" },
+    async ({ request }) => {
+      const errorText = await testLiveSensor({
+        request,
+        liveSensorUrl,
+        liveSensorBody: { hello: "world" },
+        accessToken,
+        contentType: "application/json",
+        expectedResponseStatus: 400,
+      });
+      expect(errorText).toEqual("Malformed JSON request");
+    }
+  );
+  test(`Answer is 400 (no body)`, { tag: "@pro_user" }, async ({ request }) => {
     const errorText = await testLiveSensor({
       request,
       liveSensorUrl,
-      liveSensorBody: { hello: "world" },
       accessToken,
       contentType: "application/json",
       expectedResponseStatus: 400,
     });
     expect(errorText).toEqual("Malformed JSON request");
   });
-  test(`Answer is 400 (no body)`, async ({ request }) => {
-    const errorText = await testLiveSensor({
-      request,
-      liveSensorUrl,
-      accessToken,
-      contentType: "application/json",
-      expectedResponseStatus: 400,
-    });
-    expect(errorText).toEqual("Malformed JSON request");
-  });
-  test(`Answer is 403`, async ({ request }) => {
+  test(`Answer is 403`, { tag: "@guest" }, async ({ request }) => {
     const errorObj = await testLiveSensor({
       request,
       liveSensorUrl,
@@ -83,7 +89,7 @@ test.describe(`Check ${liveSensorUrl}`, () => {
     expect(errorObj?.error).toEqual("Forbidden");
     expect(errorObj?.path).toEqual("/active/api/features/live-sensor");
   });
-  test(`Answer is 415`, async ({ request }) => {
+  test(`Answer is 415`, { tag: "@pro_user" }, async ({ request }) => {
     await testLiveSensor({
       request,
       liveSensorUrl,
