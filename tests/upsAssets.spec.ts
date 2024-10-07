@@ -29,9 +29,17 @@ const linksAtDNAboutPage = [
   "mailto:hello@kontur.io",
   "https://github.com/konturio",
 ];
+
+// Once https://kontur.fibery.io/Tasks/Task/BE-Rename-images-at-about-page-(about-atlas-1.png---about-atlas-area-selection.png)-19826 is fixed, update links to images
+
 const linksAtAtlasAboutPage = [
-  "https://keycloak01.kontur.io/realms/kontur/protocol/openid-connect/registrations?client_id=account&response_type=code&scope=openid&redirect_uri=https://www.kontur.io/portfolio/",
-  "https://atlas.kontur.io/active/profile",
+  "about-atlas-1.png",
+  "about-atlas-2.png",
+  "/pricing",
+  "about-atlas-3.png",
+  "about-atlas-4.png",
+  "about-atlas-5.png",
+  "https://www.kontur.io/atlas",
 ];
 const linksAtSmartCityAboutPage = [
   "https://www.kontur.io/blog/waste-management/",
