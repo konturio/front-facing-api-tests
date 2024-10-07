@@ -25,6 +25,7 @@ languagesToTestLlm.forEach((languageToTestLlm) => {
       });
       expect(response.status()).toEqual(200);
       const responseObj = await response.json();
+      expect(responseObj.data).toBeDefined();
       expect(responseObj.data.length).toBeGreaterThan(0);
       const language = langdetect.detectOne(responseObj.data.slice(0, 300));
       expect(language).toEqual(languageToTestLlm);

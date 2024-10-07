@@ -14,7 +14,7 @@ export type Api = {
 
 /**
  * Get the list of APIs from a json file
- * @param apisNames The list of APIs names to get from the file
+ * @param apisNames The list of APIs names to get from the file.
  * @param fileName The name of the file containing the APIs
  * @returns An array of API objects
  */
@@ -48,7 +48,7 @@ export function getApis(apisNames: string[], fileName: string): Api[] {
 /**
  * Get the request/response body from a JSON file
  * @param fileName The name of the file containing the request/response body
- * @param isRequest Whether the body is a request body or a response body
+ * @param isRequest Whether the body is a request body or a response body. Defaults to `true` (request body) if not specified
  * @returns The request body as a JS object
  */
 

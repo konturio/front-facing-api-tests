@@ -24,7 +24,7 @@ async function testSearchApi({
   authToken,
 }: testSearchApiOptions) {
   expect(searchApi?.url, "Search API url should be defined").toBeDefined();
-  const url = `${searchApi?.url}&query=${query}`;
+  const url = `${searchApi.url}&query=${query}`;
   const response = await test.step(`Send GET request to ${url}`, async () =>
     await request.get(url, {
       headers: {

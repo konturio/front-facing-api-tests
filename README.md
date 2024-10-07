@@ -4,6 +4,13 @@ Autotests for front facing apis of Kontur products. Tests are written in TypeScr
 
 ## Running api tests with Playwright
 
+0. Ensure Node.js and npm are installed on your system.
+
+```bash
+node -v
+npm -v
+```
+
 1. Install Playwright
 
 ```bash
@@ -31,7 +38,7 @@ SLACK_BOT_USER_OAUTH_TOKEN=token
 npx playwright test
 ```
 
-Add the `--ui` flag to run the tests in a debug mode.
+Add the `--ui` flag to run the tests in debug mode, which opens Playwright's interactive UI for step-by-step execution and debugging:
 
 ```bash
 npx playwright test --ui

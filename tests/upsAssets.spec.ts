@@ -101,7 +101,7 @@ assetsDataObjs.forEach((assetsDataObj) => {
               "Asset data not found"
             );
             // Send a GET request to the URL with the specific language header
-            const response = await request.get(assetsDataObj!.url, {
+            const response = await request.get(assetsDataObj.url, {
               headers: {
                 "User-Language": expectedLanguage,
               },
@@ -117,7 +117,7 @@ assetsDataObjs.forEach((assetsDataObj) => {
               responseTxt.slice(0, 1000)
             );
 
-            switch (assetsDataObj!.name) {
+            switch (assetsDataObj.name) {
               case "atlas about page":
                 test.fixme(
                   expectedLanguage !== "en",
@@ -160,7 +160,7 @@ assetsDataObjs.forEach((assetsDataObj) => {
 
               default:
                 // Handle terms and privacy pages with separate fixme and link checks
-                if (assetsDataObj!.name.includes("terms page")) {
+                if (assetsDataObj.name.includes("terms page")) {
                   test.fixme(
                     expectedLanguage !== "en",
                     "Implement https://kontur.fibery.io/Tasks/Task/add-translated-About-pages-to-user-profile-api-repo-18359 to activate this test"
@@ -172,7 +172,7 @@ assetsDataObjs.forEach((assetsDataObj) => {
                     expect(responseTxt).toContain(text)
                   );
                 }
-                if (assetsDataObj!.name.includes("privacy page")) {
+                if (assetsDataObj.name.includes("privacy page")) {
                   test.fixme(
                     expectedLanguage !== "en",
                     "Implement https://kontur.fibery.io/Tasks/Task/add-translated-About-pages-to-user-profile-api-repo-18359 to activate this test"

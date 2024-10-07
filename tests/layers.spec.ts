@@ -25,7 +25,7 @@ languagesToTestLayers.forEach((language) => {
     { tag: "@guest" },
     async ({ request }) => {
       expect(atlasLayersUrl).toBeDefined();
-      const response = await request.get(atlasLayersUrl!, {
+      const response = await request.get(atlasLayersUrl, {
         headers: {
           "User-Language": language,
         },
@@ -45,6 +45,7 @@ languagesToTestLayers.forEach((language) => {
       expect(firstObject).toBeDefined();
       expect(firstObject.id.length).toBeGreaterThan(0);
       const linesUrl = firstObject.source.urls[0];
+      expect(linesUrl, "Lines url should be defined").toBeDefined();
 
       // Check that atlasLayersUrl gave correct translation
       expect(linesUrl).toContain(`style_ninja_${language}.json`);
@@ -54,12 +55,16 @@ languagesToTestLayers.forEach((language) => {
       const responseLinesObj = await responseLines.json();
 
       // Parsing response to get language used
-      const layerLayout = responseLinesObj.layers.find(
+      const layer = responseLinesObj.layers.find(
         (layer: Layer) => layer.id === "label91"
-      ).layout;
+      );
+      expect(layer, 'Layer "label91" should be found').toBeDefined();
+      const layerLayout = layer.layout;
+
       const textFieldNameLanguage = layerLayout["text-field"]
-        .flat()[2]
-        .split(":")[1];
+        ?.flat()[2]
+        ?.split(":")[1];
+      expect(textFieldNameLanguage).toBeDefined();
       expect(
         textFieldNameLanguage,
         `Text field has wrong language in style_ninja_${language}.json`
@@ -73,7 +78,7 @@ test(
   { tag: "@guest" },
   async ({ request }) => {
     expect(atlasGlobalLayersUrl).toBeDefined();
-    const response = await request.post(atlasGlobalLayersUrl!, {
+    const response = await request.post(atlasGlobalLayersUrl, {
       data: {
         appId: atlasAppId,
       },
