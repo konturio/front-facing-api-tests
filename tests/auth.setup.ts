@@ -53,8 +53,8 @@ setup("Authentication as a PRO user", async ({ request }) => {
 
 setup("Authentication as an user with no rights", async ({ request }) => {
   process.env["ACCESS_TOKEN_USER_NO_RIGHTS"] = await getAccessToken(
-    process.env.EMAIL!,
-    process.env.PASSWORD!,
+    process.env.EMAIL_NO_RIGHTS!,
+    process.env.PASSWORD_NO_RIGHTS!,
     request
   );
 });
