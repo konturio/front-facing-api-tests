@@ -24,8 +24,8 @@ Create a `.env.playwright.local` file in the root of the project with the follow
 ```bash
 EMAIL_PRO=<pro-test-email>
 PASSWORD_PRO=<pro-test-password>
-EMAIL=<no-rights-test-email>
-PASSWORD=<no-rights-test-password>
+EMAIL_NO_RIGHTS=<no-rights-test-email>
+PASSWORD_NO_RIGHTS=<no-rights-test-password>
 ENVIRONMENT=<env>
 SLACK_BOT_USER_OAUTH_TOKEN=token
 ```
