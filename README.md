@@ -24,6 +24,8 @@ Create a `.env.playwright.local` file in the root of the project with the follow
 ```bash
 EMAIL_PRO=<pro-test-email>
 PASSWORD_PRO=<pro-test-password>
+EMAIL=<no-rights-test-email>
+PASSWORD=<no-rights-test-password>
 ENVIRONMENT=<env>
 SLACK_BOT_USER_OAUTH_TOKEN=token
 ```
@@ -31,6 +33,7 @@ SLACK_BOT_USER_OAUTH_TOKEN=token
 - <env> is the environment where the tests will run. It can be `prod`, `test`, or `dev`.
 - <SLACK_BOT_USER_OAUTH_TOKEN> is the Slack bot user OAuth token for the channel you want to send the test results to.
 - <pro-test-email> and <pro-test-password> are the credentials for a user with PRO rights.
+- <no-rights-test-email> and <no-rights-test-password> are the credentials for a user with no rights.
 
 3. Run the api tests
 

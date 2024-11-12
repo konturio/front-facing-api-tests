@@ -6,8 +6,9 @@ type testSearchApiOptions = {
   searchApi: Api;
   request: APIRequestContext;
   query: string;
-  expectedResponse: {};
+  expectedResponseBody: {} | string;
   authToken?: string;
+  expectedStatus?: number;
 };
 
 const searchApis = getApis(
@@ -20,8 +21,9 @@ async function testSearchApi({
   searchApi,
   request,
   query,
-  expectedResponse,
+  expectedResponseBody,
   authToken,
+  expectedStatus = 200,
 }: testSearchApiOptions) {
   expect(searchApi?.url, "Search API url should be defined").toBeDefined();
   const url = `${searchApi.url}&query=${query}`;
@@ -31,43 +33,97 @@ async function testSearchApi({
         Authorization: authToken ? `Bearer ${authToken}` : "",
       },
     }));
-  expect(response.status(), "Response status should be 200").toEqual(200);
-  const responseObj = await response.json();
-  expect(responseObj, "Response should match expected geometry").toStrictEqual(
-    expectedResponse
-  );
+  const actualResponseStatus = response.status();
+  expect(
+    actualResponseStatus,
+    `Response status should be ${expectedStatus}`
+  ).toEqual(expectedStatus);
+  if (actualResponseStatus === 200) {
+    const responseObj = await response.json();
+    expect(
+      responseObj,
+      "Response should match expected geometry"
+    ).toStrictEqual(expectedResponseBody);
+  } else {
+    const responseTxt = await response.text();
+    expect(responseTxt, `Response text should match expected text`).toEqual(
+      expectedResponseBody
+    );
+  }
 }
-
-// TODO: Consider adding a test for user with no rights after more features are added to the search API
 
 searchApis.forEach((searchApi) => {
   test(
     `Get ${searchApi?.url} for Chicago area (guest)`,
     { tag: "@guest" },
     async ({ request }) => {
-      test.fixme(
-        searchApi.name === "search atlas",
-        "Fix issue https://kontur.fibery.io/Tasks/Task/BE-Search-answers-200-ok-and-instead-of-401-for-request-with-no-auth-19793 to activate this test"
-      );
-      await testSearchApi({
-        searchApi,
-        request,
-        query: "chicago",
-        expectedResponse: chicagoSearchResponse,
-      });
+      if (searchApi.name === "search atlas") {
+        await testSearchApi({
+          searchApi,
+          request,
+          query: "chicago",
+          expectedStatus: 401,
+          expectedResponseBody: `401 Unauthorized: \"unauthorized\"`,
+        });
+      } else {
+        await testSearchApi({
+          searchApi,
+          request,
+          query: "chicago",
+          expectedResponseBody: chicagoSearchResponse,
+        });
+      }
     }
   );
   test(
-    `Get ${searchApi?.url} for Chicago area`,
+    `Get ${searchApi?.url} for Chicago area (pro user)`,
     { tag: "@pro_user" },
     async ({ request }) => {
       await testSearchApi({
         searchApi,
         request,
         query: "chicago",
-        expectedResponse: chicagoSearchResponse,
+        expectedResponseBody: chicagoSearchResponse,
         authToken: process.env.ACCESS_TOKEN,
       });
+    }
+  );
+  test(
+    `Get ${searchApi?.url} with invalid token`,
+    { tag: "@guest" },
+    async ({ request }) => {
+      await testSearchApi({
+        searchApi,
+        request,
+        query: "chicago",
+        expectedResponseBody: "",
+        authToken: "Bearer invalid-token",
+        expectedStatus: 401,
+      });
+    }
+  );
+  test(
+    `Get ${searchApi?.url} for Chicago area (user with no rights)`,
+    { tag: "@user_no_rights" },
+    async ({ request }) => {
+      if (searchApi.name === "search atlas") {
+        await testSearchApi({
+          searchApi,
+          request,
+          query: "chicago",
+          expectedStatus: 401,
+          expectedResponseBody: `401 Unauthorized: \"unauthorized\"`,
+          authToken: process.env.ACCESS_TOKEN_USER_NO_RIGHTS,
+        });
+      } else {
+        await testSearchApi({
+          searchApi,
+          request,
+          query: "chicago",
+          expectedResponseBody: chicagoSearchResponse,
+          authToken: process.env.ACCESS_TOKEN_USER_NO_RIGHTS,
+        });
+      }
     }
   );
 });
