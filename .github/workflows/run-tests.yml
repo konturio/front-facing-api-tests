@@ -26,6 +26,12 @@ jobs:
       TEST_PRO_PASSWORD: ${{ secrets.TEST_PRO_PASSWORD }}
       DEV_PRO_EMAIL: ${{ secrets.DEV_PRO_EMAIL }}
       DEV_PRO_PASSWORD: ${{ secrets.DEV_PRO_PASSWORD }}
+      PROD_NO_RIGHTS_EMAIL: ${{ secrets.PROD_NO_RIGHTS_EMAIL }}
+      PROD_NO_RIGHTS_PASSWORD: ${{ secrets.PROD_NO_RIGHTS_PASSWORD }}
+      TEST_NO_RIGHTS_EMAIL: ${{ secrets.TEST_NO_RIGHTS_EMAIL }}
+      TEST_NO_RIGHTS_PASSWORD: ${{ secrets.TEST_NO_RIGHTS_PASSWORD }}
+      DEV_NO_RIGHTS_EMAIL: ${{ secrets.DEV_NO_RIGHTS_EMAIL }}
+      DEV_NO_RIGHTS_PASSWORD: ${{ secrets.DEV_NO_RIGHTS_PASSWORD }}
       SLACK_BOT_USER_OAUTH_TOKEN: ${{secrets.PLAYWRIGHT_TOKEN }}
 
     steps:
@@ -45,11 +51,17 @@ jobs:
           ENV_PREFIX=$(echo "$ENVIRONMENT" | tr '[:lower:]' '[:upper:]') # Convert to uppercase
           EMAIL_VAR_NAME="${ENV_PREFIX}_PRO_EMAIL"
           PASSWORD_VAR_NAME="${ENV_PREFIX}_PRO_PASSWORD"
+          EMAIL_NO_RIGHTS_VAR_NAME="${ENV_PREFIX}_NO_RIGHTS_EMAIL"
+          PASSWORD_NO_RIGHTS_VAR_NAME="${ENV_PREFIX}_NO_RIGHTS_PASSWORD"
           EMAIL="${!EMAIL_VAR_NAME}"
           PASSWORD="${!PASSWORD_VAR_NAME}"
+          EMAIL_NO_RIGHTS="${!EMAIL_NO_RIGHTS_VAR_NAME}"
+          PASSWORD_NO_RIGHTS="${!PASSWORD_NO_RIGHTS_VAR_NAME}"
           rm -rf .env.playwright
           echo "EMAIL_PRO=$EMAIL" >> .env.playwright
           echo "PASSWORD_PRO=$PASSWORD" >> .env.playwright
+          echo "EMAIL_NO_RIGHTS=$EMAIL_NO_RIGHTS" >> .env.playwright
+          echo "PASSWORD_NO_RIGHTS=$PASSWORD_NO_RIGHTS" >> .env.playwright
           echo "SLACK_BOT_USER_OAUTH_TOKEN=${SLACK_BOT_USER_OAUTH_TOKEN}" >> .env.playwright
           echo "ENVIRONMENT=$ENVIRONMENT" >> .env.playwright
       - name: Cache node modules

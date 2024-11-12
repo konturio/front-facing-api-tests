@@ -36,9 +36,9 @@ const linksAtAtlasAboutPage = [
   "about-atlas-1.png",
   "about-atlas-2.png",
   "/pricing",
-  "about-atlas-3.png",
-  "about-atlas-4.png",
-  "about-atlas-5.png",
+  "https://www.youtube.com/embed/aCXaAYEW0oM",
+  "https://www.youtube.com/embed/g7WMD10DMPs?si=Gl6RdNM0L3ufi0uF",
+  "https://www.youtube.com/embed/Md5Mex-POBo",
   "https://www.kontur.io/atlas",
 ];
 const linksAtSmartCityAboutPage = [
