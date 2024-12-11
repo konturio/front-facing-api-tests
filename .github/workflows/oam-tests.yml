@@ -1,0 +1,64 @@
+name: Run OAM tests on prod env
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/30 * * * *"
+
+jobs:
+  tests:
+    name: Run API tests
+    timeout-minutes: 20
+    runs-on: ubuntu-latest
+    env:
+      ENVIRONMENT: "prod"
+      SLACK_BOT_USER_OAUTH_TOKEN: ${{secrets.PLAYWRIGHT_TOKEN_OAM }}
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "21"
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 9
+      - name: Create .env file
+        shell: bash
+        run: |
+          ENV_PREFIX=$(echo "$ENVIRONMENT" | tr '[:lower:]' '[:upper:]') # Convert to uppercase
+          rm -rf .env.playwright
+          echo "SLACK_BOT_USER_OAUTH_TOKEN=${SLACK_BOT_USER_OAUTH_TOKEN}" >> .env.playwright
+          echo "ENVIRONMENT=$ENVIRONMENT" >> .env.playwright
+      - name: Cache node modules
+        id: cache-npm
+        uses: actions/cache@v4
+        env:
+          cache-name: playwright-cache
+        with:
+          path: |
+            ~/.npm
+            ~/.cache/ms-playwright/
+          key: ${{ runner.os }}-${{ env.cache-name }}
+          restore-keys: |
+            ${{ runner.os }}-${{ env.cache-name }}
+            ${{ runner.os }}-
+
+      - name: Update playwright and install dependencies
+        shell: bash
+        run: |
+          pnpm add -g playwright@latest
+          pnpm add -D @playwright/test@latest
+          npx playwright install --with-deps
+
+      - name: Run OAM tests
+        run: npx playwright test oam.spec.ts
+
+      - name: Upload tests results
+        uses: actions/upload-artifact@v4
+        if: ${{ !cancelled() }}
+        with:
+          name: playwright-report
+          path: playwright-report/
+          retention-days: 30

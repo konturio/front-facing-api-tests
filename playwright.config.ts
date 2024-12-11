@@ -95,6 +95,11 @@ export default defineConfig({
     {
       name: "api_tests",
       dependencies: ["setup"],
+      testIgnore: "oam.spec.ts",
+    },
+    {
+      name: "oam_tests",
+      testMatch: "oam.spec.ts",
     },
   ],
 });
