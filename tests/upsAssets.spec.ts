@@ -33,13 +33,13 @@ const linksAtDNAboutPage = [
 // Once https://kontur.fibery.io/Tasks/Task/BE-Rename-images-at-about-page-(about-atlas-1.png---about-atlas-area-selection.png)-19826 is fixed, update links to images
 
 const linksAtAtlasAboutPage = [
-  "about-atlas-1.png",
-  "about-atlas-2.png",
+  "about-atlas-cover-with-logo.png",
+  "about-atlas-data-flow.png",
   "/pricing",
-  "https://www.youtube.com/embed/aCXaAYEW0oM",
-  "https://www.youtube.com/embed/g7WMD10DMPs?si=Gl6RdNM0L3ufi0uF",
-  "https://www.youtube.com/embed/Md5Mex-POBo",
+  "https://www.youtube.com/watch?v=aCXaAYEW0oM::800,470,true",
+  "https://www.youtube.com/watch?v=g7WMD10DMPs::800,470,true",
   "https://www.kontur.io/atlas",
+  "https://www.youtube.com/watch?v=Md5Mex-POBo::800,470,true",
 ];
 const linksAtSmartCityAboutPage = [
   "https://www.kontur.io/blog/waste-management/",
