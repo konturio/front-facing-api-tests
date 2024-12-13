@@ -36,7 +36,7 @@ export default defineConfig({
     [
       "./node_modules/playwright-slack-report/dist/src/SlackReporter.js",
       {
-        channels: ["health_check"], // provide one or more Slack channels
+        channels: [process.env.TEST_OAM ? "oam-monitoring" : "health_check"], // provide one or more Slack channels
         sendResults: "always", // "always" , "on-failure", "off"
         maxNumberOfFailuresToShow: 100,
         meta: [
@@ -50,11 +50,11 @@ export default defineConfig({
           },
           {
             key: `Type ⚙️`,
-            value: `API tests`,
+            value: `${process.env.TEST_OAM ? "OAM" : "API"} tests`,
           },
           {
-            key: "Tested user with PRO rights",
-            value: process.env.EMAIL_PRO,
+            key: `${process.env.TEST_OAM ? "No users tested" : "Tested user with PRO rights"}`,
+            value: `${process.env.TEST_OAM ? "-" : process.env.EMAIL_PRO}`,
           },
           {
             key: `Note`,
@@ -63,8 +63,7 @@ export default defineConfig({
           },
           {
             key: `Workflow runs 🦾`,
-            value:
-              "<https://github.com/konturio/front-facing-api-tests/actions/workflows/run-tests.yml|(see)>",
+            value: `${process.env.TEST_OAM ? "<https://github.com/konturio/front-facing-api-tests/actions/workflows/oam-tests.yml|(see)>" : "<https://github.com/konturio/front-facing-api-tests/actions/workflows/run-tests.yml|(see)>"}`,
           },
         ],
         slackOAuthToken: process.env.SLACK_BOT_USER_OAUTH_TOKEN,
@@ -95,6 +94,11 @@ export default defineConfig({
     {
       name: "api_tests",
       dependencies: ["setup"],
+      testIgnore: "oam.spec.ts",
+    },
+    {
+      name: "oam_tests",
+      testMatch: "oam.spec.ts",
     },
   ],
 });

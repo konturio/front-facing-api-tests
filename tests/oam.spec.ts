@@ -180,7 +180,7 @@ test.describe(`Testing OAM mosaic clusters`, () => {
       expect(
         response.status(),
         `${clusterWithNoTiles.url} should answer 200`
-      ).toEqual(200);
+      ).toEqual(209);
       const text =
         await test.step("Getting text out of response body", async () =>
           await response.text());
