@@ -2,11 +2,11 @@ name: Run OAM tests on prod env
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "*/30 * * * *"
 
 jobs:
   tests:
-    name: Run API tests
+    name: Run OAM tests
     timeout-minutes: 20
     runs-on: ubuntu-latest
     env:
@@ -15,6 +15,7 @@ jobs:
       TEST_OAM: true
       GMAIL_TO_AUTH: ${{ secrets.GMAIL_TO_AUTH }}
       GMAIL_PASSWORD_TO_AUTH: ${{ secrets.GMAIL_PASSWORD_TO_AUTH }}
+      EMAILS_TO_NOTIFY: ${{secrets.EMAILS_TO_NOTIFY}}
 
     steps:
       - name: Checkout code
@@ -73,7 +74,12 @@ jobs:
           username: ${{env.GMAIL_TO_AUTH}}
           password: ${{env.GMAIL_PASSWORD_TO_AUTH}}
           server_port: 465
-          subject: It's OAM tests. We've failed!
-          to: ${{env.GMAIL_TO_AUTH}}
-          from: OAM Hero <botuser-T029PK78X-B085C3ZUC5N@slack-bots.com>
-          body: OAM tests job's failed. Please check oam-monitoring channel in Kontur Slack for details. Also check workflow runs page for even more details.
+          subject: We're OAM tests and we have failed!
+          to: ${{env.EMAILS_TO_NOTIFY}}
+          body: |
+            OAM tests job's failed. 
+
+            Please check oam-monitoring channel in Kontur Slack for details (https://konturio.slack.com/archives/C085AP9HE2C). 
+            Also check workflow runs page for even more details (https://github.com/konturio/front-facing-api-tests/actions/workflows/oam-tests.yml).
+
+            Thanks, your OAM Hero.
