@@ -75,6 +75,7 @@ jobs:
           password: ${{env.GMAIL_PASSWORD_TO_AUTH}}
           server_port: 465
           subject: We're OAM tests and we have failed!
+          from: OAM Hero
           to: ${{env.EMAILS_TO_NOTIFY}}
           body: |
             OAM tests job's failed. 
