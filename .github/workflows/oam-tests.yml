@@ -2,7 +2,7 @@ name: Run OAM tests on prod env
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/30 * * * *"
+    - cron: "*/5 * * * *"
 
 jobs:
   tests:
@@ -28,7 +28,6 @@ jobs:
       - name: Create .env file
         shell: bash
         run: |
-          ENV_PREFIX=$(echo "$ENVIRONMENT" | tr '[:lower:]' '[:upper:]') # Convert to uppercase
           rm -rf .env.playwright
           echo "SLACK_BOT_USER_OAUTH_TOKEN=${SLACK_BOT_USER_OAUTH_TOKEN}" >> .env.playwright
           echo "ENVIRONMENT=$ENVIRONMENT" >> .env.playwright
@@ -64,3 +63,13 @@ jobs:
           name: playwright-report
           path: playwright-report/
           retention-days: 30
+      - name: Send email if job failed
+        uses: dawidd6/action-send-mail@v4
+        if: ${{ failure() }}
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          subject: OAM tests - ${{ github.job }} failed
+          to: amurashka@kontur.io
+          from: OAM Hero <botuser-T029PK78X-B085C3ZUC5N@slack-bots.com>
+          body: OAM tests job failed. Please check oam-monitoring channel in Kontur Slack for details.
