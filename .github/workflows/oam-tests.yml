@@ -13,6 +13,8 @@ jobs:
       ENVIRONMENT: "prod"
       SLACK_BOT_USER_OAUTH_TOKEN: ${{secrets.PLAYWRIGHT_TOKEN_OAM }}
       TEST_OAM: true
+      GMAIL_TO_AUTH: ${{ secrets.GMAIL_TO_AUTH }}
+      GMAIL_PASSWORD_TO_AUTH: ${{ secrets.GMAIL_PASSWORD_TO_AUTH }}
 
     steps:
       - name: Checkout code
@@ -68,8 +70,10 @@ jobs:
         if: ${{ failure() }}
         with:
           server_address: smtp.gmail.com
+          username: ${{env.GMAIL_TO_AUTH}}
+          password: ${{env.GMAIL_PASSWORD_TO_AUTH}}
           server_port: 465
-          subject: OAM tests - ${{ github.job }} failed
-          to: amurashka@kontur.io
+          subject: It's OAM tests. We've failed!
+          to: ${{env.GMAIL_TO_AUTH}}
           from: OAM Hero <botuser-T029PK78X-B085C3ZUC5N@slack-bots.com>
-          body: OAM tests job failed. Please check oam-monitoring channel in Kontur Slack for details.
+          body: OAM tests job's failed. Please check oam-monitoring channel in Kontur Slack for details. Also check workflow runs page for even more details.
