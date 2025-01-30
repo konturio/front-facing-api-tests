@@ -1,0 +1,27 @@
+query BivariateStatistic($polygon: JSON!) {
+  polygonStatistic(polygonStatisticRequest: { polygon: $polygon }) {
+    bivariateStatistic {
+      overlays {
+        name
+        colors {
+          id
+          color
+        }
+        x {
+          label
+          quotients {
+            name
+            maxZoom
+          }
+        }
+        y {
+          label
+          quotients {
+            name
+            maxZoom
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+query BivariateStatistic($polygon: JSON!) {
+  polygonStatistic(polygonStatisticRequest: { polygon: $polygon }) {
+    bivariateStatistic {
+      indicators {
+        name
+        label
+        emoji
+        copyrights
+        direction
+      }
+    }
+  }
+}

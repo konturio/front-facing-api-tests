@@ -1,0 +1,12 @@
+query ThermalSpotStatistic($polygon: JSON!) {
+  polygonStatistic(polygonStatisticRequest: { polygon: $polygon }) {
+    analytics {
+      thermalSpotStatistic {
+        industrialAreaKm2
+        hotspotDaysPerYearMax
+        volcanoesCount
+        forestAreaKm2
+      }
+    }
+  }
+}

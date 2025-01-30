@@ -1,0 +1,15 @@
+query BivariateStatisticAxis($polygon: JSON!) {
+  polygonStatistic(polygonStatisticRequest: { polygon: $polygon }) {
+    bivariateStatistic {
+      axis {
+        label
+        steps {
+          label
+          value
+        }
+        quality
+        quotient
+      }
+    }
+  }
+}

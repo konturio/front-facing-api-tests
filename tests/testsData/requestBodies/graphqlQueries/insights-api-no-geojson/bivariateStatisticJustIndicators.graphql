@@ -1,0 +1,16 @@
+query BivariateStatistic {
+  polygonStatistic(polygonStatisticRequest: {}) {
+    bivariateStatistic {
+      indicators {
+        name
+        emoji
+        maxZoom
+        unit {
+          id
+          shortName
+          longName
+        }
+      }
+    }
+  }
+}

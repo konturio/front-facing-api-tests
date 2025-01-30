@@ -1,0 +1,34 @@
+query FunctionsAnalytics($polygon: JSON!) {
+  polygonStatistic(polygonStatisticRequest: { polygon: $polygon }) {
+    analytics {
+      functions(
+        args: [
+          { name: "sumX", id: "population", x: "population" }
+          { name: "sumX", id: "populatedAreaKm2", x: "populated_area_km2" }
+          { name: "percentageXWhereNoY", x: "populated_area_km2", y: "count" }
+          { name: "sumXWhereNoY", x: "populated_area_km2", y: "count" }
+          {
+            name: "percentageXWhereNoY"
+            x: "populated_area_km2"
+            y: "building_count"
+          }
+          {
+            name: "percentageXWhereNoY"
+            x: "populated_area_km2"
+            y: "highway_length"
+          }
+        ]
+      ) {
+        id
+        result
+        unit {
+          id
+          shortName
+          longName
+        }
+        x_label
+        y_label
+      }
+    }
+  }
+}

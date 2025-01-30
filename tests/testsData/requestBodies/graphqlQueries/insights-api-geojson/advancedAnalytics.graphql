@@ -1,0 +1,18 @@
+query AdvancedAnalytics($polygon: JSON!) {
+  polygonStatistic(polygonStatisticRequest: { polygon: $polygon }) {
+    analytics {
+      advancedAnalytics {
+        numerator
+        denominator
+        numeratorLabel
+        denominatorLabel
+        resolution
+        analytics {
+          value
+          calculation
+          quality
+        }
+      }
+    }
+  }
+}
