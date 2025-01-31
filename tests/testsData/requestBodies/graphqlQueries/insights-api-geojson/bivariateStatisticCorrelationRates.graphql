@@ -1,4 +1,4 @@
-query BivariateStatisticCorrelationRates($polygon: JSON!) {
+query BivariateStatisticCorrelationRates($polygon: String!) {
   polygonStatistic(polygonStatisticRequest: { polygon: $polygon }) {
     bivariateStatistic {
       correlationRates {

@@ -1,4 +1,4 @@
-query UrbanCoreAnalytics($polygon: JSON!) {
+query UrbanCoreAnalytics($polygon: String!) {
   polygonStatistic(polygonStatisticRequest: { polygon: $polygon }) {
     analytics {
       urbanCore {

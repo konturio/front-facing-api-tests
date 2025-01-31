@@ -1,4 +1,4 @@
-query BivariateStatistic($polygon: JSON!) {
+query BivariateStatistic($polygon: String!) {
   polygonStatistic(polygonStatisticRequest: { polygon: $polygon }) {
     bivariateStatistic {
       indicators {

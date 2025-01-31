@@ -1,4 +1,4 @@
-query AdvancedAnalyticsArgs($polygon: JSON!) {
+query AdvancedAnalyticsArgs($polygon: String!) {
   polygonStatistic(polygonStatisticRequest: { polygon: $polygon }) {
     analytics {
       advancedAnalytics(

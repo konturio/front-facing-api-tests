@@ -1,4 +1,4 @@
-query FunctionsAnalytics($polygon: JSON!) {
+query FunctionsAnalytics($polygon: String!) {
   polygonStatistic(polygonStatisticRequest: { polygon: $polygon }) {
     analytics {
       functions(

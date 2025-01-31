@@ -1,4 +1,4 @@
-query HumanitarianImpact($polygon: JSON!) {
+query HumanitarianImpact($polygon: String!) {
   polygonStatistic(polygonStatisticRequest: { polygon: $polygon }) {
     analytics {
       humanitarianImpact

@@ -1,4 +1,4 @@
-query ThermalSpotStatistic($polygon: JSON!) {
+query ThermalSpotStatistic($polygon: String!) {
   polygonStatistic(polygonStatisticRequest: { polygon: $polygon }) {
     analytics {
       thermalSpotStatistic {

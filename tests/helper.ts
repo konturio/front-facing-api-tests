@@ -52,7 +52,7 @@ export function getApis(apisNames: string[], fileName: string): Api[] {
  * @returns The request body as a JS object
  */
 
-export function getBody(
+export function getJSON(
   fileName: string,
   { isRequest }: { isRequest: boolean }
 ): [] {
@@ -67,6 +67,25 @@ export function getBody(
       .toString();
     const requestBody = JSON.parse(data);
     return requestBody;
+  } catch (error) {
+    throw new Error(error);
+  }
+}
+
+export function getGraphqlQuery(
+  fileName: string,
+  { useGeojson }: { useGeojson: boolean }
+): string {
+  try {
+    const data = fs
+      .readFileSync(
+        path.join(
+          __dirname,
+          `./testsData/requestBodies/graphqlQueries/${useGeojson ? "insights-api-geojson" : "insights-api-no-geojson"}/${fileName}.graphql`
+        )
+      )
+      .toString();
+    return data;
   } catch (error) {
     throw new Error(error);
   }
