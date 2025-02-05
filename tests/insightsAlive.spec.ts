@@ -1,5 +1,5 @@
 import { test, expect } from "@playwright/test";
-import { getApis, getJSON, getGraphqlQuery } from "./helper";
+import { getApis, getJSON, getGraphqlQuery, sendGraphqlQuery } from "./helper";
 
 const [graphqlEndpointToTest] = getApis(
   ["insights api graphql"],
@@ -59,17 +59,13 @@ test.describe("Check insights api graphql queries with geojson", () => {
       `Check ${queriesFilesWithGeojson[i]} endpoint to answer 200ok and answer in ${queryDeadline}ms`,
       { tag: "@guest" },
       async ({ request }) => {
-        const response = await request.post(graphqlEndpointToTest.url, {
-          data: {
-            query: graphqlQueriesWithGeojson[i],
-            variables: {
-              polygon: JSON.stringify(polygon),
-            },
-          },
+        const responseObj = await sendGraphqlQuery({
+          request,
+          url: graphqlEndpointToTest.url,
           timeout: queryDeadline,
+          query: graphqlQueriesWithGeojson[i],
+          polygon: JSON.stringify(polygon),
         });
-        expect(response.status()).toEqual(200);
-        const responseObj = await response.json();
         expect(responseObj.data).toBeDefined();
         expect(responseObj.data).not.toBeNull();
       }
@@ -86,14 +82,12 @@ test.describe("Check insights api graphql queries with no geojson", () => {
       `Check ${queriesFilesNoGeojson[i]} endpoint to answer 200ok and answer in ${queryDeadline}ms`,
       { tag: "@guest" },
       async ({ request }) => {
-        const response = await request.post(graphqlEndpointToTest.url, {
-          data: {
-            query: graphqlQueriesWithoutGeojson[i],
-          },
+        const responseObj = await sendGraphqlQuery({
+          request,
+          url: graphqlEndpointToTest.url,
           timeout: queryDeadline,
+          query: graphqlQueriesWithoutGeojson[i],
         });
-        expect(response.status()).toEqual(200);
-        const responseObj = await response.json();
         expect(responseObj.data).toBeDefined();
         expect(responseObj.data).not.toBeNull();
       }

@@ -1,5 +1,6 @@
 import fs from "fs";
 import path from "path";
+import { APIRequestContext, expect } from "@playwright/test";
 
 export type Api = {
   env: string;
@@ -72,6 +73,12 @@ export function getJSON(
   }
 }
 
+/**
+ * Get graphql query from test data files
+ * @param fileName The name of the file containing graphql query
+ * @param useGeojson Does your query use geojson or not
+ */
+
 export function getGraphqlQuery(
   fileName: string,
   { useGeojson }: { useGeojson: boolean }
@@ -89,4 +96,31 @@ export function getGraphqlQuery(
   } catch (error) {
     throw new Error(error);
   }
+}
+
+export async function sendGraphqlQuery({
+  request,
+  url,
+  timeout,
+  query,
+  polygon,
+}: {
+  request: APIRequestContext;
+  url: string;
+  timeout: number;
+  query: string;
+  polygon?: string;
+}) {
+  const response = await request.post(url, {
+    data: {
+      query,
+      variables: {
+        polygon,
+      },
+    },
+    timeout,
+  });
+  expect(response.status()).toEqual(200);
+  const responseObj = await response.json();
+  return responseObj;
 }
