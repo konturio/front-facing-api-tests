@@ -1,10 +1,13 @@
 import { defineConfig, devices } from "@playwright/test";
 import * as dotenv from "dotenv";
 import { LogLevel } from "@slack/web-api/dist/index.js";
+import path from "path";
 
 dotenv.config({
   path: ".env.playwright",
 });
+
+const globalSetup = path.resolve("./tests/global-setup.ts");
 
 /**
  * Read environment variables from file.
@@ -17,6 +20,7 @@ dotenv.config({
  * See https://playwright.dev/docs/test-configuration.
  */
 export default defineConfig({
+  globalSetup,
   globalTimeout: process.env.CI ? 900000 : 600000,
   timeout: process.env.CI ? 180000 : 130000,
   expect: {

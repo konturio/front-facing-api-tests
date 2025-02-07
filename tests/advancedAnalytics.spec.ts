@@ -7,11 +7,6 @@ type Analytics = {
   quality: number;
 };
 
-const [graphqlEndpointToTest] = getApis(
-  [`insights api graphql`],
-  `insights-api-graphql`
-);
-
 const polygon = getJSON(`mayotte-polygon-variable`, { isRequest: true });
 
 const queryDeadline = 30000;
@@ -39,7 +34,7 @@ test.describe(`Check advanced analytics responses in general`, () => {
       async ({ request }) => {
         const responseObj = await sendGraphqlQuery({
           request,
-          url: graphqlEndpointToTest.url,
+          url: process.env.GRAPHQL_ENDPOINT as string,
           timeout: queryDeadline,
           query: graphqlQueriesWithGeojson[i],
           polygon: JSON.stringify(polygon),
@@ -203,7 +198,7 @@ test.describe(`Advanced analytics extra tests`, () => {
 
     const responseObj = await sendGraphqlQuery({
       request,
-      url: graphqlEndpointToTest.url,
+      url: process.env.GRAPHQL_ENDPOINT as string,
       timeout: queryDeadline,
       query: graphqlQueriesWithGeojson[0],
       polygon: JSON.stringify(polygon),
@@ -226,7 +221,7 @@ test.describe(`Advanced analytics extra tests`, () => {
   test(`Analytics should be ordered by min quality`, async ({ request }) => {
     const responseObj = await sendGraphqlQuery({
       request,
-      url: graphqlEndpointToTest.url,
+      url: process.env.GRAPHQL_ENDPOINT as string,
       timeout: queryDeadline,
       query: graphqlQueriesWithGeojson[0],
       polygon: JSON.stringify(polygon),
@@ -263,7 +258,7 @@ test.describe(`Advanced analytics extra tests`, () => {
   test(`Reference layers should have non-null data`, async ({ request }) => {
     const responseObj = await sendGraphqlQuery({
       request,
-      url: graphqlEndpointToTest.url,
+      url: process.env.GRAPHQL_ENDPOINT as string,
       timeout: queryDeadline,
       query: graphqlQueriesWithGeojson[0],
       polygon: JSON.stringify(polygon),

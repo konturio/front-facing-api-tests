@@ -1,11 +1,6 @@
 import { test, expect } from "@playwright/test";
 import { getApis, getJSON, getGraphqlQuery, sendGraphqlQuery } from "./helper";
 
-const [graphqlEndpointToTest] = getApis(
-  ["insights api graphql"],
-  "insights-api-graphql"
-);
-
 const polygon = getJSON("mayotte-polygon-variable", { isRequest: true });
 
 const queryDeadline = 30000;
@@ -61,7 +56,7 @@ test.describe("Check insights api graphql queries with geojson", () => {
       async ({ request }) => {
         const responseObj = await sendGraphqlQuery({
           request,
-          url: graphqlEndpointToTest.url,
+          url: process.env.GRAPHQL_ENDPOINT as string,
           timeout: queryDeadline,
           query: graphqlQueriesWithGeojson[i],
           polygon: JSON.stringify(polygon),
@@ -84,7 +79,7 @@ test.describe("Check insights api graphql queries with no geojson", () => {
       async ({ request }) => {
         const responseObj = await sendGraphqlQuery({
           request,
-          url: graphqlEndpointToTest.url,
+          url: process.env.GRAPHQL_ENDPOINT as string,
           timeout: queryDeadline,
           query: graphqlQueriesWithoutGeojson[i],
         });
