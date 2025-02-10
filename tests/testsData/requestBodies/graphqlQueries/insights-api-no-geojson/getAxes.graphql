@@ -1,0 +1,35 @@
+query GetAxes {
+  getAxes {
+    axis {
+      label
+      datasetStats {
+        minValue
+        maxValue
+        mean
+        stddev
+      }
+      transformation {
+        transformation
+        skew
+        lowerBound
+        upperBound
+        min
+      }
+      steps {
+        label
+        value
+      }
+      quality
+      quotient
+      quotients {
+        name
+        label
+        emoji
+        direction
+        description
+        coverage
+        updateFrequency
+      }
+    }
+  }
+}

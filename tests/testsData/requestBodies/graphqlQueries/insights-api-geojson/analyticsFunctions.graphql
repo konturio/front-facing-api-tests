@@ -1,0 +1,30 @@
+query FunctionsStatistic($polygon: String!) {
+  polygonStatistic(polygonStatisticRequest: { polygon: $polygon }) {
+    analytics {
+      functions(
+        args: [
+          { name: "sumX", id: "populatedareakm2", x: "populated_area_km2" }
+          { name: "sumX", id: "industrialareakm2", x: "industrial_area" }
+          { name: "sumX", id: "forestareakm2", x: "forest" }
+          { name: "sumX", id: "volcanoescount", x: "volcanos_count" }
+          { name: "maxX", id: "hotspotdaysperyearmax", x: "wildfires" }
+          {
+            name: "percentageXWhereNoY"
+            id: "osmgapspercentage"
+            x: "populated_area_km2"
+            y: "count"
+          }
+          {
+            name: "sumXWhereNoY"
+            id: "osmgapssum"
+            x: "populated_area_km2"
+            y: "count"
+          }
+        ]
+      ) {
+        id
+        result
+      }
+    }
+  }
+}

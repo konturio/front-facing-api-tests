@@ -1,0 +1,15 @@
+query OsmQualityStatistic($polygon: String!) {
+  polygonStatistic(polygonStatisticRequest: { polygon: $polygon }) {
+    analytics {
+      osmQuality {
+        areaWithoutOsmRoadsKm2
+        peopleWithoutOsmRoads
+        peopleWithoutOsmObjects
+        peopleWithoutOsmBuildings
+        areaWithoutOsmObjectsKm2
+        areaWithoutOsmBuildingsKm2
+        osmGapsPercentage
+      }
+    }
+  }
+}

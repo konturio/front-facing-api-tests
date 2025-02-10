@@ -1,0 +1,17 @@
+[
+  {
+    "env": "prod",
+    "name": "insights api graphql",
+    "url": "https://apps.kontur.io/insights-api/graphql"
+  },
+  {
+    "env": "test",
+    "name": "insights api graphql",
+    "url": "https://test-apps.konturlabs.com/insights-api/graphql"
+  },
+  {
+    "env": "dev",
+    "name": "insights api graphql",
+    "url": "https://test-apps02.konturlabs.com/insights-api/graphql"
+  }
+]

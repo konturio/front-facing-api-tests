@@ -1,9 +1,9 @@
 import { test, expect } from "@playwright/test";
-import { getApis, getBody } from "./helper";
+import { getApis, getJSON } from "./helper";
 import langdetect from "langdetect";
 
 const languagesToTestLlm = ["ar", "en"];
-const requestLlmBody = getBody("llm-request", { isRequest: true });
+const requestLlmBody = getJSON("llm-request", { isRequest: true });
 const [llmAnalyticsUrl] = getApis(["llmAnalytics"], "llm-analytics").map(
   (apiObj) => apiObj?.url
 );

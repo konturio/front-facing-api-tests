@@ -1,0 +1,9 @@
+query GetTransformations {
+  getTransformations(numerator: "population", denominator: "area_km2") {
+    transformation {
+      transformation
+      skew
+      points
+    }
+  }
+}

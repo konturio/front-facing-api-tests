@@ -1,0 +1,7 @@
+query HumanitarianImpact($polygon: String!) {
+  polygonStatistic(polygonStatisticRequest: { polygon: $polygon }) {
+    analytics {
+      humanitarianImpact
+    }
+  }
+}

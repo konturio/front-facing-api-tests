@@ -1,0 +1,11 @@
+query PopulationStatistic($polygon: String!) {
+  polygonStatistic(polygonStatisticRequest: { polygon: $polygon }) {
+    analytics {
+      population {
+        population
+        urban
+        gdp
+      }
+    }
+  }
+}
