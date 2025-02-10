@@ -1,93 +1,78 @@
 import { test, expect } from "@playwright/test";
 import { getApis, getJSON, getGraphqlQuery, sendGraphqlQuery } from "./helper";
 
-const polygon = getJSON(`mayotte-polygon-variable`, { isRequest: true });
+const polygon = getJSON(`sicily-polygon`, { isRequest: true });
 
 const queryDeadline = 30000;
+const expectedMinPopulation = 5000000;
+const expectedMaxPopulation = 10000000;
+const expectedMinUrbanPopulation = 4000000;
+const expectedMinGDP = 100000000000;
 
-const thermalSpotStatisticQuery = getGraphqlQuery("analyticsPopulation", {
+const populationQuery = getGraphqlQuery("analyticsPopulation", {
   useGeojson: true,
 });
 
+type PopulationAnalytics = {
+  population: number;
+  gdp: number;
+  urban: number;
+};
+
 const fieldsToCheck = ["population", "gdp", "urban"];
 
-// test(`Check population statistics calculation`, async ({ request }) => {
-//   const responseObj = await sendGraphqlQuery({
-//     request,
-//     url: process.env.GRAPHQL_ENDPOINT as string,
-//     timeout: queryDeadline,
-//     query: thermalSpotStatisticQuery,
-//     polygon: JSON.stringify(polygon),
-//   });
+test(`Check population statistics calculation in Sicily region`, async ({
+  request,
+}) => {
+  const responseObj = await sendGraphqlQuery({
+    request,
+    url: process.env.GRAPHQL_ENDPOINT as string,
+    timeout: queryDeadline,
+    query: populationQuery,
+    polygon: JSON.stringify(polygon),
+  });
 
-//   const stats = responseObj?.data?.polygonStatistic?.analytics?.population;
-//   const statsV2 = responseObj?.data?.polygonStatistic?.analytics?.population;
+  const stats: PopulationAnalytics =
+    responseObj?.data?.polygonStatistic?.analytics?.population;
 
-//   await test.step(`Check that result for polygon and polygonV2 are similar`, async () => {
-//     expect(stats).toStrictEqual(statsV2);
-//   });
+  for (const field of fieldsToCheck) {
+    await test.step(`Check '${field}' field is not null and >= 0`, async () => {
+      expect(stats[field], "Value should be defined").toBeDefined();
+      expect(stats[field], "Value should be >= 0").toBeGreaterThanOrEqual(0);
+      expect(stats[field], "Value should not be null").not.toBeNull();
+      expect(typeof stats[field], "Value should be of type number").toBe(
+        `number`
+      );
+    });
+  }
 
-//   const fieldsToCheck = [`population`, `gdp`, `urban`];
+  await test.step(`Check that not all the values are 0`, async () => {
+    const sum = Object.values(stats).reduce((acc: number, val: number) => {
+      return acc + val;
+    }, 0);
+    expect(sum, "Sum of all values should be > 0").toBeGreaterThan(0);
+  });
 
-//   for (const field of fieldsToCheck) {
-//     await test.step(`Check ${field} is not null and >= 0`, async () => {
-//       expect(stats[field]).toBeDefined();
-//       expect(stats[field]).toBeGreaterThanOrEqual(0);
-//       expect(stats[field]).not.toBeNull();
-//     });
-//   }
-
-//   await test.step(`Check that not all the values are 0`, async () => {
-//     const sum = Object.values(stats).reduce(
-//       (acc: number, val: number) => acc + val,
-//       0
-//     );
-//     expect(sum).not.toBe(0);
-//   });
-// });
-
-// test(`Check population values are in expected range`, async ({ request }) => {
-//   const responseObj = await sendGraphqlQuery({
-//     request,
-//     url: process.env.GRAPHQL_ENDPOINT as string,
-//     timeout: queryDeadline,
-//     query: thermalSpotStatisticQuery,
-//     polygon: JSON.stringify(polygon),
-//   });
-
-//   const stats = responseObj?.data?.polygonStatistic?.analytics?.population;
-//   const testData = {
-//     population: 1000,
-//     gdp: 500,
-//     urban: 300,
-//     polygon_area: 100,
-//   };
-
-//   if (testData.polygon_area && testData.polygon_area < 20) {
-//     test.skip(`DB calculation is not accurate for small polygons`);
-//   }
-
-//   const fieldsToCheck = [`population`, `gdp`, `urban`];
-
-//   for (const field of fieldsToCheck) {
-//     await test.step(`Check ${field} is in expected range`, async () => {
-//       if (stats[field] !== null && testData.polygon_area !== null) {
-//         const rangeMin = testData[field] * 0.85;
-//         const rangeMax = testData[field];
-
-//         expect(
-//           stats[field],
-//           `${field} value differs from the expected one. Expected: ${testData[field]}, actual: ${stats[field]}, area: ${testData.polygon_area}`
-//         ).toBeGreaterThanOrEqual(rangeMin);
-//         expect(
-//           stats[field],
-//           `${field} value differs from the expected one. Expected: ${testData[field]}, actual: ${stats[field]}, area: ${testData.polygon_area}`
-//         ).toBeLessThanOrEqual(rangeMax);
-//       } else {
-//         expect(
-//           testData[field] === null || testData.polygon_area === null
-//         ).toBeTruthy();
-//       }
-//     });
-//   }
-// });
+  await test.step(`Check values are in expected range`, async () => {
+    expect(
+      stats.population,
+      `Population should adequate for Sicily region (>= ${expectedMinPopulation})`
+    ).toBeGreaterThanOrEqual(expectedMinPopulation);
+    expect(
+      stats.population,
+      `Population should be less then ${expectedMaxPopulation}`
+    ).toBeLessThan(expectedMaxPopulation);
+    expect(
+      stats.urban,
+      `Urban population should adequate for Sicily region (>= ${expectedMinUrbanPopulation})`
+    ).toBeGreaterThanOrEqual(expectedMinUrbanPopulation);
+    expect(
+      stats.urban,
+      `Urban population should be less then all population`
+    ).toBeLessThan(stats.population);
+    expect(
+      stats.gdp,
+      `Gross domestic product (GDP) should adequate for Sicily region (>= ${expectedMinGDP})`
+    ).toBeGreaterThanOrEqual(expectedMinGDP);
+  });
+});

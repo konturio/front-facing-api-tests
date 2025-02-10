@@ -1,7 +1,7 @@
 import { test, expect } from "@playwright/test";
 import { getApis, getJSON, getGraphqlQuery, sendGraphqlQuery } from "./helper";
 
-const polygon = getJSON(`united-states-polygon`, { isRequest: true });
+const polygon = getJSON(`sicily-polygon`, { isRequest: true });
 
 const queryDeadline = 30000;
 
@@ -30,7 +30,7 @@ test.describe(`Thermal spots analytics tests`, () => {
       responseObj?.data?.polygonStatistic?.analytics?.thermalSpotStatistic;
 
     for (const field of fieldsToCheck) {
-      await test.step(`Check ${field} is not null and >= 0`, async () => {
+      await test.step(`Check '${field}' field is not null and >= 0`, async () => {
         expect(stats[field]).toBeDefined();
         expect(stats[field]).toBeGreaterThanOrEqual(0);
         expect(stats[field]).not.toBeNull();

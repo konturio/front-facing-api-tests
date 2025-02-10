@@ -22,6 +22,14 @@ function globalSetup() {
     [`insights api graphql`],
     `insights-api-graphql`
   );
+
+  if (!graphqlEndpointObject) {
+    throw new Error("Failed to retrieve GraphQL API endpoint configuration");
+  }
+  if (!graphqlEndpointObject.url) {
+    throw new Error("GraphQL API endpoint URL is missing from configuration");
+  }
+
   process.env.GRAPHQL_ENDPOINT = graphqlEndpointObject.url as string;
 }
 

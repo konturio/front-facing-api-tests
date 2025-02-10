@@ -120,7 +120,9 @@ export async function sendGraphqlQuery({
     },
     timeout,
   });
-  expect(response.status()).toEqual(200);
+  expect(response.status(), `POST request to ${url} should return 200`).toEqual(
+    200
+  );
   const responseObj = await response.json();
   return responseObj;
 }
