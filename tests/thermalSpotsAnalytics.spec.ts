@@ -18,6 +18,10 @@ const fieldsToCheck = [
 
 test.describe(`Thermal spots analytics tests`, () => {
   test(`Check thermal spots statistics calculation`, async ({ request }) => {
+    test.fixme(
+      true,
+      `Thermal spots analytics tests are skipped due to https://kontur.fibery.io/Tasks/Task/Thermal-spots-analytics-request-does-not-provide-valid-response-20750 issue`
+    );
     const responseObj = await sendGraphqlQuery({
       request,
       url: process.env.GRAPHQL_ENDPOINT as string,

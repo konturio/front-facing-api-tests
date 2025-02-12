@@ -3,16 +3,21 @@ import * as dotenv from "dotenv";
 import { LogLevel } from "@slack/web-api/dist/index.js";
 import path from "path";
 
-dotenv.config({
-  path: ".env.playwright",
-});
-
-const globalSetup = path.resolve("./tests/global-setup.ts");
-
 /**
  * Read environment variables from file.
  * https://github.com/motdotla/dotenv
  */
+
+dotenv.config({
+  path: [
+    ".env.playwright.local",
+    ".env.playwright.production",
+    ".env.playwright",
+  ],
+});
+
+const globalSetup = path.resolve("./tests/global-setup.ts");
+
 // import dotenv from 'dotenv';
 // dotenv.config({ path: path.resolve(__dirname, '.env') });
 
@@ -83,8 +88,6 @@ export default defineConfig({
     trace: "on-first-retry",
     actionTimeout: process.env.CI ? 15000 : 10000,
     navigationTimeout: process.env.CI ? 20000 : 10000,
-    /* Base URL to use in actions like `await page.goto('/')`. */
-    // baseURL: 'http://127.0.0.1:3000',
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
   },

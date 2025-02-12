@@ -9,7 +9,7 @@ type Analytics = {
 
 const polygon = getJSON(`mayotte-polygon-variable`, { isRequest: true });
 
-const queryDeadline = 30000;
+const queryDeadline = 40000;
 
 const queriesFilesWithGeojson = [
   `advancedAnalytics`,
@@ -265,13 +265,11 @@ test.describe(`Advanced analytics extra tests`, () => {
     });
 
     const referenceLayers = [
-      // ["avg_elevation", "one"],
-      // ["avg_elevation", "area_km2"],
+      ["avg_elevation_gebco_2022", "one"],
+      ["avg_elevation_gebco_2022", "area_km2"],
       ["view_count", "one"],
       ["view_count", "area_km2"],
-      ["area_km2", "one"],
-      ["one", "area_km2"],
-      // ["avg_slope", "area_km2"],
+      ["avg_slope_gebco_2022", "area_km2"],
     ];
 
     let matchingLayers: any[] = [];

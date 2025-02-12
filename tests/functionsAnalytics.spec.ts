@@ -9,8 +9,8 @@ type Stat = {
 const functionsToCheck = [
   {
     id: "populatedareakm2",
-    minExpectedResult: 29000,
-    maxExpectedResult: 32000,
+    minExpectedResult: process.env.ENVIRONMENT === "prod" ? 29000 : 3340,
+    maxExpectedResult: process.env.ENVIRONMENT === "prod" ? 32000 : 3700, // TODO: udjust this values after high resolution data in prod is available https://kontur.fibery.io/Tasks/User_Story/High-resolution-MCDA-tiles-2225
   },
   {
     id: "industrialareakm2",
@@ -29,8 +29,8 @@ const functionsToCheck = [
   },
   {
     id: "hotspotdaysperyearmax",
-    minExpectedResult: 130,
-    maxExpectedResult: 130,
+    minExpectedResult: process.env.ENVIRONMENT === "prod" ? 130 : 189, // TODO: udjust this value after high resolution data in prod is available https://kontur.fibery.io/Tasks/User_Story/High-resolution-MCDA-tiles-2225
+    maxExpectedResult: process.env.ENVIRONMENT === "prod" ? 130 : 189,
   },
   {
     id: "osmgapspercentage",
@@ -54,7 +54,7 @@ const functionsQuery = getGraphqlQuery("analyticsFunctions", {
 
 test.describe("Analytics functions tests", () => {
   test("Check functions calculations with test data", async ({ request }) => {
-    const responseV1 = await sendGraphqlQuery({
+    const response = await sendGraphqlQuery({
       request,
       url: process.env.GRAPHQL_ENDPOINT as string,
       timeout: queryDeadline,
@@ -62,7 +62,7 @@ test.describe("Analytics functions tests", () => {
       polygon: JSON.stringify(polygon),
     });
 
-    const stats = responseV1.data.polygonStatistic.analytics.functions;
+    const stats = response.data.polygonStatistic.analytics.functions;
 
     await test.step("Check that not all results are 0", () => {
       const sum = stats.reduce(
@@ -90,15 +90,19 @@ test.describe("Analytics functions tests", () => {
           0
         );
 
-        expect(
-          result,
-          `Result for ${id} should be >= ${func.minExpectedResult}`
-        ).toBeGreaterThanOrEqual(func.minExpectedResult);
+        expect
+          .soft(
+            result,
+            `Result for ${id} should be >= ${func.minExpectedResult}`
+          )
+          .toBeGreaterThanOrEqual(func.minExpectedResult);
 
-        expect(
-          result,
-          `Result for ${id} should be <= ${func.maxExpectedResult}`
-        ).toBeLessThanOrEqual(func.maxExpectedResult);
+        expect
+          .soft(
+            result,
+            `Result for ${id} should be <= ${func.maxExpectedResult}`
+          )
+          .toBeLessThanOrEqual(func.maxExpectedResult);
       });
     }
   });

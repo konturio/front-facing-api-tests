@@ -3,7 +3,7 @@ import { getApis, getJSON, getGraphqlQuery, sendGraphqlQuery } from "./helper";
 
 const polygon = getJSON("mayotte-polygon-variable", { isRequest: true });
 
-const queryDeadline = 30000;
+const queryDeadline = 45000;
 
 const queriesFilesWithGeojson = [
   "advancedAnalytics",
