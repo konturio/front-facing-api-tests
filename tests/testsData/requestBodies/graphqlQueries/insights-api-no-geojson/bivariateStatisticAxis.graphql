@@ -1,0 +1,38 @@
+query BivariateStatistic {
+  polygonStatistic(polygonStatisticRequest: {}) {
+    bivariateStatistic {
+      axis {
+        label
+        transformation {
+          min
+          transformation
+          skew
+        }
+        steps {
+          label
+          value
+        }
+        quality
+        quotient
+        quotients {
+          name
+          label
+          emoji
+          direction
+          description
+          coverage
+          updateFrequency
+        }
+      }
+      indicators {
+        name
+        emoji
+        unit {
+          id
+          shortName
+          longName
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+query UrbanCoreAnalytics($polygon: String!) {
+  polygonStatistic(polygonStatisticRequest: { polygon: $polygon }) {
+    analytics {
+      urbanCore {
+        urbanCorePopulation
+        urbanCoreAreaKm2
+        totalPopulatedAreaKm2
+      }
+    }
+  }
+}

@@ -1,6 +1,6 @@
 import { test, expect } from "@playwright/test";
 import { APIRequestContext } from "@playwright/test";
-import { getApis, getBody, Api } from "./helper";
+import { getApis, getJSON, Api } from "./helper";
 
 type testSearchApiOptions = {
   searchApi: Api;
@@ -15,7 +15,7 @@ const searchApis = getApis(
   ["search oam", "search atlas", "search disaster-ninja", "search smart-city"],
   "search-apis"
 );
-const chicagoSearchResponse = getBody("chicago-search", { isRequest: false });
+const chicagoSearchResponse = getJSON("chicago-search", { isRequest: false });
 
 async function testSearchApi({
   searchApi,

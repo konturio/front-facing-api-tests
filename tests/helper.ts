@@ -1,5 +1,6 @@
 import fs from "fs";
 import path from "path";
+import { APIRequestContext, expect } from "@playwright/test";
 
 export type Api = {
   env: string;
@@ -52,7 +53,7 @@ export function getApis(apisNames: string[], fileName: string): Api[] {
  * @returns The request body as a JS object
  */
 
-export function getBody(
+export function getJSON(
   fileName: string,
   { isRequest }: { isRequest: boolean }
 ): [] {
@@ -70,4 +71,64 @@ export function getBody(
   } catch (error) {
     throw new Error(error);
   }
+}
+
+/**
+ * Get graphql query from test data files
+ * @param fileName The name of the file containing graphql query
+ * @param useGeojson Does your query use geojson or not
+ */
+
+export function getGraphqlQuery(
+  fileName: string,
+  { useGeojson }: { useGeojson: boolean }
+): string {
+  try {
+    const data = fs
+      .readFileSync(
+        path.join(
+          __dirname,
+          `./testsData/requestBodies/graphqlQueries/${useGeojson ? "insights-api-geojson" : "insights-api-no-geojson"}/${fileName}.graphql`
+        )
+      )
+      .toString();
+    return data;
+  } catch (error) {
+    throw new Error(error);
+  }
+}
+
+/**
+ * This function sends graphql query with POST request and expects server to answer 200
+ * @param object object with playwright request, url to send request to, request timeout, graphql query and polygon to use
+ * @returns json format of response
+ */
+
+export async function sendGraphqlQuery({
+  request,
+  url,
+  timeout,
+  query,
+  polygon,
+}: {
+  request: APIRequestContext;
+  url: string;
+  timeout: number;
+  query: string;
+  polygon?: string;
+}) {
+  const response = await request.post(url, {
+    data: {
+      query,
+      variables: {
+        polygon,
+      },
+    },
+    timeout,
+  });
+  expect(response.status(), `POST request to ${url} should return 200`).toEqual(
+    200
+  );
+  const responseObj = await response.json();
+  return responseObj;
 }

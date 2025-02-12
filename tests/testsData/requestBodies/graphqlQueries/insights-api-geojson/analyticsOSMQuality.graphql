@@ -1,0 +1,58 @@
+query OsmQualityStatistic($polygon: String!) {
+  polygonStatistic(polygonStatisticRequest: { polygon: $polygon }) {
+    analytics {
+      functions(
+        args: [
+          {
+            name: "sumXWhereNoY"
+            id: "areaWithoutOsmBuildingsKm2"
+            x: "populated_area_km2"
+            y: "building_count"
+          }
+          {
+            name: "sumXWhereNoY"
+            id: "areaWithoutOsmRoadsKm2"
+            x: "populated_area_km2"
+            y: "highway_length"
+          }
+          {
+            name: "percentageXWhereNoY"
+            id: "osmBuildingGapsPercentage"
+            x: "populated_area_km2"
+            y: "building_count"
+          }
+          {
+            name: "percentageXWhereNoY"
+            id: "osmRoadGapsPercentage"
+            x: "populated_area_km2"
+            y: "highway_length"
+          }
+          {
+            name: "percentageXWhereNoY"
+            id: "antiqueOsmBuildingsPercentage"
+            x: "populated_area_km2"
+            y: "building_count_6_months"
+          }
+          {
+            name: "percentageXWhereNoY"
+            id: "antiqueOsmRoadsPercentage"
+            x: "populated_area_km2"
+            y: "highway_length_6_months"
+          }
+          { name: "sumX", id: "osmBuildingsCount", x: "building_count" }
+          { name: "sumX", id: "osmUsersCount", x: "osm_users" }
+          { name: "sumX", id: "osmUsersHours", x: "total_hours" }
+          { name: "sumX", id: "localOsmUsersHours", x: "local_hours" }
+          {
+            name: "sumX"
+            id: "aiBuildingsCountEstimation"
+            x: "total_building_count"
+          }
+        ]
+      ) {
+        id
+        result
+      }
+    }
+  }
+}
