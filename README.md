@@ -30,7 +30,7 @@ ENVIRONMENT=<env>
 SLACK_BOT_USER_OAUTH_TOKEN=token
 ```
 
-- <env> is the environment where the tests will run. It can be `prod` or `test`.
+- <env> is the environment where the tests will run. It can be `prod`, `test` or `dev`. Remember that 'dev' is not supported well by this tests.
 - <SLACK_BOT_USER_OAUTH_TOKEN> is the Slack bot user OAuth token for the channel you want to send the test results to.
 - <pro-test-email> and <pro-test-password> are the credentials for a user with PRO rights.
 - <no-rights-test-email> and <no-rights-test-password> are the credentials for a user with no rights.

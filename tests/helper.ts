@@ -98,6 +98,12 @@ export function getGraphqlQuery(
   }
 }
 
+/**
+ * This function sends graphql query with POST request and expects server to answer 200
+ * @param object object with playwright request, url to send request to, request timeout, graphql query and polygon to use
+ * @returns json format of response
+ */
+
 export async function sendGraphqlQuery({
   request,
   url,

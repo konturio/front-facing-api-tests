@@ -13,6 +13,13 @@ const populationQuery = getGraphqlQuery("analyticsPopulation", {
   useGeojson: true,
 });
 
+/**
+ * Type representing population analytics data for a region
+ * @property population - Total population count
+ * @property gdp - Gross Domestic Product in USD
+ * @property urban - Urban population count
+ */
+
 type PopulationAnalytics = {
   population: number;
   gdp: number;
@@ -35,14 +42,20 @@ test(`Check population statistics calculation in Sicily region`, async ({
   const stats: PopulationAnalytics =
     responseObj?.data?.polygonStatistic?.analytics?.population;
 
+  expect(
+    stats,
+    "Response should contain population analytics data"
+  ).toBeDefined();
+
   for (const field of fieldsToCheck) {
     await test.step(`Check '${field}' field is not null and >= 0`, async () => {
       expect(stats[field], "Value should be defined").toBeDefined();
       expect(stats[field], "Value should be >= 0").toBeGreaterThanOrEqual(0);
       expect(stats[field], "Value should not be null").not.toBeNull();
-      expect(typeof stats[field], "Value should be of type number").toBe(
-        `number`
-      );
+      expect(
+        Number.isFinite(stats[field]),
+        "Value should be a finite number"
+      ).toBeTruthy();
     });
   }
 

@@ -16,12 +16,8 @@ const queriesFilesWithGeojson = [
   `advancedAnalyticsWithCalculations`,
 ];
 
-const graphqlQueriesWithGeojson = queriesFilesWithGeojson.reduce(
-  (acc: string[], query) => {
-    acc.push(getGraphqlQuery(query, { useGeojson: true }));
-    return acc;
-  },
-  []
+const graphqlQueriesWithGeojson = queriesFilesWithGeojson.map((query) =>
+  getGraphqlQuery(query, { useGeojson: true })
 );
 
 test.describe(`Check advanced analytics responses in general`, () => {
@@ -124,7 +120,7 @@ test.describe(`Check advanced analytics responses in general`, () => {
                   `Value in analytics (${analysis.value}) should be defined`
                 ).toBeDefined();
 
-                // TODO: udjust this tests after fixing https://kontur.fibery.io/Tasks/Task/insights-api-Nulls-in-value-and-quality,-median-is-on-20713
+                // TODO: adjust this tests after fixing https://kontur.fibery.io/Tasks/Task/insights-api-Nulls-in-value-and-quality,-median-is-on-20713
 
                 if (
                   // analysis.calculation !== `stddev`
@@ -151,7 +147,7 @@ test.describe(`Check advanced analytics responses in general`, () => {
                   `Quality in analytics (${analysis.quality}) should be defined`
                 ).toBeDefined();
 
-                // TODO: udjust this tests after fixing https://kontur.fibery.io/Tasks/Task/insights-api-Nulls-in-value-and-quality,-median-is-on-20713
+                // TODO: adjust this tests after fixing https://kontur.fibery.io/Tasks/Task/insights-api-Nulls-in-value-and-quality,-median-is-on-20713
 
                 if (
                   // analysis.calculation !== `median`

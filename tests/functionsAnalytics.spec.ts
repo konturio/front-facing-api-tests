@@ -66,7 +66,7 @@ test.describe("Analytics functions tests", () => {
 
     await test.step("Check that not all results are 0", () => {
       const sum = stats.reduce(
-        (acc: number, curr: any) => acc + curr.result,
+        (acc: number, curr: Stat) => acc + (curr.result ?? 0),
         0
       );
       expect(sum, "Sum of all results should be > 0").toBeGreaterThan(0);

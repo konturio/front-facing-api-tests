@@ -32,6 +32,7 @@ test.describe(`Thermal spots analytics tests`, () => {
 
     const stats =
       responseObj?.data?.polygonStatistic?.analytics?.thermalSpotStatistic;
+    expect(stats, "Thermal spots statistics should be returned").toBeDefined();
 
     for (const field of fieldsToCheck) {
       await test.step(`Check '${field}' field is not null and >= 0`, async () => {
