@@ -1,15 +1,7 @@
 import { getApis } from "./helper";
-import type { Api } from "./helper";
 
 function globalSetup() {
-  const params = [
-    "EMAIL_PRO",
-    "PASSWORD_PRO",
-    "EMAIL_NO_RIGHTS",
-    "PASSWORD_NO_RIGHTS",
-    "ENVIRONMENT",
-    "SLACK_BOT_USER_OAUTH_TOKEN",
-  ];
+  const params = ["ENVIRONMENT", "SLACK_BOT_USER_OAUTH_TOKEN"];
 
   const sendErrorIfUndefined = function (param: string) {
     if (typeof process.env[param] === "undefined")
