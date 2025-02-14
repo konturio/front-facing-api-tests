@@ -35,7 +35,7 @@ const referenceData = {
   osmBuildingsCount: 79583,
   osmUsersCount: 3520,
   osmUsersHours: 4496,
-  localOsmUsersHours: process.env.ENVIRONMENT === "prod" ? 3744 : 3797,
+  localOsmUsersHours: 2500,
   aiBuildingsCountEstimation: 79856,
 };
 
