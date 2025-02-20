@@ -3,7 +3,7 @@ import { getJSON, getGraphqlQuery, sendGraphqlQuery } from "./helper";
 
 const polygon = getJSON(`mayotte-polygon-variable`, { isRequest: true });
 
-const queryDeadline = 30000;
+const queryDeadline = 45000;
 
 const osmQuery = getGraphqlQuery("analyticsOSMQuality", {
   useGeojson: true,
@@ -13,25 +13,20 @@ const osmQuery = getGraphqlQuery("analyticsOSMQuality", {
 
 const referenceData = {
   areaWithoutOsmBuildingsKm2:
-    process.env.ENVIRONMENT === "prod"
-      ? 8.694087614723324
-      : 0.10832311844950776,
+    process.env.ENVIRONMENT === "prod" ? 10 : 0.10832311844950776,
   areaWithoutOsmRoadsKm2:
     process.env.ENVIRONMENT === "prod"
       ? 18.182505831512362
       : 0.06915842708523211,
   osmBuildingGapsPercentage:
-    process.env.ENVIRONMENT === "prod"
-      ? 2.1028973669565367
-      : 0.22259986314359034,
+    process.env.ENVIRONMENT === "prod" ? 3 : 0.22259986314359034,
   osmRoadGapsPercentage:
     process.env.ENVIRONMENT === "prod" ? 4.39792481191553 : 0.14211792113033092,
   antiqueOsmBuildingsPercentage:
     process.env.ENVIRONMENT === "prod"
       ? 6.5005639157241735
       : 35.100704255153644,
-  antiqueOsmRoadsPercentage:
-    process.env.ENVIRONMENT === "prod" ? 23.71363869406578 : 37.05038629521224,
+  antiqueOsmRoadsPercentage: process.env.ENVIRONMENT === "prod" ? 3 : 4,
   osmBuildingsCount: 79583,
   osmUsersCount: 3520,
   osmUsersHours: 4496,

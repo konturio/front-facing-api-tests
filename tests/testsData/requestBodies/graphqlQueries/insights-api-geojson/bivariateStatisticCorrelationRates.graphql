@@ -10,6 +10,7 @@ query BivariateStatisticCorrelationRates($polygon: String!) {
           }
           quality
           quotient
+          parent
         }
         y {
           label
@@ -19,10 +20,13 @@ query BivariateStatisticCorrelationRates($polygon: String!) {
           }
           quality
           quotient
+          parent
         }
         rate
         quality
         correlation
+        avgCorrelationX
+        avgCorrelationY
       }
     }
   }

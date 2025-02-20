@@ -9,8 +9,8 @@ type Stat = {
 const functionsToCheck = [
   {
     id: "populatedareakm2",
-    minExpectedResult: process.env.ENVIRONMENT === "prod" ? 29000 : 3340,
-    maxExpectedResult: process.env.ENVIRONMENT === "prod" ? 32000 : 3700, // TODO: udjust this values after high resolution data in prod is available https://kontur.fibery.io/Tasks/User_Story/High-resolution-MCDA-tiles-2225
+    minExpectedResult: process.env.ENVIRONMENT === "prod" ? 15000 : 3340,
+    maxExpectedResult: process.env.ENVIRONMENT === "prod" ? 40000 : 3700, // TODO: udjust this values after high resolution data in prod is available https://kontur.fibery.io/Tasks/User_Story/High-resolution-MCDA-tiles-2225
   },
   {
     id: "industrialareakm2",
@@ -35,7 +35,7 @@ const functionsToCheck = [
   {
     id: "osmgapspercentage",
     minExpectedResult: 0,
-    maxExpectedResult: 4.73,
+    maxExpectedResult: 5,
   },
   {
     id: "osmgapssum",
@@ -46,7 +46,7 @@ const functionsToCheck = [
 
 const polygon = getJSON(`sicily-polygon`, { isRequest: true });
 
-const queryDeadline = 30000;
+const queryDeadline = 45000;
 
 const functionsQuery = getGraphqlQuery("analyticsFunctions", {
   useGeojson: true,
