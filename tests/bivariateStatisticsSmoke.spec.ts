@@ -4,6 +4,7 @@ import { getApis, getJSON, getGraphqlQuery, sendGraphqlQuery } from "./helper";
 const polygon = getJSON("mayotte-polygon-variable", { isRequest: true });
 
 const queryDeadline = 45000;
+// const correlationRateEdge = 0.75;
 
 const populationQuery = getGraphqlQuery("bivariateStatisticCorrelationRates", {
   useGeojson: true,
@@ -43,18 +44,29 @@ test.describe(`Check bivariate statistics calculation for correlation rates`, ()
     });
   });
 
-  test("Check that each correlation is !== 0", async ({ request }) => {
+  test(`Check that each correlation rate is !== 0`, async ({ request }) => {
     const correlationRates = await getCorrelationRates(request);
 
     const checkValue = (value: number, name: string) => {
-      expect(
-        Math.abs(value),
-        `Absolute ${name} value (${value}) should be > 0`
-      ).toBeGreaterThan(0);
-      expect(
-        value,
-        `${name} value (${value}) should not be null`
-      ).not.toBeNull();
+      expect
+        .soft(
+          Math.abs(value),
+          `Absolute ${name} value (${value}) should be > 0`
+        )
+        .toBeGreaterThan(0);
+      expect
+        .soft(value, `${name} value (${value}) should not be null`)
+        .not.toBeNull();
+
+      // skip this check as for now, more: https://konturio.slack.com/archives/C037ZB1Q53P/p1740141589753499?thread_ts=1739975996.201389&cid=C037ZB1Q53P and https://kontur.fibery.io/Tasks/Task/Correlations-0.75-take-place-20954
+      // if (name === "correlation") {
+      //   expect
+      //     .soft(
+      //       value,
+      //       `${name} value (${value}) should be > ${correlationRateEdge}`
+      //     )
+      //     .toBeGreaterThan(correlationRateEdge);
+      // }
     };
 
     for (let i = 0; i < correlationRates.length; i++) {
@@ -131,16 +143,20 @@ test.describe(`Check bivariate statistics calculation for correlation rates`, ()
       test.step(`Check ${layerStr} quotient pair for parents`, () => {
         for (const rate of correlationRates) {
           if (JSON.stringify(rate.x.quotient) === layerStr) {
-            expect(
-              rate.x.parent,
-              `Important layer ${layerStr} should not have parent in X axis`
-            ).toBeNull();
+            expect
+              .soft(
+                rate.x.parent,
+                `Important layer ${layerStr} should not have parent in X axis`
+              )
+              .toBeNull();
           }
           if (JSON.stringify(rate.y.quotient) === layerStr) {
-            expect(
-              rate.y.parent,
-              `Important layer ${layerStr} should not have parent in Y axis`
-            ).toBeNull();
+            expect
+              .soft(
+                rate.y.parent,
+                `Important layer ${layerStr} should not have parent in Y axis`
+              )
+              .toBeNull();
           }
         }
       });

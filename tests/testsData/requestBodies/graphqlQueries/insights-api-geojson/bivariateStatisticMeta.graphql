@@ -1,0 +1,10 @@
+query BivariateStatistic($polygon: String!) {
+  polygonStatistic(polygonStatisticRequest: { polygon: $polygon }) {
+    bivariateStatistic {
+      meta {
+        max_zoom
+        min_zoom
+      }
+    }
+  }
+}
