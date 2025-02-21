@@ -106,6 +106,10 @@ searchApis.forEach((searchApi) => {
     `Get ${searchApi?.url} for Chicago area (user with no rights)`,
     { tag: "@user_no_rights" },
     async ({ request }) => {
+      test.fixme(
+        true,
+        `This test is blocked due to the fact that tested user with no rights has rights, waiting for https://kontur.fibery.io/Tasks/Task/Delete-accesses-of-test-user-with-no-rights-20911 to fix it`
+      );
       if (searchApi.name === "search atlas") {
         await testSearchApi({
           searchApi,

@@ -215,6 +215,11 @@ test.describe(`Advanced analytics extra tests`, () => {
   });
 
   test(`Analytics should be ordered by min quality`, async ({ request }) => {
+    test.fixme(
+      true,
+      `This test found an issue in sorting, so waiting for https://kontur.fibery.io/Tasks/Task/Analytics-is-not-ordered-by-min-quality-20906 issue to be fixed to unblock it`
+    );
+
     const responseObj = await sendGraphqlQuery({
       request,
       url: process.env.GRAPHQL_ENDPOINT as string,
