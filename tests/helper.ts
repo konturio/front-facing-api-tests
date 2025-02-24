@@ -13,6 +13,87 @@ export type Api = {
   expectedNumImages?: number;
 };
 
+type TestedGeojson = {
+  type: string;
+  features: {
+    type: string;
+    properties: { ADMIN: string; ISO_A3: string };
+    geometry: { type: string; coordinates: [] };
+  }[];
+};
+
+const bigCountries = new Set([
+  "Russia",
+  "United States",
+  "Canada",
+  "China",
+  "Brazil",
+  "Australia",
+  "India",
+  "Argentina",
+  "Kazakhstan",
+  "Algeria",
+  "DR Congo",
+  "Greenland",
+  "Saudi Arabia",
+  "Mexico",
+  "Indonesia",
+  "Sudan",
+  "Libya",
+  "Iran",
+  "Mongolia",
+  "Peru",
+  "Chad",
+  "Niger",
+  "Angola",
+  "Mali",
+  "South Africa",
+  "Colombia",
+  "Ethiopia",
+  "Bolivia",
+  "Mauritania",
+  "Egypt",
+  "Tanzania",
+  "Nigeria",
+  "Venezuela",
+  "Namibia",
+  "Pakistan",
+  "Mozambique",
+  "Turkey",
+  "Chile",
+  "Zambia",
+  "Myanmar",
+  "Afghanistan",
+  "South Sudan",
+  "France",
+  "Somalia",
+  "Central African Republic",
+  "Ukraine",
+  "Madagascar",
+  "Botswana",
+  "Kenya",
+  "Yemen",
+  "Thailand",
+  "Spain",
+  "Turkmenistan",
+  "Cameroon",
+  "Papua New Guinea",
+  "Sweden",
+  "Uzbekistan",
+  "Morocco",
+  "Iraq",
+  "Paraguay",
+  "Zimbabwe",
+  "Japan",
+  "Germany",
+  "Philippines",
+  "Congo",
+  "Finland",
+  "Vietnam",
+  "Malaysia",
+  "Norway",
+]);
+
 /**
  * Get the list of APIs from a json file
  * @param apisNames The list of APIs names to get from the file.
@@ -56,7 +137,7 @@ export function getApis(apisNames: string[], fileName: string): Api[] {
 export function getJSON(
   fileName: string,
   { isRequest }: { isRequest: boolean }
-): [] {
+): {} {
   try {
     const data = fs
       .readFileSync(
@@ -66,8 +147,8 @@ export function getJSON(
         )
       )
       .toString();
-    const requestBody = JSON.parse(data);
-    return requestBody;
+    const json = JSON.parse(data);
+    return json;
   } catch (error) {
     throw new Error(error);
   }
@@ -131,4 +212,34 @@ export async function sendGraphqlQuery({
   );
   const responseObj = await response.json();
   return responseObj;
+}
+
+/**
+ * This function returns a random country from the list of countries
+ * @param notBigCountry - Whether to return a random country from the whole list of countries or from the list of countries excluding big countries
+ * @returns a JS object as a random country geometry
+ */
+
+export function getRandomCountryJSON({
+  notBigCountry,
+}: {
+  notBigCountry: boolean;
+}) {
+  try {
+    const allCountries = getJSON("all-countries", {
+      isRequest: true,
+    }) as TestedGeojson;
+    const filteredCountries = allCountries.features.filter(
+      (geom) => !notBigCountry || !bigCountries.has(geom.properties.ADMIN)
+    );
+
+    const randomCountry =
+      filteredCountries[Math.floor(Math.random() * filteredCountries.length)];
+    return {
+      type: "FeatureCollection",
+      features: [randomCountry],
+    } as TestedGeojson;
+  } catch (error) {
+    throw new Error(error);
+  }
 }
