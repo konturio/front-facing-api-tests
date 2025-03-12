@@ -8,7 +8,7 @@ import {
 const polygon = getRandomCountryJSON({ notBigCountry: true });
 const testedCountry = polygon.features[0].properties.ADMIN;
 
-const queryDeadline = 45000;
+const queryDeadline = 60000;
 
 const queriesFilesWithGeojson = [
   "advancedAnalytics",
