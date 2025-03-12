@@ -43,8 +43,8 @@ importers:
         specifier: ^8.4.1
         version: 8.4.1
       '@playwright/test':
-        specifier: ^1.42.1
-        version: 1.45.1
+        specifier: ^1.51.0
+        version: 1.51.0
       '@types/langdetect':
         specifier: ^0.2.2
         version: 0.2.2
@@ -109,8 +109,8 @@ packages:
   '@jridgewell/trace-mapping@0.3.9':
     resolution: {integrity: sha512-3Belt6tdc8bPgAtbcmdtNJlirVoTmEb5e2gC94PnkwEW9jI6CAHUeoG85tjWP5WquqfavoMtMwiG4P926ZKKuQ==}
 
-  '@playwright/test@1.45.1':
-    resolution: {integrity: sha512-Wo1bWTzQvGA7LyKGIZc8nFSTFf2TkthGIFBR+QVNilvwouGzFd4PYukZe3rvf5PSqjHi1+1NyKSDZKcQWETzaA==}
+  '@playwright/test@1.51.0':
+    resolution: {integrity: sha512-dJ0dMbZeHhI+wb77+ljx/FeC8VBP6j/rj9OAojO08JI80wTZy6vRk9KvHKiDCUh4iMpEiseMgqRBIeW+eKX6RA==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -785,6 +785,7 @@ packages:
 
   lodash.isequal@4.5.0:
     resolution: {integrity: sha512-pDo3lu8Jhfjqls6GkMgpahsF9kCyayhgykjyLMNFTKWrpVdAQtYyB4muAMWozBB4ig/dtWAmsMxLEI8wuz+DYQ==}
+    deprecated: This package is deprecated. Use require('node:util').isDeepStrictEqual instead.
 
   lodash.keys@4.2.0:
     resolution: {integrity: sha512-J79MkJcp7Df5mizHiVNpjoHXLi4HLjh9VLS/M7lQSGoQ+0oQ+lWEigREkqKyizPB1IawvQLLKY8mzEcm1tkyxQ==}
@@ -794,6 +795,7 @@ packages:
 
   lodash.template@4.2.4:
     resolution: {integrity: sha512-PmEQ9TtYbeYg6lNwJpSjkp4J4KttYLuKF1C6jeFBidyzbOFu0KvVnLicZBf0sGfScARwgOBqxnV/rWuaqRwang==}
+    deprecated: This package is deprecated. Use https://socket.dev/npm/package/eta instead.
 
   lodash.templatesettings@4.2.0:
     resolution: {integrity: sha512-stgLz+i3Aa9mZgnjr/O+v9ruKZsPsndy7qPZOchbqk2cnTU1ZaldKK+v7m54WoKIyxiuMZTKT2H81F8BeAc3ZQ==}
@@ -1050,8 +1052,8 @@ packages:
     resolution: {integrity: sha512-9hHgE5+Xai/ChrnahNP8Ke0VNF/s41IZIB/d24eMHEaRamdPg+wwlRm2lTb5wMvE8eTIKrYZsrxfuOwt3dpsIQ==}
     engines: {node: '>=0.10.0'}
 
-  playwright-core@1.45.1:
-    resolution: {integrity: sha512-LF4CUUtrUu2TCpDw4mcrAIuYrEjVDfT1cHbJMfwnE2+1b8PZcFzPNgvZCvq2JfQ4aTjRCCHw5EJ2tmr2NSzdPg==}
+  playwright-core@1.51.0:
+    resolution: {integrity: sha512-x47yPE3Zwhlil7wlNU/iktF7t2r/URR3VLbH6EknJd/04Qc/PSJ0EY3CMXipmglLG+zyRxW6HNo2EGbKLHPWMg==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -1059,8 +1061,8 @@ packages:
     resolution: {integrity: sha512-HITriEj11bAyyAbkHrZiSfvUaLOW6IWupsPCyS9+WxwMeRrDfpoNSRbS4ZbixMXbaePdby8/bNdzKf3OZFyG+Q==}
     hasBin: true
 
-  playwright@1.45.1:
-    resolution: {integrity: sha512-Hjrgae4kpSQBr98nhCj3IScxVeVUixqj+5oyif8TdIn2opTCPEzqAqNMeK42i3cWDCVu9MI+ZsGWw+gVR4ISBg==}
+  playwright@1.51.0:
+    resolution: {integrity: sha512-442pTfGM0xxfCYxuBa/Pu6B2OqxqqaYq39JS8QDMGThUvIOCd6s0ANDog3uwA0cHavVlnTQzGCN7Id2YekDSXA==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -1490,9 +1492,9 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.4.15
 
-  '@playwright/test@1.45.1':
+  '@playwright/test@1.51.0':
     dependencies:
-      playwright: 1.45.1
+      playwright: 1.51.0
 
   '@slack/logger@3.0.0':
     dependencies:
@@ -2426,7 +2428,7 @@ snapshots:
       object-assign: 4.1.1
       symbol: 0.2.3
 
-  playwright-core@1.45.1: {}
+  playwright-core@1.51.0: {}
 
   playwright-slack-report@1.1.81(@types/node@22.0.0)(debug@2.6.9)(typescript@5.5.3):
     dependencies:
@@ -2444,9 +2446,9 @@ snapshots:
       - supports-color
       - typescript
 
-  playwright@1.45.1:
+  playwright@1.51.0:
     dependencies:
-      playwright-core: 1.45.1
+      playwright-core: 1.51.0
     optionalDependencies:
       fsevents: 2.3.2
 
