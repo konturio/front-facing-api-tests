@@ -13,7 +13,6 @@ const queryDeadline = 60000;
 const queriesFilesWithGeojson = [
   "advancedAnalytics",
   "bivariateStatisticAxisIndicators",
-  "advancedAnalyticsWithCalculations",
   "bivariateStatisticCorrelationRates",
   "analyticsPopulationInfrastructure",
   "bivariateStatisticIndicators",

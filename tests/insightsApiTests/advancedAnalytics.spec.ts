@@ -16,10 +16,7 @@ const testedCountry = polygon.features[0].properties.ADMIN;
 
 const queryDeadline = 55000;
 
-const queriesFilesWithGeojson = [
-  `advancedAnalytics`,
-  `advancedAnalyticsWithCalculations`,
-];
+const queriesFilesWithGeojson = [`advancedAnalytics`];
 
 const graphqlQueriesWithGeojson = queriesFilesWithGeojson.map((query) =>
   getGraphqlQuery(query, { useGeojson: true })

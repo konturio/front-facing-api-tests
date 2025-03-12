@@ -21,7 +21,7 @@
   },
   "devDependencies": {
     "@faker-js/faker": "^8.4.1",
-    "@playwright/test": "^1.42.1",
+    "@playwright/test": "^1.51.0",
     "@types/langdetect": "^0.2.2",
     "@types/node": "^22.0.0",
     "@types/pixelmatch": "^5.2.6",
