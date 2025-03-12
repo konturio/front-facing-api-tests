@@ -86,6 +86,8 @@ test(
     expect(response.status()).toEqual(200);
     const responseObj = await response.json();
     expect(responseObj[0]).toBeDefined();
-    expect(responseObj[0].id).toEqual("BIV__Kontur OpenStreetMap Quantity");
+    expect(responseObj[0].id).toEqual(
+      `${process.env.ENVIRONMENT === "prod" ? "BIV__Waste containers availability" : "kontur_zmrok"}`
+    );
   }
 );

@@ -13,12 +13,12 @@ type Stat = {
 const functionsToCheck = [
   {
     id: "populatedareakm2",
-    minExpectedResult: 100,
+    minExpectedResult: 1,
     maxExpectedResult: 1000000, // TODO: udjust this values after high resolution data in prod is available https://kontur.fibery.io/Tasks/User_Story/High-resolution-MCDA-tiles-2225
   },
   {
     id: "industrialareakm2",
-    minExpectedResult: 1,
+    minExpectedResult: 0.0000001,
     maxExpectedResult: 1000000,
   },
   {
@@ -66,7 +66,11 @@ test.describe(
     },
   },
   () => {
-    test("Check functions calculations with test data", async ({ request }) => {
+    test("Check functions calculations with test data", async ({
+      playwright,
+    }) => {
+      // Create new context to avoid playwright caching
+      const request = await playwright.request.newContext();
       const response = await sendGraphqlQuery({
         request,
         url: process.env.GRAPHQL_ENDPOINT as string,

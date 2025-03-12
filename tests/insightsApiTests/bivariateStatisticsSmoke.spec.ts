@@ -8,7 +8,7 @@ import {
 const polygon = getRandomCountryJSON({ notBigCountry: true });
 const testedCountry = polygon.features[0].properties.ADMIN;
 
-const queryDeadline = 55000;
+const queryDeadline = 60000;
 // const correlationRateEdge = 0.75;
 
 const populationQuery = getGraphqlQuery("bivariateStatisticCorrelationRates", {

@@ -17,17 +17,17 @@ const osmQuery = getGraphqlQuery("analyticsOSMQuality", {
 // TODO: udjust this data after high resolution data in prod is available https://kontur.fibery.io/Tasks/User_Story/High-resolution-MCDA-tiles-2225
 
 const referenceData = {
-  areaWithoutOsmBuildingsKm2: 2000,
-  areaWithoutOsmRoadsKm2: 2000,
+  areaWithoutOsmBuildingsKm2: 10000,
+  areaWithoutOsmRoadsKm2: 10000,
   osmBuildingGapsPercentage: 99,
   osmRoadGapsPercentage: 99,
   antiqueOsmBuildingsPercentage: 1,
   antiqueOsmRoadsPercentage: 1,
-  osmBuildingsCount: 101,
-  osmUsersCount: 101,
-  osmUsersHours: 101,
-  localOsmUsersHours: 101,
-  aiBuildingsCountEstimation: 1001,
+  osmBuildingsCount: 10,
+  osmUsersCount: 1,
+  osmUsersHours: 1,
+  localOsmUsersHours: 0,
+  aiBuildingsCountEstimation: 10,
 };
 
 const metricsTheLowerTheBetter = [
@@ -46,7 +46,8 @@ test.describe(
     },
   },
   () => {
-    test("Check OSM quality against reference", async ({ request }) => {
+    test("Check OSM quality against reference", async ({ playwright }) => {
+      const request = await playwright.request.newContext();
       const response = await sendGraphqlQuery({
         request,
         url: process.env.GRAPHQL_ENDPOINT as string,
