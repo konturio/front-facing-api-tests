@@ -1,0 +1,17 @@
+[
+  {
+    "env": "dev",
+    "name": "insights api tiles",
+    "url": "https://test-apps02.konturlabs.com/insights-api/tiles/bivariate/v1"
+  },
+  {
+    "env": "test",
+    "name": "insights api tiles",
+    "url": "https://test-apps.konturlabs.com/insights-api/tiles/bivariate/v1"
+  },
+  {
+    "env": "prod",
+    "name": "insights api tiles",
+    "url": "https://apps.kontur.io/insights-api/tiles/bivariate/v1"
+  }
+]
