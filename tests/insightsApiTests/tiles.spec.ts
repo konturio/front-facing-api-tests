@@ -3,7 +3,7 @@ import { getApis } from "../helper";
 import { MvtToGeojson } from "mvt-to-geojson";
 import { Feature } from "geojson";
 
-const expectedLayers = [
+let expectedLayers = [
   "access_to_health_care",
   "area_km2",
   "arts_and_entertainment_fsq_count",
@@ -180,6 +180,11 @@ const expectedLayers = [
   "years_to_naturalisation",
 ];
 
+if (process.env.ENVIRONMENT === "test") {
+  expectedLayers.push("population_night_sample");
+  expectedLayers.push("worldbank_tax_rate");
+}
+
 const testedTilesCoords = [
   { z: 5, x: 9, y: 10 },
   { z: 0, x: 0, y: 0 },
@@ -240,24 +245,31 @@ test.describe("Test insights api tiles", () => {
         x: coord.x,
         y: coord.y,
       });
-      for (const feature of decodedTile) {
-        const properties = feature.properties;
-        const keys = Object.keys(properties ?? {});
-        const values = Object.values(properties ?? {});
-        const sumOfValues = values.reduce((acc, arg) => {
-          if (arg !== undefined) {
-            acc = acc + arg;
-          }
-          return acc;
-        }, 0);
-        expect(
-          sumOfValues,
-          `Expect not all values to be undefined or 0`
-        ).toBeGreaterThan(0);
-        expect(keys, `Expect layers to fit expected ones`).toStrictEqual(
-          expectedLayers
-        );
-        expect(properties?.one, `Expect layer one to have value === 1`).toBe(1);
+      for (let i = 0; i < decodedTile.length; i++) {
+        await test.step(`Checking geometry number ${i} of length of ${decodedTile.length} of the tile`, async () => {
+          const properties = decodedTile[i].properties;
+          const keys: string[] = Object.keys(properties ?? {});
+          const values: Array<number | undefined> = Object.values(
+            properties ?? {}
+          );
+          const numberOfNoDataValues = values.reduce((acc: number, arg) => {
+            if (arg === undefined || arg === 0) {
+              acc = acc + 1;
+            }
+            return acc;
+          }, 0);
+          expect(
+            values.length,
+            `Expect not all values to be undefined or 0`
+          ).not.toEqual(numberOfNoDataValues);
+          expect(
+            keys.sort(),
+            `Expect layers to fit expected ones`
+          ).toStrictEqual(expectedLayers.sort());
+          expect(properties?.one, `Expect layer one to have value === 1`).toBe(
+            1
+          );
+        });
       }
     });
   }

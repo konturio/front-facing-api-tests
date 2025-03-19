@@ -17,8 +17,8 @@ const osmQuery = getGraphqlQuery("analyticsOSMQuality", {
 // TODO: udjust this data after high resolution data in prod is available https://kontur.fibery.io/Tasks/User_Story/High-resolution-MCDA-tiles-2225
 
 const referenceData = {
-  areaWithoutOsmBuildingsKm2: 10000,
-  areaWithoutOsmRoadsKm2: 10000,
+  areaWithoutOsmBuildingsKm2: 1000000,
+  areaWithoutOsmRoadsKm2: 1000000,
   osmBuildingGapsPercentage: 99,
   osmRoadGapsPercentage: 99,
   antiqueOsmBuildingsPercentage: 1,
