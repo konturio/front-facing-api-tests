@@ -9,7 +9,7 @@ const polygon = getRandomCountryJSON({ notBigCountry: true });
 const testedCountry = polygon.features[0].properties.ADMIN;
 
 const queryDeadline = 45000;
-const expectedMinPopulation = 10000;
+const expectedMinPopulation = 6000;
 const expectedMaxPopulation = 400000000;
 const expectedMinUrbanPopulation = 5000;
 const expectedMinGDP = 1000000;

@@ -111,13 +111,13 @@ export function getApis(apisNames: string[], fileName: string): Api[] {
 
     const environment = process.env.ENVIRONMENT ?? "prod";
     const apis: Api[] = JSON.parse(data).reduce(
-      (acc, api: Api) => {
+      (acc: Record<string, Api>, api: Api) => {
         if (api.env === environment) {
           acc[api.name] = api;
         }
         return acc;
       },
-      {} as Record<string, Api>
+      {}
     );
 
     const apisToTest = apisNames.map((name) => apis[name]);

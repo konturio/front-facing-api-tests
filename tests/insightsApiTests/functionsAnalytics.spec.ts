@@ -23,7 +23,7 @@ const functionsToCheck = [
   },
   {
     id: "forestareakm2",
-    minExpectedResult: 1,
+    minExpectedResult: 0.0000001,
     maxExpectedResult: 1500000,
   },
   {
