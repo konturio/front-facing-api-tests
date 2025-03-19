@@ -3,7 +3,7 @@ import { getApis } from "../helper";
 import { MvtToGeojson } from "mvt-to-geojson";
 import { Feature } from "geojson";
 
-let expectedLayers = [
+const expectedLayers = [
   "access_to_health_care",
   "area_km2",
   "arts_and_entertainment_fsq_count",
