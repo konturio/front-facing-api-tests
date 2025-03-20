@@ -1,5 +1,5 @@
 import { test, expect } from "@playwright/test";
-import { getApis } from "./helper";
+import { getApis } from "../helper";
 import langdetect from "langdetect";
 
 const languagesToTestAssets = ["en", "es", "ar", "de", "uk", "id", "ko"];

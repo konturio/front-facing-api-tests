@@ -105,7 +105,7 @@ export function getApis(apisNames: string[], fileName: string): Api[] {
   try {
     const data = fs
       .readFileSync(
-        path.join(__dirname, `./testsData/apisToTest/${fileName}.json`)
+        path.join(__dirname, `./tests-data/apis-to-test/${fileName}.json`)
       )
       .toString();
 
@@ -143,7 +143,7 @@ export function getJSON(
       .readFileSync(
         path.join(
           __dirname,
-          `./testsData/${isRequest ? "requestBodies" : "responseBodies"}/${fileName}.json`
+          `./tests-data/${isRequest ? "request-bodies" : "response-bodies"}/${fileName}.json`
         )
       )
       .toString();
@@ -169,7 +169,7 @@ export function getGraphqlQuery(
       .readFileSync(
         path.join(
           __dirname,
-          `./testsData/requestBodies/graphqlQueries/${useGeojson ? "insights-api-geojson" : "insights-api-no-geojson"}/${fileName}.graphql`
+          `./tests-data/request-bodies/graphql-queries/${useGeojson ? "insights-api-geojson" : "insights-api-no-geojson"}/${fileName}.graphql`
         )
       )
       .toString();

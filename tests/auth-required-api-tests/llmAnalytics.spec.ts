@@ -1,5 +1,5 @@
 import { test, expect } from "@playwright/test";
-import { getApis, getJSON } from "./helper";
+import { getApis, getJSON } from "../helper";
 import langdetect from "langdetect";
 
 const languagesToTestLlm = ["ar", "en"];

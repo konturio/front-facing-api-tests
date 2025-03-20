@@ -99,13 +99,21 @@ export default defineConfig({
       testMatch: "auth.setup.ts",
     },
     {
-      name: "api_tests",
+      name: "auth_required_api_tests",
       dependencies: ["setup"],
-      testIgnore: "oam.spec.ts",
+      testDir: "./tests/auth-required-api-tests",
+    },
+    {
+      name: "api_tests_no_auth",
+      testDir: "./tests/general-api-tests",
     },
     {
       name: "oam_tests",
       testMatch: "oam.spec.ts",
+    },
+    {
+      name: "insights_api_tests",
+      testDir: "./tests/insights-api-tests",
     },
   ],
 });

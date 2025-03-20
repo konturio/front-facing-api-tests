@@ -4,16 +4,16 @@
     "name": "oam tiles",
     "url": "https://prod-raster-tiler.k8s-01.konturlabs.com/oam/mosaic/9/308/257.png",
     "urlLargeImg": "https://prod-raster-tiler.k8s-01.konturlabs.com/oam/mosaic/9/308/257@2x.png",
-    "expectedImgAddress": "tests/testsData/oamTiles/256px-imageWithTiles.png",
-    "expectedLargeImgAddress": "tests/testsData/oamTiles/512px-imageWithTiles.png"
+    "expectedImgAddress": "tests/tests-data/oam-tiles/256px-imageWithTiles.png",
+    "expectedLargeImgAddress": "tests/tests-data/oam-tiles/512px-imageWithTiles.png"
   },
   {
     "env": "prod",
     "name": "oam no tiles",
     "url": "https://prod-raster-tiler.k8s-01.konturlabs.com/oam/mosaic/9/307/254.png",
     "urlLargeImg": "https://prod-raster-tiler.k8s-01.konturlabs.com/oam/mosaic/9/307/254@2x.png",
-    "expectedImgAddress": "tests/testsData/oamTiles/256px-imageWithNoTiles.png",
-    "expectedLargeImgAddress": "tests/testsData/oamTiles/512px-imageWithNoTiles.png"
+    "expectedImgAddress": "tests/tests-data/oam-tiles/256px-imageWithNoTiles.png",
+    "expectedLargeImgAddress": "tests/tests-data/oam-tiles/512px-imageWithNoTiles.png"
   },
   {
     "env": "prod",

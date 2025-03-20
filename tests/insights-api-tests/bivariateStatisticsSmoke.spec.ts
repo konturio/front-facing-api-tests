@@ -48,6 +48,7 @@ test.describe(
       type: "country",
       description: `Area of ${testedCountry} is tested. To get geojson go to ${process.env.ALL_COUNTRIES_PATH} in ${process.env.REPO_NAME} repo`,
     },
+    tag: "@fitsLoadTesting",
   },
   () => {
     test.beforeEach(async ({ playwright }) => {
