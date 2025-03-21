@@ -1,5 +1,5 @@
 import { test, expect, APIRequestContext } from "@playwright/test";
-import { getApis, getJSON } from "./helper";
+import { getApis, getJSON } from "../helper";
 
 const [liveSensorUrl] = getApis(["live sensor"], "live-sensor").map(
   (apiObj) => apiObj?.url

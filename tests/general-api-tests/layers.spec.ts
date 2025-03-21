@@ -1,5 +1,5 @@
 import { test, expect } from "@playwright/test";
-import { getApis } from "./helper";
+import { getApis } from "../helper";
 
 type Layer = {
   id: string;

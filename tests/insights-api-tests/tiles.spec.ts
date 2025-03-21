@@ -178,6 +178,7 @@ const expectedLayers = [
   "worldclim_max_temperature",
   "worldclim_min_temperature",
   "years_to_naturalisation",
+  "gmu_rain_accumulation",
 ];
 
 if (process.env.ENVIRONMENT === "test") {

@@ -1,6 +1,6 @@
 import { test, expect } from "@playwright/test";
 import { APIRequestContext } from "@playwright/test";
-import { getApis, getJSON, Api } from "./helper";
+import { getApis, getJSON, Api } from "../helper";
 
 type testSearchApiOptions = {
   searchApi: Api;
