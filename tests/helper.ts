@@ -13,14 +13,20 @@ export type Api = {
   expectedNumImages?: number;
 };
 
-type TestedGeojson = {
+export type TestedGeojson = {
   type: string;
   features: {
     type: string;
-    properties: { ADMIN: string; ISO_A3: string };
+    properties: { ADMIN: string; ISO_A3: string; timestamp: number };
     geometry: { type: string; coordinates: [] };
   }[];
 };
+
+export type CountriesSelectionType = "all" | "random" | "specific" | undefined;
+
+export const countriesToTestArray = process.env.COUNTRIES_TO_TEST?.split(
+  ","
+).map((country) => country.trim());
 
 const bigCountries = new Set([
   "Russia",
@@ -128,25 +134,22 @@ export function getApis(apisNames: string[], fileName: string): Api[] {
 }
 
 /**
- * Get the request/response body from a JSON file
- * @param fileName The name of the file containing the request/response body
- * @param isRequest Whether the body is a request body or a response body. Defaults to `true` (request body) if not specified
- * @returns The request body as a JS object
+ * Get information from a JSON file
+ * @param fileName The name of the file
+ * @param fileFolder The folder where the file is located
+ * @returns JS object or an array of strings
  */
 
-export function getJSON(
-  fileName: string,
-  { isRequest }: { isRequest: boolean }
-): {} {
+export function getJSON({
+  fileName,
+  fileFolder,
+}: {
+  fileName: string;
+  fileFolder: "request-bodies" | "response-bodies" | "lookup-data";
+}): Record<string, {}> | string[] {
   try {
-    const data = fs
-      .readFileSync(
-        path.join(
-          __dirname,
-          `./tests-data/${isRequest ? "request-bodies" : "response-bodies"}/${fileName}.json`
-        )
-      )
-      .toString();
+    const partialPath = `./tests-data/${fileFolder}/${fileName}.json`;
+    const data = fs.readFileSync(path.join(__dirname, partialPath)).toString();
     const json = JSON.parse(data);
     return json;
   } catch (error) {
@@ -226,20 +229,74 @@ export function getRandomCountryJSON({
   notBigCountry: boolean;
 }) {
   try {
-    const allCountries = getJSON("all-countries", {
-      isRequest: true,
+    const allCountries = getJSON({
+      fileName: "all-countries",
+      fileFolder: "request-bodies",
     }) as TestedGeojson;
-    const filteredCountries = allCountries.features.filter(
+
+    const filteredFeatures = allCountries.features.filter(
       (geom) => !notBigCountry || !bigCountries.has(geom.properties.ADMIN)
     );
-
     const randomCountry =
-      filteredCountries[Math.floor(Math.random() * filteredCountries.length)];
+      filteredFeatures[Math.floor(Math.random() * filteredFeatures.length)];
+
+    // To avoid caching on server
+    randomCountry.properties.timestamp = Date.now();
     return {
       type: "FeatureCollection",
       features: [randomCountry],
     } as TestedGeojson;
   } catch (error) {
     throw new Error(error);
+  }
+}
+
+/**
+ * This function returns an array of geojson objects with features filtered by admin names.
+ * @param adminNames an array of admin names to filter the features by. If no admin names are provided, it returns all features. Example of an array: ["Afghanistan","Angola"]
+ * @returns an array of geojson objects with features filtered by admin names
+ */
+
+export function getArrayOfCountriesJSONs(
+  adminNames: string[] = getJSON({
+    fileName: "admin-names",
+    fileFolder: "lookup-data",
+  }) as string[]
+): TestedGeojson[] {
+  const allCountries = getJSON({
+    fileName: "all-countries",
+    fileFolder: "request-bodies",
+  }) as TestedGeojson;
+  // Filter out features that don't match the admin names
+  const filteredFeatures = allCountries.features.filter((geom) =>
+    adminNames.includes(geom.properties.ADMIN)
+  );
+  // Create an array of TestedGeojson objects with the filtered features to return
+  const result = filteredFeatures.map((feature) => {
+    // To avoid caching on server
+    feature.properties.timestamp = Date.now();
+    return {
+      type: "FeatureCollection",
+      features: [feature],
+    };
+  });
+  return result;
+}
+
+/**
+ * This function returns an array of geojson objects depending on the country selection type
+ * @returns an array of geojson objects
+ */
+
+export function getPolygonsToTest() {
+  switch (process.env.COUNTRIES_SELECTION_TYPE as CountriesSelectionType) {
+    case "all":
+      return getArrayOfCountriesJSONs();
+    case "random":
+      return [getRandomCountryJSON({ notBigCountry: true })];
+    case "specific":
+      return getArrayOfCountriesJSONs(countriesToTestArray);
+    default:
+      return [getRandomCountryJSON({ notBigCountry: true })];
   }
 }

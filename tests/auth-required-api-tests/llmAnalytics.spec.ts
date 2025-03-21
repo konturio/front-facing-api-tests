@@ -3,7 +3,10 @@ import { getApis, getJSON } from "../helper";
 import langdetect from "langdetect";
 
 const languagesToTestLlm = ["ar", "en"];
-const requestLlmBody = getJSON("llm-request", { isRequest: true });
+const requestLlmBody = getJSON({
+  fileName: "llm-request",
+  fileFolder: "request-bodies",
+});
 const [llmAnalyticsUrl] = getApis(["llmAnalytics"], "llm-analytics").map(
   (apiObj) => apiObj?.url
 );

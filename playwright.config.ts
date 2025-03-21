@@ -26,7 +26,7 @@ const globalSetup = path.resolve("./tests/global-setup.ts");
  */
 export default defineConfig({
   globalSetup,
-  globalTimeout: process.env.CI ? 900000 : 600000,
+  globalTimeout: 3600000,
   timeout: process.env.CI ? 180000 : 130000,
   expect: {
     timeout: process.env.CI ? 10000 : 7000,
@@ -39,7 +39,7 @@ export default defineConfig({
   /* Retry on CI only */
   retries: process.env.CI ? 2 : 1,
   /* Opt out of parallel tests on CI. */
-  workers: process.env.CI ? 4 : 6,
+  workers: process.env.CI ? 4 : 5,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   reporter: [
     [
