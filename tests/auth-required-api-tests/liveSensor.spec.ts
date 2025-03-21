@@ -4,7 +4,10 @@ import { getApis, getJSON } from "../helper";
 const [liveSensorUrl] = getApis(["live sensor"], "live-sensor").map(
   (apiObj) => apiObj?.url
 );
-const liveSensorBody = getJSON("live-sensor", { isRequest: true });
+const liveSensorBody = getJSON({
+  fileName: "live-sensor",
+  fileFolder: "request-bodies",
+});
 const accessToken = process.env.ACCESS_TOKEN;
 
 type liveSensorRequestOptions = {

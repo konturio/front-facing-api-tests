@@ -15,7 +15,11 @@ const searchApis = getApis(
   ["search oam", "search atlas", "search disaster-ninja", "search smart-city"],
   "search-apis"
 );
-const chicagoSearchResponse = getJSON("chicago-search", { isRequest: false });
+
+const chicagoSearchResponse = getJSON({
+  fileName: "chicago-search",
+  fileFolder: "response-bodies",
+});
 
 async function testSearchApi({
   searchApi,
