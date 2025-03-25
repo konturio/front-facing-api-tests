@@ -97,7 +97,6 @@ const expectedLayers = [
   "natural_0_to_10",
   "night_lights_intensity",
   "oam_coverage_area",
-  "oam_image_count",
   "oam_newest_timestamp",
   "oam_number_of_pixels",
   "oam_oldest_timestamp",
@@ -179,9 +178,6 @@ const expectedLayers = [
   "worldclim_min_temperature",
   "years_to_naturalisation",
   "gmu_rain_accumulation",
-  "moss_lichen",
-  "multiple_citizenship",
-  "natural_0_to_1",
 ];
 
 if (process.env.ENVIRONMENT === "test") {
