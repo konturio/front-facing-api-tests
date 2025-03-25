@@ -22,8 +22,6 @@ export type TestedGeojson = {
   }[];
 };
 
-export type CountriesSelectionType = "all" | "random" | "specific" | undefined;
-
 export const countriesToTestArray = process.env.COUNTRIES_TO_TEST?.split(
   ","
 ).map((country) => country.trim());
@@ -289,14 +287,9 @@ export function getArrayOfCountriesJSONs(
  */
 
 export function getPolygonsToTest() {
-  switch (process.env.COUNTRIES_SELECTION_TYPE as CountriesSelectionType) {
-    case "all":
-      return getArrayOfCountriesJSONs();
-    case "random":
-      return [getRandomCountryJSON({ notBigCountry: true })];
-    case "specific":
-      return getArrayOfCountriesJSONs(countriesToTestArray);
-    default:
-      return [getRandomCountryJSON({ notBigCountry: true })];
+  if ((process.env.COUNTRIES_TO_TEST?.length as number) > 0) {
+    return getArrayOfCountriesJSONs(countriesToTestArray);
+  } else {
+    return [getRandomCountryJSON({ notBigCountry: true })];
   }
 }

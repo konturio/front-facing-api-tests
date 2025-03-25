@@ -50,7 +50,7 @@ const graphqlQueriesWithoutGeojson = queriesFilesNoGeojson.reduce(
 for (const polygon of polygons) {
   const testedCountry = polygon.features[0].properties.ADMIN;
   test.describe(
-    `Check insights api graphql queries with geojson (testing ${process.env.COUNTRIES_SELECTION_TYPE === "random" ? "random country" : testedCountry})`,
+    `Check insights api graphql queries with geojson (testing ${process.env.COUNTRIES_TO_TEST === "" ? "random country" : testedCountry})`,
     {
       annotation: {
         type: "country",

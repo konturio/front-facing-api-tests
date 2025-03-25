@@ -23,7 +23,7 @@ const graphqlQueriesWithGeojson = queriesFilesWithGeojson.map((query) =>
 for (const polygon of polygons) {
   const testedCountry = polygon.features[0].properties.ADMIN;
   test.describe(
-    `Check advanced analytics responses in general (testing ${process.env.COUNTRIES_SELECTION_TYPE === "random" ? "random country" : testedCountry})`,
+    `Check advanced analytics responses in general (testing ${process.env.COUNTRIES_TO_TEST === "" ? "random country" : testedCountry})`,
     {
       annotation: {
         type: "country",
@@ -196,7 +196,7 @@ for (const polygon of polygons) {
 for (const polygon of polygons) {
   const testedCountry = polygon.features[0].properties.ADMIN;
   test.describe(
-    `Advanced analytics extra tests (testing ${process.env.COUNTRIES_SELECTION_TYPE === "random" ? "random country" : testedCountry})`,
+    `Advanced analytics extra tests (testing ${process.env.COUNTRIES_TO_TEST === "" ? "random country" : testedCountry})`,
     {
       annotation: {
         type: "country",

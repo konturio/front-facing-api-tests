@@ -15,7 +15,7 @@ const populationQuery = getGraphqlQuery("bivariateStatisticMeta", {
 for (const polygon of polygons) {
   const testedCountry = polygon.features[0].properties.ADMIN;
   test.describe(
-    `Meta tests (testing ${process.env.COUNTRIES_SELECTION_TYPE === "random" ? "random country" : testedCountry})`,
+    `Meta tests (testing ${process.env.COUNTRIES_TO_TEST === "" ? "random country" : testedCountry})`,
     {
       annotation: {
         type: "country",

@@ -57,7 +57,7 @@ const functionsQuery = getGraphqlQuery("analyticsFunctions", {
 for (const polygon of polygons) {
   const testedCountry = polygon.features[0].properties.ADMIN;
   test.describe(
-    `Analytics functions tests (testing ${process.env.COUNTRIES_SELECTION_TYPE === "random" ? "random country" : testedCountry})`,
+    `Analytics functions tests (testing ${process.env.COUNTRIES_TO_TEST === "" ? "random country" : testedCountry})`,
     {
       annotation: {
         type: "country",

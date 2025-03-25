@@ -45,7 +45,9 @@ export default defineConfig({
     [
       "./node_modules/playwright-slack-report/dist/src/SlackReporter.js",
       {
-        channels: [process.env.TEST_OAM ? "oam-monitoring" : "health_check"], // provide one or more Slack channels
+        channels: [
+          process.env.TEST_OAM ? "oam-monitoring" : "api_health_check",
+        ], // provide one or more Slack channels
         sendResults: "always", // "always" , "on-failure", "off"
         maxNumberOfFailuresToShow: 100,
         meta: [
@@ -59,11 +61,15 @@ export default defineConfig({
           },
           {
             key: `Type ⚙️`,
-            value: `${process.env.TEST_OAM ? "OAM" : "API"} tests`,
+            value: `${process.env.TEST_OAM ? "OAM" : process.env.TYPE} tests`,
           },
           {
             key: `${process.env.TEST_OAM ? "No users tested" : "Tested user with PRO rights"}`,
             value: `${process.env.TEST_OAM ? "-" : process.env.EMAIL_PRO}`,
+          },
+          {
+            key: `Tested countries 🗺️`,
+            value: `${process.env.COUNTRIES_TO_TEST === "" ? "-" : process.env.COUNTRIES_TO_TEST}`,
           },
           {
             key: `Note`,
@@ -99,9 +105,15 @@ export default defineConfig({
       testMatch: "auth.setup.ts",
     },
     {
-      name: "auth_required_api_tests",
+      name: "auth_required_api_tests_no_llm",
       dependencies: ["setup"],
       testDir: "./tests/auth-required-api-tests",
+      testIgnore: "llmAnalytics.spec.ts",
+    },
+    {
+      name: "llm_analytics",
+      dependencies: ["setup"],
+      testMatch: "llmAnalytics.spec.ts",
     },
     {
       name: "api_tests_no_auth",
