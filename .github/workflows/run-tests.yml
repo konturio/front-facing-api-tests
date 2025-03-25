@@ -60,17 +60,11 @@ jobs:
       DEV_NO_RIGHTS_PASSWORD: ${{ secrets.DEV_NO_RIGHTS_PASSWORD }}
       SLACK_BOT_USER_OAUTH_TOKEN: ${{secrets.PLAYWRIGHT_TOKEN }}
       COUNTRIES_TO_TEST: ${{ github.event.inputs.countries }}
-      TYPE: ${{ github.event.inputs.tests_type }}
+      TYPE: ${{ github.event.inputs.tests_type || (github.event.schedule == '*/10 * * * 1-5' && 'frequent') || (github.event.schedule == '30 9 * * 1-5' && 'llm') }}
 
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-      - name: Set tests_type for scheduled runs
-        if: ${{ github.event.schedule == '30 9 * * 1-5' }}
-        run: echo "tests_type=llm" >> $GITHUB_ENV
-      - name: Set tests_type for frequent runs
-        if: ${{ github.event.schedule == '*/10 * * * 1-5' }}
-        run: echo "tests_type=frequent" >> $GITHUB_ENV
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
@@ -130,7 +124,7 @@ jobs:
         run: npx playwright test --project=oam_tests
 
       - name: Run llm api tests
-        if: ${{github.event.inputs.tests_type == 'llm'}}
+        if: ${{env.TYPE == 'llm'}}
         run: npx playwright test --project=llm_analytics
 
       - name: Run insights api tests
@@ -138,7 +132,7 @@ jobs:
         run: npx playwright test --project=insights_api_tests
 
       - name: Run frequent api tests
-        if: ${{github.event.inputs.tests_type == 'frequent'}}
+        if: ${{env.TYPE == 'frequent'}}
         run: npm run frequent-tests
 
       - name: Upload tests results
