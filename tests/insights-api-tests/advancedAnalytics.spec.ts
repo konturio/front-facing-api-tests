@@ -126,10 +126,12 @@ for (const polygon of polygons) {
 
                 for (const analysis of item.analytics as Analytics[]) {
                   await test.step(`Check ${analysis.calculation} object data in ${item.numerator}/${item.denominator} data in advancedAnalytics`, async () => {
-                    expect(
-                      analysis.value,
-                      `Value in analytics (${analysis.value}) should be defined`
-                    ).toBeDefined();
+                    expect
+                      .soft(
+                        analysis.value,
+                        `Value in analytics (${analysis.value}) should be defined`
+                      )
+                      .toBeDefined();
 
                     // TODO: adjust this tests after fixing https://kontur.fibery.io/Tasks/Task/insights-api-Nulls-in-value-and-quality,-median-is-on-20713
 
@@ -145,18 +147,24 @@ for (const polygon of polygons) {
                         )
                         .toBe(`number`);
                     }
-                    expect(
-                      analysis.calculation,
-                      `Calculation in analytics (${analysis.calculation}) should be defined`
-                    ).toBeDefined();
-                    expect(
-                      typeof analysis.calculation,
-                      `Value in calculation should be of type string`
-                    ).toBe(`string`);
-                    expect(
-                      analysis.quality,
-                      `Quality in analytics (${analysis.quality}) should be defined`
-                    ).toBeDefined();
+                    expect
+                      .soft(
+                        analysis.calculation,
+                        `Calculation in analytics (${analysis.calculation}) should be defined`
+                      )
+                      .toBeDefined();
+                    expect
+                      .soft(
+                        typeof analysis.calculation,
+                        `Value in calculation should be of type string`
+                      )
+                      .toBe(`string`);
+                    expect
+                      .soft(
+                        analysis.quality,
+                        `Quality in analytics (${analysis.quality}) should be defined`
+                      )
+                      .toBeDefined();
 
                     // TODO: adjust this tests after fixing https://kontur.fibery.io/Tasks/Task/insights-api-Nulls-in-value-and-quality,-median-is-on-20713
 
@@ -178,10 +186,12 @@ for (const polygon of polygons) {
                         .toBeGreaterThanOrEqual(0);
                     }
                     if (analysis.value !== null) {
-                      expect(
-                        analysis.quality,
-                        `${analysis.calculation.toUpperCase()} quality of layer ${item.numerator}/${item.denominator} should not be null when value is ${analysis.value}`
-                      ).not.toBeNull();
+                      expect
+                        .soft(
+                          analysis.quality,
+                          `${analysis.calculation.toUpperCase()} quality of layer ${item.numerator}/${item.denominator} should not be null when value is ${analysis.value}`
+                        )
+                        .not.toBeNull();
                     }
                   });
                 }
@@ -333,7 +343,7 @@ for (const polygon of polygons) {
               (analyticsItem: Analytics) =>
                 analyticsItem.value !== null || analyticsItem.quality !== null
             ),
-            `Reference layer ${layer.numerator}/${layer.denominator} has no nulls in value or quality`
+            `Should find at least one analytics item in reference layer ${layer.numerator}/${layer.denominator} where value or quality is not null`
           ).toBeTruthy();
         }
       });

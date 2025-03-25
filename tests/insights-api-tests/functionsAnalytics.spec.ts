@@ -106,10 +106,9 @@ for (const polygon of polygons) {
               `Result for ${id} should not be null`
             ).not.toBeNull();
 
-            expect(
-              result,
-              `Result for ${id} should be >=0`
-            ).toBeGreaterThanOrEqual(0);
+            expect
+              .soft(result, `Result for ${id} should be >=0`)
+              .toBeGreaterThanOrEqual(0);
 
             expect
               .soft(

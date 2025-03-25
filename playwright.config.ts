@@ -61,11 +61,11 @@ export default defineConfig({
           },
           {
             key: `Type ⚙️`,
-            value: `${process.env.TEST_OAM ? "OAM" : process.env.TYPE} tests`,
+            value: `${process.env.TEST_OAM ? "OAM" : process.env.TYPE || "API"} tests`,
           },
           {
-            key: `${process.env.TEST_OAM ? "No users tested" : "Tested user with PRO rights"}`,
-            value: `${process.env.TEST_OAM ? "-" : process.env.EMAIL_PRO}`,
+            key: `${process.env.EMAIL_PRO === "test_email" || process.env.TEST_OAM ? "No users tested" : "Tested user with PRO rights"}`,
+            value: `${process.env.EMAIL_PRO === "test_email" || process.env.TEST_OAM ? "-" : process.env.EMAIL_PRO}`,
           },
           {
             key: `Tested countries 🗺️`,

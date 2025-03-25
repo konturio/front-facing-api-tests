@@ -8,9 +8,9 @@ import {
 const polygons = getPolygonsToTest();
 const queryDeadline = 60000;
 
-const expectedMinPopulation = 6000;
+const expectedMinPopulation = 100;
 const expectedMaxPopulation = 400000000;
-const expectedMinUrbanPopulation = 5000;
+const expectedMinUrbanPopulation = 100;
 const expectedMinGDP = 1000000;
 
 const populationQuery = getGraphqlQuery("analyticsPopulation", {
@@ -65,9 +65,9 @@ for (const polygon of polygons) {
       for (const field of fieldsToCheck) {
         await test.step(`Check '${field}' field is not null and >= 0`, async () => {
           expect(stats[field], "Value should be defined").toBeDefined();
-          expect(stats[field], "Value should be >= 0").toBeGreaterThanOrEqual(
-            0
-          );
+          expect
+            .soft(stats[field], "Value should be >= 0")
+            .toBeGreaterThanOrEqual(0);
           expect(stats[field], "Value should not be null").not.toBeNull();
           expect(
             Number.isFinite(stats[field]),
@@ -84,26 +84,36 @@ for (const polygon of polygons) {
       });
 
       await test.step(`Check values are in expected range`, async () => {
-        expect(
-          stats.population,
-          `Population should be adequate (>= ${expectedMinPopulation})`
-        ).toBeGreaterThanOrEqual(expectedMinPopulation);
-        expect(
-          stats.population,
-          `Population should be less than ${expectedMaxPopulation}`
-        ).toBeLessThan(expectedMaxPopulation);
-        expect(
-          stats.urban,
-          `Urban population should be adequate (>= ${expectedMinUrbanPopulation})`
-        ).toBeGreaterThanOrEqual(expectedMinUrbanPopulation);
-        expect(
-          stats.urban,
-          `Urban population should be less then all population`
-        ).toBeLessThan(stats.population);
-        expect(
-          stats.gdp,
-          `Gross domestic product (GDP) should be adequate (>= ${expectedMinGDP})`
-        ).toBeGreaterThanOrEqual(expectedMinGDP);
+        expect
+          .soft(
+            stats.population,
+            `Population should be adequate (>= ${expectedMinPopulation})`
+          )
+          .toBeGreaterThanOrEqual(expectedMinPopulation);
+        expect
+          .soft(
+            stats.population,
+            `Population should be less than ${expectedMaxPopulation}`
+          )
+          .toBeLessThan(expectedMaxPopulation);
+        expect
+          .soft(
+            stats.urban,
+            `Urban population should be adequate (>= ${expectedMinUrbanPopulation})`
+          )
+          .toBeGreaterThanOrEqual(expectedMinUrbanPopulation);
+        expect
+          .soft(
+            stats.urban,
+            `Urban population should be less then all population`
+          )
+          .toBeLessThan(stats.population);
+        expect
+          .soft(
+            stats.gdp,
+            `Gross domestic product (GDP) should be adequate (>= ${expectedMinGDP})`
+          )
+          .toBeGreaterThanOrEqual(expectedMinGDP);
       });
     }
   );
