@@ -61,15 +61,15 @@ export default defineConfig({
           },
           {
             key: `Type ⚙️`,
-            value: `${process.env.TEST_OAM ? "OAM" : process.env.TYPE || "API"} tests`,
+            value: `${process.env.TEST_OAM ? "OAM" : process.env.TYPE?.toUpperCase() || "API"} tests`,
           },
           {
-            key: `${process.env.EMAIL_PRO === "test_email" || process.env.TEST_OAM ? "No users tested" : "Tested user with PRO rights"}`,
-            value: `${process.env.EMAIL_PRO === "test_email" || process.env.TEST_OAM ? "-" : process.env.EMAIL_PRO}`,
+            key: `Tested user with PRO rights 👤`,
+            value: `${process.env.EMAIL_PRO === "test_email" || process.env.TEST_OAM ? "Not relevant" : process.env.EMAIL_PRO}`,
           },
           {
             key: `Tested countries 🗺️`,
-            value: `${process.env.COUNTRIES_TO_TEST === "" ? "-" : process.env.COUNTRIES_TO_TEST}`,
+            value: `${process.env.COUNTRIES_TO_TEST === "" ? "Random" : process.env.COUNTRIES_TO_TEST || "Not relevant"}`,
           },
           {
             key: `Note`,
