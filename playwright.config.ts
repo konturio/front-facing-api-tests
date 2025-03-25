@@ -26,7 +26,7 @@ const globalSetup = path.resolve("./tests/global-setup.ts");
  */
 export default defineConfig({
   globalSetup,
-  globalTimeout: process.env.CI ? 900000 : 600000,
+  globalTimeout: 3600000,
   timeout: process.env.CI ? 180000 : 130000,
   expect: {
     timeout: process.env.CI ? 10000 : 7000,
@@ -39,13 +39,15 @@ export default defineConfig({
   /* Retry on CI only */
   retries: process.env.CI ? 2 : 1,
   /* Opt out of parallel tests on CI. */
-  workers: process.env.CI ? 4 : 6,
+  workers: process.env.CI ? 4 : 5,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   reporter: [
     [
       "./node_modules/playwright-slack-report/dist/src/SlackReporter.js",
       {
-        channels: [process.env.TEST_OAM ? "oam-monitoring" : "health_check"], // provide one or more Slack channels
+        channels: [
+          process.env.TEST_OAM ? "oam-monitoring" : "api_health_check",
+        ], // provide one or more Slack channels
         sendResults: "always", // "always" , "on-failure", "off"
         maxNumberOfFailuresToShow: 100,
         meta: [
@@ -59,11 +61,15 @@ export default defineConfig({
           },
           {
             key: `Type ⚙️`,
-            value: `${process.env.TEST_OAM ? "OAM" : "API"} tests`,
+            value: `${process.env.TEST_OAM ? "OAM" : process.env.TYPE || "API"} tests`,
           },
           {
-            key: `${process.env.TEST_OAM ? "No users tested" : "Tested user with PRO rights"}`,
-            value: `${process.env.TEST_OAM ? "-" : process.env.EMAIL_PRO}`,
+            key: `${process.env.EMAIL_PRO === "test_email" || process.env.TEST_OAM ? "No users tested" : "Tested user with PRO rights"}`,
+            value: `${process.env.EMAIL_PRO === "test_email" || process.env.TEST_OAM ? "-" : process.env.EMAIL_PRO}`,
+          },
+          {
+            key: `Tested countries 🗺️`,
+            value: `${process.env.COUNTRIES_TO_TEST === "" ? "-" : process.env.COUNTRIES_TO_TEST}`,
           },
           {
             key: `Note`,
@@ -99,9 +105,15 @@ export default defineConfig({
       testMatch: "auth.setup.ts",
     },
     {
-      name: "auth_required_api_tests",
+      name: "auth_required_api_tests_no_llm",
       dependencies: ["setup"],
       testDir: "./tests/auth-required-api-tests",
+      testIgnore: "llmAnalytics.spec.ts",
+    },
+    {
+      name: "llm_analytics",
+      dependencies: ["setup"],
+      testMatch: "llmAnalytics.spec.ts",
     },
     {
       name: "api_tests_no_auth",

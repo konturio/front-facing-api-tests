@@ -26,6 +26,8 @@ function globalSetup() {
   process.env.ALL_COUNTRIES_PATH =
     "tests/tests-data/request-bodies/all-countries.json" as string;
   process.env.REPO_NAME = "front-facing-api-tests" as string;
+  if (!process.env.COUNTRIES_TO_TEST) process.env.COUNTRIES_TO_TEST = "";
+  if (!process.env.TYPE) process.env.TYPE = "API";
 }
 
 export default globalSetup;

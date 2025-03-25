@@ -179,6 +179,9 @@ const expectedLayers = [
   "worldclim_min_temperature",
   "years_to_naturalisation",
   "gmu_rain_accumulation",
+  "moss_lichen",
+  "multiple_citizenship",
+  "natural_0_to_1",
 ];
 
 if (process.env.ENVIRONMENT === "test") {

@@ -1,5 +1,9 @@
-name: Run front-facing API tests
-run-name: Run tests on ${{inputs.env || 'prod'}} env
+name: Run API tests
+run-name: |
+  Run ${{ (github.event.inputs.tests_type == 'llm' || github.event.schedule == '30 9 * * 1-5') && 'llm' || inputs.tests_type }} tests on ${{ inputs.env || 'prod' }} env
+  ${{ inputs.countries && format(' for {0}', inputs.countries) || 'for random countries' }}
+  ${{ github.event.schedule == '30 9 * * 1-5' && '(every day check)' || '' }} ${{ github.event.schedule == '*/10 * * * 1-5' && '(every 10 minutes check)' || '' }}
+
 on:
   workflow_dispatch:
     inputs:
@@ -10,8 +14,30 @@ on:
           - dev
           - test
           - prod
+        description: |
+          Which environment to run tests on. Dev is not supported well by this tests.
+      tests_type:
+        type: choice
+        required: false
+        options:
+          - all
+          - oam
+          - llm
+          - insights
+          - frequent
+        description: |
+          Which tests to run. Frequent tests ignore llm and oam tests.
+        default: frequent
+      countries:
+        type: string
+        required: false
+        description: |
+          Comma-separated list of countries to test. If not provided, a random small country will be used for each Insights API test. Example: 'Canada, Germany'. Pasting more than 5 countries is not recommended. Make sure to write them correctly! Copy country names from [here](https://github.com/front-facing-api-tests/tests/tests-data/lookup-data/admin-names.json)
+        default: ""
+
   schedule:
     - cron: "30 9 * * 1-5"
+    - cron: "*/10 * * * 1-5"
 
 jobs:
   tests:
@@ -33,10 +59,15 @@ jobs:
       DEV_NO_RIGHTS_EMAIL: ${{ secrets.DEV_NO_RIGHTS_EMAIL }}
       DEV_NO_RIGHTS_PASSWORD: ${{ secrets.DEV_NO_RIGHTS_PASSWORD }}
       SLACK_BOT_USER_OAUTH_TOKEN: ${{secrets.PLAYWRIGHT_TOKEN }}
+      COUNTRIES_TO_TEST: ${{ github.event.inputs.countries }}
+      TYPE: ${{ github.event.inputs.tests_type }}
 
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+      - name: Set tests_type for scheduled runs
+        if: ${{ github.event.schedule == '30 9 * * 1-5' }}
+        run: echo "tests_type=llm" >> $GITHUB_ENV
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
@@ -64,6 +95,8 @@ jobs:
           echo "PASSWORD_NO_RIGHTS=$PASSWORD_NO_RIGHTS" >> .env.playwright
           echo "SLACK_BOT_USER_OAUTH_TOKEN=${SLACK_BOT_USER_OAUTH_TOKEN}" >> .env.playwright
           echo "ENVIRONMENT=$ENVIRONMENT" >> .env.playwright
+          echo "COUNTRIES_TO_TEST=$COUNTRIES_TO_TEST" >> .env.playwright
+          echo "TYPE=$TYPE" >> .env.playwright
       - name: Cache node modules
         id: cache-npm
         uses: actions/cache@v4
@@ -85,8 +118,25 @@ jobs:
           pnpm add -D @playwright/test@latest
           npx playwright install --with-deps
 
-      - name: Run Playwright tests
+      - name: Run all api tests
+        if: ${{github.event.inputs.tests_type == 'all'}}
         run: npx playwright test
+
+      - name: Run oam api tests
+        if: ${{github.event.inputs.tests_type == 'oam'}}
+        run: npx playwright test --project=oam_tests
+
+      - name: Run llm api tests
+        if: ${{github.event.inputs.tests_type == 'llm'}}
+        run: npx playwright test --project=llm_analytics
+
+      - name: Run insights api tests
+        if: ${{github.event.inputs.tests_type == 'insights'}}
+        run: npx playwright test --project=insights_api_tests
+
+      - name: Run frequent api tests
+        if: ${{github.event.inputs.tests_type == 'frequent'}}
+        run: npm run frequent-tests
 
       - name: Upload tests results
         uses: actions/upload-artifact@v4
