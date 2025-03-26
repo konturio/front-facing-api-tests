@@ -17,6 +17,7 @@ dotenv.config({
 });
 
 const globalSetup = path.resolve("./tests/global-setup.ts");
+const globalTeardown = path.resolve("./tests/global-teardown.ts");
 
 // import dotenv from 'dotenv';
 // dotenv.config({ path: path.resolve(__dirname, '.env') });
@@ -26,6 +27,7 @@ const globalSetup = path.resolve("./tests/global-setup.ts");
  */
 export default defineConfig({
   globalSetup,
+  globalTeardown,
   globalTimeout: 3600000,
   timeout: process.env.CI ? 180000 : 130000,
   expect: {
@@ -46,7 +48,11 @@ export default defineConfig({
       "./node_modules/playwright-slack-report/dist/src/SlackReporter.js",
       {
         channels: [
-          process.env.TEST_OAM ? "oam-monitoring" : "api_health_check",
+          process.env.TEST_OAM
+            ? "oam-monitoring"
+            : process.env.IS_TESTING_BUSINESS_COUNTRIES_IN_A_ROW_AT_INSIGHTS_API
+              ? "insights-api-autotests"
+              : "api_health_check",
         ], // provide one or more Slack channels
         sendResults: "always", // "always" , "on-failure", "off"
         maxNumberOfFailuresToShow: 100,
