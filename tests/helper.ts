@@ -299,7 +299,7 @@ export function getPolygonsToTest() {
   ) {
     return getArrayOfCountriesJSONs(countriesToTestArray);
   } else {
-    // TO DO: don't filter out big countries and set business countries instead once
+    // TO DO: don't filter out big countries and set business countries instead once the task for big areas in insigths api is done
     return [getRandomCountryJSON({ notBigCountry: true })];
   }
 }
