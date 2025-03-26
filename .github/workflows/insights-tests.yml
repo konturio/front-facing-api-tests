@@ -59,7 +59,7 @@ jobs:
         id: get
         uses: andymckay/get-gist-action@master
         with:
-          gistURL: "https://gist.github.com/amurKontur/f2e305b82a31d1c9b059da538e53704a"
+          gistURL: "https://gist.github.com/amurKontur/${{ secrets.GIST_ID }}"
       - name: Move downloaded file to desired location
         run: |
           mv ${{ steps.get.outputs.file }} tests/tests-data/lookup-data/countries-for-workflow.json
