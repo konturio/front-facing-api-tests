@@ -1,4 +1,4 @@
-import { getApis } from "./helper";
+import { getApis, getJSON } from "./helper";
 
 function globalSetup() {
   const params = ["ENVIRONMENT", "SLACK_BOT_USER_OAUTH_TOKEN"];
@@ -26,8 +26,18 @@ function globalSetup() {
   process.env.ALL_COUNTRIES_PATH =
     "tests/tests-data/request-bodies/all-countries.json" as string;
   process.env.REPO_NAME = "front-facing-api-tests" as string;
+
   if (!process.env.COUNTRIES_TO_TEST) process.env.COUNTRIES_TO_TEST = "";
+
   if (!process.env.TYPE) process.env.TYPE = "API";
+
+  if (!process.env.IS_TESTING_BUSINESS_COUNTRIES_IN_A_ROW_AT_INSIGHTS_API) {
+    const countries = getJSON({
+      fileFolder: "lookup-data",
+      fileName: "countries-for-workflow",
+    }) as string[];
+    process.env.COUNTRIES_TO_TEST = countries.join(",");
+  }
 }
 
 export default globalSetup;

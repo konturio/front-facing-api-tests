@@ -22,9 +22,15 @@ export type TestedGeojson = {
   }[];
 };
 
-export const countriesToTestArray = process.env.COUNTRIES_TO_TEST?.split(
-  ","
-).map((country) => country.trim());
+export const countriesForWorkflow = getJSON({
+  fileName: "countries-for-workflow",
+  fileFolder: "lookup-data",
+}) as string[];
+
+export const countriesToTestArray = process.env
+  .IS_TESTING_BUSINESS_COUNTRIES_IN_A_ROW_AT_INSIGHTS_API
+  ? (countriesForWorkflow.map((country) => country.trim()) as string[])
+  : process.env.COUNTRIES_TO_TEST?.split(",").map((country) => country.trim());
 
 const bigCountries = new Set([
   "Russia",
@@ -287,9 +293,13 @@ export function getArrayOfCountriesJSONs(
  */
 
 export function getPolygonsToTest() {
-  if ((process.env.COUNTRIES_TO_TEST?.length as number) > 0) {
+  if (
+    (process.env.COUNTRIES_TO_TEST?.length as number) > 0 ||
+    process.env.IS_TESTING_BUSINESS_COUNTRIES_IN_A_ROW_AT_INSIGHTS_API
+  ) {
     return getArrayOfCountriesJSONs(countriesToTestArray);
   } else {
+    // TO DO: don't filter out big countries and set business countries instead once the task for big areas in insigths api is done
     return [getRandomCountryJSON({ notBigCountry: true })];
   }
 }
