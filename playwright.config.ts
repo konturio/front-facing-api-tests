@@ -1,7 +1,8 @@
-import { defineConfig, devices } from "@playwright/test";
+import { defineConfig } from "@playwright/test";
 import * as dotenv from "dotenv";
 import { LogLevel } from "@slack/web-api/dist/index.js";
 import path from "path";
+import { getJSON } from "./tests/helper.ts";
 
 /**
  * Read environment variables from file.
@@ -18,6 +19,11 @@ dotenv.config({
 
 const globalSetup = path.resolve("./tests/global-setup.ts");
 const globalTeardown = path.resolve("./tests/global-teardown.ts");
+const businessCountriesArray = getJSON({
+  fileFolder: "lookup-data",
+  fileName: "countries-for-workflow",
+}) as string[];
+const businessCountries = businessCountriesArray.join(", ");
 
 // import dotenv from 'dotenv';
 // dotenv.config({ path: path.resolve(__dirname, '.env') });
@@ -71,11 +77,11 @@ export default defineConfig({
           },
           {
             key: `Tested user with PRO rights 👤`,
-            value: `${process.env.EMAIL_PRO === "test_email" || process.env.TEST_OAM ? "Not relevant" : process.env.EMAIL_PRO}`,
+            value: `${process.env.EMAIL_PRO === "test_email" || process.env.TEST_OAM || process.env.IS_TESTING_BUSINESS_COUNTRIES_IN_A_ROW_AT_INSIGHTS_API ? "Not relevant" : process.env.EMAIL_PRO}`,
           },
           {
             key: `Tested countries 🗺️`,
-            value: `${process.env.COUNTRIES_TO_TEST === "" ? "Random" : process.env.COUNTRIES_TO_TEST || "Not relevant"}`,
+            value: `${process.env.COUNTRIES_TO_TEST === "" ? "Random" : process.env.IS_TESTING_BUSINESS_COUNTRIES_IN_A_ROW_AT_INSIGHTS_API ? businessCountries : process.env.COUNTRIES_TO_TEST}`,
           },
           {
             key: `Note`,

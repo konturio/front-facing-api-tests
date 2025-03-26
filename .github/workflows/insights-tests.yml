@@ -66,9 +66,12 @@ jobs:
 
       - name: Upload checked countries list
         uses: actions/upload-artifact@v4
+        if: ${{ !cancelled() }}
         with:
           name: countries-for-workflow
           path: tests/tests-data/lookup-data/countries-for-workflow.json
+          retention-days: 1
+          overwrite: true
 
       - name: Upload test results
         uses: actions/upload-artifact@v4
