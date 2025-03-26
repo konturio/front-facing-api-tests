@@ -12,11 +12,11 @@ function globalTeardown() {
     const index = businessCountries.indexOf(lastCountry);
 
     let newCountries = [] as string[];
-    if (index + 5 < businessCountries.length) {
-      newCountries = businessCountries.slice(index, index + 5);
+    if (index + 6 < businessCountries.length) {
+      newCountries = businessCountries.slice(index + 1, index + 6);
     } else {
       const endPart = businessCountries.slice(index);
-      const startPart = businessCountries.slice(0, 5 - endPart.length);
+      const startPart = businessCountries.slice(0, 6 - endPart.length);
       newCountries = [...endPart, ...startPart];
     }
     try {
