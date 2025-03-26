@@ -30,6 +30,8 @@ function globalTeardown() {
     } catch (error) {
       throw new Error(error);
     }
+  } else {
+    console.log("Skipping globalTeardown");
   }
 }
 

@@ -31,7 +31,7 @@ function globalSetup() {
 
   if (!process.env.TYPE) process.env.TYPE = "API";
 
-  if (!process.env.IS_TESTING_BUSINESS_COUNTRIES_IN_A_ROW_AT_INSIGHTS_API) {
+  if (process.env.IS_TESTING_BUSINESS_COUNTRIES_IN_A_ROW_AT_INSIGHTS_API) {
     const countries = getJSON({
       fileFolder: "lookup-data",
       fileName: "countries-for-workflow",
