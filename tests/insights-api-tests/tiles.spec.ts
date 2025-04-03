@@ -178,6 +178,7 @@ const expectedLayers = [
   "worldclim_min_temperature",
   "years_to_naturalisation",
   "gmu_rain_accumulation",
+  "worldbank_tax_rate",
 ];
 
 if (process.env.ENVIRONMENT === "test") {
