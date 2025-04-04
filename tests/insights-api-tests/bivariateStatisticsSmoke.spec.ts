@@ -31,6 +31,7 @@ const getCorrelationRates = async (
   if (validateResponse) {
     const stats = responseObj?.data?.polygonStatistic?.bivariateStatistic;
     expect(stats, "Response should contain bivariate statistics").toBeDefined();
+    console.log(stats);
     const correlationRates = stats.correlationRates;
     expect(
       correlationRates.length,
