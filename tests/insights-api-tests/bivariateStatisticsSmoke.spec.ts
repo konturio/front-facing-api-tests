@@ -20,10 +20,6 @@ const getCorrelationRates = async (
   polygon: TestedGeojson,
   { validateResponse = false } = {}
 ) => {
-  test.fixme(
-    true,
-    "Fix https://kontur.fibery.io/Tasks/Task/21318 to activate this test. Correlation rates array length === 0 takes place sometimes."
-  );
   const responseObj = await sendGraphqlQuery({
     request,
     url: process.env.GRAPHQL_ENDPOINT as string,
@@ -67,6 +63,10 @@ for (const polygon of polygons) {
       });
 
       test(`Check that each correlation rate is !== 0`, async ({ request }) => {
+        test.fixme(
+          true,
+          "Fix https://kontur.fibery.io/Tasks/Task/21318 to activate this test. Correlation rates array length === 0 takes place sometimes."
+        );
         const correlationRates = await getCorrelationRates(request, polygon);
 
         const checkValue = (value: number, name: string) => {
@@ -145,6 +145,10 @@ for (const polygon of polygons) {
       test("Check that important layers are not grouped", async ({
         request,
       }) => {
+        test.fixme(
+          true,
+          "Fix https://kontur.fibery.io/Tasks/Task/21318 to activate this test. Correlation rates array length === 0 takes place sometimes."
+        );
         const correlationRates = await getCorrelationRates(request, polygon);
 
         const importantLayers = [
