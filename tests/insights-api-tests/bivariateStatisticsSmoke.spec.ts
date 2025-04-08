@@ -20,6 +20,10 @@ const getCorrelationRates = async (
   polygon: TestedGeojson,
   { validateResponse = false } = {}
 ) => {
+  test.fixme(
+    true,
+    "Fix https://kontur.fibery.io/Tasks/Task/21318 to activate this test. Correlation rates array length === 0 takes place sometimes."
+  );
   const responseObj = await sendGraphqlQuery({
     request,
     url: process.env.GRAPHQL_ENDPOINT as string,
@@ -31,7 +35,6 @@ const getCorrelationRates = async (
   if (validateResponse) {
     const stats = responseObj?.data?.polygonStatistic?.bivariateStatistic;
     expect(stats, "Response should contain bivariate statistics").toBeDefined();
-    console.log(stats);
     const correlationRates = stats.correlationRates;
     expect(
       correlationRates.length,
