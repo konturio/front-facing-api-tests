@@ -1,24 +1,27 @@
-import { disasterIDs } from "./returnAllDisastersObservations.ts";
+import { observationIDs } from "./returnAllDisastersObservations.ts";
 import { calculateLoadAnalytics } from "./resultsAnalytics.ts";
 import fs from "fs";
 
-const feed = "pdc";
-const numberOfRequestsPerTestRun = 1000;
-const token = "token";
-const episodeFilterType = "ANY";
-const numberOfIterations = Math.floor(
-  disasterIDs.length / numberOfRequestsPerTestRun
-);
+const sleep = (ms: number) =>
+  new Promise((resolve) => {
+    console.log(`Sleeping ${ms}ms...`);
+    setTimeout(resolve, ms);
+  });
 
-const disasterRequests = disasterIDs.map((disasterID) => {
+const timeout = 0;
+const numberOfRequestsPerTestRun = 1000;
+const numberOfIterations = Math.floor(
+  observationIDs.length / numberOfRequestsPerTestRun
+);
+const token = "token";
+
+const observationsRequests = observationIDs.map((observationID) => {
   return async function () {
-    const url = new URL(`https://apps.kontur.io/events/v1/event`);
-    url.searchParams.append("feed", String(feed));
-    url.searchParams.append("episodeFilterType", String(episodeFilterType));
-    url.searchParams.append("eventId", String(disasterID));
+    const url = new URL(
+      `https://apps.kontur.io/events/v1/observations/${observationID}`
+    );
     const startTime = Date.now();
     let status = 0;
-    let responseBody = {} as any;
     let error = "";
     let payloadSize = 0;
     let endTime = 0;
@@ -28,7 +31,6 @@ const disasterRequests = disasterIDs.map((disasterID) => {
         headers: {
           "Content-Type": "application/json",
           Authorization: token,
-          "Cache-Control": "no-store",
         },
       });
       endTime = Date.now();
@@ -36,14 +38,8 @@ const disasterRequests = disasterIDs.map((disasterID) => {
       status = response.status;
       const rawResponse = await response.text();
       payloadSize = Buffer.byteLength(rawResponse, "utf8");
-      responseBody = JSON.parse(rawResponse);
-      if (responseBody?.length) {
-        const eventId = responseBody?.eventId;
-        if (eventId !== disasterID)
-          error = `Requested disaster ID ${disasterID} is not equal to got disaster ID ${eventId} `;
-      }
     } catch (e) {
-      error = error + (e.message || String(e));
+      error = e.message || String(e);
     }
     return {
       startTime: new Date(startTime).toISOString(),
@@ -65,12 +61,12 @@ for (let i = 0; i < numberOfIterations; i++) {
   console.log(
     `Running ${i + 1} bunch of requests (${numberOfIterations - i - 1} is left)`
   );
-  const testedFunctions = disasterRequests.slice(
+  const testedFunctions = observationsRequests.slice(
     i * numberOfRequestsPerTestRun,
     (i + 1) * numberOfRequestsPerTestRun
   );
   results.push(await Promise.all(testedFunctions.map((fn) => fn())));
-  //   await sleep(timeout);
+  await sleep(timeout);
 }
 results = results.flat();
 
@@ -78,15 +74,17 @@ const endRequestingTime = Date.now();
 console.log(`End requesting: ${new Date(endRequestingTime).toISOString()}`);
 const testingTime = endRequestingTime - startRequestingTime;
 
-fs.writeFileSync("returnedEventsData.json", JSON.stringify(results, null, 2));
+fs.writeFileSync(
+  "returnedObservationsData.json",
+  JSON.stringify(results, null, 2)
+);
 
 console.log("Started analytics calculation...");
 
 console.log(
   calculateLoadAnalytics(results, {
-    numberOfRequests: disasterIDs.length,
-    episodeFilterType,
-    feed,
+    numberOfRequests: observationIDs.length,
     testingTimeMs: testingTime,
+    pauseBetweenBunchesOfRequestsMs: timeout,
   })
 );

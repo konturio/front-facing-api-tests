@@ -27,15 +27,15 @@ type ResultsAnalysis = {
   uniqueErrors: string[];
   testData: {
     numberOfRequests: number;
-    episodeFilterType: "ANY" | "NONE" | "ONLY";
-    types: string[];
-    startingBbox: number[];
-    feed: string;
-    limit: number;
-    shiftBboxCoordinatesStep: number;
-    startingAfterDate: string;
+    episodeFilterType?: "ANY" | "NONE" | "LATEST";
+    types?: string[];
+    startingBbox?: number[];
+    feed?: string;
+    limit?: number;
+    shiftBboxCoordinatesStep?: number;
+    startingAfterDate?: string;
     testingTimeMs: number;
-    pauseBetweenBunchesOfRequestsMs: number;
+    pauseBetweenBunchesOfRequestsMs?: number;
   };
   responseTimeAvgMs: number;
   responseTimeMedianMs: number;
