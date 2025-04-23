@@ -48,6 +48,13 @@ type ResultsAnalysis = {
   pauseBetweenBunchesOfRequestsMs: number;
 };
 
+/**
+ * This function calculates the load analytics for the given results and test data. Returns an object with the calculated analytics.
+ * @param results array of results from the tests
+ * @param testData object with test data with information about the tests
+ * @returns results analysis object
+ */
+
 export const calculateLoadAnalytics = function (
   results: Results[],
   testData: ResultsAnalysis["testData"]
@@ -112,6 +119,8 @@ export const calculateLoadAnalytics = function (
       } else {
         analyticsBasicData.notOKRequests++;
         analyticsBasicData.uniqueErrors.add(error);
+        acc.statuses[responseStatus.toString()] =
+          (acc.statuses[responseStatus.toString()] || 0) + 1;
         return acc;
       }
     },

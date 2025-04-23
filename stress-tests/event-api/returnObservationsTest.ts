@@ -1,51 +1,52 @@
-import { observationIDs } from "./returnAllDisastersObservations.ts";
-import { calculateLoadAnalytics } from "./resultsAnalytics.ts";
+import { calculateLoadAnalytics } from "./helpers/resultsAnalytics.ts";
+import EventApiRequestProfiler from "./helpers/requestProfiler.ts";
+import getAllDisastersAndObservations from "./helpers/returnAllDisastersObservations.ts";
+import runBunchesOfRequests from "./helpers/runnerUtils.ts";
 import fs from "fs";
 
-const sleep = (ms: number) =>
-  new Promise((resolve) => {
-    console.log(`Sleeping ${ms}ms...`);
-    setTimeout(resolve, ms);
-  });
-
-const timeout = 0;
 const numberOfRequestsPerTestRun = 1000;
-const numberOfIterations = Math.floor(
-  observationIDs.length / numberOfRequestsPerTestRun
-);
+const feed = "kontur-private";
+const types = ["FLOOD", "WILDFIRE", "EARTHQUAKE", "CYCLONE", "STORM"] as [
+  "FLOOD",
+  "WILDFIRE",
+  "EARTHQUAKE",
+  "CYCLONE",
+  "STORM",
+];
+const limit = 1000;
 const token = "token";
+const timeout = 0;
+
+const eventApiRequestProfiler = new EventApiRequestProfiler(token);
+const searchAllEventsUrl = eventApiRequestProfiler.buildUrl(
+  "https://apps.kontur.io/events/v1/",
+  {
+    feed,
+    types,
+    limit,
+  }
+);
+
+console.log("Started getting all observations...");
+const { observationIDs } = await getAllDisastersAndObservations(
+  searchAllEventsUrl,
+  eventApiRequestProfiler
+);
+console.log("Finished getting all observations...");
+console.log("Preparing all requests for testing...");
 
 const observationsRequests = observationIDs.map((observationID) => {
   return async function () {
-    const url = new URL(
+    const getObservationsUrl = eventApiRequestProfiler.buildUrl(
       `https://apps.kontur.io/events/v1/observations/${observationID}`
     );
-    const startTime = Date.now();
-    let status = 0;
-    let error = "";
-    let payloadSize = 0;
-    let endTime = 0;
-    let responseTimeMs = 0;
-    try {
-      const response = await fetch(url, {
-        headers: {
-          "Content-Type": "application/json",
-          Authorization: token,
-        },
-      });
-      endTime = Date.now();
-      responseTimeMs = endTime - startTime;
-      status = response.status;
-      const rawResponse = await response.text();
-      payloadSize = Buffer.byteLength(rawResponse, "utf8");
-    } catch (e) {
-      error = e.message || String(e);
-    }
+    const { startTime, responseStatus, payloadSize, error, responseTimeMs } =
+      await eventApiRequestProfiler.fetchWithMetrics(getObservationsUrl);
     return {
       startTime: new Date(startTime).toISOString(),
-      url: url.toString(),
+      url: getObservationsUrl.toString(),
       disasterIds: "Not relevant",
-      responseStatus: status,
+      responseStatus,
       responseTimeMs,
       payloadSize,
       error,
@@ -53,27 +54,14 @@ const observationsRequests = observationIDs.map((observationID) => {
   };
 });
 
-const startRequestingTime = Date.now();
-console.log(`Start requesting: ${new Date(startRequestingTime).toISOString()}`);
+const { results, testingTime } = await runBunchesOfRequests({
+  arrOfFunctions: observationsRequests,
+  numberOfRequests: observationIDs.length,
+  numberOfRequestsPerTestRun,
+  timeoutBetweenBunchesOfRequestsMs: timeout,
+});
 
-let results = [] as any[];
-for (let i = 0; i < numberOfIterations; i++) {
-  console.log(
-    `Running ${i + 1} bunch of requests (${numberOfIterations - i - 1} is left)`
-  );
-  const testedFunctions = observationsRequests.slice(
-    i * numberOfRequestsPerTestRun,
-    (i + 1) * numberOfRequestsPerTestRun
-  );
-  results.push(await Promise.all(testedFunctions.map((fn) => fn())));
-  await sleep(timeout);
-}
-results = results.flat();
-
-const endRequestingTime = Date.now();
-console.log(`End requesting: ${new Date(endRequestingTime).toISOString()}`);
-const testingTime = endRequestingTime - startRequestingTime;
-
+console.log("Logging results...");
 fs.writeFileSync(
   "returnedObservationsData.json",
   JSON.stringify(results, null, 2)

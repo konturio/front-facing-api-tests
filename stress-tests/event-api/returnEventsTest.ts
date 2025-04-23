@@ -1,55 +1,79 @@
-import { disasterIDs } from "./returnAllDisastersObservations.ts";
-import { calculateLoadAnalytics } from "./resultsAnalytics.ts";
+import { calculateLoadAnalytics } from "./helpers/resultsAnalytics.ts";
+import EventApiRequestProfiler from "./helpers/requestProfiler.ts";
+import getAllDisastersAndObservations from "./helpers/returnAllDisastersObservations.ts";
+import runBunchesOfRequests from "./helpers/runnerUtils.ts";
 import fs from "fs";
 
-const feed = "pdc";
 const numberOfRequestsPerTestRun = 1000;
-const token = "token";
 const episodeFilterType = "ANY";
-const numberOfIterations = Math.floor(
-  disasterIDs.length / numberOfRequestsPerTestRun
+const feed = "kontur-private";
+const types = ["FLOOD", "WILDFIRE", "EARTHQUAKE", "CYCLONE", "STORM"] as [
+  "FLOOD",
+  "WILDFIRE",
+  "EARTHQUAKE",
+  "CYCLONE",
+  "STORM",
+];
+const limit = 1000;
+const token = "token";
+const timeout = 0;
+
+const eventApiRequestProfiler = new EventApiRequestProfiler(token);
+const searchAllEventsUrl = eventApiRequestProfiler.buildUrl(
+  "https://apps.kontur.io/events/v1/",
+  {
+    feed,
+    types,
+    limit,
+  }
 );
 
+console.log("Started getting all disasters...");
+
+const { disasterIDs } = await getAllDisastersAndObservations(
+  searchAllEventsUrl,
+  eventApiRequestProfiler
+);
+console.log("Finished getting all disasters...");
+
+console.log("Preparing all requests for testing...");
 const disasterRequests = disasterIDs.map((disasterID) => {
   return async function () {
-    const url = new URL(`https://apps.kontur.io/events/v1/event`);
-    url.searchParams.append("feed", String(feed));
-    url.searchParams.append("episodeFilterType", String(episodeFilterType));
-    url.searchParams.append("eventId", String(disasterID));
-    const startTime = Date.now();
-    let status = 0;
-    let responseBody = {} as any;
-    let error = "";
-    let payloadSize = 0;
-    let endTime = 0;
-    let responseTimeMs = 0;
-    try {
-      const response = await fetch(url, {
-        headers: {
-          "Content-Type": "application/json",
-          Authorization: token,
-          "Cache-Control": "no-store",
-        },
-      });
-      endTime = Date.now();
-      responseTimeMs = endTime - startTime;
-      status = response.status;
-      const rawResponse = await response.text();
-      payloadSize = Buffer.byteLength(rawResponse, "utf8");
-      responseBody = JSON.parse(rawResponse);
-      if (responseBody?.length) {
-        const eventId = responseBody?.eventId;
-        if (eventId !== disasterID)
-          error = `Requested disaster ID ${disasterID} is not equal to got disaster ID ${eventId} `;
+    const getEventsUrl = eventApiRequestProfiler.buildUrl(
+      `https://apps.kontur.io/events/v1/event`,
+      {
+        feed,
+        episodeFilterType,
+        eventId: String(disasterID),
       }
-    } catch (e) {
-      error = error + (e.message || String(e));
+    );
+    const {
+      startTime,
+      responseStatus,
+      payloadSize,
+      body,
+      error: fetchError,
+      responseTimeMs,
+    } = await eventApiRequestProfiler.fetchWithMetrics(getEventsUrl);
+
+    const responseBody = body as { eventId: string; observations: string[] };
+    let error = fetchError;
+
+    if (responseBody && Object.keys(responseBody).length > 0) {
+      const eventId = responseBody?.eventId;
+      if (eventId !== disasterID) {
+        error =
+          error +
+          `, Requested disaster ID ${disasterID} is not equal to got disaster ID ${eventId} `;
+      }
+    } else {
+      error = error + `, Response body is empty`;
     }
     return {
       startTime: new Date(startTime).toISOString(),
-      url: url.toString(),
+      url: getEventsUrl.toString(),
       disasterIds: "Not relevant",
-      responseStatus: status,
+      responseStatus,
       responseTimeMs,
       payloadSize,
       error,
@@ -57,27 +81,14 @@ const disasterRequests = disasterIDs.map((disasterID) => {
   };
 });
 
-const startRequestingTime = Date.now();
-console.log(`Start requesting: ${new Date(startRequestingTime).toISOString()}`);
+const { results, testingTime } = await runBunchesOfRequests({
+  arrOfFunctions: disasterRequests,
+  numberOfRequests: disasterIDs.length,
+  numberOfRequestsPerTestRun,
+  timeoutBetweenBunchesOfRequestsMs: timeout,
+});
 
-let results = [] as any[];
-for (let i = 0; i < numberOfIterations; i++) {
-  console.log(
-    `Running ${i + 1} bunch of requests (${numberOfIterations - i - 1} is left)`
-  );
-  const testedFunctions = disasterRequests.slice(
-    i * numberOfRequestsPerTestRun,
-    (i + 1) * numberOfRequestsPerTestRun
-  );
-  results.push(await Promise.all(testedFunctions.map((fn) => fn())));
-  //   await sleep(timeout);
-}
-results = results.flat();
-
-const endRequestingTime = Date.now();
-console.log(`End requesting: ${new Date(endRequestingTime).toISOString()}`);
-const testingTime = endRequestingTime - startRequestingTime;
-
+console.log("Logging results...");
 fs.writeFileSync("returnedEventsData.json", JSON.stringify(results, null, 2));
 
 console.log("Started analytics calculation...");
