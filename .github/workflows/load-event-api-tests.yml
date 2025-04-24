@@ -65,7 +65,7 @@ on:
         required: false
         description: |
           Shift step for the bbox on search events test to move the bbox on each request. Example: 0.00001
-       number_of_requests:
+      number_of_requests:
         type: number
         required: false
         description: |
@@ -86,7 +86,7 @@ jobs:
       AFTER: ${{ github.event.inputs.after }}
       SHIFTSTEP: ${{ github.event.inputs.shiftstep }}
       NUMBER_OF_REQUESTS: ${{ github.event.inputs.number_of_requests }}
-  steps:
+    steps:
       - name: Checkout code
         uses: actions/checkout@v4
       - name: Set up Node.js
@@ -124,4 +124,3 @@ jobs:
           name: playwright-report
           path: stress-tests/event-api/analytics.json
           retention-days: 30
-     
