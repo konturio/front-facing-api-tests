@@ -1,21 +1,23 @@
+export type Types = (
+  | "FLOOD"
+  | "TSUNAMI"
+  | "WILDFIRE"
+  | "THERMAL_ANOMALY"
+  | "INDUSTRIAL_HEAT"
+  | "TORNADO"
+  | "WINTER_STORM"
+  | "EARTHQUAKE"
+  | "STORM"
+  | "CYCLONE"
+  | "DROUGHT"
+  | "VOLCANO"
+  | "SITUATION"
+  | "OTHER"
+)[];
+
 type EventApiRequestParams = {
   feed: string;
-  types?: (
-    | "FLOOD"
-    | "TSUNAMI"
-    | "WILDFIRE"
-    | "THERMAL_ANOMALY"
-    | "INDUSTRIAL_HEAT"
-    | "TORNADO"
-    | "WINTER_STORM"
-    | "EARTHQUAKE"
-    | "STORM"
-    | "CYCLONE"
-    | "DROUGHT"
-    | "VOLCANO"
-    | "SITUATION"
-    | "OTHER"
-  )[];
+  types?: Types;
   limit?: number;
   episodeFilterType?: "ANY" | "NONE" | "LATEST";
   bbox?: number[];
@@ -121,7 +123,7 @@ export default class EventApiRequestProfiler {
       const response = await fetch(url.toString(), {
         headers: {
           "Content-Type": "application/json",
-          Authorization: this.token,
+          Authorization: `Bearer ${this.token}`,
           "Cache-Control": "no-store",
         },
       });

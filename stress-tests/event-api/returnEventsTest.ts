@@ -1,22 +1,42 @@
 import { calculateLoadAnalytics } from "./helpers/resultsAnalytics.ts";
 import EventApiRequestProfiler from "./helpers/requestProfiler.ts";
 import getAllDisastersAndObservations from "./helpers/returnAllDisastersObservations.ts";
-import runBunchesOfRequests from "./helpers/runnerUtils.ts";
+import runBunchesOfRequests, { parseEnv } from "./helpers/runnerUtils.ts";
 import fs from "fs";
+import * as dotenv from "dotenv";
+import type { Types } from "./helpers/requestProfiler.ts";
 
-const numberOfRequestsPerTestRun = 1000;
-const episodeFilterType = "ANY";
-const feed = "kontur-private";
-const types = ["FLOOD", "WILDFIRE", "EARTHQUAKE", "CYCLONE", "STORM"] as [
-  "FLOOD",
-  "WILDFIRE",
-  "EARTHQUAKE",
-  "CYCLONE",
-  "STORM",
+dotenv.config({
+  path: [".env.event-api-stress", ".env.event-api-stress.local"],
+});
+
+const desiredData = [
+  "NUMBER_OF_PARALLEL_REQUESTS",
+  "EPISODE_FILTER_TYPE",
+  "FEED",
+  "TYPES",
+  "LIMIT",
+  "TOKEN",
+  "PAUSE_BETWEEN_BANCHES_OF_REQUESTS",
+] as const;
+
+const [
+  numberOfRequestsPerTestRun,
+  episodeFilterType,
+  feed,
+  types,
+  limit,
+  token,
+  timeout,
+] = desiredData.map((variable) => parseEnv(variable)) as [
+  number,
+  "ANY" | "NONE" | "LATEST",
+  string,
+  Types,
+  number,
+  string,
+  number,
 ];
-const limit = 1000;
-const token = "token";
-const timeout = 0;
 
 const eventApiRequestProfiler = new EventApiRequestProfiler(token);
 const searchAllEventsUrl = eventApiRequestProfiler.buildUrl(

@@ -1,0 +1,127 @@
+name: Run load event api tests on prod env
+on:
+  workflow_dispatch:
+    inputs:
+      what_to_test:
+        type: choice
+        required: true
+        options:
+          - search events by areas
+          - get events by ids (for all events at feed)
+          - get observations by ids (for all events at feed)
+        description: |
+          Which tests to run
+      feed:
+        type: string
+        required: true
+        description: |
+          Feed to test on. Example: kontur-private
+      types:
+        type: string
+        required: true
+        description: |
+          Types to test on, devided by comma. Example: FLOOD, WILDFIRE, EARTHQUAKE, CYCLONE, STORM
+      episode_filter_type:
+        type: choice
+        required: true
+        options:
+          - ANY
+          - NONE
+          - LATEST
+        description: |
+          Episode filter type to test on. Example: LATEST
+      number_of_parallel_requests:
+        type: number
+        required: true
+        description: |
+          Number of parallel requests to run in a bunch of requests. Example: 1000
+      limit:
+        type: number
+        required: true
+        description: |
+          Limit for the number of events to get. Example: 1000
+      token:
+        type: string
+        required: true
+        description: |
+          Token to use for the requests. Get it after login to platform from keycloak.
+      pause_between_banches_of_requests:
+        type: number
+        required: true
+        description: |
+          Pause between bunches of requests in ms. Example: 1000. Set to 0 not to make a pause between bunches of requests.
+      bbox:
+        type: string
+        required: false
+        description: |
+          Bbox to start requesting at search events test, devided by comma. Example: -93.2175, 30.198, -93.2165, 30.199
+      after:
+        type: string
+        required: false
+        description: |
+          After date to start requesting at search events test, in ISO format. Example: 2024-02-13T23:20:50.52Z
+      shiftstep:
+        type: number
+        required: false
+        description: |
+          Shift step for the bbox on search events test to move the bbox on each request. Example: 0.00001
+       number_of_requests:
+        type: number
+        required: false
+        description: |
+          Number of requests to run at search events test. Example: 80
+jobs:
+  load-test:
+    name: Run load event api tests
+    runs-on: ubuntu-latest
+    env:
+      FEED: ${{ github.event.inputs.feed }}
+      TYPES: ${{ github.event.inputs.types }}
+      EPISODE_FILTER_TYPE: ${{ github.event.inputs.episode_filter_type }}
+      NUMBER_OF_PARALLEL_REQUESTS: ${{ github.event.inputs.number_of_parallel_requests }}
+      LIMIT: ${{ github.event.inputs.limit }}
+      TOKEN: ${{ github.event.inputs.token }}
+      PAUSE_BETWEEN_BANCHES_OF_REQUESTS: ${{ github.event.inputs.pause_between_banches_of_requests }}
+      BBOX: ${{ github.event.inputs.bbox }}
+      AFTER: ${{ github.event.inputs.after }}
+      SHIFTSTEP: ${{ github.event.inputs.shiftstep }}
+      NUMBER_OF_REQUESTS: ${{ github.event.inputs.number_of_requests }}
+  steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22.6.0"
+      - name: Create .env file
+        shell: bash
+        run: |
+          rm -rf .env.event-api-stress
+          echo "FEED=$FEED" >> .env.event-api-stress
+          echo "TYPES=$TYPES" >> .env.event-api-stress
+          echo "EPISODE_FILTER_TYPE=$EPISODE_FILTER_TYPE" >> .env.event-api-stress
+          echo "NUMBER_OF_PARALLEL_REQUESTS=$NUMBER_OF_PARALLEL_REQUESTS" >> .env.event-api-stress
+          echo "LIMIT=$LIMIT" >> .env.event-api-stress
+          echo "TOKEN=$TOKEN" >> .env.event-api-stress
+          echo "PAUSE_BETWEEN_BANCHES_OF_REQUESTS=$PAUSE_BETWEEN_BANCHES_OF_REQUESTS" >> .env.event-api-stress
+          echo "BBOX=$BBOX" >> .env.event-api-stress
+          echo "AFTER=$AFTER" >> .env.event-api-stress
+          echo "SHIFTSTEP=$SHIFTSTEP" >> .env.event-api-stress
+          echo "NUMBER_OF_REQUESTS=$NUMBER_OF_REQUESTS" >> .env.event-api-stress
+      - name: Run search events tests
+        if: ${{ github.event.inputs.what_to_test == 'search events by areas'}}
+        run: node --experimental-strip-types searchEventsTest.ts
+      - name: Run get events by ids tests
+        if: ${{ github.event.inputs.what_to_test == 'get events by ids (for all events at feed)'}}
+        run: node --experimental-strip-types returnEventsTest.ts
+      - name: Run get observations by ids tests
+        if: ${{ github.event.inputs.what_to_test == 'get observations by ids (for all events at feed)'}}
+        run: node --experimental-strip-types returnObservationsTest.ts
+      - name: Upload tests results
+        uses: actions/upload-artifact@v4
+        if: ${{ !cancelled() }}
+        with:
+          name: playwright-report
+          path: stress-tests/event-api/analytics.json
+          retention-days: 30
+     

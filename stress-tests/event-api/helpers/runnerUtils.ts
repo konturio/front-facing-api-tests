@@ -1,7 +1,22 @@
+import type { Types } from "./requestProfiler.ts";
+
 type BunchOfRequestsResults = {
   results: any[];
   testingTime: number;
 };
+
+type NeededData =
+  | "FEED"
+  | "EPISODE_FILTER_TYPE"
+  | "NUMBER_OF_PARALLEL_REQUESTS"
+  | "LIMIT"
+  | "TOKEN"
+  | "PAUSE_BETWEEN_BANCHES_OF_REQUESTS"
+  | "BBOX"
+  | "AFTER"
+  | "SHIFTSTEP"
+  | "NUMBER_OF_REQUESTS"
+  | "TYPES";
 
 const sleep = (ms: number) =>
   new Promise((resolve) => {
@@ -51,4 +66,27 @@ const runBunchesOfRequests = async ({
     testingTime,
   };
 };
+
+export const parseEnv = function (neededData: NeededData) {
+  if (!process.env[neededData])
+    throw new Error(`No '${neededData}' variable found in .env file`);
+  if (
+    neededData === "NUMBER_OF_PARALLEL_REQUESTS" ||
+    neededData === "LIMIT" ||
+    neededData === "PAUSE_BETWEEN_BANCHES_OF_REQUESTS" ||
+    neededData === "SHIFTSTEP" ||
+    neededData === "NUMBER_OF_REQUESTS"
+  ) {
+    return Number(process.env[neededData]);
+  }
+  if (neededData === "TYPES") {
+    const types = process.env[neededData].split(",").map((type) => type.trim());
+    return types as Types;
+  }
+  if (neededData === "BBOX") {
+    return process.env[neededData].split(",").map((bbx) => Number(bbx.trim()));
+  }
+  return process.env[neededData].trim();
+};
+
 export default runBunchesOfRequests;

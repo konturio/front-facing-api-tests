@@ -1,3 +1,5 @@
+import fs from "fs";
+
 const thresholds = [
   { ms: 1000, key: "moreThan1sec" },
   { ms: 3000, key: "moreThan3sec" },
@@ -161,5 +163,6 @@ export const calculateLoadAnalytics = function (
   for (const key of Object.keys(testData)) {
     resultsAnalytics.testData[key] = testData[key];
   }
+  fs.writeFileSync("analytics.json", JSON.stringify(resultsAnalytics, null, 2));
   return resultsAnalytics;
 };

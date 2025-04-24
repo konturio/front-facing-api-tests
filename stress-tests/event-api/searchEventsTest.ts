@@ -1,26 +1,53 @@
 import { calculateLoadAnalytics } from "./helpers/resultsAnalytics.ts";
 import EventApiRequestProfiler from "./helpers/requestProfiler.ts";
-import runBunchesOfRequests from "./helpers/runnerUtils.ts";
+import runBunchesOfRequests, { parseEnv } from "./helpers/runnerUtils.ts";
 import fs from "fs";
+import * as dotenv from "dotenv";
+import type { Types } from "./helpers/requestProfiler.ts";
 
-const feed = "pdc";
-const bbox = [-93.2175, 30.198, -93.2165, 30.199];
-const types = ["FLOOD", "WILDFIRE", "EARTHQUAKE", "CYCLONE", "STORM"] as [
-  "FLOOD",
-  "WILDFIRE",
-  "EARTHQUAKE",
-  "CYCLONE",
-  "STORM",
+dotenv.config({
+  path: [".env.event-api-stress", ".env.event-api-stress.local"],
+});
+
+const desiredData = [
+  "NUMBER_OF_REQUESTS",
+  "NUMBER_OF_PARALLEL_REQUESTS",
+  "EPISODE_FILTER_TYPE",
+  "FEED",
+  "TYPES",
+  "LIMIT",
+  "TOKEN",
+  "PAUSE_BETWEEN_BANCHES_OF_REQUESTS",
+  "SHIFTSTEP",
+  "AFTER",
+  "BBOX",
+] as const;
+
+const [
+  numberOfRequests,
+  numberOfRequestsPerTestRun,
+  episodeFilterType,
+  feed,
+  types,
+  limit,
+  token,
+  timeout,
+  shiftStep,
+  after,
+  bbox,
+] = desiredData.map((variable) => parseEnv(variable)) as [
+  number,
+  number,
+  "ANY" | "NONE" | "LATEST",
+  string,
+  Types,
+  number,
+  string,
+  number,
+  number,
+  string,
+  number[],
 ];
-const limit = 1000;
-const episodeFilterType = "NONE";
-const after = "2024-02-13T23:20:50.52Z";
-const timeout = 6000;
-const shiftStep = 0.00001;
-
-const numberOfRequests = 80;
-const numberOfRequestsPerTestRun = 40;
-const token = "token";
 
 const eventApiRequestProfiler = new EventApiRequestProfiler(token);
 
@@ -85,10 +112,10 @@ const { results, testingTime } = await runBunchesOfRequests({
   timeoutBetweenBunchesOfRequestsMs: timeout,
 });
 
-fs.writeFileSync("loadTestResults.json", JSON.stringify(results, null, 2));
-//
-// results = JSON.parse(fs.readFileSync("loadTestResults.json", "utf-8"));
-//
+fs.writeFileSync(
+  "searchEventsReturnedData.json",
+  JSON.stringify(results, null, 2)
+);
 
 console.log("Started analytics calculation...");
 console.log(
