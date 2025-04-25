@@ -11,7 +11,6 @@
   "license": "ISC",
   "dependencies": {
     "@slack/web-api": "^7.3.0",
-    "dotenv": "^16.4.5",
     "fs": "0.0.1-security",
     "langdetect": "^0.2.1",
     "module": "^1.2.5",
@@ -30,7 +29,7 @@
     "@types/pixelmatch": "^5.2.6",
     "@types/pngjs": "^6.0.5",
     "chalk": "^5.3.0",
-    "dotenv": "^16.4.5",
+    "dotenv": "^16.5.0",
     "husky": "^8.0.3",
     "open-cli": "^7.2.0",
     "playwright-slack-report": "^1.1.81",

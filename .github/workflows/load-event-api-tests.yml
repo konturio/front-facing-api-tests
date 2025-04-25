@@ -73,9 +73,7 @@ jobs:
       LIMIT: ${{ github.event.inputs.limit }}
       TOKEN: ${{ github.event.inputs.token }}
       PAUSE_BETWEEN_BANCHES_OF_REQUESTS: ${{ github.event.inputs.pause_between_banches_of_requests }}
-      #   BBOX_SHIFT_STEP: ${{ github.event.inputs.bbox_shift_step}}
       AFTER: ${{ github.event.inputs.after }}
-    #   NUMBERS_OF_REQUESTS: ${{ github.event.inputs.numbers_of_requests }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -118,6 +116,6 @@ jobs:
         uses: actions/upload-artifact@v4
         if: ${{ !cancelled() }}
         with:
-          name: playwright-report
+          name: load-event-api-analytics
           path: stress-tests/event-api/analytics.json
           retention-days: 30
