@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Autotests for front facing apis",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "frequent-tests": "npx playwright test --project=auth_required_api_tests_no_llm --project=api_tests_no_auth --project=insights_api_tests"
   },
