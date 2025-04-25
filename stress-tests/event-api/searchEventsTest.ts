@@ -2,7 +2,7 @@ import { calculateLoadAnalytics } from "./helpers/resultsAnalytics.ts";
 import EventApiRequestProfiler from "./helpers/requestProfiler.ts";
 import runBunchesOfRequests, { parseEnv } from "./helpers/runnerUtils.ts";
 import fs from "fs";
-import * as dotenv from "dotenv";
+import dotenv from "dotenv";
 import type { Types } from "./helpers/requestProfiler.ts";
 
 dotenv.config({

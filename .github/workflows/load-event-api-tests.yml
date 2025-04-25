@@ -81,6 +81,8 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "22.6.0"
+      - name: Install packages
+        run: npm install
       - name: Create .env file
         shell: bash
         run: |
