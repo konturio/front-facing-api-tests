@@ -30,11 +30,11 @@ on:
           - LATEST
         description: |
           Episode filter type to test on. Example: LATEST
-      number_of_parallel_requests:
+      numbers_of_requests:
         type: number
         required: true
         description: |
-          Number of parallel requests to run in a bunch of requests. Example: 1000
+          First describe the number of parallel requests to run in a bunch of requests and then whole number of requests (used at search events test only). Devide with slash. Example: 100/1000
       limit:
         type: number
         required: true
@@ -50,26 +50,16 @@ on:
         required: true
         description: |
           Pause between bunches of requests in ms. Example: 1000. Set to 0 not to make a pause between bunches of requests.
-      bbox:
+      bbox_shift_step:
         type: string
         required: false
         description: |
-          Bbox to start requesting at search events test, devided by comma. Example: -93.2175, 30.198, -93.2165, 30.199
+          Bbox to start requesting at search events test, devided by comma. Then describe a shift step for the bbox on search events test to move the bbox on each request. Devide with slash. Example: -93.2175, 30.198, -93.2165, 30.199 / 0.00001
       after:
         type: string
         required: false
         description: |
           After date to start requesting at search events test, in ISO format. Example: 2024-02-13T23:20:50.52Z
-      shiftstep:
-        type: number
-        required: false
-        description: |
-          Shift step for the bbox on search events test to move the bbox on each request. Example: 0.00001
-      number_of_requests:
-        type: number
-        required: false
-        description: |
-          Number of requests to run at search events test. Example: 80
 jobs:
   load-test:
     name: Run load event api tests
@@ -78,14 +68,12 @@ jobs:
       FEED: ${{ github.event.inputs.feed }}
       TYPES: ${{ github.event.inputs.types }}
       EPISODE_FILTER_TYPE: ${{ github.event.inputs.episode_filter_type }}
-      NUMBER_OF_PARALLEL_REQUESTS: ${{ github.event.inputs.number_of_parallel_requests }}
       LIMIT: ${{ github.event.inputs.limit }}
       TOKEN: ${{ github.event.inputs.token }}
       PAUSE_BETWEEN_BANCHES_OF_REQUESTS: ${{ github.event.inputs.pause_between_banches_of_requests }}
-      BBOX: ${{ github.event.inputs.bbox }}
+      #   BBOX_SHIFT_STEP: ${{ github.event.inputs.bbox_shift_step}}
       AFTER: ${{ github.event.inputs.after }}
-      SHIFTSTEP: ${{ github.event.inputs.shiftstep }}
-      NUMBER_OF_REQUESTS: ${{ github.event.inputs.number_of_requests }}
+    #   NUMBERS_OF_REQUESTS: ${{ github.event.inputs.numbers_of_requests }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -100,14 +88,15 @@ jobs:
           echo "FEED=$FEED" >> .env.event-api-stress
           echo "TYPES=$TYPES" >> .env.event-api-stress
           echo "EPISODE_FILTER_TYPE=$EPISODE_FILTER_TYPE" >> .env.event-api-stress
-          echo "NUMBER_OF_PARALLEL_REQUESTS=$NUMBER_OF_PARALLEL_REQUESTS" >> .env.event-api-stress
+          echo "NUMBER_OF_PARALLEL_REQUESTS=$(echo '${{ github.event.inputs.numbers_of_requests }}' | cut -d '/' -f 1)" >> .env.event-api-stress
+          echo "NUMBER_OF_REQUESTS=$(echo '${{ github.event.inputs.numbers_of_requests }}' | cut -d '/' -f 2)" >> .env.event-api-stress
           echo "LIMIT=$LIMIT" >> .env.event-api-stress
           echo "TOKEN=$TOKEN" >> .env.event-api-stress
           echo "PAUSE_BETWEEN_BANCHES_OF_REQUESTS=$PAUSE_BETWEEN_BANCHES_OF_REQUESTS" >> .env.event-api-stress
-          echo "BBOX=$BBOX" >> .env.event-api-stress
           echo "AFTER=$AFTER" >> .env.event-api-stress
-          echo "SHIFTSTEP=$SHIFTSTEP" >> .env.event-api-stress
-          echo "NUMBER_OF_REQUESTS=$NUMBER_OF_REQUESTS" >> .env.event-api-stress
+          echo "BBOX=$(echo '${{ github.event.inputs.bbox_shift_step }}' | cut -d '/' -f 1)" >> .env.event-api-stress
+          echo "SHIFTSTEP=$(echo '${{ github.event.inputs.bbox_shift_step }}' | cut -d '/' -f 2)" >> .env.event-api-stress
+
       - name: Run search events tests
         if: ${{ github.event.inputs.what_to_test == 'search events by areas'}}
         run: node --experimental-strip-types searchEventsTest.ts
