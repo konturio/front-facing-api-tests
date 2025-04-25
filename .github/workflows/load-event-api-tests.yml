@@ -1,4 +1,6 @@
 name: Run load event api tests on prod env
+run-name: Run '${{ github.event.inputs.what_to_test }}' tests on prod env
+
 on:
   workflow_dispatch:
     inputs:
@@ -99,13 +101,19 @@ jobs:
 
       - name: Run search events tests
         if: ${{ github.event.inputs.what_to_test == 'search events by areas'}}
-        run: node --experimental-strip-types searchEventsTest.ts
+        run: |
+          cd stress-tests/event-api
+          node --experimental-strip-types searchEventsTest.ts
       - name: Run get events by ids tests
         if: ${{ github.event.inputs.what_to_test == 'get events by ids (for all events at feed)'}}
-        run: node --experimental-strip-types returnEventsTest.ts
+        run: |
+          cd stress-tests/event-api
+          node --experimental-strip-types returnEventsTest.ts
       - name: Run get observations by ids tests
         if: ${{ github.event.inputs.what_to_test == 'get observations by ids (for all events at feed)'}}
-        run: node --experimental-strip-types returnObservationsTest.ts
+        run: |
+          cd stress-tests/event-api
+          node --experimental-strip-types returnObservationsTest.ts
       - name: Upload tests results
         uses: actions/upload-artifact@v4
         if: ${{ !cancelled() }}
