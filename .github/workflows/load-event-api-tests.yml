@@ -122,6 +122,7 @@ jobs:
           echo "message<<EOF" >> $GITHUB_ENV
           echo "$MESSAGE" >> $GITHUB_ENV
           echo "EOF" >> $GITHUB_ENV
+          echo ${{ env.MESSAGE }}
       - name: Send message to Slack
         if: ${{ success() }}
         uses: slackapi/slack-github-action@v2.0.0
@@ -137,7 +138,7 @@ jobs:
                     "type": "section",
                     "text": {
                         "type": "mrkdwn",
-                        "text": "${{ env.MESSAGE }}"
+                        "text": "${{ env.MESSAGE || 'No tests results found 😢' }}"
                     }
                 }
               ]
