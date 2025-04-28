@@ -117,22 +117,11 @@ jobs:
       - name: Read results analytics
         if: ${{ success() }}
         run: |
-          cd $GITHUB_WORKSPACE
-          echo "Current directory: $(pwd)"
-          echo "Listing files in stress-tests/event-api:"
-          ls -la stress-tests/event-api || echo "Directory stress-tests/event-api not found!"
-          if [ -f stress-tests/event-api/analytics.txt ]; then
-          echo "File analytics.txt exists"
           cat stress-tests/event-api/analytics.txt
           MESSAGE=$(cat stress-tests/event-api/analytics.txt)
-          echo "Read MESSAGE: '$MESSAGE'"
           echo "message<<EOF" >> $GITHUB_ENV
           echo "$MESSAGE" >> $GITHUB_ENV
           echo "EOF" >> $GITHUB_ENV
-          else
-          echo "File stress-tests/event-api/analytics.txt not found!"  
-          exit 1
-          fi
       - name: Send message to Slack
         if: ${{ success() }}
         uses: slackapi/slack-github-action@v2.0.0
@@ -142,7 +131,7 @@ jobs:
           payload: |
             {
             "channel": "${{ secrets.EVENT_API_CHANNEL_ID }}",
-            "text": "Load tests results for Event API 👇",
+            "text": "Load tests results for Event API",
             "blocks": [
                 {
                     "type": "section",
