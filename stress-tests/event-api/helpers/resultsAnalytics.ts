@@ -163,6 +163,7 @@ export const calculateLoadAnalytics = function (
   for (const key of Object.keys(testData)) {
     resultsAnalytics.testData[key] = testData[key];
   }
-  fs.writeFileSync("analytics.json", JSON.stringify(resultsAnalytics, null, 2));
+  const report = resultsAnalytics.toString();
+  fs.writeFileSync("analytics.txt", report);
   return resultsAnalytics;
 };

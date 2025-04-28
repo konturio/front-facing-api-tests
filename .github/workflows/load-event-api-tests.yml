@@ -114,10 +114,27 @@ jobs:
         run: |
           cd stress-tests/event-api
           node --experimental-strip-types returnObservationsTest.ts
+      - name: Read results analytics
+        if: ${{ success() }}
+        run: |
+          cd stress-tests/event-api
+          MESSAGE=$(cat analytics.txt)
+          echo "message<<EOF" >> $GITHUB_ENV
+          echo "$MESSAGE" >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV
+      - name: Send message to Slack
+        if: ${{ success() }}
+        uses: slackapi/slack-github-action@v2.0.0
+        with:
+          method: chat.postMessage
+          token: ${{ secrets.PLAYWRIGHT_TOKEN  }}
+          payload: |
+            channel: ${{ secrets.EVENT_API_CHANNEL_ID }}
+            text: ${{ env.MESSAGE }}
       - name: Upload tests results
         uses: actions/upload-artifact@v4
         if: ${{ !cancelled() }}
         with:
           name: load-event-api-analytics
-          path: stress-tests/event-api/analytics.json
+          path: stress-tests/event-api/analytics.txt
           retention-days: 30
