@@ -130,10 +130,7 @@ jobs:
           token: ${{ secrets.PLAYWRIGHT_TOKEN  }}
           payload: |
             channel: ${{ secrets.EVENT_API_CHANNEL_ID }}
-            text: |
-            ```
-            ${{ env.MESSAGE }}
-            ```
+            text: ${{ env.MESSAGE }}
       - name: Upload tests results
         uses: actions/upload-artifact@v4
         if: ${{ !cancelled() }}

@@ -43,8 +43,8 @@ type ResultsAnalysis = {
   responseTimeMedianMs: number;
   responseTimeBelowWhich95PercentOfRequestsFitMs: number;
   responseTimeBelowWhich99PercentOfRequestsFitMs: number;
-  maxTenUniqueDisasterIdsFound: string[];
-  maxTenUniqueLastTestedUrls: string[];
+  maxThreeUniqueDisasterIdsFound: string[];
+  maxThreeUniqueLastTestedUrls: string[];
   uniquePayloadSizes: number[];
   testingTimeMs: number;
   pauseBetweenBunchesOfRequestsMs: number;
@@ -151,19 +151,19 @@ export const calculateLoadAnalytics = function (
     sortedResponseTimes[Math.floor(0.95 * sortedResponseTimes.length)];
   resultsAnalytics.responseTimeBelowWhich99PercentOfRequestsFitMs =
     sortedResponseTimes[Math.floor(0.99 * sortedResponseTimes.length)];
-  resultsAnalytics.maxTenUniqueDisasterIdsFound = [
+  resultsAnalytics.maxThreeUniqueDisasterIdsFound = [
     ...new Set(analyticsBasicData.disasterIds),
-  ].slice(0, 10);
-  resultsAnalytics.maxTenUniqueLastTestedUrls = [
+  ].slice(0, 3);
+  resultsAnalytics.maxThreeUniqueLastTestedUrls = [
     ...new Set(analyticsBasicData.urls),
-  ].slice(-10);
+  ].slice(-3);
   resultsAnalytics.uniquePayloadSizes = [
     ...new Set(analyticsBasicData.payloads),
   ];
   for (const key of Object.keys(testData)) {
     resultsAnalytics.testData[key] = testData[key];
   }
-  const report = JSON.stringify(resultsAnalytics, null, 2);
+  const report = "```\n" + JSON.stringify(resultsAnalytics, null, 2) + "\n```";
   fs.writeFileSync("analytics.txt", report);
   return resultsAnalytics;
 };
