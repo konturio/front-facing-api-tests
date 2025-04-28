@@ -179,6 +179,14 @@ const expectedLayers = [
   "years_to_naturalisation",
   "gmu_rain_accumulation",
   "worldbank_tax_rate",
+  "gmu_air_temperature",
+  "gmu_air_temperature_interpolated",
+  "gmu_peak_wind_direction",
+  "gmu_peak_wind_speed",
+  "gmu_relative_humidity",
+  "gmu_solar_radiation",
+  "gmu_wind_direction",
+  "gmu_wind_speed",
 ];
 
 if (process.env.ENVIRONMENT === "test") {
