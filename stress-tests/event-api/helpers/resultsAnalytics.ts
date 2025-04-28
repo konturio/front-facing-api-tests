@@ -51,6 +51,56 @@ type ResultsAnalysis = {
 };
 
 /**
+ * This function builds a message to send to Slack with the results analytics
+ * @param resultsAnalytics an object with the results analytics
+ * @returns string with the message to send to Slack
+ */
+
+const buildAnalyticsMessage = (resultsAnalytics: ResultsAnalysis): string => {
+  const {
+    responseTimeMax,
+    responseTimeMin,
+    statuses,
+    longRequests,
+    notOKRequestsNumber,
+    uniqueErrors,
+    testData,
+    responseTimeAvgMs,
+    responseTimeMedianMs,
+    responseTimeBelowWhich95PercentOfRequestsFitMs,
+    responseTimeBelowWhich99PercentOfRequestsFitMs,
+    maxThreeUniqueDisasterIdsFound,
+    maxThreeUniqueLastTestedUrls,
+    uniquePayloadSizes,
+  } = resultsAnalytics;
+
+  const testSummary = `🚀 Stress test for Event API completed: ran ${testData.numberOfRequests} requests, feed=${testData.feed || "unknown"}, disaster types=${testData.types?.join(", ") || "none"}, bbox=[${testData.startingBbox?.join(", ") || "N/A"}], limit=${testData.limit || "N/A"}, started after ${testData.startingAfterDate || "N/A"}, took ${testData.testingTimeMs || "N/A"}ms. Pause between bunches of requests=${testData.pauseBetweenBunchesOfRequestsMs || "N/A"}ms`;
+
+  const perf = `⚡ Performance stats: avg response=${responseTimeAvgMs ? responseTimeAvgMs.toFixed(2) : "N/A"}ms, median=${responseTimeMedianMs || "N/A"}ms, max=${responseTimeMax || "N/A"}ms, min=${responseTimeMin || "N/A"}ms, 95th percentile=${responseTimeBelowWhich95PercentOfRequestsFitMs || "N/A"}ms, 99th percentile=${responseTimeBelowWhich99PercentOfRequestsFitMs || "N/A"}ms`;
+
+  const statusSummary = Object.entries(statuses || {})
+    .map(([code, count]) => `${code}: ${count} reqs`)
+    .join(", ");
+  const statusText = `📊 HTTP statuses: ${statusSummary || "no responses"}`;
+
+  const errors = `🔥 Errors: ${notOKRequestsNumber || 0} failed requests, unique errors=${uniqueErrors?.length || 0} (${uniqueErrors?.join(", ") || "none"})`;
+
+  const longReqsText =
+    typeof longRequests === "string"
+      ? longRequests
+      : Object.entries(longRequests || {})
+          .map(([key, count]) => `${key}: ${count} reqs`)
+          .join(", ");
+  const longReqs = `🐢 Slow requests: ${longReqsText || "no slow requests"}`;
+
+  const ids = `🆔 Found disaster IDs: ${maxThreeUniqueDisasterIdsFound?.join(", ") || "none"}`;
+  const urls = `🌐 Tested URLs: ${maxThreeUniqueLastTestedUrls?.length || 0} unique`;
+  const sizes = `📏 Payload sizes: ${uniquePayloadSizes?.join(", ") || "N/A"} bytes`;
+
+  return `${testSummary} | ${perf} | ${statusText} | ${errors} | ${longReqs} | ${ids} | ${urls} | ${sizes} 😎`;
+};
+
+/**
  * This function calculates the load analytics for the given results and test data. Returns an object with the calculated analytics.
  * @param results array of results from the tests
  * @param testData object with test data with information about the tests
@@ -163,7 +213,6 @@ export const calculateLoadAnalytics = function (
   for (const key of Object.keys(testData)) {
     resultsAnalytics.testData[key] = testData[key];
   }
-  const report = "```\n" + JSON.stringify(resultsAnalytics, null, 2) + "\n```";
-  fs.writeFileSync("analytics.txt", report);
+  fs.writeFileSync("analytics.txt", buildAnalyticsMessage(resultsAnalytics));
   return resultsAnalytics;
 };
