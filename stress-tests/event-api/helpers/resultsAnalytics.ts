@@ -72,11 +72,12 @@ const buildAnalyticsMessage = (resultsAnalytics: ResultsAnalysis): string => {
     maxThreeUniqueDisasterIdsFound,
     maxThreeUniqueLastTestedUrls,
     uniquePayloadSizes,
+    pauseBetweenBunchesOfRequestsMs,
   } = resultsAnalytics;
 
-  const testSummary = `🚀 Stress test for Event API completed: ran ${testData.numberOfRequests} requests, feed=${testData.feed || "unknown"}, disaster types=${testData.types?.join(", ") || "none"}, bbox=[${testData.startingBbox?.join(", ") || "N/A"}], limit=${testData.limit || "N/A"}. Started after value is '${testData.startingAfterDate || "N/A"}'. Episode filter type is ${testData.episodeFilterType || "N/A"}.\nIf bbox was used, it was moved on ${testData.shiftBboxCoordinatesStep || "N/A"} step each time. To run all requests took ${testData.testingTimeMs || "N/A"}ms. Pause between bunches of requests was ${String(testData.pauseBetweenBunchesOfRequestsMs) || "N/A"}ms.\n`;
+  const testSummary = `🚀 Stress test for Event API completed: ran ${testData.numberOfRequests} requests, feed=${testData.feed || "unknown"}, disaster types=${testData.types?.join(", ") || "none"}, bbox=[${testData.startingBbox?.join(", ") || "N/A"}], limit=${testData.limit || "N/A"}. Started after value is '${testData.startingAfterDate || "N/A"}'. Episode filter type is ${testData.episodeFilterType || "N/A"}.\nIf bbox was used, it was moved on ${testData.shiftBboxCoordinatesStep || "N/A"} step each time. To run all requests took ${testData.testingTimeMs || "N/A"}ms. Pause between bunches of requests was ${pauseBetweenBunchesOfRequestsMs || "N/A"}ms.\n`;
 
-  const perf = `⚡ Performance stats: avg response time is ${responseTimeAvgMs ? responseTimeAvgMs.toFixed(2) : "N/A"}ms, median is ${responseTimeMedianMs || "N/A"}ms, max is ${responseTimeMax || "N/A"}ms, min is ${responseTimeMin || "N/A"}ms, 95th percentile is ${responseTimeBelowWhich95PercentOfRequestsFitMs || "N/A"}ms, 99th percentile is ${responseTimeBelowWhich99PercentOfRequestsFitMs || "N/A"}ms.\n`;
+  const perf = `Performance stats: avg response time is ${responseTimeAvgMs ? responseTimeAvgMs.toFixed(2) : "N/A"}ms, median is ${responseTimeMedianMs || "N/A"}ms, max is ${responseTimeMax || "N/A"}ms, min is ${responseTimeMin || "N/A"}ms, 95th percentile is ${responseTimeBelowWhich95PercentOfRequestsFitMs || "N/A"}ms, 99th percentile is ${responseTimeBelowWhich99PercentOfRequestsFitMs || "N/A"}ms.\n`;
 
   const statusSummary = Object.entries(statuses || {})
     .map(([code, count]) => `${code}: ${count} reqs`)
@@ -97,7 +98,7 @@ const buildAnalyticsMessage = (resultsAnalytics: ResultsAnalysis): string => {
   const urls = `🌐 Max 3 tested URLs: ${maxThreeUniqueLastTestedUrls?.slice(0, 3).join(", ") || 0}\n`;
   const sizes = `📏 Max 3 unique payload sizes: ${uniquePayloadSizes?.slice(0, 3).join(", ") || "N/A"} bytes\n`;
 
-  return `${testSummary} /n ${perf} | ${statusText} | ${errors} | ${longReqs} | ${ids} | ${urls} | ${sizes} 😎`;
+  return `${testSummary} /n ${perf} | ${statusText} | ${errors} | ${longReqs} | ${ids} | ${urls} | ${sizes} 😎. * - N/A means that the test did not use this parameter.`;
 };
 
 /**
