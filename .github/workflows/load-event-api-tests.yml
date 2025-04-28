@@ -148,7 +148,7 @@ jobs:
                     "type": "section",
                     "text": {
                         "type": "mrkdwn",
-                        "text": "${{ env.MESSAGE || 'No tests results found 😢' }}"
+                        "text": "${{ env.message || 'No tests results found 😢' }}"
                     }
                 }
               ]
