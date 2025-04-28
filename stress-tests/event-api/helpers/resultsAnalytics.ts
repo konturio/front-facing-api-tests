@@ -74,30 +74,30 @@ const buildAnalyticsMessage = (resultsAnalytics: ResultsAnalysis): string => {
     uniquePayloadSizes,
   } = resultsAnalytics;
 
-  const testSummary = `🚀 Stress test for Event API completed: ran ${testData.numberOfRequests} requests, feed=${testData.feed || "unknown"}, disaster types=${testData.types?.join(", ") || "none"}, bbox=[${testData.startingBbox?.join(", ") || "N/A"}], limit=${testData.limit || "N/A"}, started after ${testData.startingAfterDate || "N/A"}, took ${testData.testingTimeMs || "N/A"}ms. Pause between bunches of requests=${testData.pauseBetweenBunchesOfRequestsMs || "N/A"}ms`;
+  const testSummary = `🚀 Stress test for Event API completed: ran ${testData.numberOfRequests} requests, feed=${testData.feed || "unknown"}, disaster types=${testData.types?.join(", ") || "none"}, bbox=[${testData.startingBbox?.join(", ") || "N/A"}], limit=${testData.limit || "N/A"}. Started after value is '${testData.startingAfterDate || "N/A"}'. Episode filter type is ${testData.episodeFilterType || "N/A"}.\nIf bbox was used, it was moved on ${testData.shiftBboxCoordinatesStep || "N/A"} step each time. To run all requests took ${testData.testingTimeMs || "N/A"}ms. Pause between bunches of requests was ${testData.pauseBetweenBunchesOfRequestsMs || "N/A"}ms. \n`;
 
-  const perf = `⚡ Performance stats: avg response=${responseTimeAvgMs ? responseTimeAvgMs.toFixed(2) : "N/A"}ms, median=${responseTimeMedianMs || "N/A"}ms, max=${responseTimeMax || "N/A"}ms, min=${responseTimeMin || "N/A"}ms, 95th percentile=${responseTimeBelowWhich95PercentOfRequestsFitMs || "N/A"}ms, 99th percentile=${responseTimeBelowWhich99PercentOfRequestsFitMs || "N/A"}ms`;
+  const perf = `⚡ Performance stats: avg response time is ${responseTimeAvgMs ? responseTimeAvgMs.toFixed(2) : "N/A"}ms, median is ${responseTimeMedianMs || "N/A"}ms, max is ${responseTimeMax || "N/A"}ms, min is ${responseTimeMin || "N/A"}ms, 95th percentile is ${responseTimeBelowWhich95PercentOfRequestsFitMs || "N/A"}ms, 99th percentile is ${responseTimeBelowWhich99PercentOfRequestsFitMs || "N/A"}ms.\n`;
 
   const statusSummary = Object.entries(statuses || {})
     .map(([code, count]) => `${code}: ${count} reqs`)
     .join(", ");
-  const statusText = `📊 HTTP statuses: ${statusSummary || "no responses"}`;
+  const statusText = `📊 HTTP statuses: ${statusSummary || "no responses"}\n`;
 
-  const errors = `🔥 Errors: ${notOKRequestsNumber || 0} failed requests, unique errors=${uniqueErrors?.length || 0} (${uniqueErrors?.join(", ") || "none"})`;
+  const errors = `🔥 Errors: ${notOKRequestsNumber || 0} failed requests, unique errors=${uniqueErrors?.length || 0} (${uniqueErrors?.join(", ") || "none"})\n`;
 
   const longReqsText =
     typeof longRequests === "string"
       ? longRequests
       : Object.entries(longRequests || {})
-          .map(([key, count]) => `${key}: ${count} reqs`)
+          .map(([key, count]) => `${key}: ${count} requests`)
           .join(", ");
-  const longReqs = `🐢 Slow requests: ${longReqsText || "no slow requests"}`;
+  const longReqs = `🐢 Slow requests: ${longReqsText || "no slow requests"}\n`;
 
-  const ids = `🆔 Found disaster IDs: ${maxThreeUniqueDisasterIdsFound?.join(", ") || "none"}`;
-  const urls = `🌐 Tested URLs: ${maxThreeUniqueLastTestedUrls?.length || 0} unique`;
-  const sizes = `📏 Payload sizes: ${uniquePayloadSizes?.join(", ") || "N/A"} bytes`;
+  const ids = `🆔 Found disaster IDs: ${maxThreeUniqueDisasterIdsFound?.join(", ") || "none"}\n`;
+  const urls = `🌐 Tested URLs: ${maxThreeUniqueLastTestedUrls?.join(", ") || 0}\n`;
+  const sizes = `📏 Unique payload sizes: ${uniquePayloadSizes?.join(", ") || "N/A"} bytes\n`;
 
-  return `${testSummary} | ${perf} | ${statusText} | ${errors} | ${longReqs} | ${ids} | ${urls} | ${sizes} 😎`;
+  return `${testSummary} /n ${perf} | ${statusText} | ${errors} | ${longReqs} | ${ids} | ${urls} | ${sizes} 😎`;
 };
 
 /**
