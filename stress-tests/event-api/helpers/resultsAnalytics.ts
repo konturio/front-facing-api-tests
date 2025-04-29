@@ -72,7 +72,6 @@ const buildAnalyticsMessage = (resultsAnalytics: ResultsAnalysis): string => {
     maxThreeUniqueDisasterIdsFound,
     maxThreeUniqueLastTestedUrls,
     uniquePayloadSizes,
-    pauseBetweenBunchesOfRequestsMs,
   } = resultsAnalytics;
 
   const testSummary = `🚀 Stress test for Event API completed: ran ${testData.numberOfRequests} requests, feed=${testData.feed || "unknown"}, disaster types=${testData.types?.join(", ") || "none"}, bbox=[${testData.startingBbox?.join(", ") || "N/A"}], limit=${testData.limit || "N/A"}. Started after value is '${testData.startingAfterDate || "N/A"}'. Episode filter type is ${testData.episodeFilterType || "N/A"}.\nIf bbox was used, it was moved on ${testData.shiftBboxCoordinatesStep || "N/A"} step each time. To run all requests took ${testData.testingTimeMs || "N/A"}ms.`;
@@ -94,7 +93,7 @@ const buildAnalyticsMessage = (resultsAnalytics: ResultsAnalysis): string => {
           .join(", ");
   const longReqs = `🐢 Slow requests: ${longReqsText || "no slow requests"}\n`;
 
-  const ids = `🆔 Max 3 found disaster IDs: ${maxThreeUniqueDisasterIdsFound?.slice(0, 3).join(", ") || "none"}\n`;
+  const ids = `🆔 Max 3 found disaster IDs: ${maxThreeUniqueDisasterIdsFound?.join(", ") || "none"}\n`;
   const urls = `🌐 Max 3 tested URLs: ${maxThreeUniqueLastTestedUrls?.slice(0, 3).join(", ") || 0}\n`;
   const sizes = `📏 Max 3 unique payload sizes: ${uniquePayloadSizes?.slice(0, 3).join(", ") || "N/A"} bytes\n`;
 

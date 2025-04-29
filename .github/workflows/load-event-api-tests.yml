@@ -86,6 +86,7 @@ jobs:
       - name: Create .env file
         shell: bash
         run: |
+          cd stress-tests/event-api
           rm -rf .env.event-api-stress
           echo "FEED=$FEED" >> .env.event-api-stress
           echo "TYPES=$TYPES" >> .env.event-api-stress
@@ -98,6 +99,7 @@ jobs:
           echo "AFTER=$AFTER" >> .env.event-api-stress
           echo "BBOX=$(echo '${{ github.event.inputs.bbox_shift_step }}' | cut -d '/' -f 1)" >> .env.event-api-stress
           echo "SHIFTSTEP=$(echo '${{ github.event.inputs.bbox_shift_step }}' | cut -d '/' -f 2)" >> .env.event-api-stress
+          cat .env.event-api-stress
 
       - name: Run search events tests
         if: ${{ github.event.inputs.what_to_test == 'search events by areas'}}
