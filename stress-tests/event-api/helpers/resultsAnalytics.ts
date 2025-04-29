@@ -203,13 +203,13 @@ export const calculateLoadAnalytics = function (
     sortedResponseTimes[Math.floor(0.99 * sortedResponseTimes.length)];
   resultsAnalytics.maxThreeUniqueDisasterIdsFound = [
     ...new Set(analyticsBasicData.disasterIds),
-  ].slice(0, 3);
+  ].slice(-3);
   resultsAnalytics.maxThreeUniqueLastTestedUrls = [
     ...new Set(analyticsBasicData.urls),
   ].slice(-3);
   resultsAnalytics.uniquePayloadSizes = [
     ...new Set(analyticsBasicData.payloads),
-  ];
+  ].slice(-3);
   for (const key of Object.keys(testData)) {
     resultsAnalytics.testData[key] = testData[key];
   }
