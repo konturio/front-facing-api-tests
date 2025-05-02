@@ -53,21 +53,29 @@ for (const polygon of polygons) {
       tag: "@fitsLoadTesting",
     },
     () => {
-      test.beforeEach(async ({ playwright }) => {
+      test("Correlation rates array should be empty", async ({
+        playwright,
+      }) => {
         const request = await playwright.request.newContext();
-        test.step("Get correlation rates, cache response at server to speed up tests and provide basic validation of this response", async () => {
-          await getCorrelationRates(request, polygon, {
-            validateResponse: true,
-          });
-        });
+        const correlationRates = await getCorrelationRates(request, polygon);
+        expect(
+          correlationRates.length,
+          `Correlation rates array should be empty`
+        ).toBe(0);
       });
 
-      test(`Check that each correlation rate is !== 0`, async ({ request }) => {
-        test.fixme(
+      test(`Check that each correlation rate is !== 0`, async ({
+        playwright,
+      }) => {
+        test.skip(
           true,
-          "Fix https://kontur.fibery.io/Tasks/Task/21318 to activate this test. Correlation rates array length === 0 takes place sometimes."
+          "This test is skipped as array of correlations should be empty (correlations are switched off for prod currently). If decided to bring correlations back, feel free to activate this test. More info: https://konturio.slack.com/archives/C01GDJZGU2H/p1744881197222189"
         );
-        const correlationRates = await getCorrelationRates(request, polygon);
+        const request = await playwright.request.newContext();
+
+        const correlationRates = await getCorrelationRates(request, polygon, {
+          validateResponse: true,
+        });
 
         const checkValue = (value: number, name: string) => {
           expect
@@ -109,13 +117,21 @@ for (const polygon of polygons) {
         }
       });
 
-      test("Check that layers are not duplicated", async ({ request }) => {
+      test("Check that layers are not duplicated", async ({ playwright }) => {
+        test.skip(
+          true,
+          "This test is skipped as array of correlations should be empty (correlations are switched off for prod currently). If decided to bring correlations back, feel free to activate this test. More info: https://konturio.slack.com/archives/C01GDJZGU2H/p1744881197222189"
+        );
         test.fixme(
           true,
           `This test found an issue https://kontur.fibery.io/Tasks/Task/Quotients-pairs-are-not-unique-in-bivariate-statistics-correlation-rates-20918 , activate the test once the issue is fixed`
         );
 
-        const correlationRates = await getCorrelationRates(request, polygon);
+        const request = await playwright.request.newContext();
+
+        const correlationRates = await getCorrelationRates(request, polygon, {
+          validateResponse: true,
+        });
 
         const getAllLayers = (axis: "x" | "y") => {
           return correlationRates.reduce((acc: string[], curr) => {
@@ -143,13 +159,17 @@ for (const polygon of polygons) {
       });
 
       test("Check that important layers are not grouped", async ({
-        request,
+        playwright,
       }) => {
-        test.fixme(
+        test.skip(
           true,
-          "Fix https://kontur.fibery.io/Tasks/Task/21318 to activate this test. Correlation rates array length === 0 takes place sometimes."
+          "This test is skipped as array of correlations should be empty (correlations are switched off for prod currently). If decided to bring correlations back, feel free to activate this test. More info: https://konturio.slack.com/archives/C01GDJZGU2H/p1744881197222189"
         );
-        const correlationRates = await getCorrelationRates(request, polygon);
+        const request = await playwright.request.newContext();
+
+        const correlationRates = await getCorrelationRates(request, polygon, {
+          validateResponse: true,
+        });
 
         const importantLayers = [
           ["count", "area_km2"],

@@ -1,6 +1,19 @@
 import fs from "fs";
 import path from "path";
 import { APIRequestContext, expect } from "@playwright/test";
+import { fileURLToPath } from "url";
+import * as dotenv from "dotenv";
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+dotenv.config({
+  path: [
+    ".env.playwright.local",
+    ".env.playwright.production",
+    ".env.playwright",
+  ],
+});
 
 export type Api = {
   env: string;
@@ -27,7 +40,7 @@ export const countriesForWorkflow = getJSON({
   fileFolder: "lookup-data",
 }) as string[];
 
-export const countriesToTestArray = process.env
+export const countriesToTestArray = !!process.env
   .IS_TESTING_BUSINESS_COUNTRIES_IN_A_ROW_AT_INSIGHTS_API
   ? (countriesForWorkflow.map((country) => country.trim()) as string[])
   : process.env.COUNTRIES_TO_TEST?.split(",").map((country) => country.trim());
