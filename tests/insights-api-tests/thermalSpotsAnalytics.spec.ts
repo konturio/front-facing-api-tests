@@ -28,15 +28,12 @@ for (const polygon of polygons) {
         type: "country",
         description: `Area of ${testedCountry} is tested. To get geojson go to ${process.env.ALL_COUNTRIES_PATH} in ${process.env.REPO_NAME} repo`,
       },
+      tag: "@fitsLoadTesting",
     },
     () => {
       test(`Check thermal spots statistics calculation`, async ({
         request,
       }) => {
-        test.fixme(
-          true,
-          `Thermal spots analytics tests are skipped due to https://kontur.fibery.io/Tasks/Task/Thermal-spots-analytics-request-does-not-provide-valid-response-20750 issue`
-        );
         const responseObj = await sendGraphqlQuery({
           request,
           url: process.env.GRAPHQL_ENDPOINT as string,
@@ -53,10 +50,20 @@ for (const polygon of polygons) {
         ).toBeDefined();
 
         for (const field of fieldsToCheck) {
-          await test.step(`Check '${field}' field is not null and >= 0`, async () => {
-            expect(stats[field]).toBeDefined();
-            expect(stats[field]).toBeGreaterThanOrEqual(0);
-            expect(stats[field]).not.toBeNull();
+          const testedField = stats[field];
+          await test.step(`Check '${field}' field is not null and >= 0 (value: ${testedField})`, async () => {
+            expect(
+              testedField,
+              `Field '${field}' should be defined`
+            ).toBeDefined();
+            expect(
+              testedField,
+              `Field '${field}' should be >= 0`
+            ).toBeGreaterThanOrEqual(0);
+            expect(
+              testedField,
+              `Field '${field}' should not be null`
+            ).not.toBeNull();
           });
         }
       });
