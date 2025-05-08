@@ -1,6 +1,6 @@
 # Stress tests for event API
 
-Tests are written in TypeScript and are run by Node.js, provide outputs to console and files, analyze this outputs and provide a report. The tests can run in the CI pipeline, both one by one and in parallel. Written for the Kontur Events API. See more https://apps.kontur.io/events/swagger-ui/index.html?configUrl=/events/v3/api-docs/swagger-config#/. You can run just one test at once.
+Tests are written in TypeScript and are run by Node.js, provide outputs to console and files, analyze this outputs and provide a report. The tests can run in the CI pipeline, both one by one and in parallel. Written for the Kontur Events API. See more ([Swagger UI](https://apps.kontur.io/events/swagger-ui/index.html?configUrl=/events/v3/api-docs/swagger-config#/)). You can run just one test at once.
 
 ## Running api tests
 
@@ -42,7 +42,7 @@ NUMBER_OF_REQUESTS=<total-number-of-requests-to-run>
 - `<number-on-which-to-shift-bbox-on-each-request>` is the number on which to shift bbox on each request for search events test. Example: 0.00001.
 - `<total-number-of-requests-to-run>` is the total number of requests to run.
 
-### 3. Run the api tests
+### 2. Run the api tests
 
 Search events by areas test with moving bbox and after date for each request:
 
