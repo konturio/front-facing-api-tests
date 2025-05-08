@@ -182,6 +182,7 @@ const expectedLayers = [
   "gmu_solar_radiation",
   "gmu_wind_direction",
   "gmu_wind_speed",
+  "h3",
 ];
 
 if (process.env.ENVIRONMENT === "test") {
