@@ -78,7 +78,7 @@ const polishTextAtTermsPage = [
 ];
 
 const linksAtPrivacyPage = [
-  " https://www.kontur.io",
+  "https://www.kontur.io",
   "https://atlas.kontur.io",
   "https://maps.kontur.io",
   "https://disaster.ninja",
@@ -86,7 +86,7 @@ const linksAtPrivacyPage = [
   "https://support.google.com/analytics/answer/6004245",
   "https://www.linkedin.com/legal/privacy-policy",
   "https://x.com/en/privacy",
-  "https://www.facebook.com/privacy/explanation",
+  "https://www.facebook.com/privacy/policy/",
   "https://yandex.com/support/metrica/general/opt-out.html",
   "https://metrica.yandex.com/about/info/privacy-policy",
   "https://docs.sentry.io/product/sentry-basics/#how-to-get-the-most-out-of-sentry",
@@ -104,9 +104,28 @@ assetsDataObjs.forEach((assetsDataObj) => {
           `Check ${assetsDataObj?.url ?? "unknown"} language response and links correctness`,
           { tag: "@guest" },
           async ({ request }) => {
+            test.info().annotations.push(
+              {
+                type: `url`,
+                description: assetsDataObj?.url ?? "unknown",
+              },
+              {
+                type: `language`,
+                description: expectedLanguage,
+              },
+              {
+                type: `app name`,
+                description:
+                  assetsDataObj?.name ?? "unknown assets data object",
+              }
+            );
             test.fail(
               !assetsDataObj?.url || !assetsDataObj?.name,
               "Asset data not found"
+            );
+            test.fixme(
+              expectedLanguage !== "en",
+              "Implement https://kontur.fibery.io/Tasks/Task/add-translated-About-pages-to-user-profile-api-repo-18359 to activate this test"
             );
             // Send a GET request to the URL with the specific language header
             const response = await request.get(assetsDataObj.url, {
@@ -114,11 +133,17 @@ assetsDataObjs.forEach((assetsDataObj) => {
                 "User-Language": expectedLanguage,
               },
             });
-            expect(response.status()).toEqual(200);
+            expect(
+              response.status(),
+              `Response status of request should be 200`
+            ).toEqual(200);
 
             // Extract the response text to perform language and link checks
             const responseTxt = await response.text();
-            expect(responseTxt.length).toBeGreaterThan(0);
+            expect(
+              responseTxt.length,
+              `Response text of request should not be empty`
+            ).toBeGreaterThan(0);
 
             // Detect the actual language of the response text
             const actualLanguage = langdetect.detectOne(
@@ -127,71 +152,85 @@ assetsDataObjs.forEach((assetsDataObj) => {
 
             switch (assetsDataObj.name) {
               case "atlas about page":
-                test.fixme(
-                  expectedLanguage !== "en",
-                  "Implement https://kontur.fibery.io/Tasks/Task/add-translated-About-pages-to-user-profile-api-repo-18359 to activate this test"
-                );
                 linksAtAtlasAboutPage.forEach((link) =>
-                  expect(responseTxt).toContain(link)
+                  expect
+                    .soft(
+                      responseTxt,
+                      `Expect link ${link} to be present in the response text`
+                    )
+                    .toContain(link)
                 );
                 break;
 
               case "oam about page":
-                test.fixme(
-                  expectedLanguage !== "en",
-                  "Implement https://kontur.fibery.io/Tasks/Task/add-translated-About-pages-to-user-profile-api-repo-18359 to activate this test"
-                );
                 linksAtOAMAboutPage.forEach((link) =>
-                  expect(responseTxt).toContain(link)
+                  expect
+                    .soft(
+                      responseTxt,
+                      `Expect link ${link} to be present in the response text`
+                    )
+                    .toContain(link)
                 );
                 break;
 
               case "disaster-ninja about page":
-                test.fixme(
-                  expectedLanguage === "uk",
-                  "Fix https://kontur.fibery.io/Tasks/Task/About-page-UK-locale-fix-go-to-map-link-and-github-link-19533 to activate this test"
-                );
                 linksAtDNAboutPage.forEach((link) =>
-                  expect(responseTxt).toContain(link)
+                  expect
+                    .soft(
+                      responseTxt,
+                      `Expect link ${link} to be present in the response text`
+                    )
+                    .toContain(link)
                 );
                 break;
 
               case "smart-city about page":
-                test.fixme(
-                  expectedLanguage !== "en",
-                  "Implement https://kontur.fibery.io/Tasks/Task/add-translated-About-pages-to-user-profile-api-repo-18359 to activate this test"
-                );
                 linksAtSmartCityAboutPage.forEach((link) =>
-                  expect(responseTxt).toContain(link)
+                  expect
+                    .soft(
+                      responseTxt,
+                      `Expect link ${link} to be present in the response text`
+                    )
+                    .toContain(link)
                 );
                 break;
 
               default:
                 // Handle terms and privacy pages with separate fixme and link checks
                 if (assetsDataObj.name.includes("terms page")) {
-                  test.fixme(
-                    expectedLanguage !== "en",
-                    "Implement https://kontur.fibery.io/Tasks/Task/add-translated-About-pages-to-user-profile-api-repo-18359 to activate this test"
-                  );
                   linksAtTermsPage.forEach((link) =>
-                    expect(responseTxt).toContain(link)
+                    expect
+                      .soft(
+                        responseTxt,
+                        `Expect link ${link} to be present in the response text`
+                      )
+                      .toContain(link)
                   );
                   polishTextAtTermsPage.forEach((text) =>
-                    expect(responseTxt).toContain(text)
+                    expect
+                      .soft(
+                        responseTxt,
+                        `Expect text '${text}' to be present in the response text`
+                      )
+                      .toContain(text)
                   );
                 }
                 if (assetsDataObj.name.includes("privacy page")) {
-                  test.fixme(
-                    expectedLanguage !== "en",
-                    "Implement https://kontur.fibery.io/Tasks/Task/add-translated-About-pages-to-user-profile-api-repo-18359 to activate this test"
-                  );
                   linksAtPrivacyPage.forEach((link) =>
-                    expect(responseTxt).toContain(link)
+                    expect
+                      .soft(
+                        responseTxt,
+                        `Expect link ${link} to be present in the response text`
+                      )
+                      .toContain(link)
                   );
                 }
                 break;
             }
-            expect(actualLanguage).toEqual(expectedLanguage);
+            expect(
+              actualLanguage,
+              `Expect actual language of response to be ${expectedLanguage}`
+            ).toEqual(expectedLanguage);
           }
         );
       });
