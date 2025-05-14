@@ -59,9 +59,9 @@ for (const polygon of polygons) {
         const request = await playwright.request.newContext();
         const correlationRates = await getCorrelationRates(request, polygon);
         expect(
-          correlationRates.length,
-          `Correlation rates array should be empty`
-        ).toBe(0);
+          correlationRates,
+          "Correlation rates array should be empty"
+        ).toStrictEqual([]);
       });
 
       test(`Check that each correlation rate is !== 0`, async ({
