@@ -32,7 +32,7 @@ on:
         type: string
         required: false
         description: |
-          Comma-separated list of countries to test. If not provided, a random small country will be used for each Insights API test. Example: 'Canada, Germany'. Pasting more than 5 countries is not recommended. Make sure to write them correctly! Copy country names from https://github.com/front-facing-api-tests/tests/tests-data/lookup-data/admin-names.json
+          Comma-separated list of countries to test. If not provided, a random country business is interested in will be used for each Insights API test. Example: 'Canada, Germany'. Pasting more than 5 countries is not recommended. Make sure to write them correctly! Copy country names from https://github.com/front-facing-api-tests/tests/tests-data/lookup-data/admin-names.json
         default: ""
 
   schedule:
