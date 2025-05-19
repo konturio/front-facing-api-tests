@@ -235,12 +235,12 @@ export async function sendGraphqlQuery({
 }
 
 /**
- * This function returns a random country from the list of countries
+ * This function returns a random country business is interested in from the list of countries
  * @param notBigCountry - Whether to return a random country from the whole list of countries or from the list of countries excluding big countries
  * @returns a JS object as a random country geometry
  */
 
-export function getRandomCountryJSON({
+function getRandomBusinessCountryJSON({
   notBigCountry,
 }: {
   notBigCountry: boolean;
@@ -251,9 +251,18 @@ export function getRandomCountryJSON({
       fileFolder: "request-bodies",
     }) as TestedGeojson;
 
-    const filteredFeatures = allCountries.features.filter(
-      (geom) => !notBigCountry || !bigCountries.has(geom.properties.ADMIN)
+    const businessCountries = new Set(
+      getJSON({
+        fileFolder: "lookup-data",
+        fileName: "business-countries",
+      }) as string[]
     );
+
+    const filteredFeatures = allCountries.features
+      .filter((geom) => businessCountries.has(geom.properties.ADMIN))
+      .filter(
+        (geom) => !notBigCountry || !bigCountries.has(geom.properties.ADMIN)
+      );
     const randomCountry =
       filteredFeatures[Math.floor(Math.random() * filteredFeatures.length)];
 
@@ -313,6 +322,6 @@ export function getPolygonsToTest() {
     return getArrayOfCountriesJSONs(countriesToTestArray);
   } else {
     // TO DO: don't filter out big countries and set business countries instead once the task for big areas in insigths api is done
-    return [getRandomCountryJSON({ notBigCountry: true })];
+    return [getRandomBusinessCountryJSON({ notBigCountry: true })];
   }
 }
