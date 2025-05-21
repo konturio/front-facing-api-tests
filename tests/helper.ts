@@ -45,78 +45,6 @@ export const countriesToTestArray = !!process.env
   ? (countriesForWorkflow.map((country) => country.trim()) as string[])
   : process.env.COUNTRIES_TO_TEST?.split(",").map((country) => country.trim());
 
-const bigCountries = new Set([
-  "Russia",
-  "United States",
-  "Canada",
-  "China",
-  "Brazil",
-  "Australia",
-  "India",
-  "Argentina",
-  "Kazakhstan",
-  "Algeria",
-  "DR Congo",
-  "Greenland",
-  "Saudi Arabia",
-  "Mexico",
-  "Indonesia",
-  "Sudan",
-  "Libya",
-  "Iran",
-  "Mongolia",
-  "Peru",
-  "Chad",
-  "Niger",
-  "Angola",
-  "Mali",
-  "South Africa",
-  "Colombia",
-  "Ethiopia",
-  "Bolivia",
-  "Mauritania",
-  "Egypt",
-  "Tanzania",
-  "Nigeria",
-  "Venezuela",
-  "Namibia",
-  "Pakistan",
-  "Mozambique",
-  "Turkey",
-  "Chile",
-  "Zambia",
-  "Myanmar",
-  "Afghanistan",
-  "South Sudan",
-  "France",
-  "Somalia",
-  "Central African Republic",
-  "Ukraine",
-  "Madagascar",
-  "Botswana",
-  "Kenya",
-  "Yemen",
-  "Thailand",
-  "Spain",
-  "Turkmenistan",
-  "Cameroon",
-  "Papua New Guinea",
-  "Sweden",
-  "Uzbekistan",
-  "Morocco",
-  "Iraq",
-  "Paraguay",
-  "Zimbabwe",
-  "Japan",
-  "Germany",
-  "Philippines",
-  "Congo",
-  "Finland",
-  "Vietnam",
-  "Malaysia",
-  "Norway",
-]);
-
 /**
  * Get the list of APIs from a json file
  * @param apisNames The list of APIs names to get from the file.
@@ -236,15 +164,10 @@ export async function sendGraphqlQuery({
 
 /**
  * This function returns a random country business is interested in from the list of countries
- * @param notBigCountry - Whether to return a random country from the whole list of countries or from the list of countries excluding big countries
  * @returns a JS object as a random country geometry
  */
 
-function getRandomBusinessCountryJSON({
-  notBigCountry,
-}: {
-  notBigCountry: boolean;
-}) {
+function getRandomBusinessCountryJSON() {
   try {
     const allCountries = getJSON({
       fileName: "all-countries",
@@ -258,11 +181,9 @@ function getRandomBusinessCountryJSON({
       }) as string[]
     );
 
-    const filteredFeatures = allCountries.features
-      .filter((geom) => businessCountries.has(geom.properties.ADMIN))
-      .filter(
-        (geom) => !notBigCountry || !bigCountries.has(geom.properties.ADMIN)
-      );
+    const filteredFeatures = allCountries.features.filter((geom) =>
+      businessCountries.has(geom.properties.ADMIN)
+    );
     const randomCountry =
       filteredFeatures[Math.floor(Math.random() * filteredFeatures.length)];
 
@@ -321,7 +242,6 @@ export function getPolygonsToTest() {
   ) {
     return getArrayOfCountriesJSONs(countriesToTestArray);
   } else {
-    // TO DO: don't filter out big countries and set business countries instead once the task for big areas in insigths api is done
-    return [getRandomBusinessCountryJSON({ notBigCountry: true })];
+    return [getRandomBusinessCountryJSON()];
   }
 }
