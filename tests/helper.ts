@@ -15,6 +15,64 @@ dotenv.config({
   ],
 });
 
+type PopulationAnalytics = {
+  admin: string;
+  populationData: {
+    id: "population" | "gdp" | "urban";
+    minExpectedResult: number;
+    maxExpectedResult: number;
+  }[];
+};
+
+type ThermalSpotsAnalytics = {
+  admin: string;
+  thermalSpotsData: {
+    id:
+      | "volcanoesCount"
+      | "hotspotDaysPerYearMax"
+      | "industrialAreaKm2"
+      | "forestAreaKm2";
+    minExpectedResult: number;
+    maxExpectedResult: number;
+  }[];
+};
+
+type OsmAnalytics = {
+  admin: string;
+  osmData: {
+    id:
+      | "areaWithoutOsmBuildingsKm2"
+      | "areaWithoutOsmRoadsKm2"
+      | "osmBuildingGapsPercentage"
+      | "osmRoadGapsPercentage"
+      | "antiqueOsmBuildingsPercentage"
+      | "antiqueOsmRoadsPercentage"
+      | "osmBuildingsCount"
+      | "osmUsersCount"
+      | "osmUsersHours"
+      | "localOsmUsersHours"
+      | "aiBuildingsCountEstimation";
+    minExpectedResult: number;
+    maxExpectedResult: number;
+  }[];
+};
+
+type FunctionsAnalytics = {
+  admin: string;
+  functions: {
+    id:
+      | "populatedareakm2"
+      | "industrialareakm2"
+      | "forestareakm2"
+      | "volcanoescount"
+      | "hotspotdaysperyearmax"
+      | "osmgapspercentage"
+      | "osmgapssum";
+    minExpectedResult: number;
+    maxExpectedResult: number;
+  }[];
+};
+
 export type Api = {
   env: string;
   name: string;
@@ -38,11 +96,11 @@ export type TestedGeojson = {
 export const countriesForWorkflow = getJSON({
   fileName: "countries-for-workflow",
   fileFolder: "lookup-data",
-}) as string[];
+});
 
 export const countriesToTestArray = !!process.env
   .IS_TESTING_BUSINESS_COUNTRIES_IN_A_ROW_AT_INSIGHTS_API
-  ? (countriesForWorkflow.map((country) => country.trim()) as string[])
+  ? countriesForWorkflow.map((country) => country.trim())
   : process.env.COUNTRIES_TO_TEST?.split(",").map((country) => country.trim());
 
 /**
@@ -81,7 +139,7 @@ export function getApis(apisNames: string[], fileName: string): Api[] {
 /**
  * Get information from a JSON file
  * @param fileName The name of the file
- * @param fileFolder The folder where the file is located
+ * @param fileFolder The folder where the file is located. Children folders are not supported
  * @returns JS object or an array of strings
  */
 
@@ -90,15 +148,50 @@ export function getJSON({
   fileFolder,
 }: {
   fileName: string;
-  fileFolder: "request-bodies" | "response-bodies" | "lookup-data";
-}): Record<string, {}> | string[] {
+  fileFolder: "lookup-data";
+}): string[];
+
+export function getJSON({
+  fileName,
+  fileFolder,
+}: {
+  fileName: string;
+  fileFolder: "request-bodies" | "response-bodies";
+}): Record<string, unknown>;
+
+export function getJSON({
+  fileName,
+  fileFolder,
+}: {
+  fileName: string;
+  fileFolder: "reference-data";
+}): Array<Record<string, unknown> & { admin: string }>;
+
+export function getJSON({
+  fileName,
+  fileFolder,
+}: {
+  fileName: string;
+  fileFolder:
+    | "request-bodies"
+    | "response-bodies"
+    | "lookup-data"
+    | "reference-data";
+}) {
   try {
     const partialPath = `./tests-data/${fileFolder}/${fileName}.json`;
     const data = fs.readFileSync(path.join(__dirname, partialPath)).toString();
     const json = JSON.parse(data);
-    return json;
+    switch (fileFolder) {
+      case "reference-data":
+        return json as Record<string, unknown>[];
+      case "lookup-data":
+        return json as string[];
+      default:
+        return json as Record<string, unknown>;
+    }
   } catch (error) {
-    throw new Error(error);
+    throw new String(error);
   }
 }
 
@@ -124,6 +217,55 @@ export function getGraphqlQuery(
     return data;
   } catch (error) {
     throw new Error(error);
+  }
+}
+
+/**
+ * This function returns reference data for a country to use in insights api tests
+ * @param country admin name of the country from business countries list
+ * @param requiredAnalyticsDataType what type of analytics data to return
+ * @returns object with analytics data for requested country
+ */
+
+export function getReferenceDataForCountry(
+  country: string,
+  requiredAnalyticsDataType: "functions" | "osm" | "population" | "thermalSpots"
+) {
+  const getData = function (
+    fileName:
+      | "thermal-spots-analytics-data"
+      | "population-analytics-data"
+      | "osm-analytics-data"
+      | "functions-analytics-data",
+    country: string
+  ) {
+    const referenceData = getJSON({
+      fileName: fileName,
+      fileFolder: "reference-data",
+    });
+    const countryData = referenceData.find((data) => data.admin === country);
+    if (!countryData) {
+      throw new Error(
+        `Country '${country}' is not found in reference data at ${fileName}.json`
+      );
+    }
+    return countryData;
+  };
+  switch (requiredAnalyticsDataType) {
+    case "functions":
+      return getData("functions-analytics-data", country) as FunctionsAnalytics;
+    case "osm":
+      return getData("osm-analytics-data", country) as OsmAnalytics;
+    case "population":
+      return getData(
+        "population-analytics-data",
+        country
+      ) as PopulationAnalytics;
+    case "thermalSpots":
+      return getData(
+        "thermal-spots-analytics-data",
+        country
+      ) as ThermalSpotsAnalytics;
   }
 }
 
@@ -178,7 +320,7 @@ function getRandomBusinessCountryJSON() {
       getJSON({
         fileFolder: "lookup-data",
         fileName: "business-countries",
-      }) as string[]
+      })
     );
 
     const filteredFeatures = allCountries.features.filter((geom) =>
@@ -208,7 +350,7 @@ export function getArrayOfCountriesJSONs(
   adminNames: string[] = getJSON({
     fileName: "admin-names",
     fileFolder: "lookup-data",
-  }) as string[]
+  })
 ): TestedGeojson[] {
   const allCountries = getJSON({
     fileName: "all-countries",
