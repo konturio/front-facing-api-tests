@@ -180,6 +180,66 @@
     ]
   },
   {
+    "admin": "Poland",
+    "osmData": [
+      {
+        "id": "areaWithoutOsmBuildingsKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "areaWithoutOsmRoadsKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "osmBuildingGapsPercentage",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 99
+      },
+      {
+        "id": "osmRoadGapsPercentage",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 99
+      },
+      {
+        "id": "antiqueOsmBuildingsPercentage",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 99
+      },
+      {
+        "id": "antiqueOsmRoadsPercentage",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 99
+      },
+      {
+        "id": "osmBuildingsCount",
+        "minExpectedResult": 10,
+        "maxExpectedResult": 30000000000000
+      },
+      {
+        "id": "osmUsersCount",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 5000000
+      },
+      {
+        "id": "osmUsersHours",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 300000000
+      },
+      {
+        "id": "localOsmUsersHours",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 300000000
+      },
+      {
+        "id": "aiBuildingsCountEstimation",
+        "minExpectedResult": 10,
+        "maxExpectedResult": 300000000000000
+      }
+    ]
+  },
+  {
     "admin": "Albania",
     "osmData": [
       {

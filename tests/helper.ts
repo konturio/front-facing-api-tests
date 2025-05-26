@@ -15,7 +15,7 @@ dotenv.config({
   ],
 });
 
-type PopulationAnalytics = {
+export type PopulationAnalytics = {
   admin: string;
   populationData: {
     id: "population" | "gdp" | "urban";
@@ -24,7 +24,7 @@ type PopulationAnalytics = {
   }[];
 };
 
-type ThermalSpotsAnalytics = {
+export type ThermalSpotsAnalytics = {
   admin: string;
   thermalSpotsData: {
     id:
@@ -37,7 +37,7 @@ type ThermalSpotsAnalytics = {
   }[];
 };
 
-type OsmAnalytics = {
+export type OsmAnalytics = {
   admin: string;
   osmData: {
     id:
@@ -57,7 +57,7 @@ type OsmAnalytics = {
   }[];
 };
 
-type FunctionsAnalytics = {
+export type FunctionsAnalytics = {
   admin: string;
   functions: {
     id:
@@ -140,7 +140,7 @@ export function getApis(apisNames: string[], fileName: string): Api[] {
  * Get information from a JSON file
  * @param fileName The name of the file
  * @param fileFolder The folder where the file is located. Children folders are not supported
- * @returns JS object or an array of strings
+ * @returns JS object, array of objects or an array of strings
  */
 
 export function getJSON({
@@ -191,7 +191,7 @@ export function getJSON({
         return json as Record<string, unknown>;
     }
   } catch (error) {
-    throw new String(error);
+    throw new Error(error);
   }
 }
 

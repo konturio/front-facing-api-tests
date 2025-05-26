@@ -40,6 +40,26 @@
     ]
   },
   {
+    "admin": "Poland",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
     "admin": "Anguilla",
     "populationData": [
       {

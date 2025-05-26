@@ -625,6 +625,31 @@
     ]
   },
   {
+    "admin": "Poland",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
     "admin": "Bermuda",
     "thermalSpotsData": [
       {

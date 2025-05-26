@@ -3,6 +3,8 @@ import {
   getPolygonsToTest,
   getGraphqlQuery,
   sendGraphqlQuery,
+  getReferenceDataForCountry,
+  OsmAnalytics,
 } from "../helper";
 
 const polygons = getPolygonsToTest();
@@ -12,31 +14,13 @@ const osmQuery = getGraphqlQuery("analyticsOSMQuality", {
   useGeojson: true,
 });
 
-// TODO: udjust this data after high resolution data in prod is available https://kontur.fibery.io/Tasks/User_Story/High-resolution-MCDA-tiles-2225
-
-const referenceData = {
-  areaWithoutOsmBuildingsKm2: 1000000,
-  areaWithoutOsmRoadsKm2: 1000000,
-  osmBuildingGapsPercentage: 99,
-  osmRoadGapsPercentage: 99,
-  antiqueOsmBuildingsPercentage: 1,
-  antiqueOsmRoadsPercentage: 1,
-  osmBuildingsCount: 10,
-  osmUsersCount: 1,
-  osmUsersHours: 1,
-  localOsmUsersHours: 0,
-  aiBuildingsCountEstimation: 10,
-};
-
-const metricsTheLowerTheBetter = [
-  "areaWithoutOsmRoadsKm2",
-  "areaWithoutOsmBuildingsKm2",
-  "osmBuildingGapsPercentage",
-  "osmRoadGapsPercentage",
-];
-
 for (const polygon of polygons) {
   const testedCountry = polygon.features[0].properties.ADMIN;
+  const referenceData = getReferenceDataForCountry(
+    testedCountry,
+    "osm"
+  ) as OsmAnalytics;
+  const osmDataToCheck = referenceData.osmData;
   test.describe(
     `OSM quality tests (testing ${process.env.COUNTRIES_TO_TEST === "" ? "random country" : testedCountry})`,
     {
@@ -82,20 +66,25 @@ for (const polygon of polygons) {
 
         for (const stat of stats) {
           const { id, result } = stat;
-          await test.step(`Check ${id} is not worse than reference (${referenceData[id]})`, () => {
-            metricsTheLowerTheBetter.includes(id)
-              ? expect
-                  .soft(
-                    result,
-                    `${id} should be less than or equal to reference (${referenceData[id]})`
-                  )
-                  .toBeLessThanOrEqual(referenceData[id])
-              : expect
-                  .soft(
-                    result,
-                    `${id} should be greater than or equal to reference (${referenceData[id]})`
-                  )
-                  .toBeGreaterThanOrEqual(referenceData[id]);
+          const osmValues = osmDataToCheck.find((data) => data.id === id);
+          if (!osmValues) {
+            throw new Error(
+              `OSM data for "${id}" is not found in reference data`
+            );
+          }
+          await test.step(`Check ${id} is not worse than reference (${osmValues.id})`, () => {
+            expect
+              .soft(
+                result,
+                `${id} should be greater than or equal to reference (${osmValues.minExpectedResult})`
+              )
+              .toBeGreaterThanOrEqual(osmValues.minExpectedResult);
+            expect
+              .soft(
+                result,
+                `${id} should be less than or equal to reference (${osmValues.maxExpectedResult})`
+              )
+              .toBeLessThanOrEqual(osmValues.maxExpectedResult);
           });
         }
       });
