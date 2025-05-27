@@ -3,6 +3,8 @@ import {
   getPolygonsToTest,
   getGraphqlQuery,
   sendGraphqlQuery,
+  getReferenceDataForCountry,
+  ThermalSpotsAnalytics,
 } from "../helper";
 
 const polygons = getPolygonsToTest();
@@ -21,6 +23,10 @@ const fieldsToCheck = [
 
 for (const polygon of polygons) {
   const testedCountry = polygon.features[0].properties.ADMIN;
+  const referenceData = getReferenceDataForCountry(
+    testedCountry,
+    "thermalSpots"
+  ) as ThermalSpotsAnalytics;
   test.describe(
     `Thermal spots analytics tests (testing ${process.env.COUNTRIES_TO_TEST === "" ? "random country" : testedCountry})`,
     {
@@ -64,6 +70,27 @@ for (const polygon of polygons) {
               testedField,
               `Field '${field}' should not be null`
             ).not.toBeNull();
+          });
+          await test.step(`Check value of ${field} to be in expected range`, async () => {
+            const expectedData = referenceData.thermalSpotsData.find(
+              (data) => data.id === field
+            );
+            if (!expectedData)
+              throw new Error(
+                `Expected data for '${field}' is not found for ${testedCountry}`
+              );
+            expect
+              .soft(
+                testedField,
+                `Field '${field}' should be >= ${expectedData.minExpectedResult}`
+              )
+              .toBeGreaterThanOrEqual(expectedData.minExpectedResult);
+            expect
+              .soft(
+                testedField,
+                `Field '${field}' should be <= ${expectedData.maxExpectedResult}`
+              )
+              .toBeLessThanOrEqual(expectedData.maxExpectedResult);
           });
         }
       });

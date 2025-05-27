@@ -10,11 +10,6 @@ import type { PopulationAnalytics } from "../helper";
 const polygons = getPolygonsToTest();
 const queryDeadline = 60000;
 
-// const expectedMinPopulation = 100;
-// const expectedMaxPopulation = 400000000;
-// const expectedMinUrbanPopulation = 100;
-// const expectedMinGDP = 1000000;
-
 const populationQuery = getGraphqlQuery("analyticsPopulation", {
   useGeojson: true,
 });

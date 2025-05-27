@@ -16,7 +16,10 @@ languagesToTestLlm.forEach((languageToTestLlm) => {
     `Check ${llmAnalyticsUrl} to give correct language response (${languageToTestLlm})`,
     { tag: "@pro_user" },
     async ({ request }) => {
-      expect(llmAnalyticsUrl).toBeDefined();
+      expect(
+        llmAnalyticsUrl,
+        `Expect llm analytics url to be defined`
+      ).toBeDefined();
       const response = await request.post(llmAnalyticsUrl!, {
         headers: {
           Authorization: `Bearer ${process.env.ACCESS_TOKEN}`,
@@ -26,12 +29,23 @@ languagesToTestLlm.forEach((languageToTestLlm) => {
         data: requestLlmBody,
         timeout: 60000,
       });
-      expect(response.status()).toEqual(200);
+      expect(response.status(), `Expect response status to be 200`).toEqual(
+        200
+      );
       const responseObj = await response.json();
-      expect(responseObj.data).toBeDefined();
-      expect(responseObj.data.length).toBeGreaterThan(0);
+      expect(
+        responseObj.data,
+        `Expect response data to be defined`
+      ).toBeDefined();
+      expect(
+        responseObj.data.length,
+        `Expect response object to have more than 0 length`
+      ).toBeGreaterThan(0);
       const language = langdetect.detectOne(responseObj.data.slice(0, 300));
-      expect(language).toEqual(languageToTestLlm);
+      expect(
+        language,
+        `Expect language of response to be ${languageToTestLlm}`
+      ).toEqual(languageToTestLlm);
     }
   );
 });

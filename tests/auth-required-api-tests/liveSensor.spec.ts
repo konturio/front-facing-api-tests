@@ -29,7 +29,7 @@ const testLiveSensor = async function ({
   expectedResponseStatus,
   isResponseJSON,
 }: liveSensorRequestOptions) {
-  expect(liveSensorUrl).toBeDefined();
+  expect(liveSensorUrl, `Expect live sensor url to be defined`).toBeDefined();
   const response = await request.post(liveSensorUrl!, {
     data: liveSensorBody,
     headers: {
@@ -37,7 +37,10 @@ const testLiveSensor = async function ({
       "Content-Type": contentType,
     },
   });
-  expect(response.status()).toEqual(expectedResponseStatus);
+  expect(
+    response.status(),
+    `Expect response status to be ${expectedResponseStatus}`
+  ).toEqual(expectedResponseStatus);
   return isResponseJSON ? await response.json() : await response.text();
 };
 
@@ -64,7 +67,9 @@ test.describe(`Check ${liveSensorUrl}`, () => {
         contentType: "application/json",
         expectedResponseStatus: 400,
       });
-      expect(errorText).toEqual("Malformed JSON request");
+      expect(errorText, `Expect error text to equal specific text`).toEqual(
+        "Malformed JSON request"
+      );
     }
   );
   test(`Answer is 400 (no body)`, { tag: "@pro_user" }, async ({ request }) => {
@@ -75,7 +80,9 @@ test.describe(`Check ${liveSensorUrl}`, () => {
       contentType: "application/json",
       expectedResponseStatus: 400,
     });
-    expect(errorText).toEqual("Malformed JSON request");
+    expect(errorText, `Expect error text to equal specific text`).toEqual(
+      "Malformed JSON request"
+    );
   });
   test(`Answer is 403`, { tag: "@guest" }, async ({ request }) => {
     const errorObj = await testLiveSensor({
@@ -87,10 +94,14 @@ test.describe(`Check ${liveSensorUrl}`, () => {
       expectedResponseStatus: 403,
       isResponseJSON: true,
     });
-    expect(errorObj).toBeDefined();
-    expect(errorObj?.status).toEqual(403);
-    expect(errorObj?.error).toEqual("Forbidden");
-    expect(errorObj?.path).toEqual("/active/api/features/live-sensor");
+    expect(errorObj, `Expect error object to be defined`).toBeDefined();
+    expect(errorObj?.status, `Expect error status to be 403`).toEqual(403);
+    expect(errorObj?.error, `Expect error to be 'Forbidden'`).toEqual(
+      "Forbidden"
+    );
+    expect(errorObj?.path, `Expect path to equal specific value`).toEqual(
+      "/active/api/features/live-sensor"
+    );
   });
   test(`Answer is 415`, { tag: "@pro_user" }, async ({ request }) => {
     await testLiveSensor({
