@@ -3,15 +3,12 @@ import {
   getPolygonsToTest,
   getGraphqlQuery,
   sendGraphqlQuery,
+  getReferenceDataForCountry,
 } from "../helper";
+import type { PopulationAnalytics } from "../helper";
 
 const polygons = getPolygonsToTest();
 const queryDeadline = 60000;
-
-const expectedMinPopulation = 100;
-const expectedMaxPopulation = 400000000;
-const expectedMinUrbanPopulation = 100;
-const expectedMinGDP = 1000000;
 
 const populationQuery = getGraphqlQuery("analyticsPopulation", {
   useGeojson: true,
@@ -24,7 +21,7 @@ const populationQuery = getGraphqlQuery("analyticsPopulation", {
  * @property urban - Urban population count
  */
 
-type PopulationAnalytics = {
+type PopulationData = {
   population: number;
   gdp: number;
   urban: number;
@@ -34,6 +31,19 @@ const fieldsToCheck = ["population", "gdp", "urban"];
 
 for (const polygon of polygons) {
   const testedCountry = polygon.features[0].properties.ADMIN;
+  const referenceData = getReferenceDataForCountry(
+    testedCountry,
+    "population"
+  ) as PopulationAnalytics;
+  const [populationExpectedData, gdpExpectedData, urbanExpectedData] =
+    fieldsToCheck.map((id) => {
+      const data = referenceData.populationData.find((d) => d.id === id);
+      if (!data)
+        throw new Error(
+          `Expected data for '${id}' is not found for ${testedCountry}`
+        );
+      return data;
+    });
   test(
     `Check population statistics calculation (testing ${process.env.COUNTRIES_TO_TEST === "" ? "random country" : testedCountry})`,
     {
@@ -54,7 +64,7 @@ for (const polygon of polygons) {
         polygon: JSON.stringify(polygon),
       });
 
-      const stats: PopulationAnalytics =
+      const stats: PopulationData =
         responseObj?.data?.polygonStatistic?.analytics?.population;
 
       expect(
@@ -84,36 +94,46 @@ for (const polygon of polygons) {
       });
 
       await test.step(`Check values are in expected range`, async () => {
+        const { population, gdp, urban } = stats;
         expect
           .soft(
-            stats.population,
-            `Population should be adequate (>= ${expectedMinPopulation})`
+            population,
+            `Expect population to be ≥ ${populationExpectedData.minExpectedResult}`
           )
-          .toBeGreaterThanOrEqual(expectedMinPopulation);
+          .toBeGreaterThanOrEqual(populationExpectedData.minExpectedResult);
         expect
           .soft(
-            stats.population,
-            `Population should be less than ${expectedMaxPopulation}`
+            population,
+            `Expect population to be ≤ ${populationExpectedData.maxExpectedResult}`
           )
-          .toBeLessThan(expectedMaxPopulation);
+          .toBeLessThanOrEqual(populationExpectedData.maxExpectedResult);
         expect
           .soft(
-            stats.urban,
-            `Urban population should be adequate (>= ${expectedMinUrbanPopulation})`
+            urban,
+            `Expect urban population to be ≥ ${urbanExpectedData.minExpectedResult}`
           )
-          .toBeGreaterThanOrEqual(expectedMinUrbanPopulation);
+          .toBeGreaterThanOrEqual(urbanExpectedData.minExpectedResult);
+        expect
+          .soft(urban, `Expect urban population to be ≤ all population`)
+          .toBeLessThanOrEqual(population);
         expect
           .soft(
-            stats.urban,
-            `Urban population should be less then all population`
+            urban,
+            `Expect urban population to be ≤ ${urbanExpectedData.maxExpectedResult}`
           )
-          .toBeLessThan(stats.population);
+          .toBeLessThanOrEqual(urbanExpectedData.maxExpectedResult);
         expect
           .soft(
-            stats.gdp,
-            `Gross domestic product (GDP) should be adequate (>= ${expectedMinGDP})`
+            gdp,
+            `Expect gross domestic product (GDP) to be ≥ ${gdpExpectedData.minExpectedResult}`
           )
-          .toBeGreaterThanOrEqual(expectedMinGDP);
+          .toBeGreaterThanOrEqual(gdpExpectedData.minExpectedResult);
+        expect
+          .soft(
+            gdp,
+            `Expect gross domestic product (GDP) to be ≤ ${gdpExpectedData.maxExpectedResult}`
+          )
+          .toBeLessThanOrEqual(gdpExpectedData.maxExpectedResult);
       });
     }
   );

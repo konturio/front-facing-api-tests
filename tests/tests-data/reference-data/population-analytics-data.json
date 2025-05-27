@@ -1,0 +1,3442 @@
+[
+  {
+    "admin": "Aruba",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Angola",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Poland",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Anguilla",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Albania",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Aland",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Andorra",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "United Arab Emirates",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Armenia",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "American Samoa",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "French Southern and Antarctic Lands",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Antigua and Barbuda",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Austria",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Azerbaijan",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Burundi",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Belgium",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Benin",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Burkina Faso",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Bangladesh",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Bulgaria",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Bahrain",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "The Bahamas",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Bosnia and Herzegovina",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Saint Barthelemy",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Belarus",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Belize",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Bermuda",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Barbados",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Brunei",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Bhutan",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Botswana",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Central African Republic",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Switzerland",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Ivory Coast",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Cameroon",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Democratic Republic of the Congo",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Republic of Congo",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Comoros",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Cape Verde",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Costa Rica",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Cuba",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Curaçao",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Cayman Islands",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Cyprus",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Czech Republic",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Germany",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Djibouti",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Dominica",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Denmark",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Dominican Republic",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Algeria",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Egypt",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Eritrea",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Spain",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Estonia",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Ethiopia",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Finland",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Falkland Islands",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "France",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Faroe Islands",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Gabon",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "United Kingdom",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Georgia",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Guernsey",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Ghana",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Gibraltar",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Guinea",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Gambia",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Guinea Bissau",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Equatorial Guinea",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Greece",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Grenada",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Greenland",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Guatemala",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Guam",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Honduras",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Croatia",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Haiti",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Hungary",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Isle of Man",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "India",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Ireland",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Iraq",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Iceland",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Israel",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Italy",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Jamaica",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Jersey",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Jordan",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Kazakhstan",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Kenya",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Kyrgyzstan",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Saint Kitts and Nevis",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Kuwait",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Lebanon",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Liberia",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Libya",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Saint Lucia",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Liechtenstein",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Sri Lanka",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Lesotho",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Lithuania",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Luxembourg",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Latvia",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Morocco",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Monaco",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Moldova",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Madagascar",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Maldives",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Mexico",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Macedonia",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Mali",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Malta",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Montenegro",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Mongolia",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Northern Mariana Islands",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Mozambique",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Mauritania",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Montserrat",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Mauritius",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Malawi",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Namibia",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Niger",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Nigeria",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Nicaragua",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Netherlands",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Norway",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Nepal",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Oman",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Pakistan",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Panama",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Qatar",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Romania",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Rwanda",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Saudi Arabia",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Sudan",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "South Sudan",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Senegal",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Saint Helena",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Sierra Leone",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "El Salvador",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "San Marino",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Somalia",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Saint Pierre and Miquelon",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Republic of Serbia",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Sao Tome and Principe",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Slovakia",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Slovenia",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Sweden",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Swaziland",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Sint Maarten",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Seychelles",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Syria",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Turks and Caicos Islands",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Chad",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Togo",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Tajikistan",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Tunisia",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Turkey",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "United Republic of Tanzania",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Uganda",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Ukraine",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "United States of America",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Uzbekistan",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Vatican",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Saint Vincent and the Grenadines",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "British Virgin Islands",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "United States Virgin Islands",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Yemen",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "South Africa",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Zambia",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  },
+  {
+    "admin": "Zimbabwe",
+    "populationData": [
+      {
+        "id": "population",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "gdp",
+        "minExpectedResult": 1000000,
+        "maxExpectedResult": 4000000000000000
+      },
+      {
+        "id": "urban",
+        "minExpectedResult": 100,
+        "maxExpectedResult": 400000000
+      }
+    ]
+  }
+]

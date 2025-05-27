@@ -1,0 +1,6882 @@
+[
+  {
+    "admin": "Aruba",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Angola",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Anguilla",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Albania",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Aland",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Andorra",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "United Arab Emirates",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Armenia",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "American Samoa",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "French Southern and Antarctic Lands",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Poland",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Antigua and Barbuda",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Austria",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Azerbaijan",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Burundi",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Belgium",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Benin",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Burkina Faso",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Bangladesh",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Bulgaria",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Bahrain",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "The Bahamas",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Bosnia and Herzegovina",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Saint Barthelemy",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Belarus",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Belize",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Bermuda",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Barbados",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Brunei",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Bhutan",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Botswana",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Central African Republic",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Switzerland",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Ivory Coast",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Cameroon",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Democratic Republic of the Congo",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Republic of Congo",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Comoros",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Cape Verde",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Costa Rica",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Cuba",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Curaçao",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Cayman Islands",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Cyprus",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Czech Republic",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Germany",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Djibouti",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Dominica",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Denmark",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Dominican Republic",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Algeria",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Egypt",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Eritrea",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Spain",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Estonia",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Ethiopia",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Finland",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Falkland Islands",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "France",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Faroe Islands",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Gabon",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "United Kingdom",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Georgia",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Guernsey",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Ghana",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Gibraltar",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Guinea",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Gambia",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Guinea Bissau",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Equatorial Guinea",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Greece",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Grenada",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Greenland",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Guatemala",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Guam",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Honduras",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Croatia",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Haiti",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Hungary",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Isle of Man",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "India",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Ireland",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Iraq",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Iceland",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Israel",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Italy",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Jamaica",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Jersey",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Jordan",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Kazakhstan",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Kenya",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Kyrgyzstan",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Saint Kitts and Nevis",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Kuwait",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Lebanon",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Liberia",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Libya",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Saint Lucia",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Liechtenstein",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Sri Lanka",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Lesotho",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Lithuania",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Luxembourg",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Latvia",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Morocco",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Monaco",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Moldova",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Madagascar",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Maldives",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Mexico",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Macedonia",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Mali",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Malta",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Montenegro",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Mongolia",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Northern Mariana Islands",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Mozambique",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Mauritania",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Montserrat",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Mauritius",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Malawi",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Namibia",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Niger",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Nigeria",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Nicaragua",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Netherlands",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Norway",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Nepal",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Oman",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Pakistan",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Panama",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Qatar",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Romania",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Rwanda",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Saudi Arabia",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Sudan",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "South Sudan",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Senegal",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Saint Helena",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Sierra Leone",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "El Salvador",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "San Marino",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Somalia",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Saint Pierre and Miquelon",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Republic of Serbia",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Sao Tome and Principe",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Slovakia",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Slovenia",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Sweden",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Swaziland",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Sint Maarten",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Seychelles",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Syria",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Turks and Caicos Islands",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Chad",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Togo",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Tajikistan",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Tunisia",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Turkey",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "United Republic of Tanzania",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Uganda",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Ukraine",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "United States of America",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Uzbekistan",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Vatican",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Saint Vincent and the Grenadines",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "British Virgin Islands",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "United States Virgin Islands",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Yemen",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "South Africa",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Zambia",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  },
+  {
+    "admin": "Zimbabwe",
+    "functions": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 1000000
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 3000000
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 90
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 1e-7,
+        "maxExpectedResult": 300000
+      }
+    ]
+  }
+]

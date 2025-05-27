@@ -1,0 +1,4302 @@
+[
+  {
+    "admin": "Aruba",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Angola",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Anguilla",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Albania",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Aland",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Andorra",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "United Arab Emirates",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Armenia",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "American Samoa",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "French Southern and Antarctic Lands",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Antigua and Barbuda",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Austria",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Azerbaijan",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Burundi",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Belgium",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Benin",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Burkina Faso",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Bangladesh",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Bulgaria",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Bahrain",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "The Bahamas",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Bosnia and Herzegovina",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Saint Barthelemy",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Belarus",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Belize",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Poland",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Bermuda",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Barbados",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Brunei",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Bhutan",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Botswana",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Central African Republic",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Switzerland",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Ivory Coast",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Cameroon",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Democratic Republic of the Congo",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Republic of Congo",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Comoros",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Cape Verde",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Costa Rica",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Cuba",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Curaçao",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Cayman Islands",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Cyprus",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Czech Republic",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Germany",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Djibouti",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Dominica",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Denmark",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Dominican Republic",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Algeria",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Egypt",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Eritrea",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Spain",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Estonia",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Ethiopia",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Finland",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Falkland Islands",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "France",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Faroe Islands",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Gabon",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "United Kingdom",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Georgia",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Guernsey",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Ghana",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Gibraltar",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Guinea",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Gambia",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Guinea Bissau",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Equatorial Guinea",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Greece",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Grenada",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Greenland",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Guatemala",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Guam",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Honduras",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Croatia",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Haiti",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Hungary",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Isle of Man",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "India",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Ireland",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Iraq",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Iceland",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Israel",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Italy",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Jamaica",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Jersey",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Jordan",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Kazakhstan",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Kenya",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Kyrgyzstan",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Saint Kitts and Nevis",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Kuwait",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Lebanon",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Liberia",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Libya",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Saint Lucia",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Liechtenstein",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Sri Lanka",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Lesotho",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Lithuania",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Luxembourg",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Latvia",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Morocco",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Monaco",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Moldova",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Madagascar",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Maldives",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Mexico",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Macedonia",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Mali",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Malta",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Montenegro",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Mongolia",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Northern Mariana Islands",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Mozambique",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Mauritania",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Montserrat",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Mauritius",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Malawi",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Namibia",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Niger",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Nigeria",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Nicaragua",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Netherlands",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Norway",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Nepal",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Oman",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Pakistan",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Panama",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Qatar",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Romania",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Rwanda",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Saudi Arabia",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Sudan",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "South Sudan",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Senegal",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Saint Helena",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Sierra Leone",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "El Salvador",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "San Marino",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Somalia",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Saint Pierre and Miquelon",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Republic of Serbia",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Sao Tome and Principe",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Slovakia",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Slovenia",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Sweden",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Swaziland",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Sint Maarten",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Seychelles",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Syria",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Turks and Caicos Islands",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Chad",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Togo",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Tajikistan",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Tunisia",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Turkey",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "United Republic of Tanzania",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Uganda",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Ukraine",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "United States of America",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Uzbekistan",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Vatican",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Saint Vincent and the Grenadines",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "British Virgin Islands",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "United States Virgin Islands",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Yemen",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "South Africa",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Zambia",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  },
+  {
+    "admin": "Zimbabwe",
+    "thermalSpotsData": [
+      {
+        "id": "volcanoesCount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 200
+      },
+      {
+        "id": "hotspotDaysPerYearMax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 365
+      },
+      {
+        "id": "industrialAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 400000000
+      },
+      {
+        "id": "forestAreaKm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3000000
+      }
+    ]
+  }
+]

@@ -3,50 +3,14 @@ import {
   getPolygonsToTest,
   getGraphqlQuery,
   sendGraphqlQuery,
+  getReferenceDataForCountry,
+  FunctionsAnalytics,
 } from "../helper";
 
 type Stat = {
   id: string;
   result: number | null;
 };
-
-const functionsToCheck = [
-  {
-    id: "populatedareakm2",
-    minExpectedResult: 1,
-    maxExpectedResult: 1000000, // TODO: udjust this values after high resolution data in prod is available https://kontur.fibery.io/Tasks/User_Story/High-resolution-MCDA-tiles-2225
-  },
-  {
-    id: "industrialareakm2",
-    minExpectedResult: 0.0000001,
-    maxExpectedResult: 1000000,
-  },
-  {
-    id: "forestareakm2",
-    minExpectedResult: 0.0000001,
-    maxExpectedResult: 3000000,
-  },
-  {
-    id: "volcanoescount",
-    minExpectedResult: 0,
-    maxExpectedResult: 200,
-  },
-  {
-    id: "hotspotdaysperyearmax",
-    minExpectedResult: 0, // TODO: udjust this value after high resolution data in prod is available https://kontur.fibery.io/Tasks/User_Story/High-resolution-MCDA-tiles-2225
-    maxExpectedResult: 365,
-  },
-  {
-    id: "osmgapspercentage",
-    minExpectedResult: 0.0000001,
-    maxExpectedResult: 90,
-  },
-  {
-    id: "osmgapssum",
-    minExpectedResult: 0.0000001,
-    maxExpectedResult: 300000,
-  },
-];
 
 const polygons = getPolygonsToTest();
 const queryDeadline = 60000;
@@ -56,6 +20,11 @@ const functionsQuery = getGraphqlQuery("analyticsFunctions", {
 });
 for (const polygon of polygons) {
   const testedCountry = polygon.features[0].properties.ADMIN;
+  const referenceData = getReferenceDataForCountry(
+    testedCountry,
+    "functions"
+  ) as FunctionsAnalytics;
+  const functionsToCheck = referenceData.functions;
   test.describe(
     `Analytics functions tests (testing ${process.env.COUNTRIES_TO_TEST === "" ? "random country" : testedCountry})`,
     {
