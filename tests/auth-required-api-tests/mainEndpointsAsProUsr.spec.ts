@@ -78,6 +78,6 @@ test(`Check ${appInfoUrl} data`, { tag: "@pro_user" }, async ({ request }) => {
   });
   expect(
     responseObj.public,
-    `Expect public fieild in response object to be truthy`
+    `Expect public field in response object to be truthy`
   ).toStrictEqual(true);
 });
