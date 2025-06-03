@@ -1,3 +1,6 @@
+// ⚠️ Helper function for manual JSON editing in case of test data update.
+// Used manually. Not part of production logic.
+
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
