@@ -24,7 +24,7 @@ for (const polygon of polygons) {
     testedCountry,
     "functions"
   ) as FunctionsAnalytics;
-  const functionsToCheck = referenceData.functions;
+  const functionsToCheck = referenceData.functionsData;
   test.describe(
     `Analytics functions tests (testing ${process.env.COUNTRIES_TO_TEST === "" ? "random country" : testedCountry})`,
     {

@@ -5,7 +5,11 @@ import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
 
-type DataKind = "functions" | "osm" | "population" | "thermalSpots";
+type DataKind =
+  | "functionsData"
+  | "osmData"
+  | "populationData"
+  | "thermalSpotsData";
 
 type ExpectedFunction = {
   id: string;
@@ -22,7 +26,13 @@ type AdminData<K extends DataKind> = {
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-export function updateExpectedRange({
+/**
+ * This function updates the expected range for a specific data type and admin area. It is used to update the expected range for each data type in the tests.
+ * @param object - object with admin area, type of value (id), result (actual  value from the server) and type of data (populationData, functionsData, osmData, thermalSpotsData)
+ * returns void
+ */
+
+export default function updateExpectedRange({
   admin,
   id,
   result,
@@ -31,20 +41,20 @@ export function updateExpectedRange({
   admin: string;
   id: string;
   result: number;
-  typeOfData: "functions" | "osm" | "population" | "thermalSpots";
+  typeOfData: DataKind;
 }) {
   let fileName = "";
   switch (typeOfData) {
-    case "functions":
+    case "functionsData":
       fileName = "functions-analytics-data.json";
       break;
-    case "osm":
+    case "osmData":
       fileName = "osm-analytics-data.json";
       break;
-    case "population":
+    case "populationData":
       fileName = "population-analytics-data.json";
       break;
-    case "thermalSpots":
+    case "thermalSpotsData":
       fileName = "thermal-spots-analytics-data.json";
       break;
     default:
@@ -57,123 +67,143 @@ export function updateExpectedRange({
   const country = json.find((entry) => entry.admin === admin);
   if (!country) throw new Error(`Admin "${admin}" not found`);
 
-  const func = country[`${typeOfData}Data`].find(
-    (f: ExpectedFunction) => f.id === id
-  );
+  const func = country[typeOfData].find((f: ExpectedFunction) => f.id === id);
   if (!func) throw new Error(`Function "${id}" not found in admin "${admin}"`);
   let newMin = 0;
   let newMax = 0;
   switch (id) {
     case "populatedareakm2":
-      if (result <= 999) {
-        newMin = Math.floor(result);
+      // A country's populated area can't be zero or negative
+      if (result <= 0) {
+        newMin = 1;
+        newMax = 500;
+      } else if (result < 1000) {
+        newMin = result >= 1 ? Math.floor(result) : 0.5;
         newMax = 2000;
-      }
-      if (result >= 1000 && result <= 9999) {
-        newMin = Math.floor(result - 300);
-        newMax = Math.ceil(result + 3000);
-      }
-      if (result >= 10000) {
-        newMin = Math.floor(result - 1000);
-        newMax = Math.ceil(result + 10000);
+      } else {
+        newMin = Math.floor(result * 0.95);
+        newMax = Math.ceil(result * 1.1);
       }
       break;
+
     case "population":
-      if (result <= 9999) {
-        newMin = result >= 800 ? Math.floor(result) - 200 : 800;
+      // Countries have at least ~800 people; larger numbers get % bounds
+      if (result < 10000) {
+        newMin = result >= 800 ? Math.floor(result - 200) : 800;
         newMax = Math.ceil(result + 1000);
-      }
-      if (result >= 10000 && result < 100000) {
-        newMin = Math.floor(result - 1000);
-        newMax = Math.ceil(result + 7000);
-      }
-      if (result >= 100000 && result < 1000000) {
-        newMin = Math.floor(result - 10000);
-        newMax = Math.ceil(result + 100000);
-      }
-      if (result >= 1000000 && result < 10000000) {
-        newMin = Math.floor(result - 300000);
-        newMax = Math.ceil(result + 500000);
-      }
-      if (result >= 10000000 && result < 100000000) {
-        newMin = Math.floor(result - 500000);
-        newMax = Math.ceil(result + 1000000);
-      }
-      if (result >= 100000000) {
-        newMin = Math.floor(result - 1000000);
-        newMax = Math.ceil(result + 2000000);
+      } else if (result < 1000000) {
+        newMin = Math.floor(result * 0.95);
+        newMax = Math.ceil(result * 1.05);
+      } else {
+        newMin = Math.floor(result * 0.97);
+        newMax = Math.ceil(result * 1.04);
       }
       break;
+
     case "gdp":
-      newMin = result >= 2000000 ? Math.floor(result - 1000000) : 1000000;
-      newMax = Math.ceil(result + 2000000000);
+      // GDP should not be less than $100,000; use percentage for larger
+      newMin = result > 1000000 ? Math.floor(result * 0.9) : 100000;
+      newMax = Math.ceil(result * 1.2);
       break;
+
     case "urban":
-      if (result <= 9999) {
-        newMin = result >= 800 ? Math.floor(result) - 200 : 800;
+      // Urban population has minimum and % for higher values
+      if (result < 10000) {
+        newMin = result > 200 ? Math.floor(result - 200) : 0;
         newMax = Math.ceil(result + 1000);
-      }
-      if (result >= 10000 && result < 100000) {
-        newMin = Math.floor(result - 1000);
-        newMax = Math.ceil(result + 7000);
-      }
-      if (result >= 100000 && result < 1000000) {
-        newMin = Math.floor(result - 10000);
-        newMax = Math.ceil(result + 100000);
-      }
-      if (result >= 1000000 && result < 10000000) {
-        newMin = Math.floor(result - 300000);
-        newMax = Math.ceil(result + 500000);
-      }
-      if (result >= 10000000 && result < 100000000) {
-        newMin = Math.floor(result - 500000);
-        newMax = Math.ceil(result + 1000000);
-      }
-      if (result >= 100000000) {
-        newMin = Math.floor(result - 1000000);
-        newMax = Math.ceil(result + 2000000);
+      } else {
+        newMin = Math.floor(result * 0.95);
+        newMax = Math.ceil(result * 1.05);
       }
       break;
+
     case "industrialareakm2":
-      newMin = Math.floor(result);
-      newMax = Math.ceil(result + 300);
-      break;
     case "industrialAreaKm2":
-      newMin = Math.floor(result);
-      newMax = Math.ceil(result + 300);
+      newMin = result > 5 ? Math.floor(result) : 0;
+      newMax = Math.ceil(result * 1.25);
       break;
+
     case "forestareakm2":
-      newMin = Math.floor(result);
-      newMax = Math.ceil(result + 100);
-      break;
     case "forestAreaKm2":
-      newMin = Math.floor(result);
-      newMax = Math.ceil(result + 100);
+      newMin = result > 5 ? Math.floor(result) : 0;
+      newMax = Math.ceil(result * 1.25);
       break;
+
     case "volcanoescount":
-      newMin = result;
-      newMax = result + 10;
-      break;
     case "volcanoesCount":
       newMin = result;
-      newMax = result + 10;
+      newMax = result + 3;
       break;
+
     case "hotspotdaysperyearmax":
-      newMin = 0;
-      newMax = result <= 350 ? result + 15 : result;
-      break;
     case "hotspotDaysPerYearMax":
       newMin = 0;
-      newMax = result <= 350 ? result + 15 : result;
+      newMax = result <= 350 ? result + 15 : 365;
       break;
+
     case "osmgapspercentage":
-      newMin = 0;
+      newMin = result > 30 ? Math.floor(result - 30) : 0;
       newMax = result <= 99 ? Math.ceil(result) : 99;
       break;
+
     case "osmgapssum":
-      newMin = 0;
+      newMin = result > 10000 ? Math.floor(result * 0.8) : 0;
       newMax = Math.ceil(result);
       break;
+
+    case "areaWithoutOsmBuildingsKm2":
+      newMin = result > 1000 ? Math.floor(result * 0.8) : 0;
+      newMax = Math.ceil(result + 10);
+      break;
+
+    case "areaWithoutOsmRoadsKm2":
+      newMin = result > 1000 ? Math.floor(result * 0.8) : 0;
+      newMax = Math.ceil(result + 10);
+      break;
+
+    case "osmBuildingGapsPercentage":
+    case "osmRoadGapsPercentage":
+      newMin = result > 20 ? Math.floor(result - 20) : 0;
+      newMax =
+        result <= 95
+          ? Math.ceil(result)
+          : result === 100
+            ? 99
+            : Math.ceil(result * 10) / 10;
+      break;
+
+    case "antiqueOsmBuildingsPercentage":
+    case "antiqueOsmRoadsPercentage":
+      newMin = result > 30 ? Math.floor(result - 30) : 0;
+      newMax =
+        result <= 99
+          ? Math.ceil(result)
+          : result === 100
+            ? 99
+            : Math.ceil(result * 100) / 100;
+      break;
+
+    case "osmBuildingsCount":
+      newMin = result > 1 ? Math.floor(result) : 1;
+      newMax = Math.ceil(result * 1.3);
+      break;
+
+    case "osmUsersCount":
+      newMin = Math.floor(result * 0.5);
+      newMax = Math.ceil(result * 5 + 10);
+      break;
+
+    case "osmUsersHours":
+    case "localOsmUsersHours":
+      newMin = result < 20 ? 0 : Math.floor(result * 0.5);
+      newMax = Math.ceil(result * 5);
+      break;
+
+    case "aiBuildingsCountEstimation":
+      newMin = result > 1 ? Math.floor(result) : 1;
+      newMax = Math.ceil(result * 1.3);
+      break;
+
     default:
       break;
   }
