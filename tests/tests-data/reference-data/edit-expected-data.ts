@@ -89,7 +89,7 @@ export default function updateExpectedRange({
     case "population":
       // Countries have at least ~800 people; larger numbers get % bounds
       if (result < 10000) {
-        newMin = result >= 800 ? Math.floor(result - 200) : 800;
+        newMin = result >= 100 ? Math.floor(result - 200) : 100;
         newMax = Math.ceil(result + 1000);
       } else if (result < 1000000) {
         newMin = Math.floor(result * 0.95);
