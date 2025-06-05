@@ -59,7 +59,7 @@ export type OsmAnalytics = {
 
 export type FunctionsAnalytics = {
   admin: string;
-  functions: {
+  functionsData: {
     id:
       | "populatedareakm2"
       | "industrialareakm2"

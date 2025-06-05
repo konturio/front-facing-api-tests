@@ -5,22 +5,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 16
       },
       {
         "id": "industrialAreaKm2",
         "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "maxExpectedResult": 5
       },
       {
         "id": "forestAreaKm2",
         "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "maxExpectedResult": 1
       }
     ]
   },
@@ -30,22 +30,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 109
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 296,
+        "maxExpectedResult": 371
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 760856,
+        "maxExpectedResult": 951071
       }
     ]
   },
@@ -55,22 +55,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 15
       },
       {
         "id": "industrialAreaKm2",
         "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "maxExpectedResult": 0
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 27,
+        "maxExpectedResult": 35
       }
     ]
   },
@@ -80,22 +80,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 101
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 38,
+        "maxExpectedResult": 48
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 14039,
+        "maxExpectedResult": 17549
       }
     ]
   },
@@ -105,22 +105,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 16
       },
       {
         "id": "industrialAreaKm2",
         "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "maxExpectedResult": 2
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 851,
+        "maxExpectedResult": 1065
       }
     ]
   },
@@ -130,22 +130,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 16
       },
       {
         "id": "industrialAreaKm2",
         "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "maxExpectedResult": 1
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 247,
+        "maxExpectedResult": 310
       }
     ]
   },
@@ -155,22 +155,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 270
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 926,
+        "maxExpectedResult": 1158
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 388,
+        "maxExpectedResult": 486
       }
     ]
   },
@@ -180,22 +180,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 54
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 85,
+        "maxExpectedResult": 107
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 4245,
+        "maxExpectedResult": 5308
       }
     ]
   },
@@ -205,22 +205,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 16
       },
       {
         "id": "industrialAreaKm2",
         "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "maxExpectedResult": 1
       },
       {
         "id": "forestAreaKm2",
         "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "maxExpectedResult": 0
       }
     ]
   },
@@ -230,22 +230,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 18
       },
       {
         "id": "industrialAreaKm2",
         "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "maxExpectedResult": 1
       },
       {
         "id": "forestAreaKm2",
         "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "maxExpectedResult": 6
       }
     ]
   },
@@ -255,22 +255,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 18
       },
       {
         "id": "industrialAreaKm2",
         "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "maxExpectedResult": 1
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 228,
+        "maxExpectedResult": 286
       }
     ]
   },
@@ -280,22 +280,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 213
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 268,
+        "maxExpectedResult": 336
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 47945,
+        "maxExpectedResult": 59933
       }
     ]
   },
@@ -304,23 +304,23 @@
     "thermalSpotsData": [
       {
         "id": "volcanoesCount",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "minExpectedResult": 9,
+        "maxExpectedResult": 12
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 88
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 202,
+        "maxExpectedResult": 254
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 14773,
+        "maxExpectedResult": 18467
       }
     ]
   },
@@ -330,22 +330,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 23
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 6,
+        "maxExpectedResult": 9
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 5585,
+        "maxExpectedResult": 6982
       }
     ]
   },
@@ -355,22 +355,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 211
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 629,
+        "maxExpectedResult": 787
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 11891,
+        "maxExpectedResult": 14865
       }
     ]
   },
@@ -380,22 +380,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 95
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 12,
+        "maxExpectedResult": 16
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 48990,
+        "maxExpectedResult": 61239
       }
     ]
   },
@@ -405,22 +405,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 29
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 149,
+        "maxExpectedResult": 188
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 24599,
+        "maxExpectedResult": 30749
       }
     ]
   },
@@ -429,23 +429,23 @@
     "thermalSpotsData": [
       {
         "id": "volcanoesCount",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "minExpectedResult": 1,
+        "maxExpectedResult": 4
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 81
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 157,
+        "maxExpectedResult": 198
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 42481,
+        "maxExpectedResult": 53102
       }
     ]
   },
@@ -455,22 +455,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 216
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 427,
+        "maxExpectedResult": 535
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 52450,
+        "maxExpectedResult": 65563
       }
     ]
   },
@@ -480,22 +480,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 196
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 16,
+        "maxExpectedResult": 21
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 6,
+        "maxExpectedResult": 8
       }
     ]
   },
@@ -505,22 +505,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 42
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 12,
+        "maxExpectedResult": 16
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 2945,
+        "maxExpectedResult": 3682
       }
     ]
   },
@@ -530,22 +530,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 64
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 80,
+        "maxExpectedResult": 102
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 36593,
+        "maxExpectedResult": 45742
       }
     ]
   },
@@ -555,22 +555,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 15
       },
       {
         "id": "industrialAreaKm2",
         "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "maxExpectedResult": 1
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 6,
+        "maxExpectedResult": 8
       }
     ]
   },
@@ -580,22 +580,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 201
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 582,
+        "maxExpectedResult": 729
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 111933,
+        "maxExpectedResult": 139917
       }
     ]
   },
@@ -605,22 +605,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 32
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 16,
+        "maxExpectedResult": 22
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 15568,
+        "maxExpectedResult": 19462
       }
     ]
   },
@@ -630,22 +630,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 226
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 1445,
+        "maxExpectedResult": 1807
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 131931,
+        "maxExpectedResult": 164915
       }
     ]
   },
@@ -655,22 +655,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 16
       },
       {
         "id": "industrialAreaKm2",
         "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "maxExpectedResult": 1
       },
       {
         "id": "forestAreaKm2",
         "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "maxExpectedResult": 0
       }
     ]
   },
@@ -680,22 +680,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 27
       },
       {
         "id": "industrialAreaKm2",
         "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "maxExpectedResult": 4
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 128,
+        "maxExpectedResult": 161
       }
     ]
   },
@@ -705,22 +705,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 68
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 8,
+        "maxExpectedResult": 12
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 5497,
+        "maxExpectedResult": 6873
       }
     ]
   },
@@ -730,22 +730,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 29
       },
       {
         "id": "industrialAreaKm2",
         "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "maxExpectedResult": 6
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 31517,
+        "maxExpectedResult": 39397
       }
     ]
   },
@@ -755,22 +755,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 132
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 165,
+        "maxExpectedResult": 207
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 62512,
+        "maxExpectedResult": 78142
       }
     ]
   },
@@ -780,22 +780,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 99
       },
       {
         "id": "industrialAreaKm2",
         "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "maxExpectedResult": 4
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 553117,
+        "maxExpectedResult": 691397
       }
     ]
   },
@@ -805,22 +805,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 99
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 205,
+        "maxExpectedResult": 257
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 17702,
+        "maxExpectedResult": 22129
       }
     ]
   },
@@ -830,22 +830,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 73
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 81,
+        "maxExpectedResult": 103
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 283594,
+        "maxExpectedResult": 354493
       }
     ]
   },
@@ -854,23 +854,23 @@
     "thermalSpotsData": [
       {
         "id": "volcanoesCount",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "minExpectedResult": 1,
+        "maxExpectedResult": 4
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 189
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 46,
+        "maxExpectedResult": 58
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 367001,
+        "maxExpectedResult": 458753
       }
     ]
   },
@@ -879,23 +879,23 @@
     "thermalSpotsData": [
       {
         "id": "volcanoesCount",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "minExpectedResult": 4,
+        "maxExpectedResult": 7
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 275
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 143,
+        "maxExpectedResult": 180
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 1867518,
+        "maxExpectedResult": 2334399
       }
     ]
   },
@@ -905,22 +905,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 216
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 24,
+        "maxExpectedResult": 31
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 258201,
+        "maxExpectedResult": 322752
       }
     ]
   },
@@ -929,23 +929,23 @@
     "thermalSpotsData": [
       {
         "id": "volcanoesCount",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "minExpectedResult": 2,
+        "maxExpectedResult": 5
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 20
       },
       {
         "id": "industrialAreaKm2",
         "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "maxExpectedResult": 1
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 1366,
+        "maxExpectedResult": 1708
       }
     ]
   },
@@ -954,23 +954,23 @@
     "thermalSpotsData": [
       {
         "id": "volcanoesCount",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "minExpectedResult": 123,
+        "maxExpectedResult": 126
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 52
       },
       {
         "id": "industrialAreaKm2",
         "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "maxExpectedResult": 3
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 247,
+        "maxExpectedResult": 310
       }
     ]
   },
@@ -979,23 +979,23 @@
     "thermalSpotsData": [
       {
         "id": "volcanoesCount",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "minExpectedResult": 11,
+        "maxExpectedResult": 14
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 45
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 50,
+        "maxExpectedResult": 64
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 32423,
+        "maxExpectedResult": 40530
       }
     ]
   },
@@ -1005,22 +1005,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 157
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 191,
+        "maxExpectedResult": 240
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 57684,
+        "maxExpectedResult": 72107
       }
     ]
   },
@@ -1030,22 +1030,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 19
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 8,
+        "maxExpectedResult": 12
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 21,
+        "maxExpectedResult": 27
       }
     ]
   },
@@ -1055,22 +1055,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 17
       },
       {
         "id": "industrialAreaKm2",
         "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "maxExpectedResult": 1
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 114,
+        "maxExpectedResult": 143
       }
     ]
   },
@@ -1080,22 +1080,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 120
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 24,
+        "maxExpectedResult": 31
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 1798,
+        "maxExpectedResult": 2249
       }
     ]
   },
@@ -1105,22 +1105,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 166
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 564,
+        "maxExpectedResult": 706
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 35804,
+        "maxExpectedResult": 44756
       }
     ]
   },
@@ -1129,23 +1129,23 @@
     "thermalSpotsData": [
       {
         "id": "volcanoesCount",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "minExpectedResult": 3,
+        "maxExpectedResult": 6
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 233
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 3164,
+        "maxExpectedResult": 3956
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 150147,
+        "maxExpectedResult": 187685
       }
     ]
   },
@@ -1154,23 +1154,23 @@
     "thermalSpotsData": [
       {
         "id": "volcanoesCount",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "minExpectedResult": 2,
+        "maxExpectedResult": 5
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 79
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 14,
+        "maxExpectedResult": 19
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 7,
+        "maxExpectedResult": 10
       }
     ]
   },
@@ -1179,23 +1179,23 @@
     "thermalSpotsData": [
       {
         "id": "volcanoesCount",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "minExpectedResult": 6,
+        "maxExpectedResult": 9
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 16
       },
       {
         "id": "industrialAreaKm2",
         "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "maxExpectedResult": 1
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 682,
+        "maxExpectedResult": 854
       }
     ]
   },
@@ -1205,22 +1205,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 168
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 377,
+        "maxExpectedResult": 472
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 9456,
+        "maxExpectedResult": 11821
       }
     ]
   },
@@ -1230,22 +1230,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 34
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 26,
+        "maxExpectedResult": 33
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 31774,
+        "maxExpectedResult": 39718
       }
     ]
   },
@@ -1255,22 +1255,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 299
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 522,
+        "maxExpectedResult": 654
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 30093,
+        "maxExpectedResult": 37618
       }
     ]
   },
@@ -1280,22 +1280,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 297
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 924,
+        "maxExpectedResult": 1156
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 2469,
+        "maxExpectedResult": 3088
       }
     ]
   },
@@ -1304,23 +1304,23 @@
     "thermalSpotsData": [
       {
         "id": "volcanoesCount",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "minExpectedResult": 3,
+        "maxExpectedResult": 6
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 21
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 17,
+        "maxExpectedResult": 23
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 813,
+        "maxExpectedResult": 1017
       }
     ]
   },
@@ -1329,23 +1329,23 @@
     "thermalSpotsData": [
       {
         "id": "volcanoesCount",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "minExpectedResult": 17,
+        "maxExpectedResult": 20
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 189
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 1903,
+        "maxExpectedResult": 2380
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 219090,
+        "maxExpectedResult": 273864
       }
     ]
   },
@@ -1355,22 +1355,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 21
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 105,
+        "maxExpectedResult": 132
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 30843,
+        "maxExpectedResult": 38555
       }
     ]
   },
@@ -1379,23 +1379,23 @@
     "thermalSpotsData": [
       {
         "id": "volcanoesCount",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "minExpectedResult": 78,
+        "maxExpectedResult": 81
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 116
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 192,
+        "maxExpectedResult": 242
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 269185,
+        "maxExpectedResult": 336482
       }
     ]
   },
@@ -1405,22 +1405,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 177
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 523,
+        "maxExpectedResult": 655
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 256284,
+        "maxExpectedResult": 320357
       }
     ]
   },
@@ -1430,22 +1430,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 16
       },
       {
         "id": "industrialAreaKm2",
         "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "maxExpectedResult": 2
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 35,
+        "maxExpectedResult": 45
       }
     ]
   },
@@ -1454,23 +1454,23 @@
     "thermalSpotsData": [
       {
         "id": "volcanoesCount",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "minExpectedResult": 77,
+        "maxExpectedResult": 80
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 240
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 3048,
+        "maxExpectedResult": 3812
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 322374,
+        "maxExpectedResult": 402968
       }
     ]
   },
@@ -1480,22 +1480,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 16
       },
       {
         "id": "industrialAreaKm2",
         "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "maxExpectedResult": 5
       },
       {
         "id": "forestAreaKm2",
         "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "maxExpectedResult": 5
       }
     ]
   },
@@ -1505,22 +1505,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 152
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 36,
+        "maxExpectedResult": 47
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 240705,
+        "maxExpectedResult": 300882
       }
     ]
   },
@@ -1530,22 +1530,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 169
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 1593,
+        "maxExpectedResult": 1993
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 39036,
+        "maxExpectedResult": 48796
       }
     ]
   },
@@ -1554,23 +1554,23 @@
     "thermalSpotsData": [
       {
         "id": "volcanoesCount",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "minExpectedResult": 2,
+        "maxExpectedResult": 5
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 62
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 91,
+        "maxExpectedResult": 114
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 35779,
+        "maxExpectedResult": 44725
       }
     ]
   },
@@ -1580,22 +1580,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 15
       },
       {
         "id": "industrialAreaKm2",
         "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "maxExpectedResult": 1
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 27,
+        "maxExpectedResult": 35
       }
     ]
   },
@@ -1605,22 +1605,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 72
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 126,
+        "maxExpectedResult": 159
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 125191,
+        "maxExpectedResult": 156490
       }
     ]
   },
@@ -1630,22 +1630,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 15
       },
       {
         "id": "industrialAreaKm2",
         "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "maxExpectedResult": 1
       },
       {
         "id": "forestAreaKm2",
         "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "maxExpectedResult": 2
       }
     ]
   },
@@ -1655,22 +1655,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 97
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 47,
+        "maxExpectedResult": 60
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 182370,
+        "maxExpectedResult": 227964
       }
     ]
   },
@@ -1680,22 +1680,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 42
       },
       {
         "id": "industrialAreaKm2",
         "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "maxExpectedResult": 2
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 2917,
+        "maxExpectedResult": 3648
       }
     ]
   },
@@ -1705,22 +1705,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 27
       },
       {
         "id": "industrialAreaKm2",
         "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "maxExpectedResult": 3
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 25868,
+        "maxExpectedResult": 32337
       }
     ]
   },
@@ -1729,23 +1729,23 @@
     "thermalSpotsData": [
       {
         "id": "volcanoesCount",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "minExpectedResult": 1,
+        "maxExpectedResult": 4
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 21
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 16,
+        "maxExpectedResult": 21
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 26186,
+        "maxExpectedResult": 32734
       }
     ]
   },
@@ -1754,23 +1754,23 @@
     "thermalSpotsData": [
       {
         "id": "volcanoesCount",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "minExpectedResult": 17,
+        "maxExpectedResult": 20
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 108
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 233,
+        "maxExpectedResult": 293
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 66694,
+        "maxExpectedResult": 83369
       }
     ]
   },
@@ -1780,22 +1780,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 16
       },
       {
         "id": "industrialAreaKm2",
         "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "maxExpectedResult": 2
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 287,
+        "maxExpectedResult": 360
       }
     ]
   },
@@ -1805,22 +1805,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 17
       },
       {
         "id": "industrialAreaKm2",
         "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "maxExpectedResult": 3
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 1045,
+        "maxExpectedResult": 1308
       }
     ]
   },
@@ -1829,23 +1829,23 @@
     "thermalSpotsData": [
       {
         "id": "volcanoesCount",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "minExpectedResult": 10,
+        "maxExpectedResult": 13
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 194
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 38,
+        "maxExpectedResult": 49
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 69355,
+        "maxExpectedResult": 86695
       }
     ]
   },
@@ -1855,22 +1855,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 17
       },
       {
         "id": "industrialAreaKm2",
         "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "maxExpectedResult": 4
       },
       {
         "id": "forestAreaKm2",
         "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "maxExpectedResult": 0
       }
     ]
   },
@@ -1879,23 +1879,23 @@
     "thermalSpotsData": [
       {
         "id": "volcanoesCount",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "minExpectedResult": 1,
+        "maxExpectedResult": 4
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 70
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 27,
+        "maxExpectedResult": 35
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 79732,
+        "maxExpectedResult": 99666
       }
     ]
   },
@@ -1905,22 +1905,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 64
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 104,
+        "maxExpectedResult": 131
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 33102,
+        "maxExpectedResult": 41379
       }
     ]
   },
@@ -1930,22 +1930,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 22
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 10,
+        "maxExpectedResult": 14
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 13276,
+        "maxExpectedResult": 16596
       }
     ]
   },
@@ -1955,22 +1955,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 75
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 599,
+        "maxExpectedResult": 750
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 25035,
+        "maxExpectedResult": 31294
       }
     ]
   },
@@ -1980,22 +1980,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 15
       },
       {
         "id": "industrialAreaKm2",
         "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "maxExpectedResult": 2
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 163,
+        "maxExpectedResult": 205
       }
     ]
   },
@@ -2005,22 +2005,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 280
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 6057,
+        "maxExpectedResult": 7573
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 781084,
+        "maxExpectedResult": 976356
       }
     ]
   },
@@ -2030,22 +2030,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 87
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 139,
+        "maxExpectedResult": 175
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 9087,
+        "maxExpectedResult": 11360
       }
     ]
   },
@@ -2055,22 +2055,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 297
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 1094,
+        "maxExpectedResult": 1369
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 3657,
+        "maxExpectedResult": 4572
       }
     ]
   },
@@ -2079,23 +2079,23 @@
     "thermalSpotsData": [
       {
         "id": "volcanoesCount",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "minExpectedResult": 35,
+        "maxExpectedResult": 38
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 108
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 25,
+        "maxExpectedResult": 33
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 321,
+        "maxExpectedResult": 402
       }
     ]
   },
@@ -2105,22 +2105,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 201
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 206,
+        "maxExpectedResult": 258
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 701,
+        "maxExpectedResult": 878
       }
     ]
   },
@@ -2129,23 +2129,23 @@
     "thermalSpotsData": [
       {
         "id": "volcanoesCount",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "minExpectedResult": 22,
+        "maxExpectedResult": 25
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 215
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 2333,
+        "maxExpectedResult": 2918
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 135772,
+        "maxExpectedResult": 169717
       }
     ]
   },
@@ -2155,22 +2155,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 60
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 16,
+        "maxExpectedResult": 21
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 8893,
+        "maxExpectedResult": 11118
       }
     ]
   },
@@ -2180,22 +2180,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 16
       },
       {
         "id": "industrialAreaKm2",
         "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "maxExpectedResult": 2
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 39,
+        "maxExpectedResult": 50
       }
     ]
   },
@@ -2205,22 +2205,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 118
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 90,
+        "maxExpectedResult": 114
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 210,
+        "maxExpectedResult": 263
       }
     ]
   },
@@ -2230,22 +2230,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 219
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 1658,
+        "maxExpectedResult": 2073
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 43395,
+        "maxExpectedResult": 54245
       }
     ]
   },
@@ -2254,23 +2254,23 @@
     "thermalSpotsData": [
       {
         "id": "volcanoesCount",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "minExpectedResult": 2,
+        "maxExpectedResult": 5
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 137
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 105,
+        "maxExpectedResult": 133
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 75298,
+        "maxExpectedResult": 94124
       }
     ]
   },
@@ -2280,22 +2280,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 206
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 105,
+        "maxExpectedResult": 132
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 8428,
+        "maxExpectedResult": 10536
       }
     ]
   },
@@ -2304,23 +2304,23 @@
     "thermalSpotsData": [
       {
         "id": "volcanoesCount",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "minExpectedResult": 2,
+        "maxExpectedResult": 5
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 17
       },
       {
         "id": "industrialAreaKm2",
         "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "maxExpectedResult": 2
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 187,
+        "maxExpectedResult": 235
       }
     ]
   },
@@ -2330,22 +2330,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 277
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 1943,
+        "maxExpectedResult": 2430
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 26,
+        "maxExpectedResult": 34
       }
     ]
   },
@@ -2355,22 +2355,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 23
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 29,
+        "maxExpectedResult": 37
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 1873,
+        "maxExpectedResult": 2343
       }
     ]
   },
@@ -2380,22 +2380,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 31
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 10,
+        "maxExpectedResult": 14
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 94153,
+        "maxExpectedResult": 117693
       }
     ]
   },
@@ -2405,22 +2405,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 302
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 327,
+        "maxExpectedResult": 410
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 2212,
+        "maxExpectedResult": 2766
       }
     ]
   },
@@ -2429,23 +2429,23 @@
     "thermalSpotsData": [
       {
         "id": "volcanoesCount",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "minExpectedResult": 5,
+        "maxExpectedResult": 8
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 16
       },
       {
         "id": "industrialAreaKm2",
         "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "maxExpectedResult": 4
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 521,
+        "maxExpectedResult": 653
       }
     ]
   },
@@ -2455,22 +2455,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 15
       },
       {
         "id": "industrialAreaKm2",
         "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "maxExpectedResult": 5
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 100,
+        "maxExpectedResult": 127
       }
     ]
   },
@@ -2480,22 +2480,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 82
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 50,
+        "maxExpectedResult": 63
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 51116,
+        "maxExpectedResult": 63896
       }
     ]
   },
@@ -2505,22 +2505,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 18
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 7,
+        "maxExpectedResult": 9
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 131,
+        "maxExpectedResult": 165
       }
     ]
   },
@@ -2530,22 +2530,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 30
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 336,
+        "maxExpectedResult": 421
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 29237,
+        "maxExpectedResult": 36547
       }
     ]
   },
@@ -2555,22 +2555,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 148
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 23,
+        "maxExpectedResult": 30
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 1414,
+        "maxExpectedResult": 1769
       }
     ]
   },
@@ -2580,22 +2580,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 31
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 122,
+        "maxExpectedResult": 154
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 43930,
+        "maxExpectedResult": 54914
       }
     ]
   },
@@ -2605,22 +2605,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 135
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 322,
+        "maxExpectedResult": 403
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 29822,
+        "maxExpectedResult": 37279
       }
     ]
   },
@@ -2630,22 +2630,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 15
       },
       {
         "id": "industrialAreaKm2",
         "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "maxExpectedResult": 1
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 10,
+        "maxExpectedResult": 14
       }
     ]
   },
@@ -2655,22 +2655,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 110
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 97,
+        "maxExpectedResult": 123
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 4290,
+        "maxExpectedResult": 5364
       }
     ]
   },
@@ -2680,22 +2680,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 36
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 12,
+        "maxExpectedResult": 16
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 191955,
+        "maxExpectedResult": 239945
       }
     ]
   },
@@ -2705,22 +2705,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 17
       },
       {
         "id": "industrialAreaKm2",
         "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "maxExpectedResult": 5
       },
       {
         "id": "forestAreaKm2",
         "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "maxExpectedResult": 0
       }
     ]
   },
@@ -2729,23 +2729,23 @@
     "thermalSpotsData": [
       {
         "id": "volcanoesCount",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "minExpectedResult": 13,
+        "maxExpectedResult": 16
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 278
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 1266,
+        "maxExpectedResult": 1583
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 736223,
+        "maxExpectedResult": 920279
       }
     ]
   },
@@ -2755,22 +2755,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 32
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 50,
+        "maxExpectedResult": 63
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 13975,
+        "maxExpectedResult": 17470
       }
     ]
   },
@@ -2780,22 +2780,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 149
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 82,
+        "maxExpectedResult": 103
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 66940,
+        "maxExpectedResult": 83676
       }
     ]
   },
@@ -2805,22 +2805,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 21
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 6,
+        "maxExpectedResult": 8
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 5,
+        "maxExpectedResult": 7
       }
     ]
   },
@@ -2830,22 +2830,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 19
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 10,
+        "maxExpectedResult": 14
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 8540,
+        "maxExpectedResult": 10676
       }
     ]
   },
@@ -2855,22 +2855,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 77
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 220,
+        "maxExpectedResult": 276
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 99106,
+        "maxExpectedResult": 123884
       }
     ]
   },
@@ -2879,23 +2879,23 @@
     "thermalSpotsData": [
       {
         "id": "volcanoesCount",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "minExpectedResult": 1,
+        "maxExpectedResult": 4
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 18
       },
       {
         "id": "industrialAreaKm2",
         "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "maxExpectedResult": 2
       },
       {
         "id": "forestAreaKm2",
         "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "maxExpectedResult": 0
       }
     ]
   },
@@ -2904,23 +2904,23 @@
     "thermalSpotsData": [
       {
         "id": "volcanoesCount",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "minExpectedResult": 1,
+        "maxExpectedResult": 4
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 238
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 123,
+        "maxExpectedResult": 155
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 599045,
+        "maxExpectedResult": 748807
       }
     ]
   },
@@ -2930,22 +2930,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 36
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 150,
+        "maxExpectedResult": 188
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 506,
+        "maxExpectedResult": 634
       }
     ]
   },
@@ -2954,23 +2954,23 @@
     "thermalSpotsData": [
       {
         "id": "volcanoesCount",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "minExpectedResult": 1,
+        "maxExpectedResult": 4
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 17
       },
       {
         "id": "industrialAreaKm2",
         "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "maxExpectedResult": 1
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 70,
+        "maxExpectedResult": 88
       }
     ]
   },
@@ -2980,22 +2980,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 22
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 7,
+        "maxExpectedResult": 10
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 745,
+        "maxExpectedResult": 933
       }
     ]
   },
@@ -3005,22 +3005,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 34
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 27,
+        "maxExpectedResult": 35
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 42269,
+        "maxExpectedResult": 52837
       }
     ]
   },
@@ -3030,22 +3030,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 148
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 60,
+        "maxExpectedResult": 76
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 47143,
+        "maxExpectedResult": 58929
       }
     ]
   },
@@ -3055,22 +3055,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 53
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 29,
+        "maxExpectedResult": 38
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 1130,
+        "maxExpectedResult": 1414
       }
     ]
   },
@@ -3080,22 +3080,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 220
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 252,
+        "maxExpectedResult": 316
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 296283,
+        "maxExpectedResult": 370355
       }
     ]
   },
@@ -3104,23 +3104,23 @@
     "thermalSpotsData": [
       {
         "id": "volcanoesCount",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "minExpectedResult": 15,
+        "maxExpectedResult": 18
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 60
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 42,
+        "maxExpectedResult": 54
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 61785,
+        "maxExpectedResult": 77232
       }
     ]
   },
@@ -3130,22 +3130,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 227
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 952,
+        "maxExpectedResult": 1192
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 8583,
+        "maxExpectedResult": 10729
       }
     ]
   },
@@ -3154,23 +3154,23 @@
     "thermalSpotsData": [
       {
         "id": "volcanoesCount",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "minExpectedResult": 1,
+        "maxExpectedResult": 4
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 119
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 179,
+        "maxExpectedResult": 225
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 131476,
+        "maxExpectedResult": 164346
       }
     ]
   },
@@ -3180,22 +3180,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 50
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 47,
+        "maxExpectedResult": 60
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 82053,
+        "maxExpectedResult": 102567
       }
     ]
   },
@@ -3205,22 +3205,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 303
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 426,
+        "maxExpectedResult": 534
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 672,
+        "maxExpectedResult": 841
       }
     ]
   },
@@ -3229,23 +3229,23 @@
     "thermalSpotsData": [
       {
         "id": "volcanoesCount",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "minExpectedResult": 6,
+        "maxExpectedResult": 9
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 231
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 400,
+        "maxExpectedResult": 501
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 44232,
+        "maxExpectedResult": 55291
       }
     ]
   },
@@ -3254,23 +3254,23 @@
     "thermalSpotsData": [
       {
         "id": "volcanoesCount",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "minExpectedResult": 1,
+        "maxExpectedResult": 4
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 57
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 80,
+        "maxExpectedResult": 102
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 54277,
+        "maxExpectedResult": 67848
       }
     ]
   },
@@ -3280,22 +3280,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 287
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 288,
+        "maxExpectedResult": 362
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 16,
+        "maxExpectedResult": 21
       }
     ]
   },
@@ -3304,23 +3304,23 @@
     "thermalSpotsData": [
       {
         "id": "volcanoesCount",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "minExpectedResult": 1,
+        "maxExpectedResult": 4
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 133
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 1111,
+        "maxExpectedResult": 1390
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 100794,
+        "maxExpectedResult": 125993
       }
     ]
   },
@@ -3329,23 +3329,23 @@
     "thermalSpotsData": [
       {
         "id": "volcanoesCount",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "minExpectedResult": 1,
+        "maxExpectedResult": 4
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 20
       },
       {
         "id": "industrialAreaKm2",
         "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "maxExpectedResult": 6
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 5675,
+        "maxExpectedResult": 7095
       }
     ]
   },
@@ -3354,23 +3354,23 @@
     "thermalSpotsData": [
       {
         "id": "volcanoesCount",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "minExpectedResult": 2,
+        "maxExpectedResult": 5
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 297
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 1910,
+        "maxExpectedResult": 2388
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 1676,
+        "maxExpectedResult": 2096
       }
     ]
   },
@@ -3380,22 +3380,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 97
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 169,
+        "maxExpectedResult": 213
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 54204,
+        "maxExpectedResult": 67756
       }
     ]
   },
@@ -3405,22 +3405,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 36
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 34,
+        "maxExpectedResult": 44
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 241191,
+        "maxExpectedResult": 301490
       }
     ]
   },
@@ -3430,22 +3430,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 216
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 44,
+        "maxExpectedResult": 56
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 41106,
+        "maxExpectedResult": 51383
       }
     ]
   },
@@ -3454,23 +3454,23 @@
     "thermalSpotsData": [
       {
         "id": "volcanoesCount",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "minExpectedResult": 2,
+        "maxExpectedResult": 5
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 17
       },
       {
         "id": "industrialAreaKm2",
         "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "maxExpectedResult": 1
       },
       {
         "id": "forestAreaKm2",
         "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "maxExpectedResult": 0
       }
     ]
   },
@@ -3480,22 +3480,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 52
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 9,
+        "maxExpectedResult": 13
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 62951,
+        "maxExpectedResult": 78689
       }
     ]
   },
@@ -3504,23 +3504,23 @@
     "thermalSpotsData": [
       {
         "id": "volcanoesCount",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "minExpectedResult": 14,
+        "maxExpectedResult": 17
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 42
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 16,
+        "maxExpectedResult": 21
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 10703,
+        "maxExpectedResult": 13380
       }
     ]
   },
@@ -3530,22 +3530,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 15
       },
       {
         "id": "industrialAreaKm2",
         "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "maxExpectedResult": 2
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 43,
+        "maxExpectedResult": 54
       }
     ]
   },
@@ -3555,22 +3555,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 44
       },
       {
         "id": "industrialAreaKm2",
         "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "maxExpectedResult": 6
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 26917,
+        "maxExpectedResult": 33647
       }
     ]
   },
@@ -3580,22 +3580,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 16
       },
       {
         "id": "industrialAreaKm2",
         "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "maxExpectedResult": 1
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 143,
+        "maxExpectedResult": 180
       }
     ]
   },
@@ -3605,22 +3605,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 139
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 193,
+        "maxExpectedResult": 243
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 40389,
+        "maxExpectedResult": 50487
       }
     ]
   },
@@ -3630,22 +3630,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 17
       },
       {
         "id": "industrialAreaKm2",
         "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "maxExpectedResult": 2
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 872,
+        "maxExpectedResult": 1091
       }
     ]
   },
@@ -3654,23 +3654,23 @@
     "thermalSpotsData": [
       {
         "id": "volcanoesCount",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "minExpectedResult": 1,
+        "maxExpectedResult": 4
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 210
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 294,
+        "maxExpectedResult": 369
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 26899,
+        "maxExpectedResult": 33625
       }
     ]
   },
@@ -3680,22 +3680,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 135
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 54,
+        "maxExpectedResult": 69
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 15488,
+        "maxExpectedResult": 19361
       }
     ]
   },
@@ -3705,22 +3705,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 158
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 695,
+        "maxExpectedResult": 869
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 320280,
+        "maxExpectedResult": 400351
       }
     ]
   },
@@ -3730,22 +3730,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 25
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 10,
+        "maxExpectedResult": 14
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 8571,
+        "maxExpectedResult": 10715
       }
     ]
   },
@@ -3755,22 +3755,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 15
       },
       {
         "id": "industrialAreaKm2",
         "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "maxExpectedResult": 1
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 9,
+        "maxExpectedResult": 13
       }
     ]
   },
@@ -3780,22 +3780,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 15
       },
       {
         "id": "industrialAreaKm2",
         "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "maxExpectedResult": 1
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 10,
+        "maxExpectedResult": 14
       }
     ]
   },
@@ -3805,22 +3805,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 261
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 358,
+        "maxExpectedResult": 449
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 2528,
+        "maxExpectedResult": 3161
       }
     ]
   },
@@ -3830,22 +3830,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 16
       },
       {
         "id": "industrialAreaKm2",
         "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "maxExpectedResult": 1
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 138,
+        "maxExpectedResult": 174
       }
     ]
   },
@@ -3854,23 +3854,23 @@
     "thermalSpotsData": [
       {
         "id": "volcanoesCount",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "minExpectedResult": 1,
+        "maxExpectedResult": 4
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 238
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 18,
+        "maxExpectedResult": 23
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 85196,
+        "maxExpectedResult": 106496
       }
     ]
   },
@@ -3880,22 +3880,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 64
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 7,
+        "maxExpectedResult": 10
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 27218,
+        "maxExpectedResult": 34023
       }
     ]
   },
@@ -3905,22 +3905,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 112
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 117,
+        "maxExpectedResult": 148
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 2014,
+        "maxExpectedResult": 2518
       }
     ]
   },
@@ -3930,22 +3930,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 222
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 165,
+        "maxExpectedResult": 207
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 9368,
+        "maxExpectedResult": 11711
       }
     ]
   },
@@ -3954,23 +3954,23 @@
     "thermalSpotsData": [
       {
         "id": "volcanoesCount",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "minExpectedResult": 8,
+        "maxExpectedResult": 11
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 247
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 1420,
+        "maxExpectedResult": 1776
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 200369,
+        "maxExpectedResult": 250463
       }
     ]
   },
@@ -3979,23 +3979,23 @@
     "thermalSpotsData": [
       {
         "id": "volcanoesCount",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "minExpectedResult": 4,
+        "maxExpectedResult": 7
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 187
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 117,
+        "maxExpectedResult": 147
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 476235,
+        "maxExpectedResult": 595295
       }
     ]
   },
@@ -4005,22 +4005,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 125
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 26,
+        "maxExpectedResult": 34
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 67503,
+        "maxExpectedResult": 84380
       }
     ]
   },
@@ -4029,23 +4029,23 @@
     "thermalSpotsData": [
       {
         "id": "volcanoesCount",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "minExpectedResult": 2,
+        "maxExpectedResult": 5
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 179
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 1843,
+        "maxExpectedResult": 2305
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 143028,
+        "maxExpectedResult": 178787
       }
     ]
   },
@@ -4054,23 +4054,23 @@
     "thermalSpotsData": [
       {
         "id": "volcanoesCount",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "minExpectedResult": 134,
+        "maxExpectedResult": 137
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 254
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 16833,
+        "maxExpectedResult": 21043
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 3629307,
+        "maxExpectedResult": 4536635
       }
     ]
   },
@@ -4080,22 +4080,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 230
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 414,
+        "maxExpectedResult": 518
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 1671,
+        "maxExpectedResult": 2090
       }
     ]
   },
@@ -4105,22 +4105,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 15
       },
       {
         "id": "industrialAreaKm2",
         "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "maxExpectedResult": 0
       },
       {
         "id": "forestAreaKm2",
         "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "maxExpectedResult": 1
       }
     ]
   },
@@ -4129,23 +4129,23 @@
     "thermalSpotsData": [
       {
         "id": "volcanoesCount",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "minExpectedResult": 1,
+        "maxExpectedResult": 4
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 16
       },
       {
         "id": "industrialAreaKm2",
         "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "maxExpectedResult": 1
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 317,
+        "maxExpectedResult": 398
       }
     ]
   },
@@ -4155,22 +4155,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 16
       },
       {
         "id": "industrialAreaKm2",
         "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "maxExpectedResult": 1
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 80,
+        "maxExpectedResult": 101
       }
     ]
   },
@@ -4180,22 +4180,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 27
       },
       {
         "id": "industrialAreaKm2",
         "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "maxExpectedResult": 6
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 216,
+        "maxExpectedResult": 272
       }
     ]
   },
@@ -4205,22 +4205,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 271
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 60,
+        "maxExpectedResult": 76
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 2817,
+        "maxExpectedResult": 3522
       }
     ]
   },
@@ -4229,23 +4229,23 @@
     "thermalSpotsData": [
       {
         "id": "volcanoesCount",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "minExpectedResult": 3,
+        "maxExpectedResult": 6
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 250
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 1102,
+        "maxExpectedResult": 1379
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 119993,
+        "maxExpectedResult": 149992
       }
     ]
   },
@@ -4255,22 +4255,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 230
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 532,
+        "maxExpectedResult": 666
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 522571,
+        "maxExpectedResult": 653215
       }
     ]
   },
@@ -4280,22 +4280,22 @@
       {
         "id": "volcanoesCount",
         "minExpectedResult": 0,
-        "maxExpectedResult": 200
+        "maxExpectedResult": 3
       },
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 365
+        "maxExpectedResult": 231
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 400000000
+        "minExpectedResult": 125,
+        "maxExpectedResult": 157
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3000000
+        "minExpectedResult": 185147,
+        "maxExpectedResult": 231434
       }
     ]
   }

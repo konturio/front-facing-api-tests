@@ -1,3 +1,6 @@
+// ⚠️ Helper function for creating admin names list for tests.
+// Used manually. Not part of production logic.
+
 const fs = require("fs");
 const path = require("path");
 
