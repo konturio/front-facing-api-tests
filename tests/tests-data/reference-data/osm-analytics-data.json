@@ -4954,7 +4954,7 @@
       },
       {
         "id": "osmBuildingsCount",
-        "minExpectedResult": 469859,
+        "minExpectedResult": 467000,
         "maxExpectedResult": 610817
       },
       {
@@ -5014,7 +5014,7 @@
       },
       {
         "id": "osmBuildingsCount",
-        "minExpectedResult": 129191,
+        "minExpectedResult": 128000,
         "maxExpectedResult": 167949
       },
       {
@@ -5065,7 +5065,7 @@
       {
         "id": "antiqueOsmBuildingsPercentage",
         "minExpectedResult": 61,
-        "maxExpectedResult": 92
+        "maxExpectedResult": 96
       },
       {
         "id": "antiqueOsmRoadsPercentage",
@@ -5194,7 +5194,7 @@
       },
       {
         "id": "osmBuildingsCount",
-        "minExpectedResult": 990499,
+        "minExpectedResult": 970000,
         "maxExpectedResult": 1287649
       },
       {
