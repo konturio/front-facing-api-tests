@@ -78,7 +78,7 @@ export default function updateExpectedRange({
         newMin = 1;
         newMax = 500;
       } else if (result < 1000) {
-        newMin = result >= 1 ? Math.floor(result) : 0.5;
+        newMin = result >= 1 ? Math.floor(result * 0.8) : 0.5;
         newMax = 2000;
       } else {
         newMin = Math.floor(result * 0.95);
@@ -89,7 +89,7 @@ export default function updateExpectedRange({
     case "population":
       // Countries have at least ~800 people; larger numbers get % bounds
       if (result < 10000) {
-        newMin = result >= 100 ? Math.floor(result - 200) : 100;
+        newMin = result >= 100 ? Math.floor(result * 0.5) : 100;
         newMax = Math.ceil(result + 1000);
       } else if (result < 1000000) {
         newMin = Math.floor(result * 0.95);
@@ -102,14 +102,14 @@ export default function updateExpectedRange({
 
     case "gdp":
       // GDP should not be less than $100,000; use percentage for larger
-      newMin = result > 1000000 ? Math.floor(result * 0.9) : 100000;
+      newMin = result > 1000000 ? Math.floor(result * 0.8) : 100000;
       newMax = Math.ceil(result * 1.2);
       break;
 
     case "urban":
       // Urban population has minimum and % for higher values
       if (result < 10000) {
-        newMin = result > 200 ? Math.floor(result - 200) : 0;
+        newMin = result > 200 ? Math.floor(result * 0.7) : 0;
         newMax = Math.ceil(result + 1000);
       } else {
         newMin = Math.floor(result * 0.95);
@@ -119,14 +119,14 @@ export default function updateExpectedRange({
 
     case "industrialareakm2":
     case "industrialAreaKm2":
-      newMin = result > 5 ? Math.floor(result) : 0;
-      newMax = Math.ceil(result * 1.25);
+      newMin = result > 5 ? Math.floor(result * 0.8) : 0;
+      newMax = Math.ceil(result * 1.3);
       break;
 
     case "forestareakm2":
     case "forestAreaKm2":
-      newMin = result > 5 ? Math.floor(result) : 0;
-      newMax = Math.ceil(result * 1.25);
+      newMin = result > 5 ? Math.floor(result * 0.8) : 0;
+      newMax = Math.ceil(result * 1.3);
       break;
 
     case "volcanoescount":
@@ -143,48 +143,38 @@ export default function updateExpectedRange({
 
     case "osmgapspercentage":
       newMin = result > 30 ? Math.floor(result - 30) : 0;
-      newMax = result <= 99 ? Math.ceil(result) : 99;
+      newMax = result <= 96 ? Math.ceil(result + 3) : 99;
       break;
 
     case "osmgapssum":
       newMin = result > 10000 ? Math.floor(result * 0.8) : 0;
-      newMax = Math.ceil(result);
+      newMax = Math.ceil(result * 1.2);
       break;
 
     case "areaWithoutOsmBuildingsKm2":
       newMin = result > 1000 ? Math.floor(result * 0.8) : 0;
-      newMax = Math.ceil(result + 10);
+      newMax = Math.ceil(result * 1.2);
       break;
 
     case "areaWithoutOsmRoadsKm2":
       newMin = result > 1000 ? Math.floor(result * 0.8) : 0;
-      newMax = Math.ceil(result + 10);
+      newMax = Math.ceil(result * 1.2);
       break;
 
     case "osmBuildingGapsPercentage":
     case "osmRoadGapsPercentage":
       newMin = result > 20 ? Math.floor(result - 20) : 0;
-      newMax =
-        result <= 95
-          ? Math.ceil(result)
-          : result === 100
-            ? 99
-            : Math.ceil(result * 10) / 10;
+      newMax = result <= 95 ? Math.ceil(result + 4) : 99.99;
       break;
 
     case "antiqueOsmBuildingsPercentage":
     case "antiqueOsmRoadsPercentage":
       newMin = result > 30 ? Math.floor(result - 30) : 0;
-      newMax =
-        result <= 99
-          ? Math.ceil(result)
-          : result === 100
-            ? 99
-            : Math.ceil(result * 100) / 100;
+      newMax = result <= 95 ? Math.ceil(result + 4) : 99.99;
       break;
 
     case "osmBuildingsCount":
-      newMin = result > 1 ? Math.floor(result) : 1;
+      newMin = result > 1 ? Math.floor(result * 0.8) : 1;
       newMax = Math.ceil(result * 1.3);
       break;
 
@@ -200,7 +190,7 @@ export default function updateExpectedRange({
       break;
 
     case "aiBuildingsCountEstimation":
-      newMin = result > 1 ? Math.floor(result) : 1;
+      newMin = result > 1 ? Math.floor(result * 0.8) : 1;
       newMax = Math.ceil(result * 1.3);
       break;
 

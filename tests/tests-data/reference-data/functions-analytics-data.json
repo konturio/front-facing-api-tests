@@ -4,7 +4,7 @@
     "functionsData": [
       {
         "id": "populatedareakm2",
-        "minExpectedResult": 153,
+        "minExpectedResult": 123,
         "maxExpectedResult": 2000
       },
       {
@@ -30,7 +30,7 @@
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 0
+        "maxExpectedResult": 3
       },
       {
         "id": "osmgapssum",
@@ -49,13 +49,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 296,
-        "maxExpectedResult": 371
+        "minExpectedResult": 236,
+        "maxExpectedResult": 386
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 760856,
-        "maxExpectedResult": 951071
+        "minExpectedResult": 608685,
+        "maxExpectedResult": 989114
       },
       {
         "id": "volcanoescount",
@@ -65,17 +65,17 @@
       {
         "id": "hotspotdaysperyearmax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 111
+        "maxExpectedResult": 109
       },
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 43,
-        "maxExpectedResult": 74
+        "maxExpectedResult": 77
       },
       {
         "id": "osmgapssum",
-        "minExpectedResult": 102240,
-        "maxExpectedResult": 127801
+        "minExpectedResult": 102228,
+        "maxExpectedResult": 153343
       }
     ]
   },
@@ -84,7 +84,7 @@
     "functionsData": [
       {
         "id": "populatedareakm2",
-        "minExpectedResult": 69,
+        "minExpectedResult": 55,
         "maxExpectedResult": 2000
       },
       {
@@ -94,8 +94,8 @@
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 27,
-        "maxExpectedResult": 35
+        "minExpectedResult": 21,
+        "maxExpectedResult": 36
       },
       {
         "id": "volcanoescount",
@@ -110,7 +110,7 @@
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 0
+        "maxExpectedResult": 3
       },
       {
         "id": "osmgapssum",
@@ -129,13 +129,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 38,
-        "maxExpectedResult": 48
+        "minExpectedResult": 30,
+        "maxExpectedResult": 50
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 14039,
-        "maxExpectedResult": 17549
+        "minExpectedResult": 11231,
+        "maxExpectedResult": 18251
       },
       {
         "id": "volcanoescount",
@@ -145,17 +145,17 @@
       {
         "id": "hotspotdaysperyearmax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 99
+        "maxExpectedResult": 101
       },
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 12
+        "maxExpectedResult": 15
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 0,
-        "maxExpectedResult": 2039
+        "maxExpectedResult": 2447
       }
     ]
   },
@@ -164,18 +164,18 @@
     "functionsData": [
       {
         "id": "populatedareakm2",
-        "minExpectedResult": 913,
+        "minExpectedResult": 730,
         "maxExpectedResult": 2000
       },
       {
         "id": "industrialareakm2",
         "minExpectedResult": 0,
-        "maxExpectedResult": 2
+        "maxExpectedResult": 3
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 851,
-        "maxExpectedResult": 1065
+        "minExpectedResult": 681,
+        "maxExpectedResult": 1107
       },
       {
         "id": "volcanoescount",
@@ -190,12 +190,12 @@
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 3
+        "maxExpectedResult": 6
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 0,
-        "maxExpectedResult": 28
+        "maxExpectedResult": 33
       }
     ]
   },
@@ -204,7 +204,7 @@
     "functionsData": [
       {
         "id": "populatedareakm2",
-        "minExpectedResult": 238,
+        "minExpectedResult": 190,
         "maxExpectedResult": 2000
       },
       {
@@ -214,8 +214,8 @@
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 247,
-        "maxExpectedResult": 310
+        "minExpectedResult": 198,
+        "maxExpectedResult": 322
       },
       {
         "id": "volcanoescount",
@@ -230,7 +230,7 @@
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 0
+        "maxExpectedResult": 3
       },
       {
         "id": "osmgapssum",
@@ -249,13 +249,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 926,
-        "maxExpectedResult": 1158
+        "minExpectedResult": 741,
+        "maxExpectedResult": 1205
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 388,
-        "maxExpectedResult": 486
+        "minExpectedResult": 311,
+        "maxExpectedResult": 506
       },
       {
         "id": "volcanoescount",
@@ -265,17 +265,17 @@
       {
         "id": "hotspotdaysperyearmax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 269
+        "maxExpectedResult": 270
       },
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 21
+        "maxExpectedResult": 24
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 0,
-        "maxExpectedResult": 3125
+        "maxExpectedResult": 3750
       }
     ]
   },
@@ -289,13 +289,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 85,
-        "maxExpectedResult": 107
+        "minExpectedResult": 68,
+        "maxExpectedResult": 111
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 4245,
-        "maxExpectedResult": 5308
+        "minExpectedResult": 3396,
+        "maxExpectedResult": 5520
       },
       {
         "id": "volcanoescount",
@@ -305,17 +305,17 @@
       {
         "id": "hotspotdaysperyearmax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 53
+        "maxExpectedResult": 54
       },
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 5
+        "maxExpectedResult": 8
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 0,
-        "maxExpectedResult": 436
+        "maxExpectedResult": 522
       }
     ]
   },
@@ -324,7 +324,7 @@
     "functionsData": [
       {
         "id": "populatedareakm2",
-        "minExpectedResult": 132,
+        "minExpectedResult": 106,
         "maxExpectedResult": 2000
       },
       {
@@ -350,7 +350,7 @@
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 0
+        "maxExpectedResult": 3
       },
       {
         "id": "osmgapssum",
@@ -364,7 +364,7 @@
     "functionsData": [
       {
         "id": "populatedareakm2",
-        "minExpectedResult": 42,
+        "minExpectedResult": 33,
         "maxExpectedResult": 2000
       },
       {
@@ -390,7 +390,7 @@
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 0
+        "maxExpectedResult": 3
       },
       {
         "id": "osmgapssum",
@@ -409,13 +409,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 1445,
-        "maxExpectedResult": 1807
+        "minExpectedResult": 1156,
+        "maxExpectedResult": 1880
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 131931,
-        "maxExpectedResult": 164915
+        "minExpectedResult": 105545,
+        "maxExpectedResult": 171511
       },
       {
         "id": "volcanoescount",
@@ -425,17 +425,17 @@
       {
         "id": "hotspotdaysperyearmax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 227
+        "maxExpectedResult": 226
       },
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 1
+        "maxExpectedResult": 4
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 0,
-        "maxExpectedResult": 1027
+        "maxExpectedResult": 1231
       }
     ]
   },
@@ -444,7 +444,7 @@
     "functionsData": [
       {
         "id": "populatedareakm2",
-        "minExpectedResult": 302,
+        "minExpectedResult": 241,
         "maxExpectedResult": 2000
       },
       {
@@ -454,8 +454,8 @@
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 228,
-        "maxExpectedResult": 286
+        "minExpectedResult": 182,
+        "maxExpectedResult": 297
       },
       {
         "id": "volcanoescount",
@@ -470,12 +470,12 @@
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 3
+        "maxExpectedResult": 6
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 0,
-        "maxExpectedResult": 7
+        "maxExpectedResult": 8
       }
     ]
   },
@@ -489,13 +489,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 268,
-        "maxExpectedResult": 336
+        "minExpectedResult": 214,
+        "maxExpectedResult": 349
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 47945,
-        "maxExpectedResult": 59933
+        "minExpectedResult": 38356,
+        "maxExpectedResult": 62330
       },
       {
         "id": "volcanoescount",
@@ -505,17 +505,17 @@
       {
         "id": "hotspotdaysperyearmax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 212
+        "maxExpectedResult": 213
       },
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 1
+        "maxExpectedResult": 4
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 0,
-        "maxExpectedResult": 132
+        "maxExpectedResult": 158
       }
     ]
   },
@@ -529,13 +529,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 202,
-        "maxExpectedResult": 254
+        "minExpectedResult": 162,
+        "maxExpectedResult": 264
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 14773,
-        "maxExpectedResult": 18467
+        "minExpectedResult": 11818,
+        "maxExpectedResult": 19206
       },
       {
         "id": "volcanoescount",
@@ -545,17 +545,17 @@
       {
         "id": "hotspotdaysperyearmax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 91
+        "maxExpectedResult": 88
       },
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 24
+        "maxExpectedResult": 27
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 0,
-        "maxExpectedResult": 6282
+        "maxExpectedResult": 7537
       }
     ]
   },
@@ -569,13 +569,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 6,
+        "minExpectedResult": 5,
         "maxExpectedResult": 9
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 5585,
-        "maxExpectedResult": 6982
+        "minExpectedResult": 4468,
+        "maxExpectedResult": 7262
       },
       {
         "id": "volcanoescount",
@@ -585,17 +585,17 @@
       {
         "id": "hotspotdaysperyearmax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 22
+        "maxExpectedResult": 23
       },
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 14
+        "maxExpectedResult": 17
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 0,
-        "maxExpectedResult": 3055
+        "maxExpectedResult": 3666
       }
     ]
   },
@@ -609,13 +609,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 629,
-        "maxExpectedResult": 787
+        "minExpectedResult": 503,
+        "maxExpectedResult": 819
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 11891,
-        "maxExpectedResult": 14865
+        "minExpectedResult": 9513,
+        "maxExpectedResult": 15459
       },
       {
         "id": "volcanoescount",
@@ -630,7 +630,7 @@
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 1
+        "maxExpectedResult": 4
       },
       {
         "id": "osmgapssum",
@@ -649,13 +649,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 12,
-        "maxExpectedResult": 16
+        "minExpectedResult": 10,
+        "maxExpectedResult": 17
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 48990,
-        "maxExpectedResult": 61239
+        "minExpectedResult": 39192,
+        "maxExpectedResult": 63688
       },
       {
         "id": "volcanoescount",
@@ -665,17 +665,17 @@
       {
         "id": "hotspotdaysperyearmax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 94
+        "maxExpectedResult": 95
       },
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 27,
-        "maxExpectedResult": 58
+        "maxExpectedResult": 61
       },
       {
         "id": "osmgapssum",
-        "minExpectedResult": 22213,
-        "maxExpectedResult": 27767
+        "minExpectedResult": 22209,
+        "maxExpectedResult": 33314
       }
     ]
   },
@@ -689,13 +689,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 149,
-        "maxExpectedResult": 188
+        "minExpectedResult": 119,
+        "maxExpectedResult": 195
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 24599,
-        "maxExpectedResult": 30749
+        "minExpectedResult": 19679,
+        "maxExpectedResult": 31979
       },
       {
         "id": "volcanoescount",
@@ -710,12 +710,12 @@
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 25,
-        "maxExpectedResult": 56
+        "maxExpectedResult": 59
       },
       {
         "id": "osmgapssum",
-        "minExpectedResult": 36986,
-        "maxExpectedResult": 46234
+        "minExpectedResult": 36976,
+        "maxExpectedResult": 55466
       }
     ]
   },
@@ -729,13 +729,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 157,
-        "maxExpectedResult": 198
+        "minExpectedResult": 126,
+        "maxExpectedResult": 206
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 42481,
-        "maxExpectedResult": 53102
+        "minExpectedResult": 33984,
+        "maxExpectedResult": 55226
       },
       {
         "id": "volcanoescount",
@@ -745,17 +745,17 @@
       {
         "id": "hotspotdaysperyearmax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 83
+        "maxExpectedResult": 81
       },
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 30
+        "maxExpectedResult": 33
       },
       {
         "id": "osmgapssum",
-        "minExpectedResult": 27338,
-        "maxExpectedResult": 34173
+        "minExpectedResult": 27337,
+        "maxExpectedResult": 41007
       }
     ]
   },
@@ -769,13 +769,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 427,
-        "maxExpectedResult": 535
+        "minExpectedResult": 342,
+        "maxExpectedResult": 556
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 52450,
-        "maxExpectedResult": 65563
+        "minExpectedResult": 41960,
+        "maxExpectedResult": 68186
       },
       {
         "id": "volcanoescount",
@@ -790,12 +790,12 @@
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 7
+        "maxExpectedResult": 10
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 0,
-        "maxExpectedResult": 2819
+        "maxExpectedResult": 3377
       }
     ]
   },
@@ -804,17 +804,17 @@
     "functionsData": [
       {
         "id": "populatedareakm2",
-        "minExpectedResult": 550,
+        "minExpectedResult": 440,
         "maxExpectedResult": 2000
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 16,
-        "maxExpectedResult": 21
+        "minExpectedResult": 13,
+        "maxExpectedResult": 22
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 6,
+        "minExpectedResult": 4,
         "maxExpectedResult": 8
       },
       {
@@ -825,17 +825,17 @@
       {
         "id": "hotspotdaysperyearmax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 197
+        "maxExpectedResult": 196
       },
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 5
+        "maxExpectedResult": 8
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 0,
-        "maxExpectedResult": 23
+        "maxExpectedResult": 27
       }
     ]
   },
@@ -849,13 +849,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 12,
+        "minExpectedResult": 9,
         "maxExpectedResult": 16
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 2945,
-        "maxExpectedResult": 3682
+        "minExpectedResult": 2356,
+        "maxExpectedResult": 3829
       },
       {
         "id": "volcanoescount",
@@ -865,17 +865,17 @@
       {
         "id": "hotspotdaysperyearmax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 43
+        "maxExpectedResult": 42
       },
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 5
+        "maxExpectedResult": 8
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 0,
-        "maxExpectedResult": 66
+        "maxExpectedResult": 80
       }
     ]
   },
@@ -889,13 +889,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 80,
-        "maxExpectedResult": 102
+        "minExpectedResult": 64,
+        "maxExpectedResult": 106
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 36593,
-        "maxExpectedResult": 45742
+        "minExpectedResult": 29274,
+        "maxExpectedResult": 47572
       },
       {
         "id": "volcanoescount",
@@ -905,17 +905,17 @@
       {
         "id": "hotspotdaysperyearmax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 63
+        "maxExpectedResult": 64
       },
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 6
+        "maxExpectedResult": 9
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 0,
-        "maxExpectedResult": 1824
+        "maxExpectedResult": 2188
       }
     ]
   },
@@ -924,7 +924,7 @@
     "functionsData": [
       {
         "id": "populatedareakm2",
-        "minExpectedResult": 25,
+        "minExpectedResult": 20,
         "maxExpectedResult": 2000
       },
       {
@@ -934,8 +934,8 @@
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 6,
-        "maxExpectedResult": 8
+        "minExpectedResult": 4,
+        "maxExpectedResult": 9
       },
       {
         "id": "volcanoescount",
@@ -950,7 +950,7 @@
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 0
+        "maxExpectedResult": 3
       },
       {
         "id": "osmgapssum",
@@ -969,13 +969,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 582,
-        "maxExpectedResult": 729
+        "minExpectedResult": 466,
+        "maxExpectedResult": 758
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 111933,
-        "maxExpectedResult": 139917
+        "minExpectedResult": 89546,
+        "maxExpectedResult": 145514
       },
       {
         "id": "volcanoescount",
@@ -990,12 +990,12 @@
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 4
+        "maxExpectedResult": 7
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 0,
-        "maxExpectedResult": 2513
+        "maxExpectedResult": 3013
       }
     ]
   },
@@ -1009,13 +1009,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 16,
+        "minExpectedResult": 13,
         "maxExpectedResult": 22
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 15568,
-        "maxExpectedResult": 19462
+        "minExpectedResult": 12455,
+        "maxExpectedResult": 20240
       },
       {
         "id": "volcanoescount",
@@ -1025,17 +1025,17 @@
       {
         "id": "hotspotdaysperyearmax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 33
+        "maxExpectedResult": 32
       },
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 4
+        "maxExpectedResult": 7
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 0,
-        "maxExpectedResult": 120
+        "maxExpectedResult": 144
       }
     ]
   },
@@ -1044,7 +1044,7 @@
     "functionsData": [
       {
         "id": "populatedareakm2",
-        "minExpectedResult": 96,
+        "minExpectedResult": 76,
         "maxExpectedResult": 2000
       },
       {
@@ -1070,7 +1070,7 @@
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 0
+        "maxExpectedResult": 3
       },
       {
         "id": "osmgapssum",
@@ -1084,18 +1084,18 @@
     "functionsData": [
       {
         "id": "populatedareakm2",
-        "minExpectedResult": 446,
+        "minExpectedResult": 357,
         "maxExpectedResult": 2000
       },
       {
         "id": "industrialareakm2",
         "minExpectedResult": 0,
-        "maxExpectedResult": 4
+        "maxExpectedResult": 5
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 128,
-        "maxExpectedResult": 161
+        "minExpectedResult": 102,
+        "maxExpectedResult": 167
       },
       {
         "id": "volcanoescount",
@@ -1110,7 +1110,7 @@
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 0
+        "maxExpectedResult": 3
       },
       {
         "id": "osmgapssum",
@@ -1129,13 +1129,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 8,
+        "minExpectedResult": 7,
         "maxExpectedResult": 12
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 5497,
-        "maxExpectedResult": 6873
+        "minExpectedResult": 4398,
+        "maxExpectedResult": 7148
       },
       {
         "id": "volcanoescount",
@@ -1145,17 +1145,17 @@
       {
         "id": "hotspotdaysperyearmax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 65
+        "maxExpectedResult": 68
       },
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 22
+        "maxExpectedResult": 25
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 0,
-        "maxExpectedResult": 319
+        "maxExpectedResult": 383
       }
     ]
   },
@@ -1174,8 +1174,8 @@
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 31517,
-        "maxExpectedResult": 39397
+        "minExpectedResult": 25214,
+        "maxExpectedResult": 40973
       },
       {
         "id": "volcanoescount",
@@ -1190,12 +1190,12 @@
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 9
+        "maxExpectedResult": 12
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 0,
-        "maxExpectedResult": 579
+        "maxExpectedResult": 694
       }
     ]
   },
@@ -1209,13 +1209,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 150,
-        "maxExpectedResult": 207
+        "minExpectedResult": 131,
+        "maxExpectedResult": 215
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 62512,
-        "maxExpectedResult": 78142
+        "minExpectedResult": 50010,
+        "maxExpectedResult": 81267
       },
       {
         "id": "volcanoescount",
@@ -1225,17 +1225,17 @@
       {
         "id": "hotspotdaysperyearmax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 127
+        "maxExpectedResult": 132
       },
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 13
+        "maxExpectedResult": 16
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 0,
-        "maxExpectedResult": 7856
+        "maxExpectedResult": 9427
       }
     ]
   },
@@ -1250,12 +1250,12 @@
       {
         "id": "industrialareakm2",
         "minExpectedResult": 0,
-        "maxExpectedResult": 4
+        "maxExpectedResult": 5
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 553117,
-        "maxExpectedResult": 691397
+        "minExpectedResult": 442493,
+        "maxExpectedResult": 719053
       },
       {
         "id": "volcanoescount",
@@ -1270,12 +1270,12 @@
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 19
+        "maxExpectedResult": 22
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 0,
-        "maxExpectedResult": 4649
+        "maxExpectedResult": 5579
       }
     ]
   },
@@ -1289,13 +1289,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 205,
-        "maxExpectedResult": 257
+        "minExpectedResult": 164,
+        "maxExpectedResult": 267
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 17702,
-        "maxExpectedResult": 22129
+        "minExpectedResult": 14162,
+        "maxExpectedResult": 23014
       },
       {
         "id": "volcanoescount",
@@ -1305,17 +1305,17 @@
       {
         "id": "hotspotdaysperyearmax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 101
+        "maxExpectedResult": 99
       },
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 1
+        "maxExpectedResult": 4
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 0,
-        "maxExpectedResult": 57
+        "maxExpectedResult": 69
       }
     ]
   },
@@ -1329,13 +1329,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 81,
-        "maxExpectedResult": 103
+        "minExpectedResult": 65,
+        "maxExpectedResult": 107
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 283594,
-        "maxExpectedResult": 354493
+        "minExpectedResult": 226875,
+        "maxExpectedResult": 368673
       },
       {
         "id": "volcanoescount",
@@ -1345,17 +1345,17 @@
       {
         "id": "hotspotdaysperyearmax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 74
+        "maxExpectedResult": 73
       },
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 35,
-        "maxExpectedResult": 66
+        "maxExpectedResult": 69
       },
       {
         "id": "osmgapssum",
-        "minExpectedResult": 39198,
-        "maxExpectedResult": 48999
+        "minExpectedResult": 39193,
+        "maxExpectedResult": 58791
       }
     ]
   },
@@ -1369,13 +1369,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 46,
-        "maxExpectedResult": 58
+        "minExpectedResult": 36,
+        "maxExpectedResult": 60
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 367001,
-        "maxExpectedResult": 458753
+        "minExpectedResult": 293601,
+        "maxExpectedResult": 477103
       },
       {
         "id": "volcanoescount",
@@ -1390,12 +1390,12 @@
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 18
+        "maxExpectedResult": 21
       },
       {
         "id": "osmgapssum",
-        "minExpectedResult": 10327,
-        "maxExpectedResult": 12910
+        "minExpectedResult": 10317,
+        "maxExpectedResult": 15476
       }
     ]
   },
@@ -1409,13 +1409,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 143,
-        "maxExpectedResult": 180
+        "minExpectedResult": 114,
+        "maxExpectedResult": 187
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 1867518,
-        "maxExpectedResult": 2334399
+        "minExpectedResult": 1494014,
+        "maxExpectedResult": 2427775
       },
       {
         "id": "volcanoescount",
@@ -1430,12 +1430,12 @@
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 10,
-        "maxExpectedResult": 41
+        "maxExpectedResult": 44
       },
       {
         "id": "osmgapssum",
-        "minExpectedResult": 80546,
-        "maxExpectedResult": 100683
+        "minExpectedResult": 80545,
+        "maxExpectedResult": 120819
       }
     ]
   },
@@ -1449,13 +1449,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 24,
-        "maxExpectedResult": 31
+        "minExpectedResult": 19,
+        "maxExpectedResult": 32
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 258201,
-        "maxExpectedResult": 322752
+        "minExpectedResult": 206560,
+        "maxExpectedResult": 335662
       },
       {
         "id": "volcanoescount",
@@ -1470,12 +1470,12 @@
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 24,
-        "maxExpectedResult": 55
+        "maxExpectedResult": 58
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 0,
-        "maxExpectedResult": 5311
+        "maxExpectedResult": 6373
       }
     ]
   },
@@ -1484,7 +1484,7 @@
     "functionsData": [
       {
         "id": "populatedareakm2",
-        "minExpectedResult": 819,
+        "minExpectedResult": 655,
         "maxExpectedResult": 2000
       },
       {
@@ -1494,8 +1494,8 @@
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 1366,
-        "maxExpectedResult": 1708
+        "minExpectedResult": 1093,
+        "maxExpectedResult": 1777
       },
       {
         "id": "volcanoescount",
@@ -1510,12 +1510,12 @@
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 15
+        "maxExpectedResult": 18
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 0,
-        "maxExpectedResult": 120
+        "maxExpectedResult": 144
       }
     ]
   },
@@ -1534,8 +1534,8 @@
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 247,
-        "maxExpectedResult": 310
+        "minExpectedResult": 198,
+        "maxExpectedResult": 323
       },
       {
         "id": "volcanoescount",
@@ -1545,17 +1545,17 @@
       {
         "id": "hotspotdaysperyearmax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 50
+        "maxExpectedResult": 52
       },
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 1
+        "maxExpectedResult": 4
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 0,
-        "maxExpectedResult": 11
+        "maxExpectedResult": 13
       }
     ]
   },
@@ -1569,13 +1569,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 50,
-        "maxExpectedResult": 64
+        "minExpectedResult": 40,
+        "maxExpectedResult": 67
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 32423,
-        "maxExpectedResult": 40530
+        "minExpectedResult": 25938,
+        "maxExpectedResult": 42151
       },
       {
         "id": "volcanoescount",
@@ -1585,17 +1585,17 @@
       {
         "id": "hotspotdaysperyearmax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 47
+        "maxExpectedResult": 45
       },
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 24
+        "maxExpectedResult": 27
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 0,
-        "maxExpectedResult": 5996
+        "maxExpectedResult": 7195
       }
     ]
   },
@@ -1609,13 +1609,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 191,
-        "maxExpectedResult": 240
+        "minExpectedResult": 153,
+        "maxExpectedResult": 249
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 57684,
-        "maxExpectedResult": 72107
+        "minExpectedResult": 46147,
+        "maxExpectedResult": 74991
       },
       {
         "id": "volcanoescount",
@@ -1625,17 +1625,17 @@
       {
         "id": "hotspotdaysperyearmax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 154
+        "maxExpectedResult": 157
       },
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 29
+        "maxExpectedResult": 32
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 8775,
-        "maxExpectedResult": 10970
+        "maxExpectedResult": 13164
       }
     ]
   },
@@ -1644,18 +1644,18 @@
     "functionsData": [
       {
         "id": "populatedareakm2",
-        "minExpectedResult": 310,
+        "minExpectedResult": 248,
         "maxExpectedResult": 2000
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 8,
+        "minExpectedResult": 7,
         "maxExpectedResult": 12
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 21,
-        "maxExpectedResult": 27
+        "minExpectedResult": 16,
+        "maxExpectedResult": 28
       },
       {
         "id": "volcanoescount",
@@ -1670,12 +1670,12 @@
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 1
+        "maxExpectedResult": 4
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 0,
-        "maxExpectedResult": 3
+        "maxExpectedResult": 4
       }
     ]
   },
@@ -1684,7 +1684,7 @@
     "functionsData": [
       {
         "id": "populatedareakm2",
-        "minExpectedResult": 246,
+        "minExpectedResult": 197,
         "maxExpectedResult": 2000
       },
       {
@@ -1694,8 +1694,8 @@
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 114,
-        "maxExpectedResult": 143
+        "minExpectedResult": 91,
+        "maxExpectedResult": 149
       },
       {
         "id": "volcanoescount",
@@ -1710,12 +1710,12 @@
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 2
+        "maxExpectedResult": 5
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 0,
-        "maxExpectedResult": 4
+        "maxExpectedResult": 5
       }
     ]
   },
@@ -1729,13 +1729,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 24,
-        "maxExpectedResult": 31
+        "minExpectedResult": 19,
+        "maxExpectedResult": 32
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 1798,
-        "maxExpectedResult": 2249
+        "minExpectedResult": 1439,
+        "maxExpectedResult": 2339
       },
       {
         "id": "volcanoescount",
@@ -1750,12 +1750,12 @@
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 2
+        "maxExpectedResult": 5
       },
       {
         "id": "osmgapssum",
-        "minExpectedResult": 7,
-        "maxExpectedResult": 59
+        "minExpectedResult": 0,
+        "maxExpectedResult": 60
       }
     ]
   },
@@ -1769,13 +1769,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 564,
-        "maxExpectedResult": 706
+        "minExpectedResult": 451,
+        "maxExpectedResult": 735
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 35804,
-        "maxExpectedResult": 44756
+        "minExpectedResult": 28643,
+        "maxExpectedResult": 46547
       },
       {
         "id": "volcanoescount",
@@ -1785,17 +1785,17 @@
       {
         "id": "hotspotdaysperyearmax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 167
+        "maxExpectedResult": 166
       },
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 1
+        "maxExpectedResult": 4
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 0,
-        "maxExpectedResult": 17
+        "maxExpectedResult": 20
       }
     ]
   },
@@ -1809,13 +1809,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 3130,
-        "maxExpectedResult": 3956
+        "minExpectedResult": 2531,
+        "maxExpectedResult": 4114
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 150147,
-        "maxExpectedResult": 187685
+        "minExpectedResult": 120118,
+        "maxExpectedResult": 195193
       },
       {
         "id": "volcanoescount",
@@ -1825,17 +1825,17 @@
       {
         "id": "hotspotdaysperyearmax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 231
+        "maxExpectedResult": 233
       },
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 1
+        "maxExpectedResult": 4
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 0,
-        "maxExpectedResult": 57
+        "maxExpectedResult": 68
       }
     ]
   },
@@ -1849,12 +1849,12 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 14,
+        "minExpectedResult": 11,
         "maxExpectedResult": 19
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 7,
+        "minExpectedResult": 6,
         "maxExpectedResult": 10
       },
       {
@@ -1865,17 +1865,17 @@
       {
         "id": "hotspotdaysperyearmax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 77
+        "maxExpectedResult": 79
       },
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 10,
-        "maxExpectedResult": 41
+        "maxExpectedResult": 44
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 0,
-        "maxExpectedResult": 476
+        "maxExpectedResult": 571
       }
     ]
   },
@@ -1884,7 +1884,7 @@
     "functionsData": [
       {
         "id": "populatedareakm2",
-        "minExpectedResult": 471,
+        "minExpectedResult": 377,
         "maxExpectedResult": 2000
       },
       {
@@ -1894,8 +1894,8 @@
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 682,
-        "maxExpectedResult": 854
+        "minExpectedResult": 545,
+        "maxExpectedResult": 888
       },
       {
         "id": "volcanoescount",
@@ -1910,7 +1910,7 @@
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 1
+        "maxExpectedResult": 4
       },
       {
         "id": "osmgapssum",
@@ -1929,533 +1929,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 377,
-        "maxExpectedResult": 472
+        "minExpectedResult": 301,
+        "maxExpectedResult": 491
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 9456,
-        "maxExpectedResult": 11821
-      },
-      {
-        "id": "volcanoescount",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3
-      },
-      {
-        "id": "hotspotdaysperyearmax",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 167
-      },
-      {
-        "id": "osmgapspercentage",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 1
-      },
-      {
-        "id": "osmgapssum",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 27
-      }
-    ]
-  },
-  {
-    "admin": "Dominican Republic",
-    "functionsData": [
-      {
-        "id": "populatedareakm2",
-        "minExpectedResult": 20966,
-        "maxExpectedResult": 24278
-      },
-      {
-        "id": "industrialareakm2",
-        "minExpectedResult": 26,
-        "maxExpectedResult": 33
-      },
-      {
-        "id": "forestareakm2",
-        "minExpectedResult": 31774,
-        "maxExpectedResult": 39718
-      },
-      {
-        "id": "volcanoescount",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3
-      },
-      {
-        "id": "hotspotdaysperyearmax",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 34
-      },
-      {
-        "id": "osmgapspercentage",
-        "minExpectedResult": 14,
-        "maxExpectedResult": 45
-      },
-      {
-        "id": "osmgapssum",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 9782
-      }
-    ]
-  },
-  {
-    "admin": "Algeria",
-    "functionsData": [
-      {
-        "id": "populatedareakm2",
-        "minExpectedResult": 140399,
-        "maxExpectedResult": 162568
-      },
-      {
-        "id": "industrialareakm2",
-        "minExpectedResult": 522,
-        "maxExpectedResult": 654
-      },
-      {
-        "id": "forestareakm2",
-        "minExpectedResult": 30093,
-        "maxExpectedResult": 37618
-      },
-      {
-        "id": "volcanoescount",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3
-      },
-      {
-        "id": "hotspotdaysperyearmax",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 299
-      },
-      {
-        "id": "osmgapspercentage",
-        "minExpectedResult": 18,
-        "maxExpectedResult": 49
-      },
-      {
-        "id": "osmgapssum",
-        "minExpectedResult": 57220,
-        "maxExpectedResult": 71527
-      }
-    ]
-  },
-  {
-    "admin": "Egypt",
-    "functionsData": [
-      {
-        "id": "populatedareakm2",
-        "minExpectedResult": 77952,
-        "maxExpectedResult": 90261
-      },
-      {
-        "id": "industrialareakm2",
-        "minExpectedResult": 924,
-        "maxExpectedResult": 1156
-      },
-      {
-        "id": "forestareakm2",
-        "minExpectedResult": 2469,
-        "maxExpectedResult": 3088
-      },
-      {
-        "id": "volcanoescount",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3
-      },
-      {
-        "id": "hotspotdaysperyearmax",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 297
-      },
-      {
-        "id": "osmgapspercentage",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 27
-      },
-      {
-        "id": "osmgapssum",
-        "minExpectedResult": 17246,
-        "maxExpectedResult": 21559
-      }
-    ]
-  },
-  {
-    "admin": "Eritrea",
-    "functionsData": [
-      {
-        "id": "populatedareakm2",
-        "minExpectedResult": 18859,
-        "maxExpectedResult": 21837
-      },
-      {
-        "id": "industrialareakm2",
-        "minExpectedResult": 17,
-        "maxExpectedResult": 23
-      },
-      {
-        "id": "forestareakm2",
-        "minExpectedResult": 813,
-        "maxExpectedResult": 1017
-      },
-      {
-        "id": "volcanoescount",
-        "minExpectedResult": 3,
-        "maxExpectedResult": 6
-      },
-      {
-        "id": "hotspotdaysperyearmax",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 21
-      },
-      {
-        "id": "osmgapspercentage",
-        "minExpectedResult": 47,
-        "maxExpectedResult": 78
-      },
-      {
-        "id": "osmgapssum",
-        "minExpectedResult": 12287,
-        "maxExpectedResult": 15360
-      }
-    ]
-  },
-  {
-    "admin": "Spain",
-    "functionsData": [
-      {
-        "id": "populatedareakm2",
-        "minExpectedResult": 205830,
-        "maxExpectedResult": 238330
-      },
-      {
-        "id": "industrialareakm2",
-        "minExpectedResult": 1903,
-        "maxExpectedResult": 2380
-      },
-      {
-        "id": "forestareakm2",
-        "minExpectedResult": 219090,
-        "maxExpectedResult": 273864
-      },
-      {
-        "id": "volcanoescount",
-        "minExpectedResult": 17,
-        "maxExpectedResult": 20
-      },
-      {
-        "id": "hotspotdaysperyearmax",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 189
-      },
-      {
-        "id": "osmgapspercentage",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 6
-      },
-      {
-        "id": "osmgapssum",
-        "minExpectedResult": 9584,
-        "maxExpectedResult": 11982
-      }
-    ]
-  },
-  {
-    "admin": "Estonia",
-    "functionsData": [
-      {
-        "id": "populatedareakm2",
-        "minExpectedResult": 23774,
-        "maxExpectedResult": 27528
-      },
-      {
-        "id": "industrialareakm2",
-        "minExpectedResult": 105,
-        "maxExpectedResult": 132
-      },
-      {
-        "id": "forestareakm2",
-        "minExpectedResult": 30843,
-        "maxExpectedResult": 38555
-      },
-      {
-        "id": "volcanoescount",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3
-      },
-      {
-        "id": "hotspotdaysperyearmax",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 21
-      },
-      {
-        "id": "osmgapspercentage",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3
-      },
-      {
-        "id": "osmgapssum",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 541
-      }
-    ]
-  },
-  {
-    "admin": "Ethiopia",
-    "functionsData": [
-      {
-        "id": "populatedareakm2",
-        "minExpectedResult": 279819,
-        "maxExpectedResult": 324002
-      },
-      {
-        "id": "industrialareakm2",
-        "minExpectedResult": 192,
-        "maxExpectedResult": 242
-      },
-      {
-        "id": "forestareakm2",
-        "minExpectedResult": 269185,
-        "maxExpectedResult": 336482
-      },
-      {
-        "id": "volcanoescount",
-        "minExpectedResult": 78,
-        "maxExpectedResult": 81
-      },
-      {
-        "id": "hotspotdaysperyearmax",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 117
-      },
-      {
-        "id": "osmgapspercentage",
-        "minExpectedResult": 38,
-        "maxExpectedResult": 69
-      },
-      {
-        "id": "osmgapssum",
-        "minExpectedResult": 160443,
-        "maxExpectedResult": 200555
-      }
-    ]
-  },
-  {
-    "admin": "Finland",
-    "functionsData": [
-      {
-        "id": "populatedareakm2",
-        "minExpectedResult": 136036,
-        "maxExpectedResult": 157516
-      },
-      {
-        "id": "industrialareakm2",
-        "minExpectedResult": 523,
-        "maxExpectedResult": 655
-      },
-      {
-        "id": "forestareakm2",
-        "minExpectedResult": 256284,
-        "maxExpectedResult": 320357
-      },
-      {
-        "id": "volcanoescount",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3
-      },
-      {
-        "id": "hotspotdaysperyearmax",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 181
-      },
-      {
-        "id": "osmgapspercentage",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 10
-      },
-      {
-        "id": "osmgapssum",
-        "minExpectedResult": 10384,
-        "maxExpectedResult": 12981
-      }
-    ]
-  },
-  {
-    "admin": "Falkland Islands",
-    "functionsData": [
-      {
-        "id": "populatedareakm2",
-        "minExpectedResult": 856,
-        "maxExpectedResult": 2000
-      },
-      {
-        "id": "industrialareakm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 2
-      },
-      {
-        "id": "forestareakm2",
-        "minExpectedResult": 35,
-        "maxExpectedResult": 45
-      },
-      {
-        "id": "volcanoescount",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3
-      },
-      {
-        "id": "hotspotdaysperyearmax",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 16
-      },
-      {
-        "id": "osmgapspercentage",
-        "minExpectedResult": 1,
-        "maxExpectedResult": 32
-      },
-      {
-        "id": "osmgapssum",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 272
-      }
-    ]
-  },
-  {
-    "admin": "France",
-    "functionsData": [
-      {
-        "id": "populatedareakm2",
-        "minExpectedResult": 396115,
-        "maxExpectedResult": 458660
-      },
-      {
-        "id": "industrialareakm2",
-        "minExpectedResult": 3048,
-        "maxExpectedResult": 3812
-      },
-      {
-        "id": "forestareakm2",
-        "minExpectedResult": 322374,
-        "maxExpectedResult": 402968
-      },
-      {
-        "id": "volcanoescount",
-        "minExpectedResult": 77,
-        "maxExpectedResult": 80
-      },
-      {
-        "id": "hotspotdaysperyearmax",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 239
-      },
-      {
-        "id": "osmgapspercentage",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 1
-      },
-      {
-        "id": "osmgapssum",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 331
-      }
-    ]
-  },
-  {
-    "admin": "Faroe Islands",
-    "functionsData": [
-      {
-        "id": "populatedareakm2",
-        "minExpectedResult": 516,
-        "maxExpectedResult": 2000
-      },
-      {
-        "id": "industrialareakm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 5
-      },
-      {
-        "id": "forestareakm2",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 5
-      },
-      {
-        "id": "volcanoescount",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3
-      },
-      {
-        "id": "hotspotdaysperyearmax",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 16
-      },
-      {
-        "id": "osmgapspercentage",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 7
-      },
-      {
-        "id": "osmgapssum",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 36
-      }
-    ]
-  },
-  {
-    "admin": "Gabon",
-    "functionsData": [
-      {
-        "id": "populatedareakm2",
-        "minExpectedResult": 5609,
-        "maxExpectedResult": 6496
-      },
-      {
-        "id": "industrialareakm2",
-        "minExpectedResult": 36,
-        "maxExpectedResult": 47
-      },
-      {
-        "id": "forestareakm2",
-        "minExpectedResult": 240705,
-        "maxExpectedResult": 300882
-      },
-      {
-        "id": "volcanoescount",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 3
-      },
-      {
-        "id": "hotspotdaysperyearmax",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 152
-      },
-      {
-        "id": "osmgapspercentage",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 19
-      },
-      {
-        "id": "osmgapssum",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 1072
-      }
-    ]
-  },
-  {
-    "admin": "United Kingdom",
-    "functionsData": [
-      {
-        "id": "populatedareakm2",
-        "minExpectedResult": 139315,
-        "maxExpectedResult": 161313
-      },
-      {
-        "id": "industrialareakm2",
-        "minExpectedResult": 1593,
-        "maxExpectedResult": 1993
-      },
-      {
-        "id": "forestareakm2",
-        "minExpectedResult": 39036,
-        "maxExpectedResult": 48796
+        "minExpectedResult": 7565,
+        "maxExpectedResult": 12294
       },
       {
         "id": "volcanoescount",
@@ -2470,12 +1950,532 @@
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 2
+        "maxExpectedResult": 4
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 0,
-        "maxExpectedResult": 1939
+        "maxExpectedResult": 31
+      }
+    ]
+  },
+  {
+    "admin": "Dominican Republic",
+    "functionsData": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 20966,
+        "maxExpectedResult": 24278
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 21,
+        "maxExpectedResult": 35
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 25419,
+        "maxExpectedResult": 41307
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 34
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 14,
+        "maxExpectedResult": 48
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 11738
+      }
+    ]
+  },
+  {
+    "admin": "Algeria",
+    "functionsData": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 140399,
+        "maxExpectedResult": 162568
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 418,
+        "maxExpectedResult": 680
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 24075,
+        "maxExpectedResult": 39123
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 299
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 18,
+        "maxExpectedResult": 52
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 57214,
+        "maxExpectedResult": 85822
+      }
+    ]
+  },
+  {
+    "admin": "Egypt",
+    "functionsData": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 77952,
+        "maxExpectedResult": 90261
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 739,
+        "maxExpectedResult": 1202
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 1975,
+        "maxExpectedResult": 3211
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 297
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 30
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 17245,
+        "maxExpectedResult": 25869
+      }
+    ]
+  },
+  {
+    "admin": "Eritrea",
+    "functionsData": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 18859,
+        "maxExpectedResult": 21837
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 14,
+        "maxExpectedResult": 23
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 650,
+        "maxExpectedResult": 1058
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 3,
+        "maxExpectedResult": 6
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 21
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 47,
+        "maxExpectedResult": 81
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 12287,
+        "maxExpectedResult": 18432
+      }
+    ]
+  },
+  {
+    "admin": "Spain",
+    "functionsData": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 205830,
+        "maxExpectedResult": 238330
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1523,
+        "maxExpectedResult": 2476
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 175272,
+        "maxExpectedResult": 284818
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 17,
+        "maxExpectedResult": 20
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 189
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 9
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 9581,
+        "maxExpectedResult": 14373
+      }
+    ]
+  },
+  {
+    "admin": "Estonia",
+    "functionsData": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 23774,
+        "maxExpectedResult": 27528
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 84,
+        "maxExpectedResult": 138
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 24675,
+        "maxExpectedResult": 40097
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 21
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 6
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 649
+      }
+    ]
+  },
+  {
+    "admin": "Ethiopia",
+    "functionsData": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 279819,
+        "maxExpectedResult": 324002
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 154,
+        "maxExpectedResult": 251
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 215348,
+        "maxExpectedResult": 349941
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 78,
+        "maxExpectedResult": 81
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 116
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 38,
+        "maxExpectedResult": 72
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 160434,
+        "maxExpectedResult": 240652
+      }
+    ]
+  },
+  {
+    "admin": "Finland",
+    "functionsData": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 136036,
+        "maxExpectedResult": 157516
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 418,
+        "maxExpectedResult": 681
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 205027,
+        "maxExpectedResult": 333171
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 177
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 13
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 10379,
+        "maxExpectedResult": 15570
+      }
+    ]
+  },
+  {
+    "admin": "Falkland Islands",
+    "functionsData": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 685,
+        "maxExpectedResult": 2000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 2
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 28,
+        "maxExpectedResult": 47
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 16
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 1,
+        "maxExpectedResult": 35
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 326
+      }
+    ]
+  },
+  {
+    "admin": "France",
+    "functionsData": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 396115,
+        "maxExpectedResult": 458660
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 2439,
+        "maxExpectedResult": 3965
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 257899,
+        "maxExpectedResult": 419087
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 77,
+        "maxExpectedResult": 80
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 240
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 4
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 398
+      }
+    ]
+  },
+  {
+    "admin": "Faroe Islands",
+    "functionsData": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 413,
+        "maxExpectedResult": 2000
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 5
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 5
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 16
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 10
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 42
+      }
+    ]
+  },
+  {
+    "admin": "Gabon",
+    "functionsData": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 5609,
+        "maxExpectedResult": 6496
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 29,
+        "maxExpectedResult": 49
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 192564,
+        "maxExpectedResult": 312917
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 152
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 22
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 1286
+      }
+    ]
+  },
+  {
+    "admin": "United Kingdom",
+    "functionsData": [
+      {
+        "id": "populatedareakm2",
+        "minExpectedResult": 139315,
+        "maxExpectedResult": 161313
+      },
+      {
+        "id": "industrialareakm2",
+        "minExpectedResult": 1274,
+        "maxExpectedResult": 2072
+      },
+      {
+        "id": "forestareakm2",
+        "minExpectedResult": 31229,
+        "maxExpectedResult": 50748
+      },
+      {
+        "id": "volcanoescount",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 3
+      },
+      {
+        "id": "hotspotdaysperyearmax",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 169
+      },
+      {
+        "id": "osmgapspercentage",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 5
+      },
+      {
+        "id": "osmgapssum",
+        "minExpectedResult": 0,
+        "maxExpectedResult": 2326
       }
     ]
   },
@@ -2489,13 +2489,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 91,
-        "maxExpectedResult": 114
+        "minExpectedResult": 73,
+        "maxExpectedResult": 119
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 35779,
-        "maxExpectedResult": 44725
+        "minExpectedResult": 28623,
+        "maxExpectedResult": 46514
       },
       {
         "id": "volcanoescount",
@@ -2505,17 +2505,17 @@
       {
         "id": "hotspotdaysperyearmax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 61
+        "maxExpectedResult": 62
       },
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 9
+        "maxExpectedResult": 12
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 0,
-        "maxExpectedResult": 1773
+        "maxExpectedResult": 2127
       }
     ]
   },
@@ -2524,7 +2524,7 @@
     "functionsData": [
       {
         "id": "populatedareakm2",
-        "minExpectedResult": 92,
+        "minExpectedResult": 74,
         "maxExpectedResult": 2000
       },
       {
@@ -2534,8 +2534,8 @@
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 27,
-        "maxExpectedResult": 35
+        "minExpectedResult": 22,
+        "maxExpectedResult": 37
       },
       {
         "id": "volcanoescount",
@@ -2550,7 +2550,7 @@
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 0
+        "maxExpectedResult": 3
       },
       {
         "id": "osmgapssum",
@@ -2569,13 +2569,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 126,
-        "maxExpectedResult": 159
+        "minExpectedResult": 101,
+        "maxExpectedResult": 165
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 125191,
-        "maxExpectedResult": 156490
+        "minExpectedResult": 100153,
+        "maxExpectedResult": 162749
       },
       {
         "id": "volcanoescount",
@@ -2585,17 +2585,17 @@
       {
         "id": "hotspotdaysperyearmax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 71
+        "maxExpectedResult": 72
       },
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 30,
-        "maxExpectedResult": 61
+        "maxExpectedResult": 64
       },
       {
         "id": "osmgapssum",
-        "minExpectedResult": 36750,
-        "maxExpectedResult": 45939
+        "minExpectedResult": 36745,
+        "maxExpectedResult": 55119
       }
     ]
   },
@@ -2604,7 +2604,7 @@
     "functionsData": [
       {
         "id": "populatedareakm2",
-        "minExpectedResult": 8,
+        "minExpectedResult": 6,
         "maxExpectedResult": 2000
       },
       {
@@ -2630,7 +2630,7 @@
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 0
+        "maxExpectedResult": 3
       },
       {
         "id": "osmgapssum",
@@ -2649,13 +2649,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 47,
-        "maxExpectedResult": 60
+        "minExpectedResult": 38,
+        "maxExpectedResult": 63
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 182370,
-        "maxExpectedResult": 227964
+        "minExpectedResult": 145896,
+        "maxExpectedResult": 237082
       },
       {
         "id": "volcanoescount",
@@ -2670,12 +2670,12 @@
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 30
+        "maxExpectedResult": 33
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 13192,
-        "maxExpectedResult": 16491
+        "maxExpectedResult": 19789
       }
     ]
   },
@@ -2694,8 +2694,8 @@
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 2917,
-        "maxExpectedResult": 3648
+        "minExpectedResult": 2334,
+        "maxExpectedResult": 3794
       },
       {
         "id": "volcanoescount",
@@ -2705,17 +2705,17 @@
       {
         "id": "hotspotdaysperyearmax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 43
+        "maxExpectedResult": 42
       },
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 17
+        "maxExpectedResult": 20
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 0,
-        "maxExpectedResult": 693
+        "maxExpectedResult": 831
       }
     ]
   },
@@ -2734,8 +2734,8 @@
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 25868,
-        "maxExpectedResult": 32337
+        "minExpectedResult": 20695,
+        "maxExpectedResult": 33630
       },
       {
         "id": "volcanoescount",
@@ -2750,12 +2750,12 @@
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 18,
-        "maxExpectedResult": 49
+        "maxExpectedResult": 52
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 0,
-        "maxExpectedResult": 4278
+        "maxExpectedResult": 5134
       }
     ]
   },
@@ -2769,13 +2769,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 16,
-        "maxExpectedResult": 21
+        "minExpectedResult": 13,
+        "maxExpectedResult": 22
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 26186,
-        "maxExpectedResult": 32734
+        "minExpectedResult": 20949,
+        "maxExpectedResult": 34043
       },
       {
         "id": "volcanoescount",
@@ -2790,12 +2790,12 @@
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 27
+        "maxExpectedResult": 30
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 0,
-        "maxExpectedResult": 647
+        "maxExpectedResult": 776
       }
     ]
   },
@@ -2809,13 +2809,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 233,
-        "maxExpectedResult": 293
+        "minExpectedResult": 187,
+        "maxExpectedResult": 305
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 66694,
-        "maxExpectedResult": 83369
+        "minExpectedResult": 53355,
+        "maxExpectedResult": 86704
       },
       {
         "id": "volcanoescount",
@@ -2825,17 +2825,17 @@
       {
         "id": "hotspotdaysperyearmax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 109
+        "maxExpectedResult": 108
       },
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 6
+        "maxExpectedResult": 9
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 0,
-        "maxExpectedResult": 4798
+        "maxExpectedResult": 5747
       }
     ]
   },
@@ -2844,7 +2844,7 @@
     "functionsData": [
       {
         "id": "populatedareakm2",
-        "minExpectedResult": 308,
+        "minExpectedResult": 246,
         "maxExpectedResult": 2000
       },
       {
@@ -2854,8 +2854,8 @@
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 287,
-        "maxExpectedResult": 360
+        "minExpectedResult": 229,
+        "maxExpectedResult": 374
       },
       {
         "id": "volcanoescount",
@@ -2870,7 +2870,7 @@
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 1
+        "maxExpectedResult": 4
       },
       {
         "id": "osmgapssum",
@@ -2884,7 +2884,7 @@
     "functionsData": [
       {
         "id": "populatedareakm2",
-        "minExpectedResult": 499,
+        "minExpectedResult": 399,
         "maxExpectedResult": 2000
       },
       {
@@ -2894,8 +2894,8 @@
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 1045,
-        "maxExpectedResult": 1308
+        "minExpectedResult": 836,
+        "maxExpectedResult": 1360
       },
       {
         "id": "volcanoescount",
@@ -2910,12 +2910,12 @@
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 4
+        "maxExpectedResult": 7
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 0,
-        "maxExpectedResult": 20
+        "maxExpectedResult": 23
       }
     ]
   },
@@ -2929,13 +2929,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 38,
-        "maxExpectedResult": 49
+        "minExpectedResult": 30,
+        "maxExpectedResult": 51
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 69355,
-        "maxExpectedResult": 86695
+        "minExpectedResult": 55484,
+        "maxExpectedResult": 90162
       },
       {
         "id": "volcanoescount",
@@ -2945,17 +2945,17 @@
       {
         "id": "hotspotdaysperyearmax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 194
+        "maxExpectedResult": 188
       },
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 7
+        "maxExpectedResult": 10
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 0,
-        "maxExpectedResult": 4069
+        "maxExpectedResult": 4881
       }
     ]
   },
@@ -2964,7 +2964,7 @@
     "functionsData": [
       {
         "id": "populatedareakm2",
-        "minExpectedResult": 358,
+        "minExpectedResult": 286,
         "maxExpectedResult": 2000
       },
       {
@@ -2990,7 +2990,7 @@
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 0
+        "maxExpectedResult": 3
       },
       {
         "id": "osmgapssum",
@@ -3009,13 +3009,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 27,
-        "maxExpectedResult": 35
+        "minExpectedResult": 21,
+        "maxExpectedResult": 36
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 79732,
-        "maxExpectedResult": 99666
+        "minExpectedResult": 63785,
+        "maxExpectedResult": 103652
       },
       {
         "id": "volcanoescount",
@@ -3025,17 +3025,17 @@
       {
         "id": "hotspotdaysperyearmax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 71
+        "maxExpectedResult": 70
       },
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 10
+        "maxExpectedResult": 13
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 0,
-        "maxExpectedResult": 4336
+        "maxExpectedResult": 5204
       }
     ]
   },
@@ -3049,13 +3049,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 104,
-        "maxExpectedResult": 131
+        "minExpectedResult": 83,
+        "maxExpectedResult": 137
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 33102,
-        "maxExpectedResult": 41379
+        "minExpectedResult": 26482,
+        "maxExpectedResult": 43034
       },
       {
         "id": "volcanoescount",
@@ -3065,17 +3065,17 @@
       {
         "id": "hotspotdaysperyearmax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 60
+        "maxExpectedResult": 64
       },
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 4
+        "maxExpectedResult": 7
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 0,
-        "maxExpectedResult": 1299
+        "maxExpectedResult": 1547
       }
     ]
   },
@@ -3089,13 +3089,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 10,
+        "minExpectedResult": 8,
         "maxExpectedResult": 14
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 13276,
-        "maxExpectedResult": 16596
+        "minExpectedResult": 10621,
+        "maxExpectedResult": 17260
       },
       {
         "id": "volcanoescount",
@@ -3110,12 +3110,12 @@
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 23
+        "maxExpectedResult": 26
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 0,
-        "maxExpectedResult": 4465
+        "maxExpectedResult": 5357
       }
     ]
   },
@@ -3129,13 +3129,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 599,
-        "maxExpectedResult": 750
+        "minExpectedResult": 479,
+        "maxExpectedResult": 780
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 25035,
-        "maxExpectedResult": 31294
+        "minExpectedResult": 20028,
+        "maxExpectedResult": 32546
       },
       {
         "id": "volcanoescount",
@@ -3145,17 +3145,17 @@
       {
         "id": "hotspotdaysperyearmax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 74
+        "maxExpectedResult": 75
       },
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 2
+        "maxExpectedResult": 5
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 0,
-        "maxExpectedResult": 557
+        "maxExpectedResult": 668
       }
     ]
   },
@@ -3164,7 +3164,7 @@
     "functionsData": [
       {
         "id": "populatedareakm2",
-        "minExpectedResult": 371,
+        "minExpectedResult": 296,
         "maxExpectedResult": 2000
       },
       {
@@ -3174,8 +3174,8 @@
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 163,
-        "maxExpectedResult": 205
+        "minExpectedResult": 130,
+        "maxExpectedResult": 213
       },
       {
         "id": "volcanoescount",
@@ -3190,7 +3190,7 @@
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 0
+        "maxExpectedResult": 3
       },
       {
         "id": "osmgapssum",
@@ -3209,13 +3209,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 6057,
-        "maxExpectedResult": 7573
+        "minExpectedResult": 4845,
+        "maxExpectedResult": 7875
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 781084,
-        "maxExpectedResult": 976356
+        "minExpectedResult": 624867,
+        "maxExpectedResult": 1015410
       },
       {
         "id": "volcanoescount",
@@ -3225,17 +3225,17 @@
       {
         "id": "hotspotdaysperyearmax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 279
+        "maxExpectedResult": 280
       },
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 7,
-        "maxExpectedResult": 38
+        "maxExpectedResult": 41
       },
       {
         "id": "osmgapssum",
-        "minExpectedResult": 465398,
-        "maxExpectedResult": 581749
+        "minExpectedResult": 465170,
+        "maxExpectedResult": 697756
       }
     ]
   },
@@ -3249,13 +3249,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 139,
-        "maxExpectedResult": 175
+        "minExpectedResult": 111,
+        "maxExpectedResult": 182
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 9087,
-        "maxExpectedResult": 11360
+        "minExpectedResult": 7270,
+        "maxExpectedResult": 11815
       },
       {
         "id": "volcanoescount",
@@ -3265,17 +3265,17 @@
       {
         "id": "hotspotdaysperyearmax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 84
+        "maxExpectedResult": 87
       },
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 1
+        "maxExpectedResult": 4
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 0,
-        "maxExpectedResult": 300
+        "maxExpectedResult": 360
       }
     ]
   },
@@ -3289,13 +3289,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 1094,
-        "maxExpectedResult": 1369
+        "minExpectedResult": 875,
+        "maxExpectedResult": 1424
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 3657,
-        "maxExpectedResult": 4572
+        "minExpectedResult": 2926,
+        "maxExpectedResult": 4755
       },
       {
         "id": "volcanoescount",
@@ -3305,17 +3305,17 @@
       {
         "id": "hotspotdaysperyearmax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 296
+        "maxExpectedResult": 297
       },
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 14,
-        "maxExpectedResult": 45
+        "maxExpectedResult": 48
       },
       {
         "id": "osmgapssum",
-        "minExpectedResult": 28751,
-        "maxExpectedResult": 35940
+        "minExpectedResult": 28749,
+        "maxExpectedResult": 43125
       }
     ]
   },
@@ -3329,13 +3329,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 25,
-        "maxExpectedResult": 33
+        "minExpectedResult": 20,
+        "maxExpectedResult": 34
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 321,
-        "maxExpectedResult": 402
+        "minExpectedResult": 256,
+        "maxExpectedResult": 418
       },
       {
         "id": "volcanoescount",
@@ -3350,12 +3350,12 @@
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 29
+        "maxExpectedResult": 32
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 0,
-        "maxExpectedResult": 4022
+        "maxExpectedResult": 4826
       }
     ]
   },
@@ -3369,13 +3369,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 206,
-        "maxExpectedResult": 258
+        "minExpectedResult": 164,
+        "maxExpectedResult": 268
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 701,
-        "maxExpectedResult": 878
+        "minExpectedResult": 561,
+        "maxExpectedResult": 913
       },
       {
         "id": "volcanoescount",
@@ -3385,17 +3385,17 @@
       {
         "id": "hotspotdaysperyearmax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 198
+        "maxExpectedResult": 201
       },
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 5
+        "maxExpectedResult": 8
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 0,
-        "maxExpectedResult": 421
+        "maxExpectedResult": 505
       }
     ]
   },
@@ -3409,13 +3409,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 2333,
-        "maxExpectedResult": 2918
+        "minExpectedResult": 1867,
+        "maxExpectedResult": 3035
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 135772,
-        "maxExpectedResult": 169717
+        "minExpectedResult": 108618,
+        "maxExpectedResult": 176505
       },
       {
         "id": "volcanoescount",
@@ -3425,17 +3425,17 @@
       {
         "id": "hotspotdaysperyearmax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 213
+        "maxExpectedResult": 215
       },
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 2
+        "maxExpectedResult": 5
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 0,
-        "maxExpectedResult": 2893
+        "maxExpectedResult": 3471
       }
     ]
   },
@@ -3449,13 +3449,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 16,
-        "maxExpectedResult": 21
+        "minExpectedResult": 13,
+        "maxExpectedResult": 22
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 8893,
-        "maxExpectedResult": 11118
+        "minExpectedResult": 7115,
+        "maxExpectedResult": 11563
       },
       {
         "id": "volcanoescount",
@@ -3470,12 +3470,12 @@
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 3
+        "maxExpectedResult": 6
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 0,
-        "maxExpectedResult": 227
+        "maxExpectedResult": 272
       }
     ]
   },
@@ -3484,7 +3484,7 @@
     "functionsData": [
       {
         "id": "populatedareakm2",
-        "minExpectedResult": 124,
+        "minExpectedResult": 99,
         "maxExpectedResult": 2000
       },
       {
@@ -3494,8 +3494,8 @@
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 39,
-        "maxExpectedResult": 50
+        "minExpectedResult": 31,
+        "maxExpectedResult": 52
       },
       {
         "id": "volcanoescount",
@@ -3510,7 +3510,7 @@
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 0
+        "maxExpectedResult": 3
       },
       {
         "id": "osmgapssum",
@@ -3529,13 +3529,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 90,
-        "maxExpectedResult": 114
+        "minExpectedResult": 72,
+        "maxExpectedResult": 119
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 210,
-        "maxExpectedResult": 263
+        "minExpectedResult": 168,
+        "maxExpectedResult": 274
       },
       {
         "id": "volcanoescount",
@@ -3545,17 +3545,17 @@
       {
         "id": "hotspotdaysperyearmax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 117
+        "maxExpectedResult": 118
       },
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 25
+        "maxExpectedResult": 28
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 0,
-        "maxExpectedResult": 3441
+        "maxExpectedResult": 4129
       }
     ]
   },
@@ -3569,13 +3569,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 1658,
-        "maxExpectedResult": 2073
+        "minExpectedResult": 1325,
+        "maxExpectedResult": 2155
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 43395,
-        "maxExpectedResult": 54245
+        "minExpectedResult": 34716,
+        "maxExpectedResult": 56415
       },
       {
         "id": "volcanoescount",
@@ -3585,17 +3585,17 @@
       {
         "id": "hotspotdaysperyearmax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 221
+        "maxExpectedResult": 219
       },
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 27,
-        "maxExpectedResult": 58
+        "maxExpectedResult": 61
       },
       {
         "id": "osmgapssum",
-        "minExpectedResult": 70386,
-        "maxExpectedResult": 87983
+        "minExpectedResult": 70367,
+        "maxExpectedResult": 105551
       }
     ]
   },
@@ -3609,13 +3609,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 105,
-        "maxExpectedResult": 133
+        "minExpectedResult": 84,
+        "maxExpectedResult": 138
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 75298,
-        "maxExpectedResult": 94124
+        "minExpectedResult": 60238,
+        "maxExpectedResult": 97889
       },
       {
         "id": "volcanoescount",
@@ -3625,17 +3625,17 @@
       {
         "id": "hotspotdaysperyearmax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 134
+        "maxExpectedResult": 137
       },
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 8,
-        "maxExpectedResult": 39
+        "maxExpectedResult": 42
       },
       {
         "id": "osmgapssum",
-        "minExpectedResult": 56229,
-        "maxExpectedResult": 70287
+        "minExpectedResult": 56226,
+        "maxExpectedResult": 84340
       }
     ]
   },
@@ -3649,13 +3649,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 105,
-        "maxExpectedResult": 132
+        "minExpectedResult": 84,
+        "maxExpectedResult": 137
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 8428,
-        "maxExpectedResult": 10536
+        "minExpectedResult": 6742,
+        "maxExpectedResult": 10958
       },
       {
         "id": "volcanoescount",
@@ -3665,17 +3665,17 @@
       {
         "id": "hotspotdaysperyearmax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 207
+        "maxExpectedResult": 206
       },
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 30,
-        "maxExpectedResult": 61
+        "maxExpectedResult": 64
       },
       {
         "id": "osmgapssum",
-        "minExpectedResult": 26981,
-        "maxExpectedResult": 33727
+        "minExpectedResult": 26979,
+        "maxExpectedResult": 40470
       }
     ]
   },
@@ -3684,7 +3684,7 @@
     "functionsData": [
       {
         "id": "populatedareakm2",
-        "minExpectedResult": 197,
+        "minExpectedResult": 157,
         "maxExpectedResult": 2000
       },
       {
@@ -3694,8 +3694,8 @@
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 187,
-        "maxExpectedResult": 235
+        "minExpectedResult": 149,
+        "maxExpectedResult": 244
       },
       {
         "id": "volcanoescount",
@@ -3710,12 +3710,12 @@
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 4
+        "maxExpectedResult": 7
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 0,
-        "maxExpectedResult": 7
+        "maxExpectedResult": 8
       }
     ]
   },
@@ -3729,13 +3729,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 1943,
-        "maxExpectedResult": 2430
+        "minExpectedResult": 1554,
+        "maxExpectedResult": 2527
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 26,
-        "maxExpectedResult": 34
+        "minExpectedResult": 21,
+        "maxExpectedResult": 35
       },
       {
         "id": "volcanoescount",
@@ -3750,12 +3750,12 @@
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 17,
-        "maxExpectedResult": 48
+        "maxExpectedResult": 51
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 0,
-        "maxExpectedResult": 3260
+        "maxExpectedResult": 3912
       }
     ]
   },
@@ -3769,13 +3769,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 29,
-        "maxExpectedResult": 37
+        "minExpectedResult": 23,
+        "maxExpectedResult": 39
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 1873,
-        "maxExpectedResult": 2343
+        "minExpectedResult": 1499,
+        "maxExpectedResult": 2437
       },
       {
         "id": "volcanoescount",
@@ -3785,17 +3785,17 @@
       {
         "id": "hotspotdaysperyearmax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 22
+        "maxExpectedResult": 23
       },
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 8
+        "maxExpectedResult": 11
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 0,
-        "maxExpectedResult": 638
+        "maxExpectedResult": 766
       }
     ]
   },
@@ -3809,13 +3809,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 10,
+        "minExpectedResult": 8,
         "maxExpectedResult": 14
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 94153,
-        "maxExpectedResult": 117693
+        "minExpectedResult": 75323,
+        "maxExpectedResult": 122401
       },
       {
         "id": "volcanoescount",
@@ -3830,12 +3830,12 @@
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 8
+        "maxExpectedResult": 11
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 0,
-        "maxExpectedResult": 1793
+        "maxExpectedResult": 2152
       }
     ]
   },
@@ -3849,13 +3849,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 327,
-        "maxExpectedResult": 410
+        "minExpectedResult": 262,
+        "maxExpectedResult": 426
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 2212,
-        "maxExpectedResult": 2766
+        "minExpectedResult": 1769,
+        "maxExpectedResult": 2876
       },
       {
         "id": "volcanoescount",
@@ -3870,12 +3870,12 @@
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 7,
-        "maxExpectedResult": 38
+        "maxExpectedResult": 41
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 15003,
-        "maxExpectedResult": 18755
+        "maxExpectedResult": 22506
       }
     ]
   },
@@ -3884,7 +3884,7 @@
     "functionsData": [
       {
         "id": "populatedareakm2",
-        "minExpectedResult": 479,
+        "minExpectedResult": 383,
         "maxExpectedResult": 2000
       },
       {
@@ -3894,8 +3894,8 @@
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 521,
-        "maxExpectedResult": 653
+        "minExpectedResult": 417,
+        "maxExpectedResult": 679
       },
       {
         "id": "volcanoescount",
@@ -3910,12 +3910,12 @@
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 2
+        "maxExpectedResult": 5
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 0,
-        "maxExpectedResult": 8
+        "maxExpectedResult": 10
       }
     ]
   },
@@ -3924,7 +3924,7 @@
     "functionsData": [
       {
         "id": "populatedareakm2",
-        "minExpectedResult": 136,
+        "minExpectedResult": 109,
         "maxExpectedResult": 2000
       },
       {
@@ -3934,8 +3934,8 @@
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 100,
-        "maxExpectedResult": 127
+        "minExpectedResult": 80,
+        "maxExpectedResult": 132
       },
       {
         "id": "volcanoescount",
@@ -3950,7 +3950,7 @@
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 0
+        "maxExpectedResult": 3
       },
       {
         "id": "osmgapssum",
@@ -3969,13 +3969,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 50,
-        "maxExpectedResult": 63
+        "minExpectedResult": 40,
+        "maxExpectedResult": 66
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 51116,
-        "maxExpectedResult": 63896
+        "minExpectedResult": 40893,
+        "maxExpectedResult": 66452
       },
       {
         "id": "volcanoescount",
@@ -3985,17 +3985,17 @@
       {
         "id": "hotspotdaysperyearmax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 80
+        "maxExpectedResult": 82
       },
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 8
+        "maxExpectedResult": 11
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 0,
-        "maxExpectedResult": 2774
+        "maxExpectedResult": 3329
       }
     ]
   },
@@ -4009,13 +4009,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 7,
-        "maxExpectedResult": 9
+        "minExpectedResult": 5,
+        "maxExpectedResult": 10
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 131,
-        "maxExpectedResult": 165
+        "minExpectedResult": 105,
+        "maxExpectedResult": 171
       },
       {
         "id": "volcanoescount",
@@ -4030,12 +4030,12 @@
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 1
+        "maxExpectedResult": 4
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 0,
-        "maxExpectedResult": 160
+        "maxExpectedResult": 192
       }
     ]
   },
@@ -4049,13 +4049,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 336,
-        "maxExpectedResult": 421
+        "minExpectedResult": 269,
+        "maxExpectedResult": 439
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 29237,
-        "maxExpectedResult": 36547
+        "minExpectedResult": 23389,
+        "maxExpectedResult": 38009
       },
       {
         "id": "volcanoescount",
@@ -4065,17 +4065,17 @@
       {
         "id": "hotspotdaysperyearmax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 29
+        "maxExpectedResult": 30
       },
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 1
+        "maxExpectedResult": 4
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 0,
-        "maxExpectedResult": 297
+        "maxExpectedResult": 356
       }
     ]
   },
@@ -4089,13 +4089,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 23,
-        "maxExpectedResult": 30
+        "minExpectedResult": 18,
+        "maxExpectedResult": 31
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 1414,
-        "maxExpectedResult": 1769
+        "minExpectedResult": 1131,
+        "maxExpectedResult": 1840
       },
       {
         "id": "volcanoescount",
@@ -4105,12 +4105,12 @@
       {
         "id": "hotspotdaysperyearmax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 146
+        "maxExpectedResult": 148
       },
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 0
+        "maxExpectedResult": 3
       },
       {
         "id": "osmgapssum",
@@ -4129,13 +4129,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 122,
-        "maxExpectedResult": 154
+        "minExpectedResult": 98,
+        "maxExpectedResult": 160
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 43930,
-        "maxExpectedResult": 54914
+        "minExpectedResult": 35144,
+        "maxExpectedResult": 57111
       },
       {
         "id": "volcanoescount",
@@ -4150,12 +4150,12 @@
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 4
+        "maxExpectedResult": 7
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 0,
-        "maxExpectedResult": 1169
+        "maxExpectedResult": 1403
       }
     ]
   },
@@ -4169,13 +4169,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 322,
-        "maxExpectedResult": 403
+        "minExpectedResult": 257,
+        "maxExpectedResult": 419
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 29822,
-        "maxExpectedResult": 37279
+        "minExpectedResult": 23858,
+        "maxExpectedResult": 38770
       },
       {
         "id": "volcanoescount",
@@ -4185,17 +4185,17 @@
       {
         "id": "hotspotdaysperyearmax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 132
+        "maxExpectedResult": 135
       },
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 17
+        "maxExpectedResult": 20
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 10506,
-        "maxExpectedResult": 13133
+        "maxExpectedResult": 15760
       }
     ]
   },
@@ -4204,7 +4204,7 @@
     "functionsData": [
       {
         "id": "populatedareakm2",
-        "minExpectedResult": 27,
+        "minExpectedResult": 21,
         "maxExpectedResult": 2000
       },
       {
@@ -4214,7 +4214,7 @@
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 10,
+        "minExpectedResult": 8,
         "maxExpectedResult": 14
       },
       {
@@ -4230,7 +4230,7 @@
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 0
+        "maxExpectedResult": 3
       },
       {
         "id": "osmgapssum",
@@ -4249,13 +4249,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 97,
-        "maxExpectedResult": 123
+        "minExpectedResult": 78,
+        "maxExpectedResult": 128
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 4290,
-        "maxExpectedResult": 5364
+        "minExpectedResult": 3432,
+        "maxExpectedResult": 5578
       },
       {
         "id": "volcanoescount",
@@ -4265,17 +4265,17 @@
       {
         "id": "hotspotdaysperyearmax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 108
+        "maxExpectedResult": 110
       },
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 6
+        "maxExpectedResult": 9
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 0,
-        "maxExpectedResult": 834
+        "maxExpectedResult": 1001
       }
     ]
   },
@@ -4289,13 +4289,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 12,
+        "minExpectedResult": 9,
         "maxExpectedResult": 16
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 191955,
-        "maxExpectedResult": 239945
+        "minExpectedResult": 153564,
+        "maxExpectedResult": 249543
       },
       {
         "id": "volcanoescount",
@@ -4305,17 +4305,17 @@
       {
         "id": "hotspotdaysperyearmax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 37
+        "maxExpectedResult": 36
       },
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 15,
-        "maxExpectedResult": 46
+        "maxExpectedResult": 49
       },
       {
         "id": "osmgapssum",
-        "minExpectedResult": 84971,
-        "maxExpectedResult": 106214
+        "minExpectedResult": 84951,
+        "maxExpectedResult": 127427
       }
     ]
   },
@@ -4324,13 +4324,13 @@
     "functionsData": [
       {
         "id": "populatedareakm2",
-        "minExpectedResult": 67,
+        "minExpectedResult": 54,
         "maxExpectedResult": 2000
       },
       {
         "id": "industrialareakm2",
         "minExpectedResult": 0,
-        "maxExpectedResult": 5
+        "maxExpectedResult": 6
       },
       {
         "id": "forestareakm2",
@@ -4350,7 +4350,7 @@
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 3
+        "maxExpectedResult": 6
       },
       {
         "id": "osmgapssum",
@@ -4369,13 +4369,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 1266,
-        "maxExpectedResult": 1583
+        "minExpectedResult": 1013,
+        "maxExpectedResult": 1648
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 736223,
-        "maxExpectedResult": 920279
+        "minExpectedResult": 588978,
+        "maxExpectedResult": 957090
       },
       {
         "id": "volcanoescount",
@@ -4385,17 +4385,17 @@
       {
         "id": "hotspotdaysperyearmax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 279
+        "maxExpectedResult": 278
       },
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 1,
-        "maxExpectedResult": 32
+        "maxExpectedResult": 35
       },
       {
         "id": "osmgapssum",
-        "minExpectedResult": 97804,
-        "maxExpectedResult": 122256
+        "minExpectedResult": 97801,
+        "maxExpectedResult": 146703
       }
     ]
   },
@@ -4409,13 +4409,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 50,
-        "maxExpectedResult": 63
+        "minExpectedResult": 40,
+        "maxExpectedResult": 66
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 13975,
-        "maxExpectedResult": 17470
+        "minExpectedResult": 11180,
+        "maxExpectedResult": 18169
       },
       {
         "id": "volcanoescount",
@@ -4430,12 +4430,12 @@
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 23
+        "maxExpectedResult": 26
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 0,
-        "maxExpectedResult": 2339
+        "maxExpectedResult": 2806
       }
     ]
   },
@@ -4449,13 +4449,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 82,
-        "maxExpectedResult": 103
+        "minExpectedResult": 65,
+        "maxExpectedResult": 107
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 66940,
-        "maxExpectedResult": 83676
+        "minExpectedResult": 53552,
+        "maxExpectedResult": 87023
       },
       {
         "id": "volcanoescount",
@@ -4465,17 +4465,17 @@
       {
         "id": "hotspotdaysperyearmax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 150
+        "maxExpectedResult": 149
       },
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 6,
-        "maxExpectedResult": 37
+        "maxExpectedResult": 40
       },
       {
         "id": "osmgapssum",
-        "minExpectedResult": 25636,
-        "maxExpectedResult": 32046
+        "minExpectedResult": 25634,
+        "maxExpectedResult": 38453
       }
     ]
   },
@@ -4484,18 +4484,18 @@
     "functionsData": [
       {
         "id": "populatedareakm2",
-        "minExpectedResult": 353,
+        "minExpectedResult": 282,
         "maxExpectedResult": 2000
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 6,
-        "maxExpectedResult": 8
+        "minExpectedResult": 5,
+        "maxExpectedResult": 9
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 5,
-        "maxExpectedResult": 7
+        "minExpectedResult": 4,
+        "maxExpectedResult": 8
       },
       {
         "id": "volcanoescount",
@@ -4510,12 +4510,12 @@
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 1
+        "maxExpectedResult": 4
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 0,
-        "maxExpectedResult": 1
+        "maxExpectedResult": 2
       }
     ]
   },
@@ -4529,13 +4529,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 10,
+        "minExpectedResult": 8,
         "maxExpectedResult": 14
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 8540,
-        "maxExpectedResult": 10676
+        "minExpectedResult": 6832,
+        "maxExpectedResult": 11103
       },
       {
         "id": "volcanoescount",
@@ -4550,12 +4550,12 @@
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 5
+        "maxExpectedResult": 8
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 0,
-        "maxExpectedResult": 349
+        "maxExpectedResult": 419
       }
     ]
   },
@@ -4569,13 +4569,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 220,
-        "maxExpectedResult": 276
+        "minExpectedResult": 176,
+        "maxExpectedResult": 287
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 99106,
-        "maxExpectedResult": 123884
+        "minExpectedResult": 79285,
+        "maxExpectedResult": 128839
       },
       {
         "id": "volcanoescount",
@@ -4585,17 +4585,17 @@
       {
         "id": "hotspotdaysperyearmax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 72
+        "maxExpectedResult": 77
       },
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 58,
-        "maxExpectedResult": 89
+        "maxExpectedResult": 92
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 61935,
-        "maxExpectedResult": 77420
+        "maxExpectedResult": 92903
       }
     ]
   },
@@ -4604,7 +4604,7 @@
     "functionsData": [
       {
         "id": "populatedareakm2",
-        "minExpectedResult": 206,
+        "minExpectedResult": 165,
         "maxExpectedResult": 2000
       },
       {
@@ -4630,7 +4630,7 @@
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 1
+        "maxExpectedResult": 4
       },
       {
         "id": "osmgapssum",
@@ -4649,13 +4649,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 123,
-        "maxExpectedResult": 155
+        "minExpectedResult": 99,
+        "maxExpectedResult": 162
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 599045,
-        "maxExpectedResult": 748807
+        "minExpectedResult": 479236,
+        "maxExpectedResult": 778759
       },
       {
         "id": "volcanoescount",
@@ -4670,12 +4670,12 @@
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 20,
-        "maxExpectedResult": 51
+        "maxExpectedResult": 54
       },
       {
         "id": "osmgapssum",
-        "minExpectedResult": 105118,
-        "maxExpectedResult": 131399
+        "minExpectedResult": 105022,
+        "maxExpectedResult": 157534
       }
     ]
   },
@@ -4689,13 +4689,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 150,
-        "maxExpectedResult": 188
+        "minExpectedResult": 120,
+        "maxExpectedResult": 196
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 506,
-        "maxExpectedResult": 634
+        "minExpectedResult": 405,
+        "maxExpectedResult": 659
       },
       {
         "id": "volcanoescount",
@@ -4710,12 +4710,12 @@
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 41,
-        "maxExpectedResult": 72
+        "maxExpectedResult": 75
       },
       {
         "id": "osmgapssum",
-        "minExpectedResult": 15868,
-        "maxExpectedResult": 19836
+        "minExpectedResult": 15867,
+        "maxExpectedResult": 23802
       }
     ]
   },
@@ -4724,7 +4724,7 @@
     "functionsData": [
       {
         "id": "populatedareakm2",
-        "minExpectedResult": 50,
+        "minExpectedResult": 40,
         "maxExpectedResult": 2000
       },
       {
@@ -4734,8 +4734,8 @@
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 70,
-        "maxExpectedResult": 88
+        "minExpectedResult": 56,
+        "maxExpectedResult": 92
       },
       {
         "id": "volcanoescount",
@@ -4750,7 +4750,7 @@
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 0
+        "maxExpectedResult": 3
       },
       {
         "id": "osmgapssum",
@@ -4769,13 +4769,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 7,
+        "minExpectedResult": 6,
         "maxExpectedResult": 10
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 745,
-        "maxExpectedResult": 933
+        "minExpectedResult": 596,
+        "maxExpectedResult": 970
       },
       {
         "id": "volcanoescount",
@@ -4790,12 +4790,12 @@
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 2
+        "maxExpectedResult": 5
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 0,
-        "maxExpectedResult": 27
+        "maxExpectedResult": 32
       }
     ]
   },
@@ -4809,13 +4809,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 27,
-        "maxExpectedResult": 35
+        "minExpectedResult": 21,
+        "maxExpectedResult": 36
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 42269,
-        "maxExpectedResult": 52837
+        "minExpectedResult": 33815,
+        "maxExpectedResult": 54950
       },
       {
         "id": "volcanoescount",
@@ -4825,17 +4825,17 @@
       {
         "id": "hotspotdaysperyearmax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 35
+        "maxExpectedResult": 34
       },
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 20
+        "maxExpectedResult": 23
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 10608,
-        "maxExpectedResult": 13261
+        "maxExpectedResult": 15913
       }
     ]
   },
@@ -4849,13 +4849,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 60,
-        "maxExpectedResult": 76
+        "minExpectedResult": 48,
+        "maxExpectedResult": 79
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 47143,
-        "maxExpectedResult": 58929
+        "minExpectedResult": 37714,
+        "maxExpectedResult": 61286
       },
       {
         "id": "volcanoescount",
@@ -4865,17 +4865,17 @@
       {
         "id": "hotspotdaysperyearmax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 150
+        "maxExpectedResult": 148
       },
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 32,
-        "maxExpectedResult": 63
+        "maxExpectedResult": 66
       },
       {
         "id": "osmgapssum",
-        "minExpectedResult": 28613,
-        "maxExpectedResult": 35768
+        "minExpectedResult": 28611,
+        "maxExpectedResult": 42918
       }
     ]
   },
@@ -4889,13 +4889,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 29,
-        "maxExpectedResult": 38
+        "minExpectedResult": 23,
+        "maxExpectedResult": 39
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 1130,
-        "maxExpectedResult": 1414
+        "minExpectedResult": 904,
+        "maxExpectedResult": 1471
       },
       {
         "id": "volcanoescount",
@@ -4910,12 +4910,12 @@
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 20,
-        "maxExpectedResult": 51
+        "maxExpectedResult": 54
       },
       {
         "id": "osmgapssum",
-        "minExpectedResult": 35394,
-        "maxExpectedResult": 44243
+        "minExpectedResult": 35392,
+        "maxExpectedResult": 53089
       }
     ]
   },
@@ -4929,13 +4929,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 252,
-        "maxExpectedResult": 316
+        "minExpectedResult": 201,
+        "maxExpectedResult": 328
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 296283,
-        "maxExpectedResult": 370355
+        "minExpectedResult": 237026,
+        "maxExpectedResult": 385169
       },
       {
         "id": "volcanoescount",
@@ -4945,17 +4945,17 @@
       {
         "id": "hotspotdaysperyearmax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 219
+        "maxExpectedResult": 220
       },
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 22,
-        "maxExpectedResult": 53
+        "maxExpectedResult": 56
       },
       {
         "id": "osmgapssum",
-        "minExpectedResult": 180982,
-        "maxExpectedResult": 226229
+        "minExpectedResult": 180975,
+        "maxExpectedResult": 271463
       }
     ]
   },
@@ -4969,13 +4969,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 42,
-        "maxExpectedResult": 54
+        "minExpectedResult": 34,
+        "maxExpectedResult": 56
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 61785,
-        "maxExpectedResult": 77232
+        "minExpectedResult": 49428,
+        "maxExpectedResult": 80322
       },
       {
         "id": "volcanoescount",
@@ -4990,12 +4990,12 @@
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 30
+        "maxExpectedResult": 33
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 0,
-        "maxExpectedResult": 9931
+        "maxExpectedResult": 11913
       }
     ]
   },
@@ -5009,13 +5009,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 952,
-        "maxExpectedResult": 1192
+        "minExpectedResult": 762,
+        "maxExpectedResult": 1239
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 8583,
-        "maxExpectedResult": 10729
+        "minExpectedResult": 6866,
+        "maxExpectedResult": 11158
       },
       {
         "id": "volcanoescount",
@@ -5025,17 +5025,17 @@
       {
         "id": "hotspotdaysperyearmax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 226
+        "maxExpectedResult": 227
       },
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 1
+        "maxExpectedResult": 4
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 0,
-        "maxExpectedResult": 3
+        "maxExpectedResult": 4
       }
     ]
   },
@@ -5049,13 +5049,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 179,
-        "maxExpectedResult": 225
+        "minExpectedResult": 143,
+        "maxExpectedResult": 234
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 131476,
-        "maxExpectedResult": 164346
+        "minExpectedResult": 105181,
+        "maxExpectedResult": 170920
       },
       {
         "id": "volcanoescount",
@@ -5065,17 +5065,17 @@
       {
         "id": "hotspotdaysperyearmax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 120
+        "maxExpectedResult": 119
       },
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 1
+        "maxExpectedResult": 4
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 0,
-        "maxExpectedResult": 322
+        "maxExpectedResult": 386
       }
     ]
   },
@@ -5089,13 +5089,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 47,
-        "maxExpectedResult": 60
+        "minExpectedResult": 38,
+        "maxExpectedResult": 63
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 82053,
-        "maxExpectedResult": 102567
+        "minExpectedResult": 65642,
+        "maxExpectedResult": 106670
       },
       {
         "id": "volcanoescount",
@@ -5105,17 +5105,17 @@
       {
         "id": "hotspotdaysperyearmax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 53
+        "maxExpectedResult": 50
       },
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 3
+        "maxExpectedResult": 6
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 0,
-        "maxExpectedResult": 1992
+        "maxExpectedResult": 2389
       }
     ]
   },
@@ -5129,13 +5129,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 426,
-        "maxExpectedResult": 534
+        "minExpectedResult": 341,
+        "maxExpectedResult": 555
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 672,
-        "maxExpectedResult": 841
+        "minExpectedResult": 538,
+        "maxExpectedResult": 875
       },
       {
         "id": "volcanoescount",
@@ -5145,17 +5145,17 @@
       {
         "id": "hotspotdaysperyearmax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 300
+        "maxExpectedResult": 303
       },
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 16,
-        "maxExpectedResult": 47
+        "maxExpectedResult": 50
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 0,
-        "maxExpectedResult": 9391
+        "maxExpectedResult": 11267
       }
     ]
   },
@@ -5169,13 +5169,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 400,
-        "maxExpectedResult": 501
+        "minExpectedResult": 320,
+        "maxExpectedResult": 521
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 44232,
-        "maxExpectedResult": 55291
+        "minExpectedResult": 35385,
+        "maxExpectedResult": 57502
       },
       {
         "id": "volcanoescount",
@@ -5185,17 +5185,17 @@
       {
         "id": "hotspotdaysperyearmax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 234
+        "maxExpectedResult": 231
       },
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 24,
-        "maxExpectedResult": 55
+        "maxExpectedResult": 58
       },
       {
         "id": "osmgapssum",
-        "minExpectedResult": 130062,
-        "maxExpectedResult": 162579
+        "minExpectedResult": 130045,
+        "maxExpectedResult": 195069
       }
     ]
   },
@@ -5209,13 +5209,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 80,
-        "maxExpectedResult": 102
+        "minExpectedResult": 64,
+        "maxExpectedResult": 106
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 54277,
-        "maxExpectedResult": 67848
+        "minExpectedResult": 43422,
+        "maxExpectedResult": 70561
       },
       {
         "id": "volcanoescount",
@@ -5225,17 +5225,17 @@
       {
         "id": "hotspotdaysperyearmax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 56
+        "maxExpectedResult": 57
       },
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 10,
-        "maxExpectedResult": 41
+        "maxExpectedResult": 44
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 0,
-        "maxExpectedResult": 9943
+        "maxExpectedResult": 11932
       }
     ]
   },
@@ -5249,13 +5249,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 288,
-        "maxExpectedResult": 362
+        "minExpectedResult": 231,
+        "maxExpectedResult": 376
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 16,
-        "maxExpectedResult": 21
+        "minExpectedResult": 13,
+        "maxExpectedResult": 22
       },
       {
         "id": "volcanoescount",
@@ -5265,17 +5265,17 @@
       {
         "id": "hotspotdaysperyearmax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 285
+        "maxExpectedResult": 287
       },
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 20
+        "maxExpectedResult": 23
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 0,
-        "maxExpectedResult": 977
+        "maxExpectedResult": 1173
       }
     ]
   },
@@ -5289,13 +5289,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 1111,
-        "maxExpectedResult": 1390
+        "minExpectedResult": 888,
+        "maxExpectedResult": 1445
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 100794,
-        "maxExpectedResult": 125993
+        "minExpectedResult": 80635,
+        "maxExpectedResult": 131033
       },
       {
         "id": "volcanoescount",
@@ -5305,17 +5305,17 @@
       {
         "id": "hotspotdaysperyearmax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 130
+        "maxExpectedResult": 133
       },
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 12
+        "maxExpectedResult": 15
       },
       {
         "id": "osmgapssum",
-        "minExpectedResult": 9782,
-        "maxExpectedResult": 12229
+        "minExpectedResult": 9779,
+        "maxExpectedResult": 14669
       }
     ]
   },
@@ -5334,8 +5334,8 @@
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 5675,
-        "maxExpectedResult": 7095
+        "minExpectedResult": 4540,
+        "maxExpectedResult": 7378
       },
       {
         "id": "volcanoescount",
@@ -5350,12 +5350,12 @@
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 7
+        "maxExpectedResult": 10
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 0,
-        "maxExpectedResult": 1400
+        "maxExpectedResult": 1680
       }
     ]
   },
@@ -5369,13 +5369,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 1910,
-        "maxExpectedResult": 2388
+        "minExpectedResult": 1528,
+        "maxExpectedResult": 2484
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 1676,
-        "maxExpectedResult": 2096
+        "minExpectedResult": 1341,
+        "maxExpectedResult": 2180
       },
       {
         "id": "volcanoescount",
@@ -5385,17 +5385,17 @@
       {
         "id": "hotspotdaysperyearmax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 294
+        "maxExpectedResult": 297
       },
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 29,
-        "maxExpectedResult": 60
+        "maxExpectedResult": 63
       },
       {
         "id": "osmgapssum",
-        "minExpectedResult": 77563,
-        "maxExpectedResult": 96955
+        "minExpectedResult": 77562,
+        "maxExpectedResult": 116344
       }
     ]
   },
@@ -5409,13 +5409,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 169,
-        "maxExpectedResult": 213
+        "minExpectedResult": 135,
+        "maxExpectedResult": 221
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 54204,
-        "maxExpectedResult": 67756
+        "minExpectedResult": 43363,
+        "maxExpectedResult": 70467
       },
       {
         "id": "volcanoescount",
@@ -5430,12 +5430,12 @@
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 45,
-        "maxExpectedResult": 76
+        "maxExpectedResult": 79
       },
       {
         "id": "osmgapssum",
-        "minExpectedResult": 110111,
-        "maxExpectedResult": 137639
+        "minExpectedResult": 110108,
+        "maxExpectedResult": 165163
       }
     ]
   },
@@ -5449,13 +5449,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 34,
-        "maxExpectedResult": 44
+        "minExpectedResult": 27,
+        "maxExpectedResult": 45
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 241191,
-        "maxExpectedResult": 301490
+        "minExpectedResult": 192953,
+        "maxExpectedResult": 313550
       },
       {
         "id": "volcanoescount",
@@ -5470,12 +5470,12 @@
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 5,
-        "maxExpectedResult": 36
+        "maxExpectedResult": 39
       },
       {
         "id": "osmgapssum",
-        "minExpectedResult": 14161,
-        "maxExpectedResult": 17702
+        "minExpectedResult": 14144,
+        "maxExpectedResult": 21217
       }
     ]
   },
@@ -5489,13 +5489,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 44,
-        "maxExpectedResult": 56
+        "minExpectedResult": 35,
+        "maxExpectedResult": 58
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 41106,
-        "maxExpectedResult": 51383
+        "minExpectedResult": 32884,
+        "maxExpectedResult": 53438
       },
       {
         "id": "volcanoescount",
@@ -5505,17 +5505,17 @@
       {
         "id": "hotspotdaysperyearmax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 215
+        "maxExpectedResult": 216
       },
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 28
+        "maxExpectedResult": 31
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 9874,
-        "maxExpectedResult": 12344
+        "maxExpectedResult": 14813
       }
     ]
   },
@@ -5524,7 +5524,7 @@
     "functionsData": [
       {
         "id": "populatedareakm2",
-        "minExpectedResult": 100,
+        "minExpectedResult": 80,
         "maxExpectedResult": 2000
       },
       {
@@ -5550,7 +5550,7 @@
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 1
+        "maxExpectedResult": 4
       },
       {
         "id": "osmgapssum",
@@ -5569,13 +5569,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 9,
+        "minExpectedResult": 7,
         "maxExpectedResult": 13
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 62951,
-        "maxExpectedResult": 78689
+        "minExpectedResult": 50360,
+        "maxExpectedResult": 81837
       },
       {
         "id": "volcanoescount",
@@ -5585,17 +5585,17 @@
       {
         "id": "hotspotdaysperyearmax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 51
+        "maxExpectedResult": 52
       },
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 29
+        "maxExpectedResult": 32
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 0,
-        "maxExpectedResult": 7122
+        "maxExpectedResult": 8546
       }
     ]
   },
@@ -5609,13 +5609,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 16,
-        "maxExpectedResult": 21
+        "minExpectedResult": 12,
+        "maxExpectedResult": 22
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 10703,
-        "maxExpectedResult": 13380
+        "minExpectedResult": 8562,
+        "maxExpectedResult": 13915
       },
       {
         "id": "volcanoescount",
@@ -5625,17 +5625,17 @@
       {
         "id": "hotspotdaysperyearmax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 43
+        "maxExpectedResult": 42
       },
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 8
+        "maxExpectedResult": 11
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 0,
-        "maxExpectedResult": 1201
+        "maxExpectedResult": 1441
       }
     ]
   },
@@ -5644,18 +5644,18 @@
     "functionsData": [
       {
         "id": "populatedareakm2",
-        "minExpectedResult": 76,
+        "minExpectedResult": 60,
         "maxExpectedResult": 2000
       },
       {
         "id": "industrialareakm2",
         "minExpectedResult": 0,
-        "maxExpectedResult": 2
+        "maxExpectedResult": 3
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 43,
-        "maxExpectedResult": 54
+        "minExpectedResult": 34,
+        "maxExpectedResult": 57
       },
       {
         "id": "volcanoescount",
@@ -5670,7 +5670,7 @@
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 0
+        "maxExpectedResult": 3
       },
       {
         "id": "osmgapssum",
@@ -5694,8 +5694,8 @@
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 26917,
-        "maxExpectedResult": 33647
+        "minExpectedResult": 21533,
+        "maxExpectedResult": 34993
       },
       {
         "id": "volcanoescount",
@@ -5705,17 +5705,17 @@
       {
         "id": "hotspotdaysperyearmax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 45
+        "maxExpectedResult": 44
       },
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 16,
-        "maxExpectedResult": 47
+        "maxExpectedResult": 50
       },
       {
         "id": "osmgapssum",
-        "minExpectedResult": 16711,
-        "maxExpectedResult": 20889
+        "minExpectedResult": 16707,
+        "maxExpectedResult": 25062
       }
     ]
   },
@@ -5724,7 +5724,7 @@
     "functionsData": [
       {
         "id": "populatedareakm2",
-        "minExpectedResult": 49,
+        "minExpectedResult": 39,
         "maxExpectedResult": 2000
       },
       {
@@ -5734,8 +5734,8 @@
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 143,
-        "maxExpectedResult": 180
+        "minExpectedResult": 115,
+        "maxExpectedResult": 188
       },
       {
         "id": "volcanoescount",
@@ -5750,7 +5750,7 @@
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 0
+        "maxExpectedResult": 3
       },
       {
         "id": "osmgapssum",
@@ -5769,13 +5769,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 193,
-        "maxExpectedResult": 243
+        "minExpectedResult": 155,
+        "maxExpectedResult": 253
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 40389,
-        "maxExpectedResult": 50487
+        "minExpectedResult": 32311,
+        "maxExpectedResult": 52507
       },
       {
         "id": "volcanoescount",
@@ -5785,17 +5785,17 @@
       {
         "id": "hotspotdaysperyearmax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 136
+        "maxExpectedResult": 139
       },
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 3
+        "maxExpectedResult": 6
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 0,
-        "maxExpectedResult": 1302
+        "maxExpectedResult": 1563
       }
     ]
   },
@@ -5804,18 +5804,18 @@
     "functionsData": [
       {
         "id": "populatedareakm2",
-        "minExpectedResult": 338,
+        "minExpectedResult": 270,
         "maxExpectedResult": 2000
       },
       {
         "id": "industrialareakm2",
         "minExpectedResult": 0,
-        "maxExpectedResult": 2
+        "maxExpectedResult": 3
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 872,
-        "maxExpectedResult": 1091
+        "minExpectedResult": 698,
+        "maxExpectedResult": 1135
       },
       {
         "id": "volcanoescount",
@@ -5830,12 +5830,12 @@
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 3
+        "maxExpectedResult": 6
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 0,
-        "maxExpectedResult": 10
+        "maxExpectedResult": 12
       }
     ]
   },
@@ -5849,13 +5849,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 294,
-        "maxExpectedResult": 369
+        "minExpectedResult": 235,
+        "maxExpectedResult": 383
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 26899,
-        "maxExpectedResult": 33625
+        "minExpectedResult": 21519,
+        "maxExpectedResult": 34970
       },
       {
         "id": "volcanoescount",
@@ -5870,12 +5870,12 @@
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 1
+        "maxExpectedResult": 4
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 0,
-        "maxExpectedResult": 34
+        "maxExpectedResult": 41
       }
     ]
   },
@@ -5889,13 +5889,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 54,
-        "maxExpectedResult": 69
+        "minExpectedResult": 43,
+        "maxExpectedResult": 72
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 15488,
-        "maxExpectedResult": 19361
+        "minExpectedResult": 12390,
+        "maxExpectedResult": 20136
       },
       {
         "id": "volcanoescount",
@@ -5905,17 +5905,17 @@
       {
         "id": "hotspotdaysperyearmax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 133
+        "maxExpectedResult": 135
       },
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 1
+        "maxExpectedResult": 4
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 0,
-        "maxExpectedResult": 26
+        "maxExpectedResult": 31
       }
     ]
   },
@@ -5929,13 +5929,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 695,
-        "maxExpectedResult": 869
+        "minExpectedResult": 556,
+        "maxExpectedResult": 904
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 320280,
-        "maxExpectedResult": 400351
+        "minExpectedResult": 256224,
+        "maxExpectedResult": 416366
       },
       {
         "id": "volcanoescount",
@@ -5945,17 +5945,17 @@
       {
         "id": "hotspotdaysperyearmax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 155
+        "maxExpectedResult": 158
       },
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 9
+        "maxExpectedResult": 12
       },
       {
         "id": "osmgapssum",
-        "minExpectedResult": 10479,
-        "maxExpectedResult": 13100
+        "minExpectedResult": 10476,
+        "maxExpectedResult": 15716
       }
     ]
   },
@@ -5969,13 +5969,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 10,
+        "minExpectedResult": 8,
         "maxExpectedResult": 14
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 8571,
-        "maxExpectedResult": 10715
+        "minExpectedResult": 6857,
+        "maxExpectedResult": 11144
       },
       {
         "id": "volcanoescount",
@@ -5990,12 +5990,12 @@
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 14
+        "maxExpectedResult": 17
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 0,
-        "maxExpectedResult": 1728
+        "maxExpectedResult": 2074
       }
     ]
   },
@@ -6004,7 +6004,7 @@
     "functionsData": [
       {
         "id": "populatedareakm2",
-        "minExpectedResult": 32,
+        "minExpectedResult": 25,
         "maxExpectedResult": 2000
       },
       {
@@ -6014,7 +6014,7 @@
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 9,
+        "minExpectedResult": 7,
         "maxExpectedResult": 13
       },
       {
@@ -6030,7 +6030,7 @@
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 0
+        "maxExpectedResult": 3
       },
       {
         "id": "osmgapssum",
@@ -6044,7 +6044,7 @@
     "functionsData": [
       {
         "id": "populatedareakm2",
-        "minExpectedResult": 273,
+        "minExpectedResult": 218,
         "maxExpectedResult": 2000
       },
       {
@@ -6054,7 +6054,7 @@
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 10,
+        "minExpectedResult": 8,
         "maxExpectedResult": 14
       },
       {
@@ -6070,12 +6070,12 @@
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 2
+        "maxExpectedResult": 5
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 0,
-        "maxExpectedResult": 5
+        "maxExpectedResult": 6
       }
     ]
   },
@@ -6089,13 +6089,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 358,
-        "maxExpectedResult": 449
+        "minExpectedResult": 286,
+        "maxExpectedResult": 466
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 2528,
-        "maxExpectedResult": 3161
+        "minExpectedResult": 2022,
+        "maxExpectedResult": 3288
       },
       {
         "id": "volcanoescount",
@@ -6105,17 +6105,17 @@
       {
         "id": "hotspotdaysperyearmax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 260
+        "maxExpectedResult": 261
       },
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 31
+        "maxExpectedResult": 34
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 14765,
-        "maxExpectedResult": 18457
+        "maxExpectedResult": 22148
       }
     ]
   },
@@ -6124,7 +6124,7 @@
     "functionsData": [
       {
         "id": "populatedareakm2",
-        "minExpectedResult": 182,
+        "minExpectedResult": 146,
         "maxExpectedResult": 2000
       },
       {
@@ -6134,8 +6134,8 @@
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 138,
-        "maxExpectedResult": 174
+        "minExpectedResult": 110,
+        "maxExpectedResult": 181
       },
       {
         "id": "volcanoescount",
@@ -6150,12 +6150,12 @@
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 4
+        "maxExpectedResult": 7
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 0,
-        "maxExpectedResult": 7
+        "maxExpectedResult": 9
       }
     ]
   },
@@ -6169,13 +6169,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 18,
-        "maxExpectedResult": 23
+        "minExpectedResult": 14,
+        "maxExpectedResult": 24
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 85196,
-        "maxExpectedResult": 106496
+        "minExpectedResult": 68157,
+        "maxExpectedResult": 110756
       },
       {
         "id": "volcanoescount",
@@ -6185,17 +6185,17 @@
       {
         "id": "hotspotdaysperyearmax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 239
+        "maxExpectedResult": 238
       },
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 20,
-        "maxExpectedResult": 51
+        "maxExpectedResult": 54
       },
       {
         "id": "osmgapssum",
-        "minExpectedResult": 29411,
-        "maxExpectedResult": 36765
+        "minExpectedResult": 29400,
+        "maxExpectedResult": 44102
       }
     ]
   },
@@ -6209,13 +6209,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 7,
-        "maxExpectedResult": 10
+        "minExpectedResult": 6,
+        "maxExpectedResult": 11
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 27218,
-        "maxExpectedResult": 34023
+        "minExpectedResult": 21774,
+        "maxExpectedResult": 35384
       },
       {
         "id": "volcanoescount",
@@ -6230,12 +6230,12 @@
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 7,
-        "maxExpectedResult": 38
+        "maxExpectedResult": 41
       },
       {
         "id": "osmgapssum",
-        "minExpectedResult": 8053,
-        "maxExpectedResult": 10067
+        "minExpectedResult": 8051,
+        "maxExpectedResult": 12078
       }
     ]
   },
@@ -6249,13 +6249,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 117,
-        "maxExpectedResult": 148
+        "minExpectedResult": 94,
+        "maxExpectedResult": 154
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 2014,
-        "maxExpectedResult": 2518
+        "minExpectedResult": 1611,
+        "maxExpectedResult": 2619
       },
       {
         "id": "volcanoescount",
@@ -6265,17 +6265,17 @@
       {
         "id": "hotspotdaysperyearmax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 111
+        "maxExpectedResult": 112
       },
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 15,
-        "maxExpectedResult": 46
+        "maxExpectedResult": 49
       },
       {
         "id": "osmgapssum",
-        "minExpectedResult": 12036,
-        "maxExpectedResult": 15046
+        "minExpectedResult": 12034,
+        "maxExpectedResult": 18052
       }
     ]
   },
@@ -6289,13 +6289,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 165,
-        "maxExpectedResult": 207
+        "minExpectedResult": 132,
+        "maxExpectedResult": 216
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 9368,
-        "maxExpectedResult": 11711
+        "minExpectedResult": 7494,
+        "maxExpectedResult": 12180
       },
       {
         "id": "volcanoescount",
@@ -6305,17 +6305,17 @@
       {
         "id": "hotspotdaysperyearmax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 227
+        "maxExpectedResult": 222
       },
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 3,
-        "maxExpectedResult": 34
+        "maxExpectedResult": 37
       },
       {
         "id": "osmgapssum",
-        "minExpectedResult": 17770,
-        "maxExpectedResult": 22214
+        "minExpectedResult": 17769,
+        "maxExpectedResult": 26654
       }
     ]
   },
@@ -6329,13 +6329,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 1420,
-        "maxExpectedResult": 1776
+        "minExpectedResult": 1136,
+        "maxExpectedResult": 1847
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 200369,
-        "maxExpectedResult": 250463
+        "minExpectedResult": 160295,
+        "maxExpectedResult": 260481
       },
       {
         "id": "volcanoescount",
@@ -6345,17 +6345,17 @@
       {
         "id": "hotspotdaysperyearmax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 243
+        "maxExpectedResult": 247
       },
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 2,
-        "maxExpectedResult": 33
+        "maxExpectedResult": 36
       },
       {
         "id": "osmgapssum",
-        "minExpectedResult": 96144,
-        "maxExpectedResult": 120181
+        "minExpectedResult": 96120,
+        "maxExpectedResult": 144182
       }
     ]
   },
@@ -6369,13 +6369,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 117,
-        "maxExpectedResult": 147
+        "minExpectedResult": 93,
+        "maxExpectedResult": 153
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 476235,
-        "maxExpectedResult": 595295
+        "minExpectedResult": 380988,
+        "maxExpectedResult": 619107
       },
       {
         "id": "volcanoescount",
@@ -6385,17 +6385,17 @@
       {
         "id": "hotspotdaysperyearmax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 190
+        "maxExpectedResult": 187
       },
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 7,
-        "maxExpectedResult": 38
+        "maxExpectedResult": 41
       },
       {
         "id": "osmgapssum",
-        "minExpectedResult": 130464,
-        "maxExpectedResult": 163081
+        "minExpectedResult": 130426,
+        "maxExpectedResult": 195640
       }
     ]
   },
@@ -6409,13 +6409,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 26,
-        "maxExpectedResult": 34
+        "minExpectedResult": 21,
+        "maxExpectedResult": 35
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 67503,
-        "maxExpectedResult": 84380
+        "minExpectedResult": 54002,
+        "maxExpectedResult": 87755
       },
       {
         "id": "volcanoescount",
@@ -6425,17 +6425,17 @@
       {
         "id": "hotspotdaysperyearmax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 124
+        "maxExpectedResult": 125
       },
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 22
+        "maxExpectedResult": 25
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 25439,
-        "maxExpectedResult": 31800
+        "maxExpectedResult": 38160
       }
     ]
   },
@@ -6449,13 +6449,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 1843,
-        "maxExpectedResult": 2305
+        "minExpectedResult": 1474,
+        "maxExpectedResult": 2397
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 143028,
-        "maxExpectedResult": 178787
+        "minExpectedResult": 114423,
+        "maxExpectedResult": 185938
       },
       {
         "id": "volcanoescount",
@@ -6465,17 +6465,17 @@
       {
         "id": "hotspotdaysperyearmax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 178
+        "maxExpectedResult": 179
       },
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 7
+        "maxExpectedResult": 10
       },
       {
         "id": "osmgapssum",
-        "minExpectedResult": 10758,
-        "maxExpectedResult": 13449
+        "minExpectedResult": 10749,
+        "maxExpectedResult": 16125
       }
     ]
   },
@@ -6489,13 +6489,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 16833,
-        "maxExpectedResult": 21043
+        "minExpectedResult": 13470,
+        "maxExpectedResult": 21890
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 3629307,
-        "maxExpectedResult": 4536635
+        "minExpectedResult": 2903446,
+        "maxExpectedResult": 4718101
       },
       {
         "id": "volcanoescount",
@@ -6510,12 +6510,12 @@
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 13
+        "maxExpectedResult": 16
       },
       {
         "id": "osmgapssum",
-        "minExpectedResult": 315806,
-        "maxExpectedResult": 394759
+        "minExpectedResult": 315662,
+        "maxExpectedResult": 473494
       }
     ]
   },
@@ -6529,13 +6529,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 414,
-        "maxExpectedResult": 518
+        "minExpectedResult": 331,
+        "maxExpectedResult": 539
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 1671,
-        "maxExpectedResult": 2090
+        "minExpectedResult": 1337,
+        "maxExpectedResult": 2173
       },
       {
         "id": "volcanoescount",
@@ -6545,17 +6545,17 @@
       {
         "id": "hotspotdaysperyearmax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 228
+        "maxExpectedResult": 230
       },
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 12,
-        "maxExpectedResult": 43
+        "maxExpectedResult": 46
       },
       {
         "id": "osmgapssum",
-        "minExpectedResult": 31000,
-        "maxExpectedResult": 38751
+        "minExpectedResult": 30986,
+        "maxExpectedResult": 46481
       }
     ]
   },
@@ -6590,7 +6590,7 @@
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 0
+        "maxExpectedResult": 3
       },
       {
         "id": "osmgapssum",
@@ -6604,7 +6604,7 @@
     "functionsData": [
       {
         "id": "populatedareakm2",
-        "minExpectedResult": 279,
+        "minExpectedResult": 223,
         "maxExpectedResult": 2000
       },
       {
@@ -6614,8 +6614,8 @@
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 317,
-        "maxExpectedResult": 398
+        "minExpectedResult": 254,
+        "maxExpectedResult": 414
       },
       {
         "id": "volcanoescount",
@@ -6630,12 +6630,12 @@
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 1
+        "maxExpectedResult": 4
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 0,
-        "maxExpectedResult": 3
+        "maxExpectedResult": 4
       }
     ]
   },
@@ -6644,7 +6644,7 @@
     "functionsData": [
       {
         "id": "populatedareakm2",
-        "minExpectedResult": 128,
+        "minExpectedResult": 102,
         "maxExpectedResult": 2000
       },
       {
@@ -6654,8 +6654,8 @@
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 80,
-        "maxExpectedResult": 101
+        "minExpectedResult": 64,
+        "maxExpectedResult": 105
       },
       {
         "id": "volcanoescount",
@@ -6670,7 +6670,7 @@
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 1
+        "maxExpectedResult": 4
       },
       {
         "id": "osmgapssum",
@@ -6684,18 +6684,18 @@
     "functionsData": [
       {
         "id": "populatedareakm2",
-        "minExpectedResult": 344,
+        "minExpectedResult": 275,
         "maxExpectedResult": 2000
       },
       {
         "id": "industrialareakm2",
         "minExpectedResult": 0,
-        "maxExpectedResult": 6
+        "maxExpectedResult": 7
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 216,
-        "maxExpectedResult": 272
+        "minExpectedResult": 173,
+        "maxExpectedResult": 283
       },
       {
         "id": "volcanoescount",
@@ -6705,12 +6705,12 @@
       {
         "id": "hotspotdaysperyearmax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 26
+        "maxExpectedResult": 27
       },
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 1
+        "maxExpectedResult": 4
       },
       {
         "id": "osmgapssum",
@@ -6729,13 +6729,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 60,
-        "maxExpectedResult": 76
+        "minExpectedResult": 48,
+        "maxExpectedResult": 79
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 2817,
-        "maxExpectedResult": 3522
+        "minExpectedResult": 2253,
+        "maxExpectedResult": 3663
       },
       {
         "id": "volcanoescount",
@@ -6750,12 +6750,12 @@
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 9,
-        "maxExpectedResult": 40
+        "maxExpectedResult": 43
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 16380,
-        "maxExpectedResult": 20476
+        "maxExpectedResult": 24571
       }
     ]
   },
@@ -6769,13 +6769,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 1102,
-        "maxExpectedResult": 1379
+        "minExpectedResult": 882,
+        "maxExpectedResult": 1434
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 119993,
-        "maxExpectedResult": 149992
+        "minExpectedResult": 95994,
+        "maxExpectedResult": 155992
       },
       {
         "id": "volcanoescount",
@@ -6785,17 +6785,17 @@
       {
         "id": "hotspotdaysperyearmax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 253
+        "maxExpectedResult": 250
       },
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 20,
-        "maxExpectedResult": 51
+        "maxExpectedResult": 54
       },
       {
         "id": "osmgapssum",
-        "minExpectedResult": 158531,
-        "maxExpectedResult": 198165
+        "minExpectedResult": 158432,
+        "maxExpectedResult": 237649
       }
     ]
   },
@@ -6809,13 +6809,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 532,
-        "maxExpectedResult": 666
+        "minExpectedResult": 426,
+        "maxExpectedResult": 693
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 522571,
-        "maxExpectedResult": 653215
+        "minExpectedResult": 418057,
+        "maxExpectedResult": 679344
       },
       {
         "id": "volcanoescount",
@@ -6825,17 +6825,17 @@
       {
         "id": "hotspotdaysperyearmax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 236
+        "maxExpectedResult": 230
       },
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 0,
-        "maxExpectedResult": 22
+        "maxExpectedResult": 25
       },
       {
         "id": "osmgapssum",
-        "minExpectedResult": 37013,
-        "maxExpectedResult": 46268
+        "minExpectedResult": 37011,
+        "maxExpectedResult": 55517
       }
     ]
   },
@@ -6849,13 +6849,13 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 125,
-        "maxExpectedResult": 157
+        "minExpectedResult": 100,
+        "maxExpectedResult": 163
       },
       {
         "id": "forestareakm2",
-        "minExpectedResult": 185147,
-        "maxExpectedResult": 231434
+        "minExpectedResult": 148117,
+        "maxExpectedResult": 240692
       },
       {
         "id": "volcanoescount",
@@ -6870,12 +6870,12 @@
       {
         "id": "osmgapspercentage",
         "minExpectedResult": 11,
-        "maxExpectedResult": 42
+        "maxExpectedResult": 45
       },
       {
         "id": "osmgapssum",
         "minExpectedResult": 70330,
-        "maxExpectedResult": 87914
+        "maxExpectedResult": 105497
       }
     ]
   }

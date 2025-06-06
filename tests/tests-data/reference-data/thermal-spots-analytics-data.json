@@ -39,13 +39,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 296,
-        "maxExpectedResult": 371
+        "minExpectedResult": 236,
+        "maxExpectedResult": 386
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 760856,
-        "maxExpectedResult": 951071
+        "minExpectedResult": 608685,
+        "maxExpectedResult": 989114
       }
     ]
   },
@@ -69,8 +69,8 @@
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 27,
-        "maxExpectedResult": 35
+        "minExpectedResult": 21,
+        "maxExpectedResult": 36
       }
     ]
   },
@@ -89,13 +89,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 38,
-        "maxExpectedResult": 48
+        "minExpectedResult": 30,
+        "maxExpectedResult": 50
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 14039,
-        "maxExpectedResult": 17549
+        "minExpectedResult": 11231,
+        "maxExpectedResult": 18251
       }
     ]
   },
@@ -115,12 +115,12 @@
       {
         "id": "industrialAreaKm2",
         "minExpectedResult": 0,
-        "maxExpectedResult": 2
+        "maxExpectedResult": 3
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 851,
-        "maxExpectedResult": 1065
+        "minExpectedResult": 681,
+        "maxExpectedResult": 1107
       }
     ]
   },
@@ -144,8 +144,8 @@
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 247,
-        "maxExpectedResult": 310
+        "minExpectedResult": 198,
+        "maxExpectedResult": 322
       }
     ]
   },
@@ -164,13 +164,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 926,
-        "maxExpectedResult": 1158
+        "minExpectedResult": 741,
+        "maxExpectedResult": 1205
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 388,
-        "maxExpectedResult": 486
+        "minExpectedResult": 311,
+        "maxExpectedResult": 506
       }
     ]
   },
@@ -189,13 +189,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 85,
-        "maxExpectedResult": 107
+        "minExpectedResult": 68,
+        "maxExpectedResult": 111
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 4245,
-        "maxExpectedResult": 5308
+        "minExpectedResult": 3396,
+        "maxExpectedResult": 5520
       }
     ]
   },
@@ -269,8 +269,8 @@
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 228,
-        "maxExpectedResult": 286
+        "minExpectedResult": 182,
+        "maxExpectedResult": 297
       }
     ]
   },
@@ -289,13 +289,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 268,
-        "maxExpectedResult": 336
+        "minExpectedResult": 214,
+        "maxExpectedResult": 349
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 47945,
-        "maxExpectedResult": 59933
+        "minExpectedResult": 38356,
+        "maxExpectedResult": 62330
       }
     ]
   },
@@ -314,13 +314,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 202,
-        "maxExpectedResult": 254
+        "minExpectedResult": 162,
+        "maxExpectedResult": 264
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 14773,
-        "maxExpectedResult": 18467
+        "minExpectedResult": 11818,
+        "maxExpectedResult": 19206
       }
     ]
   },
@@ -339,13 +339,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 6,
+        "minExpectedResult": 5,
         "maxExpectedResult": 9
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 5585,
-        "maxExpectedResult": 6982
+        "minExpectedResult": 4468,
+        "maxExpectedResult": 7262
       }
     ]
   },
@@ -364,13 +364,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 629,
-        "maxExpectedResult": 787
+        "minExpectedResult": 503,
+        "maxExpectedResult": 819
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 11891,
-        "maxExpectedResult": 14865
+        "minExpectedResult": 9513,
+        "maxExpectedResult": 15459
       }
     ]
   },
@@ -389,13 +389,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 12,
-        "maxExpectedResult": 16
+        "minExpectedResult": 10,
+        "maxExpectedResult": 17
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 48990,
-        "maxExpectedResult": 61239
+        "minExpectedResult": 39192,
+        "maxExpectedResult": 63688
       }
     ]
   },
@@ -414,13 +414,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 149,
-        "maxExpectedResult": 188
+        "minExpectedResult": 119,
+        "maxExpectedResult": 195
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 24599,
-        "maxExpectedResult": 30749
+        "minExpectedResult": 19679,
+        "maxExpectedResult": 31979
       }
     ]
   },
@@ -439,13 +439,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 157,
-        "maxExpectedResult": 198
+        "minExpectedResult": 126,
+        "maxExpectedResult": 206
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 42481,
-        "maxExpectedResult": 53102
+        "minExpectedResult": 33984,
+        "maxExpectedResult": 55226
       }
     ]
   },
@@ -464,13 +464,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 427,
-        "maxExpectedResult": 535
+        "minExpectedResult": 342,
+        "maxExpectedResult": 556
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 52450,
-        "maxExpectedResult": 65563
+        "minExpectedResult": 41960,
+        "maxExpectedResult": 68186
       }
     ]
   },
@@ -489,12 +489,12 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 16,
-        "maxExpectedResult": 21
+        "minExpectedResult": 13,
+        "maxExpectedResult": 22
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 6,
+        "minExpectedResult": 4,
         "maxExpectedResult": 8
       }
     ]
@@ -514,13 +514,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 12,
+        "minExpectedResult": 9,
         "maxExpectedResult": 16
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 2945,
-        "maxExpectedResult": 3682
+        "minExpectedResult": 2356,
+        "maxExpectedResult": 3829
       }
     ]
   },
@@ -539,13 +539,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 80,
-        "maxExpectedResult": 102
+        "minExpectedResult": 64,
+        "maxExpectedResult": 106
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 36593,
-        "maxExpectedResult": 45742
+        "minExpectedResult": 29274,
+        "maxExpectedResult": 47572
       }
     ]
   },
@@ -569,8 +569,8 @@
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 6,
-        "maxExpectedResult": 8
+        "minExpectedResult": 4,
+        "maxExpectedResult": 9
       }
     ]
   },
@@ -589,13 +589,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 582,
-        "maxExpectedResult": 729
+        "minExpectedResult": 466,
+        "maxExpectedResult": 758
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 111933,
-        "maxExpectedResult": 139917
+        "minExpectedResult": 89546,
+        "maxExpectedResult": 145514
       }
     ]
   },
@@ -614,13 +614,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 16,
+        "minExpectedResult": 13,
         "maxExpectedResult": 22
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 15568,
-        "maxExpectedResult": 19462
+        "minExpectedResult": 12455,
+        "maxExpectedResult": 20240
       }
     ]
   },
@@ -639,13 +639,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 1445,
-        "maxExpectedResult": 1807
+        "minExpectedResult": 1156,
+        "maxExpectedResult": 1880
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 131931,
-        "maxExpectedResult": 164915
+        "minExpectedResult": 105545,
+        "maxExpectedResult": 171511
       }
     ]
   },
@@ -690,12 +690,12 @@
       {
         "id": "industrialAreaKm2",
         "minExpectedResult": 0,
-        "maxExpectedResult": 4
+        "maxExpectedResult": 5
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 128,
-        "maxExpectedResult": 161
+        "minExpectedResult": 102,
+        "maxExpectedResult": 167
       }
     ]
   },
@@ -714,13 +714,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 8,
+        "minExpectedResult": 7,
         "maxExpectedResult": 12
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 5497,
-        "maxExpectedResult": 6873
+        "minExpectedResult": 4398,
+        "maxExpectedResult": 7148
       }
     ]
   },
@@ -744,8 +744,8 @@
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 31517,
-        "maxExpectedResult": 39397
+        "minExpectedResult": 25214,
+        "maxExpectedResult": 40973
       }
     ]
   },
@@ -764,13 +764,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 150,
-        "maxExpectedResult": 207
+        "minExpectedResult": 131,
+        "maxExpectedResult": 215
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 62512,
-        "maxExpectedResult": 78142
+        "minExpectedResult": 50010,
+        "maxExpectedResult": 81267
       }
     ]
   },
@@ -790,12 +790,12 @@
       {
         "id": "industrialAreaKm2",
         "minExpectedResult": 0,
-        "maxExpectedResult": 4
+        "maxExpectedResult": 5
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 553117,
-        "maxExpectedResult": 691397
+        "minExpectedResult": 442493,
+        "maxExpectedResult": 719053
       }
     ]
   },
@@ -814,13 +814,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 205,
-        "maxExpectedResult": 257
+        "minExpectedResult": 164,
+        "maxExpectedResult": 267
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 17702,
-        "maxExpectedResult": 22129
+        "minExpectedResult": 14162,
+        "maxExpectedResult": 23014
       }
     ]
   },
@@ -839,13 +839,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 81,
-        "maxExpectedResult": 103
+        "minExpectedResult": 65,
+        "maxExpectedResult": 107
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 283594,
-        "maxExpectedResult": 354493
+        "minExpectedResult": 226875,
+        "maxExpectedResult": 368673
       }
     ]
   },
@@ -864,13 +864,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 46,
-        "maxExpectedResult": 58
+        "minExpectedResult": 36,
+        "maxExpectedResult": 60
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 367001,
-        "maxExpectedResult": 458753
+        "minExpectedResult": 293601,
+        "maxExpectedResult": 477103
       }
     ]
   },
@@ -889,13 +889,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 143,
-        "maxExpectedResult": 180
+        "minExpectedResult": 114,
+        "maxExpectedResult": 187
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 1867518,
-        "maxExpectedResult": 2334399
+        "minExpectedResult": 1494014,
+        "maxExpectedResult": 2427775
       }
     ]
   },
@@ -914,13 +914,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 24,
-        "maxExpectedResult": 31
+        "minExpectedResult": 19,
+        "maxExpectedResult": 32
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 258201,
-        "maxExpectedResult": 322752
+        "minExpectedResult": 206560,
+        "maxExpectedResult": 335662
       }
     ]
   },
@@ -944,8 +944,8 @@
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 1366,
-        "maxExpectedResult": 1708
+        "minExpectedResult": 1093,
+        "maxExpectedResult": 1777
       }
     ]
   },
@@ -969,8 +969,8 @@
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 247,
-        "maxExpectedResult": 310
+        "minExpectedResult": 198,
+        "maxExpectedResult": 323
       }
     ]
   },
@@ -989,13 +989,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 50,
-        "maxExpectedResult": 64
+        "minExpectedResult": 40,
+        "maxExpectedResult": 67
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 32423,
-        "maxExpectedResult": 40530
+        "minExpectedResult": 25938,
+        "maxExpectedResult": 42151
       }
     ]
   },
@@ -1014,13 +1014,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 191,
-        "maxExpectedResult": 240
+        "minExpectedResult": 153,
+        "maxExpectedResult": 249
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 57684,
-        "maxExpectedResult": 72107
+        "minExpectedResult": 46147,
+        "maxExpectedResult": 74991
       }
     ]
   },
@@ -1039,13 +1039,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 8,
+        "minExpectedResult": 7,
         "maxExpectedResult": 12
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 21,
-        "maxExpectedResult": 27
+        "minExpectedResult": 16,
+        "maxExpectedResult": 28
       }
     ]
   },
@@ -1069,8 +1069,8 @@
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 114,
-        "maxExpectedResult": 143
+        "minExpectedResult": 91,
+        "maxExpectedResult": 149
       }
     ]
   },
@@ -1089,13 +1089,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 24,
-        "maxExpectedResult": 31
+        "minExpectedResult": 19,
+        "maxExpectedResult": 32
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 1798,
-        "maxExpectedResult": 2249
+        "minExpectedResult": 1439,
+        "maxExpectedResult": 2339
       }
     ]
   },
@@ -1114,13 +1114,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 564,
-        "maxExpectedResult": 706
+        "minExpectedResult": 451,
+        "maxExpectedResult": 735
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 35804,
-        "maxExpectedResult": 44756
+        "minExpectedResult": 28643,
+        "maxExpectedResult": 46547
       }
     ]
   },
@@ -1139,13 +1139,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 3130,
-        "maxExpectedResult": 3956
+        "minExpectedResult": 2531,
+        "maxExpectedResult": 4114
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 150147,
-        "maxExpectedResult": 187685
+        "minExpectedResult": 120118,
+        "maxExpectedResult": 195193
       }
     ]
   },
@@ -1164,12 +1164,12 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 14,
+        "minExpectedResult": 11,
         "maxExpectedResult": 19
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 7,
+        "minExpectedResult": 6,
         "maxExpectedResult": 10
       }
     ]
@@ -1194,8 +1194,8 @@
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 682,
-        "maxExpectedResult": 854
+        "minExpectedResult": 545,
+        "maxExpectedResult": 888
       }
     ]
   },
@@ -1214,13 +1214,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 377,
-        "maxExpectedResult": 472
+        "minExpectedResult": 301,
+        "maxExpectedResult": 491
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 9456,
-        "maxExpectedResult": 11821
+        "minExpectedResult": 7565,
+        "maxExpectedResult": 12294
       }
     ]
   },
@@ -1239,13 +1239,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 26,
-        "maxExpectedResult": 33
+        "minExpectedResult": 21,
+        "maxExpectedResult": 35
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 31774,
-        "maxExpectedResult": 39718
+        "minExpectedResult": 25419,
+        "maxExpectedResult": 41307
       }
     ]
   },
@@ -1264,13 +1264,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 522,
-        "maxExpectedResult": 654
+        "minExpectedResult": 418,
+        "maxExpectedResult": 680
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 30093,
-        "maxExpectedResult": 37618
+        "minExpectedResult": 24075,
+        "maxExpectedResult": 39123
       }
     ]
   },
@@ -1289,13 +1289,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 924,
-        "maxExpectedResult": 1156
+        "minExpectedResult": 739,
+        "maxExpectedResult": 1202
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 2469,
-        "maxExpectedResult": 3088
+        "minExpectedResult": 1975,
+        "maxExpectedResult": 3211
       }
     ]
   },
@@ -1314,13 +1314,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 17,
+        "minExpectedResult": 14,
         "maxExpectedResult": 23
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 813,
-        "maxExpectedResult": 1017
+        "minExpectedResult": 650,
+        "maxExpectedResult": 1058
       }
     ]
   },
@@ -1339,13 +1339,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 1903,
-        "maxExpectedResult": 2380
+        "minExpectedResult": 1523,
+        "maxExpectedResult": 2476
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 219090,
-        "maxExpectedResult": 273864
+        "minExpectedResult": 175272,
+        "maxExpectedResult": 284818
       }
     ]
   },
@@ -1364,13 +1364,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 105,
-        "maxExpectedResult": 132
+        "minExpectedResult": 84,
+        "maxExpectedResult": 138
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 30843,
-        "maxExpectedResult": 38555
+        "minExpectedResult": 24675,
+        "maxExpectedResult": 40097
       }
     ]
   },
@@ -1389,13 +1389,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 192,
-        "maxExpectedResult": 242
+        "minExpectedResult": 154,
+        "maxExpectedResult": 251
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 269185,
-        "maxExpectedResult": 336482
+        "minExpectedResult": 215348,
+        "maxExpectedResult": 349941
       }
     ]
   },
@@ -1414,13 +1414,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 523,
-        "maxExpectedResult": 655
+        "minExpectedResult": 418,
+        "maxExpectedResult": 681
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 256284,
-        "maxExpectedResult": 320357
+        "minExpectedResult": 205027,
+        "maxExpectedResult": 333171
       }
     ]
   },
@@ -1444,8 +1444,8 @@
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 35,
-        "maxExpectedResult": 45
+        "minExpectedResult": 28,
+        "maxExpectedResult": 47
       }
     ]
   },
@@ -1464,13 +1464,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 3048,
-        "maxExpectedResult": 3812
+        "minExpectedResult": 2439,
+        "maxExpectedResult": 3965
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 322374,
-        "maxExpectedResult": 402968
+        "minExpectedResult": 257899,
+        "maxExpectedResult": 419087
       }
     ]
   },
@@ -1514,13 +1514,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 36,
-        "maxExpectedResult": 47
+        "minExpectedResult": 29,
+        "maxExpectedResult": 49
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 240705,
-        "maxExpectedResult": 300882
+        "minExpectedResult": 192564,
+        "maxExpectedResult": 312917
       }
     ]
   },
@@ -1539,13 +1539,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 1593,
-        "maxExpectedResult": 1993
+        "minExpectedResult": 1274,
+        "maxExpectedResult": 2072
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 39036,
-        "maxExpectedResult": 48796
+        "minExpectedResult": 31229,
+        "maxExpectedResult": 50748
       }
     ]
   },
@@ -1564,13 +1564,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 91,
-        "maxExpectedResult": 114
+        "minExpectedResult": 73,
+        "maxExpectedResult": 119
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 35779,
-        "maxExpectedResult": 44725
+        "minExpectedResult": 28623,
+        "maxExpectedResult": 46514
       }
     ]
   },
@@ -1594,8 +1594,8 @@
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 27,
-        "maxExpectedResult": 35
+        "minExpectedResult": 22,
+        "maxExpectedResult": 37
       }
     ]
   },
@@ -1614,13 +1614,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 126,
-        "maxExpectedResult": 159
+        "minExpectedResult": 101,
+        "maxExpectedResult": 165
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 125191,
-        "maxExpectedResult": 156490
+        "minExpectedResult": 100153,
+        "maxExpectedResult": 162749
       }
     ]
   },
@@ -1664,13 +1664,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 47,
-        "maxExpectedResult": 60
+        "minExpectedResult": 38,
+        "maxExpectedResult": 63
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 182370,
-        "maxExpectedResult": 227964
+        "minExpectedResult": 145896,
+        "maxExpectedResult": 237082
       }
     ]
   },
@@ -1694,8 +1694,8 @@
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 2917,
-        "maxExpectedResult": 3648
+        "minExpectedResult": 2334,
+        "maxExpectedResult": 3794
       }
     ]
   },
@@ -1719,8 +1719,8 @@
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 25868,
-        "maxExpectedResult": 32337
+        "minExpectedResult": 20695,
+        "maxExpectedResult": 33630
       }
     ]
   },
@@ -1739,13 +1739,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 16,
-        "maxExpectedResult": 21
+        "minExpectedResult": 13,
+        "maxExpectedResult": 22
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 26186,
-        "maxExpectedResult": 32734
+        "minExpectedResult": 20949,
+        "maxExpectedResult": 34043
       }
     ]
   },
@@ -1764,13 +1764,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 233,
-        "maxExpectedResult": 293
+        "minExpectedResult": 187,
+        "maxExpectedResult": 305
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 66694,
-        "maxExpectedResult": 83369
+        "minExpectedResult": 53355,
+        "maxExpectedResult": 86704
       }
     ]
   },
@@ -1794,8 +1794,8 @@
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 287,
-        "maxExpectedResult": 360
+        "minExpectedResult": 229,
+        "maxExpectedResult": 374
       }
     ]
   },
@@ -1819,8 +1819,8 @@
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 1045,
-        "maxExpectedResult": 1308
+        "minExpectedResult": 836,
+        "maxExpectedResult": 1360
       }
     ]
   },
@@ -1835,17 +1835,17 @@
       {
         "id": "hotspotDaysPerYearMax",
         "minExpectedResult": 0,
-        "maxExpectedResult": 194
+        "maxExpectedResult": 188
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 38,
-        "maxExpectedResult": 49
+        "minExpectedResult": 30,
+        "maxExpectedResult": 51
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 69355,
-        "maxExpectedResult": 86695
+        "minExpectedResult": 55484,
+        "maxExpectedResult": 90162
       }
     ]
   },
@@ -1889,13 +1889,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 27,
-        "maxExpectedResult": 35
+        "minExpectedResult": 21,
+        "maxExpectedResult": 36
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 79732,
-        "maxExpectedResult": 99666
+        "minExpectedResult": 63785,
+        "maxExpectedResult": 103652
       }
     ]
   },
@@ -1914,13 +1914,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 104,
-        "maxExpectedResult": 131
+        "minExpectedResult": 83,
+        "maxExpectedResult": 137
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 33102,
-        "maxExpectedResult": 41379
+        "minExpectedResult": 26482,
+        "maxExpectedResult": 43034
       }
     ]
   },
@@ -1939,13 +1939,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 10,
+        "minExpectedResult": 8,
         "maxExpectedResult": 14
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 13276,
-        "maxExpectedResult": 16596
+        "minExpectedResult": 10621,
+        "maxExpectedResult": 17260
       }
     ]
   },
@@ -1964,13 +1964,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 599,
-        "maxExpectedResult": 750
+        "minExpectedResult": 479,
+        "maxExpectedResult": 780
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 25035,
-        "maxExpectedResult": 31294
+        "minExpectedResult": 20028,
+        "maxExpectedResult": 32546
       }
     ]
   },
@@ -1994,8 +1994,8 @@
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 163,
-        "maxExpectedResult": 205
+        "minExpectedResult": 130,
+        "maxExpectedResult": 213
       }
     ]
   },
@@ -2014,13 +2014,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 6057,
-        "maxExpectedResult": 7573
+        "minExpectedResult": 4845,
+        "maxExpectedResult": 7875
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 781084,
-        "maxExpectedResult": 976356
+        "minExpectedResult": 624867,
+        "maxExpectedResult": 1015410
       }
     ]
   },
@@ -2039,13 +2039,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 139,
-        "maxExpectedResult": 175
+        "minExpectedResult": 111,
+        "maxExpectedResult": 182
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 9087,
-        "maxExpectedResult": 11360
+        "minExpectedResult": 7270,
+        "maxExpectedResult": 11815
       }
     ]
   },
@@ -2064,13 +2064,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 1094,
-        "maxExpectedResult": 1369
+        "minExpectedResult": 875,
+        "maxExpectedResult": 1424
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 3657,
-        "maxExpectedResult": 4572
+        "minExpectedResult": 2926,
+        "maxExpectedResult": 4755
       }
     ]
   },
@@ -2089,13 +2089,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 25,
-        "maxExpectedResult": 33
+        "minExpectedResult": 20,
+        "maxExpectedResult": 34
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 321,
-        "maxExpectedResult": 402
+        "minExpectedResult": 256,
+        "maxExpectedResult": 418
       }
     ]
   },
@@ -2114,13 +2114,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 206,
-        "maxExpectedResult": 258
+        "minExpectedResult": 164,
+        "maxExpectedResult": 268
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 701,
-        "maxExpectedResult": 878
+        "minExpectedResult": 561,
+        "maxExpectedResult": 913
       }
     ]
   },
@@ -2139,13 +2139,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 2333,
-        "maxExpectedResult": 2918
+        "minExpectedResult": 1867,
+        "maxExpectedResult": 3035
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 135772,
-        "maxExpectedResult": 169717
+        "minExpectedResult": 108618,
+        "maxExpectedResult": 176505
       }
     ]
   },
@@ -2164,13 +2164,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 16,
-        "maxExpectedResult": 21
+        "minExpectedResult": 13,
+        "maxExpectedResult": 22
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 8893,
-        "maxExpectedResult": 11118
+        "minExpectedResult": 7115,
+        "maxExpectedResult": 11563
       }
     ]
   },
@@ -2194,8 +2194,8 @@
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 39,
-        "maxExpectedResult": 50
+        "minExpectedResult": 31,
+        "maxExpectedResult": 52
       }
     ]
   },
@@ -2214,13 +2214,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 90,
-        "maxExpectedResult": 114
+        "minExpectedResult": 72,
+        "maxExpectedResult": 119
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 210,
-        "maxExpectedResult": 263
+        "minExpectedResult": 168,
+        "maxExpectedResult": 274
       }
     ]
   },
@@ -2239,13 +2239,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 1658,
-        "maxExpectedResult": 2073
+        "minExpectedResult": 1325,
+        "maxExpectedResult": 2155
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 43395,
-        "maxExpectedResult": 54245
+        "minExpectedResult": 34716,
+        "maxExpectedResult": 56415
       }
     ]
   },
@@ -2264,13 +2264,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 105,
-        "maxExpectedResult": 133
+        "minExpectedResult": 84,
+        "maxExpectedResult": 138
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 75298,
-        "maxExpectedResult": 94124
+        "minExpectedResult": 60238,
+        "maxExpectedResult": 97889
       }
     ]
   },
@@ -2289,13 +2289,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 105,
-        "maxExpectedResult": 132
+        "minExpectedResult": 84,
+        "maxExpectedResult": 137
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 8428,
-        "maxExpectedResult": 10536
+        "minExpectedResult": 6742,
+        "maxExpectedResult": 10958
       }
     ]
   },
@@ -2319,8 +2319,8 @@
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 187,
-        "maxExpectedResult": 235
+        "minExpectedResult": 149,
+        "maxExpectedResult": 244
       }
     ]
   },
@@ -2339,13 +2339,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 1943,
-        "maxExpectedResult": 2430
+        "minExpectedResult": 1554,
+        "maxExpectedResult": 2527
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 26,
-        "maxExpectedResult": 34
+        "minExpectedResult": 21,
+        "maxExpectedResult": 35
       }
     ]
   },
@@ -2364,13 +2364,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 29,
-        "maxExpectedResult": 37
+        "minExpectedResult": 23,
+        "maxExpectedResult": 39
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 1873,
-        "maxExpectedResult": 2343
+        "minExpectedResult": 1499,
+        "maxExpectedResult": 2437
       }
     ]
   },
@@ -2389,13 +2389,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 10,
+        "minExpectedResult": 8,
         "maxExpectedResult": 14
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 94153,
-        "maxExpectedResult": 117693
+        "minExpectedResult": 75323,
+        "maxExpectedResult": 122401
       }
     ]
   },
@@ -2414,13 +2414,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 327,
-        "maxExpectedResult": 410
+        "minExpectedResult": 262,
+        "maxExpectedResult": 426
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 2212,
-        "maxExpectedResult": 2766
+        "minExpectedResult": 1769,
+        "maxExpectedResult": 2876
       }
     ]
   },
@@ -2444,8 +2444,8 @@
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 521,
-        "maxExpectedResult": 653
+        "minExpectedResult": 417,
+        "maxExpectedResult": 679
       }
     ]
   },
@@ -2469,8 +2469,8 @@
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 100,
-        "maxExpectedResult": 127
+        "minExpectedResult": 80,
+        "maxExpectedResult": 132
       }
     ]
   },
@@ -2489,13 +2489,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 50,
-        "maxExpectedResult": 63
+        "minExpectedResult": 40,
+        "maxExpectedResult": 66
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 51116,
-        "maxExpectedResult": 63896
+        "minExpectedResult": 40893,
+        "maxExpectedResult": 66452
       }
     ]
   },
@@ -2514,13 +2514,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 7,
-        "maxExpectedResult": 9
+        "minExpectedResult": 5,
+        "maxExpectedResult": 10
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 131,
-        "maxExpectedResult": 165
+        "minExpectedResult": 105,
+        "maxExpectedResult": 171
       }
     ]
   },
@@ -2539,13 +2539,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 336,
-        "maxExpectedResult": 421
+        "minExpectedResult": 269,
+        "maxExpectedResult": 439
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 29237,
-        "maxExpectedResult": 36547
+        "minExpectedResult": 23389,
+        "maxExpectedResult": 38009
       }
     ]
   },
@@ -2564,13 +2564,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 23,
-        "maxExpectedResult": 30
+        "minExpectedResult": 18,
+        "maxExpectedResult": 31
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 1414,
-        "maxExpectedResult": 1769
+        "minExpectedResult": 1131,
+        "maxExpectedResult": 1840
       }
     ]
   },
@@ -2589,13 +2589,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 122,
-        "maxExpectedResult": 154
+        "minExpectedResult": 98,
+        "maxExpectedResult": 160
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 43930,
-        "maxExpectedResult": 54914
+        "minExpectedResult": 35144,
+        "maxExpectedResult": 57111
       }
     ]
   },
@@ -2614,13 +2614,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 322,
-        "maxExpectedResult": 403
+        "minExpectedResult": 257,
+        "maxExpectedResult": 419
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 29822,
-        "maxExpectedResult": 37279
+        "minExpectedResult": 23858,
+        "maxExpectedResult": 38770
       }
     ]
   },
@@ -2644,7 +2644,7 @@
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 10,
+        "minExpectedResult": 8,
         "maxExpectedResult": 14
       }
     ]
@@ -2664,13 +2664,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 97,
-        "maxExpectedResult": 123
+        "minExpectedResult": 78,
+        "maxExpectedResult": 128
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 4290,
-        "maxExpectedResult": 5364
+        "minExpectedResult": 3432,
+        "maxExpectedResult": 5578
       }
     ]
   },
@@ -2689,13 +2689,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 12,
+        "minExpectedResult": 9,
         "maxExpectedResult": 16
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 191955,
-        "maxExpectedResult": 239945
+        "minExpectedResult": 153564,
+        "maxExpectedResult": 249543
       }
     ]
   },
@@ -2715,7 +2715,7 @@
       {
         "id": "industrialAreaKm2",
         "minExpectedResult": 0,
-        "maxExpectedResult": 5
+        "maxExpectedResult": 6
       },
       {
         "id": "forestAreaKm2",
@@ -2739,13 +2739,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 1266,
-        "maxExpectedResult": 1583
+        "minExpectedResult": 1013,
+        "maxExpectedResult": 1648
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 736223,
-        "maxExpectedResult": 920279
+        "minExpectedResult": 588978,
+        "maxExpectedResult": 957090
       }
     ]
   },
@@ -2764,13 +2764,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 50,
-        "maxExpectedResult": 63
+        "minExpectedResult": 40,
+        "maxExpectedResult": 66
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 13975,
-        "maxExpectedResult": 17470
+        "minExpectedResult": 11180,
+        "maxExpectedResult": 18169
       }
     ]
   },
@@ -2789,13 +2789,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 82,
-        "maxExpectedResult": 103
+        "minExpectedResult": 65,
+        "maxExpectedResult": 107
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 66940,
-        "maxExpectedResult": 83676
+        "minExpectedResult": 53552,
+        "maxExpectedResult": 87023
       }
     ]
   },
@@ -2814,13 +2814,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 6,
-        "maxExpectedResult": 8
+        "minExpectedResult": 5,
+        "maxExpectedResult": 9
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 5,
-        "maxExpectedResult": 7
+        "minExpectedResult": 4,
+        "maxExpectedResult": 8
       }
     ]
   },
@@ -2839,13 +2839,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 10,
+        "minExpectedResult": 8,
         "maxExpectedResult": 14
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 8540,
-        "maxExpectedResult": 10676
+        "minExpectedResult": 6832,
+        "maxExpectedResult": 11103
       }
     ]
   },
@@ -2864,13 +2864,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 220,
-        "maxExpectedResult": 276
+        "minExpectedResult": 176,
+        "maxExpectedResult": 287
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 99106,
-        "maxExpectedResult": 123884
+        "minExpectedResult": 79285,
+        "maxExpectedResult": 128839
       }
     ]
   },
@@ -2914,13 +2914,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 123,
-        "maxExpectedResult": 155
+        "minExpectedResult": 99,
+        "maxExpectedResult": 162
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 599045,
-        "maxExpectedResult": 748807
+        "minExpectedResult": 479236,
+        "maxExpectedResult": 778759
       }
     ]
   },
@@ -2939,13 +2939,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 150,
-        "maxExpectedResult": 188
+        "minExpectedResult": 120,
+        "maxExpectedResult": 196
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 506,
-        "maxExpectedResult": 634
+        "minExpectedResult": 405,
+        "maxExpectedResult": 659
       }
     ]
   },
@@ -2969,8 +2969,8 @@
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 70,
-        "maxExpectedResult": 88
+        "minExpectedResult": 56,
+        "maxExpectedResult": 92
       }
     ]
   },
@@ -2989,13 +2989,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 7,
+        "minExpectedResult": 6,
         "maxExpectedResult": 10
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 745,
-        "maxExpectedResult": 933
+        "minExpectedResult": 596,
+        "maxExpectedResult": 970
       }
     ]
   },
@@ -3014,13 +3014,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 27,
-        "maxExpectedResult": 35
+        "minExpectedResult": 21,
+        "maxExpectedResult": 36
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 42269,
-        "maxExpectedResult": 52837
+        "minExpectedResult": 33815,
+        "maxExpectedResult": 54950
       }
     ]
   },
@@ -3039,13 +3039,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 60,
-        "maxExpectedResult": 76
+        "minExpectedResult": 48,
+        "maxExpectedResult": 79
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 47143,
-        "maxExpectedResult": 58929
+        "minExpectedResult": 37714,
+        "maxExpectedResult": 61286
       }
     ]
   },
@@ -3064,13 +3064,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 29,
-        "maxExpectedResult": 38
+        "minExpectedResult": 23,
+        "maxExpectedResult": 39
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 1130,
-        "maxExpectedResult": 1414
+        "minExpectedResult": 904,
+        "maxExpectedResult": 1471
       }
     ]
   },
@@ -3089,13 +3089,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 252,
-        "maxExpectedResult": 316
+        "minExpectedResult": 201,
+        "maxExpectedResult": 328
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 296283,
-        "maxExpectedResult": 370355
+        "minExpectedResult": 237026,
+        "maxExpectedResult": 385169
       }
     ]
   },
@@ -3114,13 +3114,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 42,
-        "maxExpectedResult": 54
+        "minExpectedResult": 34,
+        "maxExpectedResult": 56
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 61785,
-        "maxExpectedResult": 77232
+        "minExpectedResult": 49428,
+        "maxExpectedResult": 80322
       }
     ]
   },
@@ -3139,13 +3139,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 952,
-        "maxExpectedResult": 1192
+        "minExpectedResult": 762,
+        "maxExpectedResult": 1239
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 8583,
-        "maxExpectedResult": 10729
+        "minExpectedResult": 6866,
+        "maxExpectedResult": 11158
       }
     ]
   },
@@ -3164,13 +3164,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 179,
-        "maxExpectedResult": 225
+        "minExpectedResult": 143,
+        "maxExpectedResult": 234
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 131476,
-        "maxExpectedResult": 164346
+        "minExpectedResult": 105181,
+        "maxExpectedResult": 170920
       }
     ]
   },
@@ -3189,13 +3189,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 47,
-        "maxExpectedResult": 60
+        "minExpectedResult": 38,
+        "maxExpectedResult": 63
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 82053,
-        "maxExpectedResult": 102567
+        "minExpectedResult": 65642,
+        "maxExpectedResult": 106670
       }
     ]
   },
@@ -3214,13 +3214,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 426,
-        "maxExpectedResult": 534
+        "minExpectedResult": 341,
+        "maxExpectedResult": 555
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 672,
-        "maxExpectedResult": 841
+        "minExpectedResult": 538,
+        "maxExpectedResult": 875
       }
     ]
   },
@@ -3239,13 +3239,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 400,
-        "maxExpectedResult": 501
+        "minExpectedResult": 320,
+        "maxExpectedResult": 521
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 44232,
-        "maxExpectedResult": 55291
+        "minExpectedResult": 35385,
+        "maxExpectedResult": 57502
       }
     ]
   },
@@ -3264,13 +3264,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 80,
-        "maxExpectedResult": 102
+        "minExpectedResult": 64,
+        "maxExpectedResult": 106
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 54277,
-        "maxExpectedResult": 67848
+        "minExpectedResult": 43422,
+        "maxExpectedResult": 70561
       }
     ]
   },
@@ -3289,13 +3289,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 288,
-        "maxExpectedResult": 362
+        "minExpectedResult": 231,
+        "maxExpectedResult": 376
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 16,
-        "maxExpectedResult": 21
+        "minExpectedResult": 13,
+        "maxExpectedResult": 22
       }
     ]
   },
@@ -3314,13 +3314,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 1111,
-        "maxExpectedResult": 1390
+        "minExpectedResult": 888,
+        "maxExpectedResult": 1445
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 100794,
-        "maxExpectedResult": 125993
+        "minExpectedResult": 80635,
+        "maxExpectedResult": 131033
       }
     ]
   },
@@ -3344,8 +3344,8 @@
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 5675,
-        "maxExpectedResult": 7095
+        "minExpectedResult": 4540,
+        "maxExpectedResult": 7378
       }
     ]
   },
@@ -3364,13 +3364,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 1910,
-        "maxExpectedResult": 2388
+        "minExpectedResult": 1528,
+        "maxExpectedResult": 2484
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 1676,
-        "maxExpectedResult": 2096
+        "minExpectedResult": 1341,
+        "maxExpectedResult": 2180
       }
     ]
   },
@@ -3389,13 +3389,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 169,
-        "maxExpectedResult": 213
+        "minExpectedResult": 135,
+        "maxExpectedResult": 221
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 54204,
-        "maxExpectedResult": 67756
+        "minExpectedResult": 43363,
+        "maxExpectedResult": 70467
       }
     ]
   },
@@ -3414,13 +3414,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 34,
-        "maxExpectedResult": 44
+        "minExpectedResult": 27,
+        "maxExpectedResult": 45
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 241191,
-        "maxExpectedResult": 301490
+        "minExpectedResult": 192953,
+        "maxExpectedResult": 313550
       }
     ]
   },
@@ -3439,13 +3439,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 44,
-        "maxExpectedResult": 56
+        "minExpectedResult": 35,
+        "maxExpectedResult": 58
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 41106,
-        "maxExpectedResult": 51383
+        "minExpectedResult": 32884,
+        "maxExpectedResult": 53438
       }
     ]
   },
@@ -3489,13 +3489,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 9,
+        "minExpectedResult": 7,
         "maxExpectedResult": 13
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 62951,
-        "maxExpectedResult": 78689
+        "minExpectedResult": 50360,
+        "maxExpectedResult": 81837
       }
     ]
   },
@@ -3514,13 +3514,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 16,
-        "maxExpectedResult": 21
+        "minExpectedResult": 12,
+        "maxExpectedResult": 22
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 10703,
-        "maxExpectedResult": 13380
+        "minExpectedResult": 8562,
+        "maxExpectedResult": 13915
       }
     ]
   },
@@ -3540,12 +3540,12 @@
       {
         "id": "industrialAreaKm2",
         "minExpectedResult": 0,
-        "maxExpectedResult": 2
+        "maxExpectedResult": 3
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 43,
-        "maxExpectedResult": 54
+        "minExpectedResult": 34,
+        "maxExpectedResult": 57
       }
     ]
   },
@@ -3569,8 +3569,8 @@
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 26917,
-        "maxExpectedResult": 33647
+        "minExpectedResult": 21533,
+        "maxExpectedResult": 34993
       }
     ]
   },
@@ -3594,8 +3594,8 @@
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 143,
-        "maxExpectedResult": 180
+        "minExpectedResult": 115,
+        "maxExpectedResult": 188
       }
     ]
   },
@@ -3614,13 +3614,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 193,
-        "maxExpectedResult": 243
+        "minExpectedResult": 155,
+        "maxExpectedResult": 253
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 40389,
-        "maxExpectedResult": 50487
+        "minExpectedResult": 32311,
+        "maxExpectedResult": 52507
       }
     ]
   },
@@ -3640,12 +3640,12 @@
       {
         "id": "industrialAreaKm2",
         "minExpectedResult": 0,
-        "maxExpectedResult": 2
+        "maxExpectedResult": 3
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 872,
-        "maxExpectedResult": 1091
+        "minExpectedResult": 698,
+        "maxExpectedResult": 1135
       }
     ]
   },
@@ -3664,13 +3664,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 294,
-        "maxExpectedResult": 369
+        "minExpectedResult": 235,
+        "maxExpectedResult": 383
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 26899,
-        "maxExpectedResult": 33625
+        "minExpectedResult": 21519,
+        "maxExpectedResult": 34970
       }
     ]
   },
@@ -3689,13 +3689,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 54,
-        "maxExpectedResult": 69
+        "minExpectedResult": 43,
+        "maxExpectedResult": 72
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 15488,
-        "maxExpectedResult": 19361
+        "minExpectedResult": 12390,
+        "maxExpectedResult": 20136
       }
     ]
   },
@@ -3714,13 +3714,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 695,
-        "maxExpectedResult": 869
+        "minExpectedResult": 556,
+        "maxExpectedResult": 904
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 320280,
-        "maxExpectedResult": 400351
+        "minExpectedResult": 256224,
+        "maxExpectedResult": 416366
       }
     ]
   },
@@ -3739,13 +3739,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 10,
+        "minExpectedResult": 8,
         "maxExpectedResult": 14
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 8571,
-        "maxExpectedResult": 10715
+        "minExpectedResult": 6857,
+        "maxExpectedResult": 11144
       }
     ]
   },
@@ -3769,7 +3769,7 @@
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 9,
+        "minExpectedResult": 7,
         "maxExpectedResult": 13
       }
     ]
@@ -3794,7 +3794,7 @@
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 10,
+        "minExpectedResult": 8,
         "maxExpectedResult": 14
       }
     ]
@@ -3814,13 +3814,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 358,
-        "maxExpectedResult": 449
+        "minExpectedResult": 286,
+        "maxExpectedResult": 466
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 2528,
-        "maxExpectedResult": 3161
+        "minExpectedResult": 2022,
+        "maxExpectedResult": 3288
       }
     ]
   },
@@ -3844,8 +3844,8 @@
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 138,
-        "maxExpectedResult": 174
+        "minExpectedResult": 110,
+        "maxExpectedResult": 181
       }
     ]
   },
@@ -3864,13 +3864,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 18,
-        "maxExpectedResult": 23
+        "minExpectedResult": 14,
+        "maxExpectedResult": 24
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 85196,
-        "maxExpectedResult": 106496
+        "minExpectedResult": 68157,
+        "maxExpectedResult": 110756
       }
     ]
   },
@@ -3889,13 +3889,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 7,
-        "maxExpectedResult": 10
+        "minExpectedResult": 6,
+        "maxExpectedResult": 11
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 27218,
-        "maxExpectedResult": 34023
+        "minExpectedResult": 21774,
+        "maxExpectedResult": 35384
       }
     ]
   },
@@ -3914,13 +3914,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 117,
-        "maxExpectedResult": 148
+        "minExpectedResult": 94,
+        "maxExpectedResult": 154
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 2014,
-        "maxExpectedResult": 2518
+        "minExpectedResult": 1611,
+        "maxExpectedResult": 2619
       }
     ]
   },
@@ -3939,13 +3939,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 165,
-        "maxExpectedResult": 207
+        "minExpectedResult": 132,
+        "maxExpectedResult": 216
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 9368,
-        "maxExpectedResult": 11711
+        "minExpectedResult": 7494,
+        "maxExpectedResult": 12180
       }
     ]
   },
@@ -3964,13 +3964,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 1420,
-        "maxExpectedResult": 1776
+        "minExpectedResult": 1136,
+        "maxExpectedResult": 1847
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 200369,
-        "maxExpectedResult": 250463
+        "minExpectedResult": 160295,
+        "maxExpectedResult": 260481
       }
     ]
   },
@@ -3989,13 +3989,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 117,
-        "maxExpectedResult": 147
+        "minExpectedResult": 93,
+        "maxExpectedResult": 153
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 476235,
-        "maxExpectedResult": 595295
+        "minExpectedResult": 380988,
+        "maxExpectedResult": 619107
       }
     ]
   },
@@ -4014,13 +4014,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 26,
-        "maxExpectedResult": 34
+        "minExpectedResult": 21,
+        "maxExpectedResult": 35
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 67503,
-        "maxExpectedResult": 84380
+        "minExpectedResult": 54002,
+        "maxExpectedResult": 87755
       }
     ]
   },
@@ -4039,13 +4039,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 1843,
-        "maxExpectedResult": 2305
+        "minExpectedResult": 1474,
+        "maxExpectedResult": 2397
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 143028,
-        "maxExpectedResult": 178787
+        "minExpectedResult": 114423,
+        "maxExpectedResult": 185938
       }
     ]
   },
@@ -4064,13 +4064,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 16833,
-        "maxExpectedResult": 21043
+        "minExpectedResult": 13470,
+        "maxExpectedResult": 21890
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 3629307,
-        "maxExpectedResult": 4536635
+        "minExpectedResult": 2903446,
+        "maxExpectedResult": 4718101
       }
     ]
   },
@@ -4089,13 +4089,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 414,
-        "maxExpectedResult": 518
+        "minExpectedResult": 331,
+        "maxExpectedResult": 539
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 1671,
-        "maxExpectedResult": 2090
+        "minExpectedResult": 1337,
+        "maxExpectedResult": 2173
       }
     ]
   },
@@ -4144,8 +4144,8 @@
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 317,
-        "maxExpectedResult": 398
+        "minExpectedResult": 254,
+        "maxExpectedResult": 414
       }
     ]
   },
@@ -4169,8 +4169,8 @@
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 80,
-        "maxExpectedResult": 101
+        "minExpectedResult": 64,
+        "maxExpectedResult": 105
       }
     ]
   },
@@ -4190,12 +4190,12 @@
       {
         "id": "industrialAreaKm2",
         "minExpectedResult": 0,
-        "maxExpectedResult": 6
+        "maxExpectedResult": 7
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 216,
-        "maxExpectedResult": 272
+        "minExpectedResult": 173,
+        "maxExpectedResult": 283
       }
     ]
   },
@@ -4214,13 +4214,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 60,
-        "maxExpectedResult": 76
+        "minExpectedResult": 48,
+        "maxExpectedResult": 79
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 2817,
-        "maxExpectedResult": 3522
+        "minExpectedResult": 2253,
+        "maxExpectedResult": 3663
       }
     ]
   },
@@ -4239,13 +4239,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 1102,
-        "maxExpectedResult": 1379
+        "minExpectedResult": 882,
+        "maxExpectedResult": 1434
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 119993,
-        "maxExpectedResult": 149992
+        "minExpectedResult": 95994,
+        "maxExpectedResult": 155992
       }
     ]
   },
@@ -4264,13 +4264,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 532,
-        "maxExpectedResult": 666
+        "minExpectedResult": 426,
+        "maxExpectedResult": 693
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 522571,
-        "maxExpectedResult": 653215
+        "minExpectedResult": 418057,
+        "maxExpectedResult": 679344
       }
     ]
   },
@@ -4289,13 +4289,13 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 125,
-        "maxExpectedResult": 157
+        "minExpectedResult": 100,
+        "maxExpectedResult": 163
       },
       {
         "id": "forestAreaKm2",
-        "minExpectedResult": 185147,
-        "maxExpectedResult": 231434
+        "minExpectedResult": 148117,
+        "maxExpectedResult": 240692
       }
     ]
   }

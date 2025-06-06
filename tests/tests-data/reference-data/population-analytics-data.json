@@ -9,7 +9,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 4073389813,
+        "minExpectedResult": 3620790945,
         "maxExpectedResult": 5431186419
       },
       {
@@ -29,7 +29,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 84859606354,
+        "minExpectedResult": 75430761204,
         "maxExpectedResult": 113146141806
       },
       {
@@ -49,7 +49,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 793600516342,
+        "minExpectedResult": 705422681193,
         "maxExpectedResult": 1058134021791
       },
       {
@@ -69,12 +69,12 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 0,
+        "minExpectedResult": 100000,
         "maxExpectedResult": 0
       },
       {
         "id": "urban",
-        "minExpectedResult": 3191,
+        "minExpectedResult": 2373,
         "maxExpectedResult": 4391
       }
     ]
@@ -89,7 +89,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 22853238922,
+        "minExpectedResult": 20313990153,
         "maxExpectedResult": 30470985231
       },
       {
@@ -109,12 +109,12 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 1648198365,
+        "minExpectedResult": 1465065213,
         "maxExpectedResult": 2197597821
       },
       {
         "id": "urban",
-        "minExpectedResult": 8485,
+        "minExpectedResult": 6079,
         "maxExpectedResult": 9685
       }
     ]
@@ -129,7 +129,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 3853418295,
+        "minExpectedResult": 3425260707,
         "maxExpectedResult": 5137891061
       },
       {
@@ -149,7 +149,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 434781401127,
+        "minExpectedResult": 386472356557,
         "maxExpectedResult": 579708534837
       },
       {
@@ -169,7 +169,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 20339125744,
+        "minExpectedResult": 18079222884,
         "maxExpectedResult": 27118834326
       },
       {
@@ -189,7 +189,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 591613841,
+        "minExpectedResult": 525878970,
         "maxExpectedResult": 788818456
       },
       {
@@ -204,12 +204,12 @@
     "populationData": [
       {
         "id": "population",
-        "minExpectedResult": 100,
+        "minExpectedResult": 55,
         "maxExpectedResult": 1110
       },
       {
         "id": "gdp",
-        "minExpectedResult": 6184468,
+        "minExpectedResult": 5497305,
         "maxExpectedResult": 8245959
       },
       {
@@ -229,7 +229,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 1797563832,
+        "minExpectedResult": 1597834517,
         "maxExpectedResult": 2396751777
       },
       {
@@ -249,7 +249,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 462338143332,
+        "minExpectedResult": 410967238517,
         "maxExpectedResult": 616450857777
       },
       {
@@ -269,7 +269,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 70368546377,
+        "minExpectedResult": 62549819002,
         "maxExpectedResult": 93824728504
       },
       {
@@ -289,7 +289,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 2795153954,
+        "minExpectedResult": 2484581292,
         "maxExpectedResult": 3726871940
       },
       {
@@ -309,7 +309,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 631972930238,
+        "minExpectedResult": 561753715767,
         "maxExpectedResult": 842630573651
       },
       {
@@ -329,7 +329,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 20153657905,
+        "minExpectedResult": 17914362582,
         "maxExpectedResult": 26871543874
       },
       {
@@ -349,7 +349,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 21326135957,
+        "minExpectedResult": 18956565295,
         "maxExpectedResult": 28434847943
       },
       {
@@ -369,7 +369,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 412945004303,
+        "minExpectedResult": 367062226047,
         "maxExpectedResult": 550593339071
       },
       {
@@ -389,7 +389,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 87489219709,
+        "minExpectedResult": 77768195297,
         "maxExpectedResult": 116652292947
       },
       {
@@ -409,7 +409,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 28828767726,
+        "minExpectedResult": 25625571312,
         "maxExpectedResult": 38438356970
       },
       {
@@ -429,7 +429,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 11105343658,
+        "minExpectedResult": 9871416585,
         "maxExpectedResult": 14807124879
       },
       {
@@ -449,7 +449,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 27771962139,
+        "minExpectedResult": 24686188568,
         "maxExpectedResult": 37029282852
       },
       {
@@ -469,12 +469,12 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 564433216,
+        "minExpectedResult": 501718414,
         "maxExpectedResult": 752577622
       },
       {
         "id": "urban",
-        "minExpectedResult": 6172,
+        "minExpectedResult": 4460,
         "maxExpectedResult": 7372
       }
     ]
@@ -489,7 +489,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 59712115456,
+        "minExpectedResult": 53077435961,
         "maxExpectedResult": 79616153943
       },
       {
@@ -509,7 +509,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 2862770381,
+        "minExpectedResult": 2544684783,
         "maxExpectedResult": 3817027175
       },
       {
@@ -529,7 +529,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 8501210796,
+        "minExpectedResult": 7556631819,
         "maxExpectedResult": 11334947729
       },
       {
@@ -549,7 +549,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 5658152782,
+        "minExpectedResult": 5029469140,
         "maxExpectedResult": 7544203710
       },
       {
@@ -569,7 +569,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 13608420622,
+        "minExpectedResult": 12096373886,
         "maxExpectedResult": 18144560830
       },
       {
@@ -589,7 +589,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 2905303512,
+        "minExpectedResult": 2582492011,
         "maxExpectedResult": 3873738017
       },
       {
@@ -609,7 +609,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 19987546102,
+        "minExpectedResult": 17766707646,
         "maxExpectedResult": 26650061470
       },
       {
@@ -629,7 +629,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 2707377033,
+        "minExpectedResult": 2406557363,
         "maxExpectedResult": 3609836045
       },
       {
@@ -649,7 +649,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 815513123558,
+        "minExpectedResult": 724900554274,
         "maxExpectedResult": 1087350831412
       },
       {
@@ -669,7 +669,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 78551610713,
+        "minExpectedResult": 69823653967,
         "maxExpectedResult": 104735480951
       },
       {
@@ -689,7 +689,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 48239829115,
+        "minExpectedResult": 42879848102,
         "maxExpectedResult": 64319772154
       },
       {
@@ -709,7 +709,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 68000271444,
+        "minExpectedResult": 60444685728,
         "maxExpectedResult": 90667028594
       },
       {
@@ -729,7 +729,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 21825132831,
+        "minExpectedResult": 19400118072,
         "maxExpectedResult": 29100177108
       },
       {
@@ -749,7 +749,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 1194129201,
+        "minExpectedResult": 1061448179,
         "maxExpectedResult": 1592172269
       },
       {
@@ -769,7 +769,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 2171070592,
+        "minExpectedResult": 1929840526,
         "maxExpectedResult": 2894760790
       },
       {
@@ -789,7 +789,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 79473900869,
+        "minExpectedResult": 70643467439,
         "maxExpectedResult": 105965201159
       },
       {
@@ -809,7 +809,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 109738181509,
+        "minExpectedResult": 97545050230,
         "maxExpectedResult": 146317575346
       },
       {
@@ -829,7 +829,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 4397550320,
+        "minExpectedResult": 3908933618,
         "maxExpectedResult": 5863400428
       },
       {
@@ -849,7 +849,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 7406704345,
+        "minExpectedResult": 6583737196,
         "maxExpectedResult": 9875605794
       },
       {
@@ -869,7 +869,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 17378198942,
+        "minExpectedResult": 15447287948,
         "maxExpectedResult": 23170931924
       },
       {
@@ -889,7 +889,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 303325253892,
+        "minExpectedResult": 269622447904,
         "maxExpectedResult": 404433671858
       },
       {
@@ -909,7 +909,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 4046916265740,
+        "minExpectedResult": 3597258902880,
         "maxExpectedResult": 5395888354320
       },
       {
@@ -929,7 +929,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 3878265621,
+        "minExpectedResult": 3447347219,
         "maxExpectedResult": 5171020829
       },
       {
@@ -949,7 +949,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 549650176,
+        "minExpectedResult": 488577934,
         "maxExpectedResult": 732866902
       },
       {
@@ -969,7 +969,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 362952069353,
+        "minExpectedResult": 322624061647,
         "maxExpectedResult": 483936092471
       },
       {
@@ -989,7 +989,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 116648909227,
+        "minExpectedResult": 103687919313,
         "maxExpectedResult": 155531878971
       },
       {
@@ -1009,7 +1009,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 242228333924,
+        "minExpectedResult": 215314074599,
         "maxExpectedResult": 322971111899
       },
       {
@@ -1029,7 +1029,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 391741589214,
+        "minExpectedResult": 348214745968,
         "maxExpectedResult": 522322118952
       },
       {
@@ -1049,7 +1049,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 2060982996,
+        "minExpectedResult": 1831984885,
         "maxExpectedResult": 2747977329
       },
       {
@@ -1069,7 +1069,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 1454292361892,
+        "minExpectedResult": 1292704321682,
         "maxExpectedResult": 1939056482524
       },
       {
@@ -1089,7 +1089,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 34133065521,
+        "minExpectedResult": 30340502685,
         "maxExpectedResult": 45510754029
       },
       {
@@ -1109,7 +1109,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 162861498136,
+        "minExpectedResult": 144765776121,
         "maxExpectedResult": 217148664183
       },
       {
@@ -1129,7 +1129,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 257837707565,
+        "minExpectedResult": 229189073391,
         "maxExpectedResult": 343783610087
       },
       {
@@ -1144,12 +1144,12 @@
     "populationData": [
       {
         "id": "population",
-        "minExpectedResult": 6528,
+        "minExpectedResult": 3364,
         "maxExpectedResult": 7728
       },
       {
         "id": "gdp",
-        "minExpectedResult": 0,
+        "minExpectedResult": 100000,
         "maxExpectedResult": 0
       },
       {
@@ -1169,7 +1169,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 2681032300412,
+        "minExpectedResult": 2383139822588,
         "maxExpectedResult": 3574709733884
       },
       {
@@ -1189,7 +1189,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 3429204876,
+        "minExpectedResult": 3048182112,
         "maxExpectedResult": 4572273168
       },
       {
@@ -1209,7 +1209,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 18927619268,
+        "minExpectedResult": 16824550460,
         "maxExpectedResult": 25236825692
       },
       {
@@ -1229,7 +1229,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 3028161885099,
+        "minExpectedResult": 2691699453421,
         "maxExpectedResult": 4037549180133
       },
       {
@@ -1249,7 +1249,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 27775056830,
+        "minExpectedResult": 24688939404,
         "maxExpectedResult": 37033409108
       },
       {
@@ -1269,7 +1269,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 4662841357,
+        "minExpectedResult": 4144747873,
         "maxExpectedResult": 6217121811
       },
       {
@@ -1289,7 +1289,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 75131756044,
+        "minExpectedResult": 66783783150,
         "maxExpectedResult": 100175674726
       },
       {
@@ -1309,7 +1309,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 0,
+        "minExpectedResult": 100000,
         "maxExpectedResult": 0
       },
       {
@@ -1329,7 +1329,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 21522025424,
+        "minExpectedResult": 19130689266,
         "maxExpectedResult": 28696033900
       },
       {
@@ -1349,7 +1349,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 2456478063,
+        "minExpectedResult": 2183536056,
         "maxExpectedResult": 3275304086
       },
       {
@@ -1369,7 +1369,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 1956838014,
+        "minExpectedResult": 1739411568,
         "maxExpectedResult": 2609117354
       },
       {
@@ -1389,7 +1389,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 12754567396,
+        "minExpectedResult": 11337393241,
         "maxExpectedResult": 17006089863
       },
       {
@@ -1409,7 +1409,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 203845881699,
+        "minExpectedResult": 181196339288,
         "maxExpectedResult": 271794508934
       },
       {
@@ -1429,7 +1429,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 1547956877,
+        "minExpectedResult": 1375961668,
         "maxExpectedResult": 2063942504
       },
       {
@@ -1449,12 +1449,12 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 1301829999,
+        "minExpectedResult": 1157182221,
         "maxExpectedResult": 1735773333
       },
       {
         "id": "urban",
-        "minExpectedResult": 3986,
+        "minExpectedResult": 2930,
         "maxExpectedResult": 5186
       }
     ]
@@ -1469,7 +1469,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 93853131481,
+        "minExpectedResult": 83425005761,
         "maxExpectedResult": 125137508643
       },
       {
@@ -1489,7 +1489,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 5834303876,
+        "minExpectedResult": 5186047890,
         "maxExpectedResult": 7779071836
       },
       {
@@ -1509,7 +1509,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 33171471766,
+        "minExpectedResult": 29485752681,
         "maxExpectedResult": 44228629023
       },
       {
@@ -1529,7 +1529,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 84461502479,
+        "minExpectedResult": 75076891092,
         "maxExpectedResult": 112615336640
       },
       {
@@ -1549,7 +1549,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 18092750908,
+        "minExpectedResult": 16082445252,
         "maxExpectedResult": 24123667878
       },
       {
@@ -1569,7 +1569,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 191120227965,
+        "minExpectedResult": 169884647080,
         "maxExpectedResult": 254826970622
       },
       {
@@ -1589,7 +1589,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 7378833215,
+        "minExpectedResult": 6558962858,
         "maxExpectedResult": 9838444288
       },
       {
@@ -1609,7 +1609,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 3250493854197,
+        "minExpectedResult": 2889327870397,
         "maxExpectedResult": 4333991805597
       },
       {
@@ -1629,7 +1629,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 529925754345,
+        "minExpectedResult": 471045114973,
         "maxExpectedResult": 706567672461
       },
       {
@@ -1649,7 +1649,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 255550388887,
+        "minExpectedResult": 227155901233,
         "maxExpectedResult": 340733851851
       },
       {
@@ -1669,7 +1669,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 28852017102,
+        "minExpectedResult": 25646237424,
         "maxExpectedResult": 38469356138
       },
       {
@@ -1689,7 +1689,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 458880875009,
+        "minExpectedResult": 407894111119,
         "maxExpectedResult": 611841166679
       },
       {
@@ -1709,7 +1709,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 2040099317054,
+        "minExpectedResult": 1813421615159,
         "maxExpectedResult": 2720132422739
       },
       {
@@ -1729,7 +1729,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 16334465333,
+        "minExpectedResult": 14519524740,
         "maxExpectedResult": 21779287112
       },
       {
@@ -1749,7 +1749,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 5923503902,
+        "minExpectedResult": 5265336802,
         "maxExpectedResult": 7898005204
       },
       {
@@ -1769,7 +1769,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 53094666988,
+        "minExpectedResult": 47195259545,
         "maxExpectedResult": 70792889319
       },
       {
@@ -1789,7 +1789,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 251308009385,
+        "minExpectedResult": 223384897231,
         "maxExpectedResult": 335077345847
       },
       {
@@ -1809,7 +1809,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 99023099532,
+        "minExpectedResult": 88020532917,
         "maxExpectedResult": 132030799377
       },
       {
@@ -1829,7 +1829,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 12952118791,
+        "minExpectedResult": 11512994481,
         "maxExpectedResult": 17269491723
       },
       {
@@ -1849,7 +1849,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 1006193106,
+        "minExpectedResult": 894393872,
         "maxExpectedResult": 1341590810
       },
       {
@@ -1869,7 +1869,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 145701422591,
+        "minExpectedResult": 129512375636,
         "maxExpectedResult": 194268563456
       },
       {
@@ -1889,7 +1889,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 15161505483,
+        "minExpectedResult": 13476893763,
         "maxExpectedResult": 20215340645
       },
       {
@@ -1909,7 +1909,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 4038385628,
+        "minExpectedResult": 3589676114,
         "maxExpectedResult": 5384514172
       },
       {
@@ -1929,7 +1929,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 44178258374,
+        "minExpectedResult": 39269562999,
         "maxExpectedResult": 58904344499
       },
       {
@@ -1949,7 +1949,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 2295293750,
+        "minExpectedResult": 2040261111,
         "maxExpectedResult": 3060391667
       },
       {
@@ -1969,7 +1969,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 7010408071,
+        "minExpectedResult": 6231473841,
         "maxExpectedResult": 9347210763
       },
       {
@@ -1989,7 +1989,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 76524869429,
+        "minExpectedResult": 68022106159,
         "maxExpectedResult": 102033159239
       },
       {
@@ -2009,7 +2009,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 2127069456,
+        "minExpectedResult": 1890728405,
         "maxExpectedResult": 2836092609
       },
       {
@@ -2029,7 +2029,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 71411283953,
+        "minExpectedResult": 63476696847,
         "maxExpectedResult": 95215045271
       },
       {
@@ -2049,7 +2049,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 79940068916,
+        "minExpectedResult": 71057839036,
         "maxExpectedResult": 106586758556
       },
       {
@@ -2069,7 +2069,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 37195407055,
+        "minExpectedResult": 33062584049,
         "maxExpectedResult": 49593876075
       },
       {
@@ -2089,7 +2089,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 150638019280,
+        "minExpectedResult": 133900461582,
         "maxExpectedResult": 200850692374
       },
       {
@@ -2109,7 +2109,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 10018171599,
+        "minExpectedResult": 8905041421,
         "maxExpectedResult": 13357562133
       },
       {
@@ -2129,7 +2129,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 15530921988,
+        "minExpectedResult": 13805263989,
         "maxExpectedResult": 20707895985
       },
       {
@@ -2149,7 +2149,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 17664320791,
+        "minExpectedResult": 15701618481,
         "maxExpectedResult": 23552427723
       },
       {
@@ -2169,7 +2169,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 2424860173,
+        "minExpectedResult": 2155431265,
         "maxExpectedResult": 3233146899
       },
       {
@@ -2189,7 +2189,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 1612773808149,
+        "minExpectedResult": 1433576718355,
         "maxExpectedResult": 2150365077533
       },
       {
@@ -2209,7 +2209,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 14263440449,
+        "minExpectedResult": 12678613732,
         "maxExpectedResult": 19017920600
       },
       {
@@ -2229,7 +2229,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 30025622661,
+        "minExpectedResult": 26689442365,
         "maxExpectedResult": 40034163549
       },
       {
@@ -2249,7 +2249,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 25490805139,
+        "minExpectedResult": 22658493457,
         "maxExpectedResult": 33987740187
       },
       {
@@ -2269,7 +2269,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 6660034866,
+        "minExpectedResult": 5920030992,
         "maxExpectedResult": 8880046490
       },
       {
@@ -2289,7 +2289,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 19334045642,
+        "minExpectedResult": 17185818348,
         "maxExpectedResult": 25778727524
       },
       {
@@ -2309,7 +2309,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 890745188,
+        "minExpectedResult": 791773500,
         "maxExpectedResult": 1187660252
       },
       {
@@ -2329,7 +2329,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 20642955831,
+        "minExpectedResult": 18349294072,
         "maxExpectedResult": 27523941108
       },
       {
@@ -2349,7 +2349,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 9995096172,
+        "minExpectedResult": 8884529931,
         "maxExpectedResult": 13326794897
       },
       {
@@ -2364,12 +2364,12 @@
     "populationData": [
       {
         "id": "population",
-        "minExpectedResult": 4932,
+        "minExpectedResult": 2566,
         "maxExpectedResult": 6132
       },
       {
         "id": "gdp",
-        "minExpectedResult": 0,
+        "minExpectedResult": 100000,
         "maxExpectedResult": 0
       },
       {
@@ -2389,7 +2389,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 13254539631,
+        "minExpectedResult": 11781813005,
         "maxExpectedResult": 17672719509
       },
       {
@@ -2409,7 +2409,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 12673681770,
+        "minExpectedResult": 11265494907,
         "maxExpectedResult": 16898242361
       },
       {
@@ -2429,7 +2429,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 11465522086,
+        "minExpectedResult": 10191575188,
         "maxExpectedResult": 15287362782
       },
       {
@@ -2449,7 +2449,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 21166860734,
+        "minExpectedResult": 18814987319,
         "maxExpectedResult": 28222480979
       },
       {
@@ -2469,7 +2469,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 353160272314,
+        "minExpectedResult": 313920242057,
         "maxExpectedResult": 470880363087
       },
       {
@@ -2489,7 +2489,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 17037500748,
+        "minExpectedResult": 15144445109,
         "maxExpectedResult": 22716667665
       },
       {
@@ -2509,7 +2509,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 1119408831510,
+        "minExpectedResult": 995030072453,
         "maxExpectedResult": 1492545108681
       },
       {
@@ -2529,7 +2529,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 393013444770,
+        "minExpectedResult": 349345284240,
         "maxExpectedResult": 524017926362
       },
       {
@@ -2549,7 +2549,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 42891535056,
+        "minExpectedResult": 38125808939,
         "maxExpectedResult": 57188713409
       },
       {
@@ -2569,7 +2569,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 87412819962,
+        "minExpectedResult": 77700284411,
         "maxExpectedResult": 116550426617
       },
       {
@@ -2589,7 +2589,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 331492615421,
+        "minExpectedResult": 294660102596,
         "maxExpectedResult": 441990153896
       },
       {
@@ -2609,7 +2609,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 76087612161,
+        "minExpectedResult": 67633433032,
         "maxExpectedResult": 101450149550
       },
       {
@@ -2629,7 +2629,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 178482269944,
+        "minExpectedResult": 158650906617,
         "maxExpectedResult": 237976359927
       },
       {
@@ -2649,7 +2649,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 325234432080,
+        "minExpectedResult": 289097272960,
         "maxExpectedResult": 433645909442
       },
       {
@@ -2669,7 +2669,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 13907320466,
+        "minExpectedResult": 12362062636,
         "maxExpectedResult": 18543093956
       },
       {
@@ -2689,7 +2689,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 1275897293028,
+        "minExpectedResult": 1134130927136,
         "maxExpectedResult": 1701196390706
       },
       {
@@ -2709,7 +2709,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 118503126728,
+        "minExpectedResult": 105336112647,
         "maxExpectedResult": 158004168971
       },
       {
@@ -2729,7 +2729,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 10555755586,
+        "minExpectedResult": 9382893854,
         "maxExpectedResult": 14074340782
       },
       {
@@ -2749,7 +2749,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 29258344809,
+        "minExpectedResult": 26007417608,
         "maxExpectedResult": 39011126414
       },
       {
@@ -2764,12 +2764,12 @@
     "populationData": [
       {
         "id": "population",
-        "minExpectedResult": 5375,
+        "minExpectedResult": 2787,
         "maxExpectedResult": 6575
       },
       {
         "id": "gdp",
-        "minExpectedResult": 0,
+        "minExpectedResult": 100000,
         "maxExpectedResult": 0
       },
       {
@@ -2789,7 +2789,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 6293566579,
+        "minExpectedResult": 5594281404,
         "maxExpectedResult": 8391422106
       },
       {
@@ -2809,7 +2809,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 30402271634,
+        "minExpectedResult": 27024241452,
         "maxExpectedResult": 40536362180
       },
       {
@@ -2829,7 +2829,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 1498061289,
+        "minExpectedResult": 1331610035,
         "maxExpectedResult": 1997415053
       },
       {
@@ -2849,7 +2849,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 12658854142,
+        "minExpectedResult": 11252314793,
         "maxExpectedResult": 16878472191
       },
       {
@@ -2864,17 +2864,17 @@
     "populationData": [
       {
         "id": "population",
-        "minExpectedResult": 5929,
+        "minExpectedResult": 3064,
         "maxExpectedResult": 7129
       },
       {
         "id": "gdp",
-        "minExpectedResult": 305207573,
+        "minExpectedResult": 271295620,
         "maxExpectedResult": 406943432
       },
       {
         "id": "urban",
-        "minExpectedResult": 3397,
+        "minExpectedResult": 2517,
         "maxExpectedResult": 4597
       }
     ]
@@ -2889,7 +2889,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 61226916538,
+        "minExpectedResult": 54423925812,
         "maxExpectedResult": 81635888718
       },
       {
@@ -2909,7 +2909,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 728833748,
+        "minExpectedResult": 647852220,
         "maxExpectedResult": 971778332
       },
       {
@@ -2929,7 +2929,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 127027730867,
+        "minExpectedResult": 112913538548,
         "maxExpectedResult": 169370307824
       },
       {
@@ -2949,7 +2949,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 68030007860,
+        "minExpectedResult": 60471118098,
         "maxExpectedResult": 90706677148
       },
       {
@@ -2969,7 +2969,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 535357252044,
+        "minExpectedResult": 475873112928,
         "maxExpectedResult": 713809669394
       },
       {
@@ -2989,7 +2989,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 4202344680,
+        "minExpectedResult": 3735417493,
         "maxExpectedResult": 5603126241
       },
       {
@@ -3009,7 +3009,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 1281573539,
+        "minExpectedResult": 1139176479,
         "maxExpectedResult": 1708764719
       },
       {
@@ -3029,7 +3029,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 2449244715,
+        "minExpectedResult": 2177106413,
         "maxExpectedResult": 3265659621
       },
       {
@@ -3049,7 +3049,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 28244015792,
+        "minExpectedResult": 25105791815,
         "maxExpectedResult": 37658687723
       },
       {
@@ -3069,7 +3069,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 1596852451,
+        "minExpectedResult": 1419424401,
         "maxExpectedResult": 2129136603
       },
       {
@@ -3089,7 +3089,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 17891040016,
+        "minExpectedResult": 15903146681,
         "maxExpectedResult": 23854720023
       },
       {
@@ -3109,7 +3109,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 9609794912,
+        "minExpectedResult": 8542039922,
         "maxExpectedResult": 12813059884
       },
       {
@@ -3129,7 +3129,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 12625732683,
+        "minExpectedResult": 11222873496,
         "maxExpectedResult": 16834310244
       },
       {
@@ -3149,7 +3149,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 45874558164,
+        "minExpectedResult": 40777385035,
         "maxExpectedResult": 61166077553
       },
       {
@@ -3169,7 +3169,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 1013026922826,
+        "minExpectedResult": 900468375845,
         "maxExpectedResult": 1350702563769
       },
       {
@@ -3189,7 +3189,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 80307856431,
+        "minExpectedResult": 71384761272,
         "maxExpectedResult": 107077141908
       },
       {
@@ -3209,7 +3209,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 46802224783,
+        "minExpectedResult": 41601977585,
         "maxExpectedResult": 62402966379
       },
       {
@@ -3229,7 +3229,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 200382942102,
+        "minExpectedResult": 178118170757,
         "maxExpectedResult": 267177256137
       },
       {
@@ -3249,7 +3249,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 25209247842780,
+        "minExpectedResult": 22408220304693,
         "maxExpectedResult": 33612330457041
       },
       {
@@ -3269,7 +3269,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 92364955595,
+        "minExpectedResult": 82102182751,
         "maxExpectedResult": 123153274127
       },
       {
@@ -3284,17 +3284,17 @@
     "populationData": [
       {
         "id": "population",
-        "minExpectedResult": 6375,
+        "minExpectedResult": 3287,
         "maxExpectedResult": 7575
       },
       {
         "id": "gdp",
-        "minExpectedResult": 117934772,
+        "minExpectedResult": 104830908,
         "maxExpectedResult": 157246364
       },
       {
         "id": "urban",
-        "minExpectedResult": 6375,
+        "minExpectedResult": 4602,
         "maxExpectedResult": 7575
       }
     ]
@@ -3309,7 +3309,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 777753153,
+        "minExpectedResult": 691336136,
         "maxExpectedResult": 1037004204
       },
       {
@@ -3329,7 +3329,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 0,
+        "minExpectedResult": 100000,
         "maxExpectedResult": 0
       },
       {
@@ -3349,7 +3349,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 3828632824,
+        "minExpectedResult": 3403229177,
         "maxExpectedResult": 5104843767
       },
       {
@@ -3369,7 +3369,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 27480736395,
+        "minExpectedResult": 24427321240,
         "maxExpectedResult": 36640981860
       },
       {
@@ -3389,7 +3389,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 413055720583,
+        "minExpectedResult": 367160640518,
         "maxExpectedResult": 550740960778
       },
       {
@@ -3409,7 +3409,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 27735791045,
+        "minExpectedResult": 24654036484,
         "maxExpectedResult": 36981054728
       },
       {
@@ -3429,7 +3429,7 @@
       },
       {
         "id": "gdp",
-        "minExpectedResult": 33575932049,
+        "minExpectedResult": 29845272932,
         "maxExpectedResult": 44767909400
       },
       {
