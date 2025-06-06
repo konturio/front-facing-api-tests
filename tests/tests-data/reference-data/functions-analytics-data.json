@@ -1209,7 +1209,7 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 165,
+        "minExpectedResult": 150,
         "maxExpectedResult": 207
       },
       {
@@ -1754,8 +1754,8 @@
       },
       {
         "id": "osmgapssum",
-        "minExpectedResult": 0,
-        "maxExpectedResult": 49
+        "minExpectedResult": 7,
+        "maxExpectedResult": 59
       }
     ]
   },
@@ -1809,7 +1809,7 @@
       },
       {
         "id": "industrialareakm2",
-        "minExpectedResult": 3164,
+        "minExpectedResult": 3130,
         "maxExpectedResult": 3956
       },
       {

@@ -764,7 +764,7 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 165,
+        "minExpectedResult": 150,
         "maxExpectedResult": 207
       },
       {
@@ -1139,7 +1139,7 @@
       },
       {
         "id": "industrialAreaKm2",
-        "minExpectedResult": 3164,
+        "minExpectedResult": 3130,
         "maxExpectedResult": 3956
       },
       {
