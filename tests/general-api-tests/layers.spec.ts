@@ -24,7 +24,7 @@ languagesToTestLayers.forEach((language) => {
     `Check ${atlasLayersUrl} to give correct language response (${language}) and style ninja json content to match ${language} locale`,
     { tag: "@guest" },
     async ({ request }) => {
-      expect(atlasLayersUrl).toBeDefined();
+      expect(atlasLayersUrl, `Layers url should be defined`).toBeDefined();
       const response = await request.get(atlasLayersUrl, {
         headers: {
           "User-Language": language,
@@ -39,19 +39,25 @@ languagesToTestLayers.forEach((language) => {
         `${atlasLayersUrl} response had the next headers: ${JSON.stringify(headers, null, 2)}`
       ).toHaveProperty("vary", "Accept-Encoding");
 
-      expect(response.status()).toEqual(200);
+      expect(response.status(), `Should answer 200`).toEqual(200);
       const responseObj = await response.json();
       const firstObject = responseObj[0];
-      expect(firstObject).toBeDefined();
-      expect(firstObject.id.length).toBeGreaterThan(0);
+      expect(firstObject, `Should have at least one layer`).toBeDefined();
+      expect(
+        firstObject.id.length,
+        `First layer id should be greater than 0`
+      ).toBeGreaterThan(0);
       const linesUrl = firstObject.source.urls[0];
       expect(linesUrl, "Lines url should be defined").toBeDefined();
 
       // Check that atlasLayersUrl gave correct translation
-      expect(linesUrl).toContain(`style_ninja_${language}.json`);
+      expect(
+        linesUrl,
+        `Layers url should contain style_ninja_${language}.json`
+      ).toContain(`style_ninja_${language}.json`);
 
       const responseLines = await request.get(linesUrl!);
-      expect(responseLines.status()).toEqual(200);
+      expect(responseLines.status(), `Should answer 200`).toEqual(200);
       const responseLinesObj = await responseLines.json();
 
       // Parsing response to get language used
@@ -77,15 +83,24 @@ test(
   `Check ${atlasGlobalLayersUrl} availability`,
   { tag: "@guest" },
   async ({ request }) => {
-    expect(atlasGlobalLayersUrl).toBeDefined();
+    expect(
+      atlasGlobalLayersUrl,
+      `Global layers url should be defined`
+    ).toBeDefined();
     const response = await request.post(atlasGlobalLayersUrl, {
       data: {
         appId: atlasAppId,
       },
     });
-    expect(response.status()).toEqual(200);
+    expect(response.status(), "Should answer 200").toEqual(200);
     const responseObj = await response.json();
-    expect(responseObj[0]).toBeDefined();
-    expect(responseObj[0].id).toEqual("kontur_zmrok");
+    expect(
+      responseObj[0],
+      `Should have at least one global layer`
+    ).toBeDefined();
+    expect(
+      responseObj[0].id,
+      `First global layer should be named "kontur_zmrok"`
+    ).toEqual("kontur_zmrok");
   }
 );
