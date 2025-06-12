@@ -57,9 +57,10 @@ const testAxis = async function ({
   minQuality?: number | string;
   expectedError?: string;
 }): Promise<void> {
-  const url = minQuality
-    ? `${axisDataToGet.url}?minQuality=${minQuality}`
-    : axisDataToGet.url;
+  const url =
+    minQuality != null
+      ? `${axisDataToGet.url}?minQuality=${minQuality}`
+      : axisDataToGet.url;
   test.info().annotations.push({
     type: `Tested url`,
     description: url,
