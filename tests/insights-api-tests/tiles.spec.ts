@@ -7,13 +7,13 @@ const expectedLayers = [
   "access_to_health_care",
   "area_km2",
   "arts_and_entertainment_fsq_count",
-  "avg_elevation_gebco_2022",
+  "avg_elevation_gebco",
   "avg_forest_canopy_height",
   "avgmax_ts",
   "avg_ndvi",
   "avg_osm_building_levels",
   "avg_osm_hotels_assesment",
-  "avg_slope_gebco_2022",
+  "avg_slope_gebco",
   "bare_vegetation",
   "building_count",
   "building_count_6_months",
@@ -183,6 +183,12 @@ const expectedLayers = [
   "gmu_wind_direction",
   "gmu_wind_speed",
   "h3",
+  "communication_line_length",
+  "motor_vehicle_road_length",
+  "pipeline_length",
+  "railway_length",
+  "timezone_offset",
+  "wind_farms",
 ];
 
 if (process.env.ENVIRONMENT === "test") {

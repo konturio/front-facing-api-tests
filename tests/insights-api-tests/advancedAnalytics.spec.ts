@@ -305,11 +305,11 @@ for (const polygon of polygons) {
         });
 
         const referenceLayers = [
-          ["avg_elevation_gebco_2022", "one"],
-          ["avg_elevation_gebco_2022", "area_km2"],
+          ["avg_elevation_gebco", "one"],
+          ["avg_elevation_gebco", "area_km2"],
           ["view_count", "one"],
           ["view_count", "area_km2"],
-          ["avg_slope_gebco_2022", "area_km2"],
+          ["avg_slope_gebco", "area_km2"],
         ];
 
         let matchingLayers: any[] = [];
