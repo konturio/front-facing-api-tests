@@ -1,0 +1,17 @@
+[
+  {
+    "env": "prod",
+    "name": "axis",
+    "url": "https://atlas.kontur.io/active/api/axis"
+  },
+  {
+    "env": "test",
+    "name": "axis",
+    "url": "https://test-apps-ninja01.konturlabs.com/active/api/axis"
+  },
+  {
+    "env": "dev",
+    "name": "axis",
+    "url": "https://test-apps-ninja02.konturlabs.com/active/api/axis"
+  }
+]
