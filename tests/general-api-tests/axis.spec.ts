@@ -80,35 +80,38 @@ const testAxis = async function ({
         `Quotient (${actualQuotient}) should be defined`
       ).toBeDefined();
       test.step(`Check quotient (${actualQuotient}) steps values`, async () => {
-        const zeroValuesNumber = axis.steps.reduce((acc: number, step) => {
-          const value = step.value;
-          expect
-            .soft(
-              value,
-              `Step value (${value}) should be defined for ${actualQuotient}`
-            )
-            .toBeDefined();
-          expect
-            .soft(
-              isFinite(value),
-              `Step value (${value}) should be finite for ${actualQuotient}`
-            )
-            .toBeTruthy();
-          expect
-            .soft(
-              value,
-              `Step value (${value}) should not be null for ${actualQuotient}`
-            )
-            .not.toBeNull();
-          expect
-            .soft(
-              step.label,
-              `Step label (${step.label}) should be defined for ${actualQuotient}`
-            )
-            .toBeDefined();
-          if (value === 0) acc++;
-          return acc;
-        }, 0);
+        const zeroValuesNumber = axis.steps.reduce(
+          (zeroCount: number, step) => {
+            const value = step.value;
+            expect
+              .soft(
+                value,
+                `Step value (${value}) should be defined for ${actualQuotient}`
+              )
+              .toBeDefined();
+            expect
+              .soft(
+                Number.isFinite(value),
+                `Step value (${value}) should be finite for ${actualQuotient}`
+              )
+              .toBeTruthy();
+            expect
+              .soft(
+                value,
+                `Step value (${value}) should not be null for ${actualQuotient}`
+              )
+              .not.toBeNull();
+            expect
+              .soft(
+                step.label,
+                `Step label (${step.label}) should be defined for ${actualQuotient}`
+              )
+              .toBeDefined();
+            if (value === 0) zeroCount++;
+            return zeroCount;
+          },
+          0
+        );
         expect
           .soft(
             zeroValuesNumber,
@@ -126,7 +129,7 @@ const testAxis = async function ({
             .toBeDefined();
           expect
             .soft(
-              isFinite(value),
+              Number.isFinite(value),
               `Dataset stats for ${key} with value (${value}) should be finite`
             )
             .toBeTruthy();
@@ -167,7 +170,7 @@ const testAxis = async function ({
             .toBeDefined();
           expect
             .soft(
-              isFinite(value as number),
+              Number.isFinite(value as number),
               `Transformation for ${key} with value (${value}) should be finite`
             )
             .toBeTruthy();
@@ -225,7 +228,7 @@ const testAxis = async function ({
           ).toBeDefined();
           expect(
             quotients[i]["label"].length,
-            `Quotient lable length should be longer than 0`
+            `Quotient label length should be longer than 0`
           ).toBeGreaterThanOrEqual(1);
 
           expect(
@@ -319,11 +322,10 @@ const testAxis = async function ({
       ).toBeTruthy();
     }
     const uniqueQuotients = [...new Set(actualQuotients)];
-    // TODO: enable this check once https://kontur.fibery.io/Tasks/Task/Axis-API-unit-has-null-in-id,-shortName-and-longName-fields-21888 is fixed
-    // expect(
-    //   actualQuotients.sort(),
-    //   `Expect response with axis to have only unique axises`
-    // ).toStrictEqual(uniqueQuotients.sort());
+    expect(
+      actualQuotients.sort(),
+      `Expect response with axis to have only unique axises`
+    ).toStrictEqual(uniqueQuotients.sort());
   } else {
     const responseObj = (await response.text()) as string;
     expect(responseObj, `Expect response to contain specific error`).toContain(
