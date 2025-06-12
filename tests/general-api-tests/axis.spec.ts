@@ -39,6 +39,12 @@ type AxisData = {
 
 const [axisDataToGet] = getApis(["axis"], "axis");
 
+if (!axisDataToGet) {
+  throw new Error(
+    `Axis API definition for current environment is missing in tests-data/apis-to-test/axis.json`
+  );
+}
+
 /**
  * This function is used to test the axis API
  * @param obj - object with request, expectedStatus, expectValidity, minQuality, and expectedError properties. If expectValidity is true, the function checks if the response is valid. If expectValidity is false, the function checks if the response is kind of invalid and controls the error message got. If minQuality is defined, the function checks if the response has no quotations with quality less than specified filter.
@@ -72,15 +78,16 @@ const testAxis = async function ({
   if (expectValidity) {
     const responseObj = (await response.json()) as AxisData;
     // if we get valid response, we can expect minQuality to be only number
-    const validMinQuality = minQuality ? (minQuality as number) : 0;
+    const validMinQuality = typeof minQuality === "number" ? minQuality : 0;
     // get all quotients from response to operate on them later for general checks + check other data in response
-    const actualQuotients = responseObj.map((axis) => {
+    const actualQuotients: string[] = [];
+    for (const axis of responseObj) {
       const actualQuotient = JSON.stringify(axis.quotient);
       expect(
         actualQuotient,
         `Quotient (${actualQuotient}) should be defined`
       ).toBeDefined();
-      test.step(`Check quotient (${actualQuotient}) steps values`, async () => {
+      await test.step(`Check quotient (${actualQuotient}) steps values`, async () => {
         const zeroValuesNumber = axis.steps.reduce(
           (zeroCount: number, step) => {
             const value = step.value;
@@ -120,7 +127,7 @@ const testAxis = async function ({
           )
           .toBeLessThan(axis.steps.length);
       });
-      test.step(`Check quotient (${actualQuotient}) dataset stats values`, async () => {
+      await test.step(`Check quotient (${actualQuotient}) dataset stats values`, async () => {
         Object.entries(axis.datasetStats).forEach(([key, value]) => {
           expect
             .soft(
@@ -148,16 +155,16 @@ const testAxis = async function ({
             .toBeDefined();
         });
       });
-      test.step(`Check quotient (${actualQuotient}) transformation values`, async () => {
+      await test.step(`Check quotient (${actualQuotient}) transformation values`, async () => {
         Object.entries(axis.transformation).forEach(([key, value]) => {
           if (key === "transformation") {
-            value = value as string;
+            const name = value as string;
             expect
-              .soft(value, `Transformation name should be defined`)
+              .soft(name, `Transformation name should be defined`)
               .toBeDefined();
             expect
               .soft(
-                value.length,
+                name.length,
                 `Transformation name length should be more than 0`
               )
               .toBeGreaterThan(0);
@@ -198,7 +205,7 @@ const testAxis = async function ({
           .soft(axis.quality, `Quality should be adequate (less than 1)`)
           .toBeLessThanOrEqual(1);
       });
-      test.step(`Check quotients (${actualQuotient}) description data`, async () => {
+      await test.step(`Check quotients (${actualQuotient}) description data`, async () => {
         const quotients = axis.quotients;
         const quotientsToBeDescribed = JSON.parse(
           actualQuotient
@@ -311,8 +318,8 @@ const testAxis = async function ({
           });
         }
       });
-      return actualQuotient;
-    });
+      actualQuotients.push(actualQuotient);
+    }
     const isBasicAxisIncluded = actualQuotients.includes(
       `["population","area_km2"]`
     );
@@ -325,7 +332,7 @@ const testAxis = async function ({
     const uniqueQuotients = [...new Set(actualQuotients)];
     expect(
       actualQuotients.sort(),
-      `Expect response with axis to have only unique axises`
+      `Expect response with axis to have only unique axes`
     ).toStrictEqual(uniqueQuotients.sort());
   } else {
     const responseObj = (await response.text()) as string;
