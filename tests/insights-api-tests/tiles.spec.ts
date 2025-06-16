@@ -189,6 +189,9 @@ const expectedLayers = [
   "railway_length",
   "timezone_offset",
   "wind_farms",
+  "max_osm_building_construction_year",
+  "min_osm_building_construction_year",
+  "avg_osm_building_construction_year",
 ];
 
 if (process.env.ENVIRONMENT === "test") {
