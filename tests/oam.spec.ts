@@ -108,10 +108,6 @@ test.describe(`Testing OAM mosaic`, () => {
       `${capitalizeFirstLetter(oamWithTiles?.name || "no data")} are shown (${size}px) and give 200 ok`,
       { tag: "@guest" },
       async ({ request }, testInfo) => {
-        test.fixme(
-          size === 512,
-          "512 px endpoint always gives out empty images, see https://kontur.fibery.io/Tasks/Task/BE-Activate-512px-endpoint-to-operate-with-high-resolution-images-20647 issue related to this test"
-        );
         await testOAMTiles({
           request,
           expectedImgLocation: oamWithTiles[
