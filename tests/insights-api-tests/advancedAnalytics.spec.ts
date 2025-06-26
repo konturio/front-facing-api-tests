@@ -4,12 +4,7 @@ import {
   getGraphqlQuery,
   sendGraphqlQuery,
 } from "../helper";
-
-type Analytics = {
-  value: number;
-  calculation: string;
-  quality: number;
-};
+import type { Analytics } from "../types";
 
 const polygons = getPolygonsToTest();
 const queryDeadline = 60000;

@@ -4,11 +4,17 @@ import {
   getGraphqlQuery,
   sendGraphqlQuery,
   getReferenceDataForCountry,
-  OsmAnalytics,
+  getConsumersAndPushToAnnotations,
 } from "../helper";
+import type { OsmAnalytics } from "../types";
+import { fileURLToPath } from "url";
+import { basename } from "path";
 
 const polygons = getPolygonsToTest();
 const queryDeadline = 60000;
+const fileNameWithNoExtension = basename(fileURLToPath(import.meta.url)).split(
+  "."
+)[0];
 
 const osmQuery = getGraphqlQuery("analyticsOSMQuality", {
   useGeojson: true,
@@ -32,6 +38,7 @@ for (const polygon of polygons) {
     },
     () => {
       test("Check OSM quality against reference", async ({ playwright }) => {
+        getConsumersAndPushToAnnotations(fileNameWithNoExtension);
         const request = await playwright.request.newContext();
         const response = await sendGraphqlQuery({
           request,

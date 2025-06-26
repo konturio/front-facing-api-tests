@@ -1,21 +1,11 @@
-import { test, expect, APIRequestContext, TestInfo } from "@playwright/test";
+import { test, expect } from "@playwright/test";
 import { getApis } from "./helper";
 import fs from "fs";
 import { PNG } from "pngjs";
 import pixelmatch from "pixelmatch";
+import type { TestOAMTilesOptions } from "./types";
 
 const sizes = [256, 512] as [256, 512];
-
-type testOAMTilesOptions = {
-  request: APIRequestContext;
-  expectedImgLocation: string;
-  expectedRespStatus: number;
-  url: string;
-  expectedPNGWidth: 256 | 512;
-  expectedPNGHeight: 256 | 512;
-  expectedPixelsDiff: number;
-  testInfo: TestInfo;
-};
 
 const [oamWithTiles, oamNoTiles, clusterWithTiles, clusterWithNoTiles] =
   getApis(
@@ -47,7 +37,7 @@ const testOAMTiles = async function ({
   expectedPNGHeight,
   expectedPixelsDiff,
   testInfo,
-}: testOAMTilesOptions) {
+}: TestOAMTilesOptions) {
   const response =
     await test.step("Get OAM image, waiting 10 secs max and check response status", async () =>
       await request.get(url, { timeout: 10000 }));

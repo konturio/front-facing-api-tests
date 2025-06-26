@@ -4,20 +4,22 @@ import {
   getGraphqlQuery,
   sendGraphqlQuery,
   getReferenceDataForCountry,
-  FunctionsAnalytics,
+  getConsumersAndPushToAnnotations,
 } from "../helper";
-
-type Stat = {
-  id: string;
-  result: number | null;
-};
+import { fileURLToPath } from "url";
+import type { FunctionsAnalytics, Stat } from "../types";
+import { basename } from "path";
 
 const polygons = getPolygonsToTest();
 const queryDeadline = 60000;
+const fileNameWithNoExtension = basename(fileURLToPath(import.meta.url)).split(
+  "."
+)[0];
 
 const functionsQuery = getGraphqlQuery("analyticsFunctions", {
   useGeojson: true,
 });
+
 for (const polygon of polygons) {
   const testedCountry = polygon.features[0].properties.ADMIN;
   const referenceData = getReferenceDataForCountry(
@@ -38,6 +40,7 @@ for (const polygon of polygons) {
       test("Check functions calculations with test data", async ({
         playwright,
       }) => {
+        getConsumersAndPushToAnnotations(fileNameWithNoExtension);
         // Create new context to avoid playwright caching
         const request = await playwright.request.newContext();
         const response = await sendGraphqlQuery({
