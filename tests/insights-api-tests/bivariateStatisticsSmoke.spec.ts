@@ -4,7 +4,7 @@ import {
   getGraphqlQuery,
   sendGraphqlQuery,
 } from "../helper";
-import type { TestedGeojson } from "../helper";
+import type { TestedGeojson } from "../types";
 
 const polygons = getPolygonsToTest();
 const queryDeadline = 60000;

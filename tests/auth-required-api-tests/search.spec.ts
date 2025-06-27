@@ -1,15 +1,6 @@
 import { test, expect } from "@playwright/test";
-import { APIRequestContext } from "@playwright/test";
-import { getApis, getJSON, Api } from "../helper";
-
-type testSearchApiOptions = {
-  searchApi: Api;
-  request: APIRequestContext;
-  query: string;
-  expectedResponseBody: {} | string;
-  authToken?: string;
-  expectedStatus?: number;
-};
+import { getApis, getJSON } from "../helper";
+import type { testSearchApiOptions } from "../types";
 
 const searchApis = getApis(
   ["search oam", "search atlas", "search disaster-ninja", "search smart-city"],

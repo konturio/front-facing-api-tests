@@ -1,9 +1,6 @@
 import { test, expect } from "@playwright/test";
 import { getApis } from "../helper";
-
-type Layer = {
-  id: string;
-};
+import type { Layer } from "../types";
 
 const languagesToTestLayers = ["es", "en", "ar", "de", "uk", "id", "ko"];
 const apiObjsToTest = getApis(

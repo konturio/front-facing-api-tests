@@ -4,28 +4,21 @@ import {
   getGraphqlQuery,
   sendGraphqlQuery,
   getReferenceDataForCountry,
+  getConsumersAndPushToAnnotations,
 } from "../helper";
-import type { PopulationAnalytics } from "../helper";
+import type { PopulationAnalytics, PopulationData } from "../types";
+import { fileURLToPath } from "url";
+import { basename } from "path";
 
 const polygons = getPolygonsToTest();
 const queryDeadline = 60000;
+const fileNameWithNoExtension = basename(fileURLToPath(import.meta.url)).split(
+  "."
+)[0];
 
 const populationQuery = getGraphqlQuery("analyticsPopulation", {
   useGeojson: true,
 });
-
-/**
- * Type representing population analytics data for a region
- * @property population - Total population count
- * @property gdp - Gross Domestic Product in USD
- * @property urban - Urban population count
- */
-
-type PopulationData = {
-  population: number;
-  gdp: number;
-  urban: number;
-};
 
 const fieldsToCheck = ["population", "gdp", "urban"];
 
@@ -54,6 +47,7 @@ for (const polygon of polygons) {
       tag: "@fitsLoadTesting",
     },
     async ({ playwright }) => {
+      getConsumersAndPushToAnnotations(fileNameWithNoExtension);
       // Create new context to avoid playwright caching
       const request = await playwright.request.newContext();
       const responseObj = await sendGraphqlQuery({

@@ -167,12 +167,6 @@ export default function updateExpectedRange({
       newMax = result <= 95 ? Math.ceil(result + 4) : 99.99;
       break;
 
-    case "antiqueOsmBuildingsPercentage":
-    case "antiqueOsmRoadsPercentage":
-      newMin = result > 30 ? Math.floor(result - 30) : 0;
-      newMax = result <= 95 ? Math.ceil(result + 4) : 99.99;
-      break;
-
     case "osmBuildingsCount":
       newMin = result > 1 ? Math.floor(result * 0.8) : 1;
       newMax = Math.ceil(result * 1.3);

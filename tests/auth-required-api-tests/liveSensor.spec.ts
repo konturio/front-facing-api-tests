@@ -1,5 +1,6 @@
-import { test, expect, APIRequestContext } from "@playwright/test";
+import { test, expect } from "@playwright/test";
 import { getApis, getJSON } from "../helper";
+import type { liveSensorRequestOptions } from "../types";
 
 const [liveSensorUrl] = getApis(["live sensor"], "live-sensor").map(
   (apiObj) => apiObj?.url
@@ -9,16 +10,6 @@ const liveSensorBody = getJSON({
   fileFolder: "request-bodies",
 });
 const accessToken = process.env.ACCESS_TOKEN;
-
-type liveSensorRequestOptions = {
-  request: APIRequestContext;
-  liveSensorUrl: string | undefined;
-  liveSensorBody?: {};
-  accessToken?: string;
-  contentType: string;
-  expectedResponseStatus: number;
-  isResponseJSON?: boolean;
-};
 
 const testLiveSensor = async function ({
   request,

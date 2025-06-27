@@ -1,41 +1,6 @@
 import { test, expect, APIRequestContext } from "@playwright/test";
 import { getApis } from "../helper";
-
-type AxisData = {
-  label: null;
-  steps: { label: null; value: number }[];
-  datasetStats: {
-    minValue: number;
-    maxValue: number;
-    mean: number;
-    stddev: number;
-  };
-  quotient: [string, string];
-  quotients: {
-    name: string;
-    label: string;
-    emoji?: string;
-    maxZoom: number;
-    description: string;
-    copyrights: string[];
-    direction: [string][];
-    unit: {
-      id: string;
-      shortName: string;
-      longName: string;
-    };
-  }[];
-  quality: number;
-  transformation: {
-    transformation: string;
-    mean: number;
-    skew: number;
-    stddev: number;
-    lowerBound: number;
-    upperBound: number;
-  };
-  parent: null;
-}[];
+import type { AxisData, TestAxisOptions } from "../types";
 
 const [axisDataToGet] = getApis(["axis"], "axis");
 
@@ -56,13 +21,7 @@ const testAxis = async function ({
   expectValidity,
   minQuality,
   expectedError,
-}: {
-  request: APIRequestContext;
-  expectedStatus: number;
-  expectValidity: boolean;
-  minQuality?: number | string;
-  expectedError?: string;
-}): Promise<void> {
+}: TestAxisOptions): Promise<void> {
   const url =
     minQuality != null
       ? `${axisDataToGet.url}?minQuality=${minQuality}`

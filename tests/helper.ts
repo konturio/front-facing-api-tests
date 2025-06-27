@@ -1,8 +1,18 @@
 import fs from "fs";
 import path from "path";
-import { APIRequestContext, expect } from "@playwright/test";
+import { APIRequestContext, expect, test } from "@playwright/test";
 import { fileURLToPath } from "url";
 import * as dotenv from "dotenv";
+import {
+  PopulationAnalytics,
+  ThermalSpotsAnalytics,
+  OsmAnalytics,
+  FunctionsAnalytics,
+  Api,
+  TestedGeojson,
+  InsightsApiConsumersData,
+  FilteredInsightsApiConsumersData,
+} from "./types";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -14,84 +24,6 @@ dotenv.config({
     ".env.playwright",
   ],
 });
-
-export type PopulationAnalytics = {
-  admin: string;
-  populationData: {
-    id: "population" | "gdp" | "urban";
-    minExpectedResult: number;
-    maxExpectedResult: number;
-  }[];
-};
-
-export type ThermalSpotsAnalytics = {
-  admin: string;
-  thermalSpotsData: {
-    id:
-      | "volcanoesCount"
-      | "hotspotDaysPerYearMax"
-      | "industrialAreaKm2"
-      | "forestAreaKm2";
-    minExpectedResult: number;
-    maxExpectedResult: number;
-  }[];
-};
-
-export type OsmAnalytics = {
-  admin: string;
-  osmData: {
-    id:
-      | "areaWithoutOsmBuildingsKm2"
-      | "areaWithoutOsmRoadsKm2"
-      | "osmBuildingGapsPercentage"
-      | "osmRoadGapsPercentage"
-      | "antiqueOsmBuildingsPercentage"
-      | "antiqueOsmRoadsPercentage"
-      | "osmBuildingsCount"
-      | "osmUsersCount"
-      | "osmUsersHours"
-      | "localOsmUsersHours"
-      | "aiBuildingsCountEstimation";
-    minExpectedResult: number;
-    maxExpectedResult: number;
-  }[];
-};
-
-export type FunctionsAnalytics = {
-  admin: string;
-  functionsData: {
-    id:
-      | "populatedareakm2"
-      | "industrialareakm2"
-      | "forestareakm2"
-      | "volcanoescount"
-      | "hotspotdaysperyearmax"
-      | "osmgapspercentage"
-      | "osmgapssum";
-    minExpectedResult: number;
-    maxExpectedResult: number;
-  }[];
-};
-
-export type Api = {
-  env: string;
-  name: string;
-  url: string;
-  urlLargeImg?: string;
-  appId?: string;
-  expectedImgAddress?: string;
-  expectedLargeImgAddress?: string;
-  expectedNumImages?: number;
-};
-
-export type TestedGeojson = {
-  type: string;
-  features: {
-    type: string;
-    properties: { ADMIN: string; ISO_A3: string; timestamp: number };
-    geometry: { type: string; coordinates: [] };
-  }[];
-};
 
 export const countriesForWorkflow = getJSON({
   fileName: "countries-for-workflow",
@@ -148,6 +80,14 @@ export function getJSON({
   fileFolder,
 }: {
   fileName: string;
+  fileFolder: "consumers";
+}): InsightsApiConsumersData;
+
+export function getJSON({
+  fileName,
+  fileFolder,
+}: {
+  fileName: string;
   fileFolder: "lookup-data";
 }): string[];
 
@@ -176,7 +116,8 @@ export function getJSON({
     | "request-bodies"
     | "response-bodies"
     | "lookup-data"
-    | "reference-data";
+    | "reference-data"
+    | "consumers";
 }) {
   try {
     const partialPath = `./tests-data/${fileFolder}/${fileName}.json`;
@@ -187,6 +128,8 @@ export function getJSON({
         return json as Record<string, unknown>[];
       case "lookup-data":
         return json as string[];
+      case "consumers":
+        return json as InsightsApiConsumersData;
       default:
         return json as Record<string, unknown>;
     }
@@ -386,4 +329,35 @@ export function getPolygonsToTest() {
   } else {
     return [getRandomBusinessCountryJSON()];
   }
+}
+
+/**
+ * This function returns consumers data for a specific test file and pushes it to annotations
+ * @param testFileName - name of the test file
+ * @returns object with consumers data
+ */
+
+export function getConsumersAndPushToAnnotations(
+  testFileNameWithNoExtension: string
+) {
+  const consumersObj = getJSON({
+    fileName: "insights-api-consumers",
+    fileFolder: "consumers",
+  });
+  const resultObj = {} as FilteredInsightsApiConsumersData;
+  for (const [argument, formulas] of Object.entries(consumersObj)) {
+    for (const [formula, formulaData] of Object.entries(formulas)) {
+      if (formulaData.testedIn === testFileNameWithNoExtension) {
+        if (!resultObj[argument]) {
+          resultObj[argument] = {};
+        }
+        resultObj[argument]![formula] = formulaData;
+        test.info().annotations.push({
+          type: `metric`,
+          description: `Tested formula '${formula}' calculated with '${argument}' logics, is used by: ${formulaData.consumers.join(", ")}`,
+        });
+      }
+    }
+  }
+  return resultObj;
 }

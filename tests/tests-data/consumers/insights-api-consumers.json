@@ -1,0 +1,336 @@
+{
+  "sumX": {
+    "population": {
+      "consumers": [
+        "hotosm.org",
+        "disaster.ninja",
+        "honey",
+        "maps.kontur.io",
+        "oasis.kontur.io",
+        "odin.kontur.io",
+        "risks.kontur.io",
+        "terrain.kontur.io",
+        "kontur.io",
+        "horam.kontur.io",
+        "globalgiving.kontur.io"
+      ],
+      "id": "population",
+      "testedIn": null
+    },
+    "populated_area_km2": {
+      "consumers": [
+        "hotosm.org",
+        "/api/events",
+        "disaster.ninja",
+        "honey",
+        "maps.kontur.io",
+        "oasis.kontur.io",
+        "odin.kontur.io",
+        "horam.kontur.io",
+        "globalgiving.kontur.io"
+      ],
+      "id": "populatedAreaKm2",
+      "testedIn": "functionsAnalytics"
+    },
+    "building_count": {
+      "consumers": [
+        "hotosm.org",
+        "/api/events",
+        "maps.kontur.io",
+        "risks.kontur.io"
+      ],
+      "id": "osmBuildingsCount",
+      "testedIn": "osmAnalytics"
+    },
+    "highway_length": {
+      "consumers": ["hotosm.org", "/api/events", "maps.kontur.io"],
+      "id": "highway_length",
+      "testedIn": null
+    },
+    "osm_users": {
+      "consumers": ["hotosm.org"],
+      "id": "osmUsersCount",
+      "testedIn": "osmAnalytics"
+    },
+    "building_count_6_months": {
+      "consumers": ["hotosm.org"],
+      "id": "building_count_6_months",
+      "testedIn": null
+    },
+    "highway_length_6_months": {
+      "consumers": ["hotosm.org"],
+      "id": "highway_length_6_months",
+      "testedIn": null
+    },
+    "total_building_count": {
+      "consumers": [
+        "hotosm.org",
+        "oasis.kontur.io",
+        "horam.kontur.io",
+        "globalgiving.kontur.io"
+      ],
+      "id": "aiBuildingsCountEstimation",
+      "testedIn": "osmAnalytics"
+    },
+    "total_road_length": {
+      "consumers": ["hotosm.org"],
+      "id": "aiRoadCountEstimation",
+      "testedIn": null
+    },
+    "total_hours": {
+      "consumers": ["hotosm.org"],
+      "id": "osmUsersHours",
+      "testedIn": "osmAnalytics"
+    },
+    "local_hours": {
+      "consumers": ["hotosm.org"],
+      "id": "localOsmUsersHours",
+      "testedIn": "osmAnalytics"
+    },
+    "industrial_area": {
+      "consumers": [
+        "/api/events",
+        "oasis.kontur.io",
+        "odin.kontur.io",
+        "horam.kontur.io",
+        "globalgiving.kontur.io"
+      ],
+      "id": "industrialAreaKm2",
+      "testedIn": "functionsAnalytics"
+    },
+    "forest": {
+      "consumers": [
+        "/api/events",
+        "oasis.kontur.io",
+        "odin.kontur.io",
+        "horam.kontur.io",
+        "globalgiving.kontur.io"
+      ],
+      "id": "forestAreaKm2",
+      "testedIn": "functionsAnalytics"
+    },
+    "volcanos_count": {
+      "consumers": ["/api/events", "oasis.kontur.io", "odin.kontur.io"],
+      "id": "volcanoesCount",
+      "testedIn": "functionsAnalytics"
+    },
+    "area_km2": {
+      "consumers": [
+        "maps.kontur.io",
+        "oasis.kontur.io",
+        "risks.kontur.io",
+        "terrain.kontur.io",
+        "kontur.io",
+        "horam.kontur.io",
+        "globalgiving.kontur.io"
+      ],
+      "id": "no id",
+      "testedIn": null
+    },
+    "osm_public_transport_stops_count": {
+      "consumers": ["maps.kontur.io"],
+      "id": "no id",
+      "testedIn": null
+    },
+    "osm_car_parkings_capacity": {
+      "consumers": ["maps.kontur.io"],
+      "id": "no id",
+      "testedIn": null
+    },
+    "osm_railway_stations_count": {
+      "consumers": ["maps.kontur.io"],
+      "id": "no id",
+      "testedIn": null
+    },
+    "osm_airports_count": {
+      "consumers": ["maps.kontur.io", "risks.kontur.io"],
+      "id": "no id",
+      "testedIn": null
+    },
+    "osm_pharmacy_count": {
+      "consumers": ["maps.kontur.io"],
+      "id": "no id",
+      "testedIn": null
+    },
+    "osm_defibrillators_count": {
+      "consumers": ["maps.kontur.io", "risks.kontur.io"],
+      "id": "no id",
+      "testedIn": null
+    },
+    "sports_and_recreation_fsq_count": {
+      "consumers": ["maps.kontur.io"],
+      "id": "no id",
+      "testedIn": null
+    },
+    "osm_hotels_count": {
+      "consumers": ["maps.kontur.io"],
+      "id": "no id",
+      "testedIn": null
+    },
+    "landmarks_and_outdoors_fsq_count": {
+      "consumers": ["maps.kontur.io", "risks.kontur.io"],
+      "id": "no id",
+      "testedIn": null
+    },
+    "arts_and_entertainment_fsq_count": {
+      "consumers": ["maps.kontur.io"],
+      "id": "no id",
+      "testedIn": null
+    },
+    "permanent_water": {
+      "consumers": ["risks.kontur.io"],
+      "id": "no id",
+      "testedIn": null
+    }
+  },
+  "percentageXWhereNoY": {
+    "populated_area_km2/building_count": {
+      "consumers": ["hotosm.org", "disaster.ninja", "honey", "oasis.kontur.io"],
+      "id": "osmBuildingGapsPercentage",
+      "testedIn": "osmAnalytics"
+    },
+    "populated_area_km2/highway_length": {
+      "consumers": ["hotosm.org", "disaster.ninja", "honey", "oasis.kontur.io"],
+      "id": "osmRoadGapsPercentage",
+      "testedIn": "osmAnalytics"
+    },
+    "populated_area_km2/count": {
+      "consumers": [
+        "/api/events",
+        "disaster.ninja",
+        "honey",
+        "oasis.kontur.io"
+      ],
+      "id": "osmGapsPercentage",
+      "testedIn": "functionsAnalytics"
+    },
+    "area_km2/building_count": {
+      "consumers": ["honey"],
+      "id": "no id",
+      "testedIn": null
+    }
+  },
+  "avgX": {
+    "avgmax_ts": {
+      "consumers": ["hotosm.org"],
+      "id": "averageEditTime",
+      "testedIn": null
+    },
+    "ghs_avg_building_height": {
+      "consumers": ["maps.kontur.io", "risks.kontur.io"],
+      "id": "no id",
+      "testedIn": null
+    },
+    "avg_forest_canopy_height": {
+      "consumers": ["oasis.kontur.io", "odin.kontur.io", "risks.kontur.io"],
+      "id": "no id",
+      "testedIn": null
+    },
+    "worldclim_avg_temperature": {
+      "consumers": ["oasis.kontur.io", "odin.kontur.io"],
+      "id": "no id",
+      "testedIn": null
+    },
+    "avg_elevation_gebco_2022": {
+      "consumers": ["risks.kontur.io"],
+      "id": "no id",
+      "testedIn": null
+    },
+    "days_maxtemp_over_32c_1c": {
+      "consumers": ["risks.kontur.io"],
+      "id": "no id",
+      "testedIn": null
+    },
+    "days_mintemp_above_25c_1c": {
+      "consumers": ["risks.kontur.io"],
+      "id": "no id",
+      "testedIn": null
+    }
+  },
+  "maxX": {
+    "avgmax_ts": {
+      "consumers": ["hotosm.org"],
+      "id": "lastEditTime",
+      "testedIn": null
+    },
+    "wildfires": {
+      "consumers": ["/api/events", "oasis.kontur.io", "odin.kontur.io"],
+      "id": "hotspotDaysPerYearMax",
+      "testedIn": "functionsAnalytics"
+    },
+    "ghs_max_building_height": {
+      "consumers": ["maps.kontur.io"],
+      "id": "no id",
+      "testedIn": null
+    },
+    "drought_days_count": {
+      "consumers": ["oasis.kontur.io", "odin.kontur.io", "risks.kontur.io"],
+      "id": "no id",
+      "testedIn": null
+    },
+    "worldclim_max_temperature": {
+      "consumers": ["oasis.kontur.io", "odin.kontur.io"],
+      "id": "no id",
+      "testedIn": null
+    },
+    "hazardous_days_count": {
+      "consumers": ["risks.kontur.io"],
+      "id": "no id",
+      "testedIn": null
+    },
+    "cyclone_days_count": {
+      "consumers": ["risks.kontur.io"],
+      "id": "no id",
+      "testedIn": null
+    },
+    "earthquake_days_count": {
+      "consumers": ["risks.kontur.io"],
+      "id": "no id",
+      "testedIn": null
+    },
+    "flood_days_count": {
+      "consumers": ["risks.kontur.io"],
+      "id": "no id",
+      "testedIn": null
+    },
+    "volcano_days_count": {
+      "consumers": ["risks.kontur.io"],
+      "id": "no id",
+      "testedIn": null
+    },
+    "wildfire_days_count": {
+      "consumers": ["risks.kontur.io"],
+      "id": "no id",
+      "testedIn": null
+    }
+  },
+  "sumXWhereNoY": {
+    "populated_area_km2/building_count": {
+      "consumers": ["hotosm.org"],
+      "id": "areaWithoutOsmBuildingsKm2",
+      "testedIn": "osmAnalytics"
+    },
+    "populated_area_km2/highway_length": {
+      "consumers": ["hotosm.org"],
+      "id": "areaWithoutOsmRoadsKm2",
+      "testedIn": "osmAnalytics"
+    },
+    "populated_area_km2/count": {
+      "consumers": ["disaster.ninja", "honey", "oasis.kontur.io"],
+      "id": "no id",
+      "testedIn": "functionsAnalytics"
+    }
+  },
+  "population": {
+    "population": {
+      "consumers": ["/api/events"],
+      "id": "population",
+      "testedIn": "populationAnalytics"
+    },
+    "gdp": {
+      "consumers": ["/api/events"],
+      "id": "gdp",
+      "testedIn": "populationAnalytics"
+    }
+  }
+}
