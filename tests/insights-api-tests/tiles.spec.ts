@@ -192,6 +192,9 @@ const expectedLayers = [
   "max_osm_building_construction_year",
   "min_osm_building_construction_year",
   "avg_osm_building_construction_year",
+  "gfw_flag_duration_last_month",
+  "gfw_total_duration_last_month",
+  "gfw_unknown_flag_duration_last_month",
 ];
 
 if (process.env.ENVIRONMENT === "test") {
