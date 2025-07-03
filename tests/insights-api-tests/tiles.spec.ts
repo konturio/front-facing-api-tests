@@ -195,6 +195,7 @@ const expectedLayers = [
   "gfw_flag_duration_last_month",
   "gfw_total_duration_last_month",
   "gfw_unknown_flag_duration_last_month",
+  "gfw_flag_distance_to_home_country",
 ];
 
 if (process.env.ENVIRONMENT === "test") {
