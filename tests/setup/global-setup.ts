@@ -1,4 +1,4 @@
-import { getApis, getJSON } from "./helper";
+import { getApis, getJSON } from "../helpers/main-helper";
 
 function globalSetup() {
   const params = ["ENVIRONMENT", "SLACK_BOT_USER_OAUTH_TOKEN"];

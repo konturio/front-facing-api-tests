@@ -1,4 +1,4 @@
-import { getJSON, countriesForWorkflow } from "./helper";
+import { getJSON, countriesForWorkflow } from "../helpers/main-helper";
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";

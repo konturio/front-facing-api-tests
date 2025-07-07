@@ -1,6 +1,6 @@
 import { test, expect } from "@playwright/test";
-import { getApis, getJSON } from "../helper";
-import type { liveSensorRequestOptions } from "../types";
+import { getApis, getJSON } from "../helpers/main-helper";
+import type { liveSensorRequestOptions } from "../helpers/types";
 
 const [liveSensorUrl] = getApis(["live sensor"], "live-sensor").map(
   (apiObj) => apiObj?.url

@@ -1,5 +1,5 @@
 import { test, expect, APIRequestContext } from "@playwright/test";
-import { getApis } from "../helper";
+import { getApis } from "../helpers/main-helper";
 import { MvtToGeojson } from "mvt-to-geojson";
 import { Feature } from "geojson";
 

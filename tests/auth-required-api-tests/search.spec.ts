@@ -1,6 +1,6 @@
 import { test, expect } from "@playwright/test";
-import { getApis, getJSON } from "../helper";
-import type { testSearchApiOptions } from "../types";
+import { getApis, getJSON } from "../helpers/main-helper";
+import type { testSearchApiOptions } from "../helpers/types";
 
 const searchApis = getApis(
   ["search oam", "search atlas", "search disaster-ninja", "search smart-city"],

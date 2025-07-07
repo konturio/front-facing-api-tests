@@ -2,7 +2,7 @@ import { defineConfig } from "@playwright/test";
 import * as dotenv from "dotenv";
 import { LogLevel } from "@slack/web-api/dist/index.js";
 import path from "path";
-import { getJSON } from "./tests/helper.ts";
+import { getJSON } from "./tests/helpers/main-helper.ts";
 
 /**
  * Read environment variables from file.
@@ -17,8 +17,8 @@ dotenv.config({
   ],
 });
 
-const globalSetup = path.resolve("./tests/global-setup.ts");
-const globalTeardown = path.resolve("./tests/global-teardown.ts");
+const globalSetup = path.resolve("./tests/setup/global-setup.ts");
+const globalTeardown = path.resolve("./tests/setup/global-teardown.ts");
 const businessCountriesArray = getJSON({
   fileFolder: "lookup-data",
   fileName: "countries-for-workflow",

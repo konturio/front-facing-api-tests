@@ -4,8 +4,8 @@ import {
   getGraphqlQuery,
   sendGraphqlQuery,
   getReferenceDataForCountry,
-} from "../helper";
-import type { ThermalSpotsAnalytics } from "../types";
+} from "../helpers/main-helper";
+import type { ThermalSpotsAnalytics } from "../helpers/types";
 
 const polygons = getPolygonsToTest();
 const queryDeadline = 60000;

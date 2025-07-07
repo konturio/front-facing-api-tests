@@ -5,9 +5,9 @@ import {
   sendGraphqlQuery,
   getReferenceDataForCountry,
   getConsumersAndPushToAnnotations,
-} from "../helper";
+} from "../helpers/main-helper";
 import { fileURLToPath } from "url";
-import type { FunctionsAnalytics, Stat } from "../types";
+import type { FunctionsAnalytics, Stat } from "../helpers/types";
 import { basename } from "path";
 
 const polygons = getPolygonsToTest();

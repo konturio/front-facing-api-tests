@@ -1,9 +1,9 @@
 import { test, expect } from "@playwright/test";
-import { getApis } from "./helper";
+import { getApis } from "../helpers/main-helper";
 import fs from "fs";
 import { PNG } from "pngjs";
 import pixelmatch from "pixelmatch";
-import type { TestOAMTilesOptions } from "./types";
+import type { TestOAMTilesOptions } from "../helpers/types";
 
 const sizes = [256, 512] as [256, 512];
 
