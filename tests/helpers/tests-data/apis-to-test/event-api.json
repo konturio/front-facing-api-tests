@@ -1,0 +1,47 @@
+[
+  {
+    "env": "prod",
+    "name": "event api search",
+    "url": "https://apps.kontur.io/events/v1/"
+  },
+  {
+    "env": "test",
+    "name": "event api search",
+    "url": "https://test-apps.konturlabs.com/events/v1/"
+  },
+  {
+    "env": "dev",
+    "name": "event api search",
+    "url": "https://test-apps02.konturlabs.com/events/v1/"
+  },
+  {
+    "env": "prod",
+    "name": "event api return event",
+    "url": "https://apps.kontur.io/events/v1/event"
+  },
+  {
+    "env": "test",
+    "name": "event api return event",
+    "url": "https://test-apps.konturlabs.com/events/v1/event"
+  },
+  {
+    "env": "dev",
+    "name": "event api return event",
+    "url": "https://test-apps02.konturlabs.com/events/v1/event"
+  },
+  {
+    "env": "prod",
+    "name": "event api raw data (observations)",
+    "url": "https://apps.kontur.io/events/v1/observations/"
+  },
+  {
+    "env": "test",
+    "name": "event api raw data (observations)",
+    "url": "https://test-apps.konturlabs.com/events/v1/observations/"
+  },
+  {
+    "env": "dev",
+    "name": "event api raw data (observations)",
+    "url": "https://test-apps02.konturlabs.com/events/v1/observations/"
+  }
+]

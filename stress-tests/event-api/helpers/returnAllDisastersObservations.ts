@@ -1,9 +1,9 @@
 import { URL } from "url";
-import EventApiRequestProfiler from "./requestProfiler.ts";
+import EventApiLoadTester from "./loadTester.ts";
 
 const getAllDisastersAndObservations = async function (
   url: URL,
-  eventApiRequestProfiler: EventApiRequestProfiler
+  eventApiRequestProfiler: EventApiLoadTester
 ) {
   const {
     startTime,

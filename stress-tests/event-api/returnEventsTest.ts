@@ -1,10 +1,13 @@
 import { calculateLoadAnalytics } from "./helpers/resultsAnalytics.ts";
-import EventApiRequestProfiler from "./helpers/requestProfiler.ts";
+import EventApiLoadTester from "./helpers/loadTester.ts";
 import getAllDisastersAndObservations from "./helpers/returnAllDisastersObservations.ts";
 import runBunchesOfRequests, { parseEnv } from "./helpers/runnerUtils.ts";
 import fs from "fs";
 import dotenv from "dotenv";
-import type { Types } from "./helpers/requestProfiler.ts";
+import {
+  EventApiURLBuilder,
+  Types,
+} from "../../tests/helpers/event-api-profiler.ts";
 
 dotenv.config({
   path: [".env.event-api-stress", ".env.event-api-stress.local"],
@@ -38,35 +41,32 @@ const [
   number,
 ];
 
-const eventApiRequestProfiler = new EventApiRequestProfiler(token);
-const searchAllEventsUrl = eventApiRequestProfiler.buildUrl(
-  "https://apps.kontur.io/events/v1/",
-  {
-    feed,
-    types,
-    limit,
-  }
-);
+const loadTester = new EventApiLoadTester(token);
+
+const searchAllEventsUrl = new EventApiURLBuilder()
+  .setType("event api search")
+  .setParams({ feed, types, limit })
+  .buildUrl();
 
 console.log("Started getting all disasters...");
 
 const { disasterIDs } = await getAllDisastersAndObservations(
   searchAllEventsUrl,
-  eventApiRequestProfiler
+  loadTester
 );
 console.log("Finished getting all disasters...");
 
 console.log("Preparing all requests for testing...");
 const disasterRequests = disasterIDs.map((disasterID) => {
   return async function () {
-    const getEventsUrl = eventApiRequestProfiler.buildUrl(
-      `https://apps.kontur.io/events/v1/event`,
-      {
+    const getEventsUrl = new EventApiURLBuilder()
+      .setType("event api return event")
+      .setParams({
         feed,
         episodeFilterType,
         eventId: String(disasterID),
-      }
-    );
+      })
+      .buildUrl();
     const {
       startTime,
       responseStatus,
@@ -74,7 +74,7 @@ const disasterRequests = disasterIDs.map((disasterID) => {
       body,
       error: fetchError,
       responseTimeMs,
-    } = await eventApiRequestProfiler.fetchWithMetrics(getEventsUrl);
+    } = await loadTester.fetchWithMetrics(getEventsUrl);
 
     const responseBody = body as { eventId: string; observations: string[] };
     let error = fetchError;
