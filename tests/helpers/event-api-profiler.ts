@@ -21,7 +21,7 @@ export type Types = (
 export type EventApiRequestParams = {
   feed: string;
   types?: Types;
-  limit?: number;
+  limit?: number | string;
   episodeFilterType?: "ANY" | "NONE" | "LATEST";
   bbox?: number[];
   after?: string;
@@ -32,6 +32,12 @@ type EventApiRequestsTypes =
   | "event api search"
   | "event api return event"
   | "event api raw data (observations)";
+
+export type ResponseInfo<T> = {
+  status: number;
+  text: string;
+  json: T | undefined;
+};
 
 export class EventApiURLBuilder {
   private endpointMap: Record<EventApiRequestsTypes, string>;
@@ -95,11 +101,11 @@ export class EventApiURLBuilder {
 
 export class EventApiRequestsExecutor<T = unknown> {
   private token: string;
-  private responseInfo: {
-    status: number;
-    text: string;
-    json: T | null;
-  } = { status: 0, text: "", json: null };
+  private responseInfo: ResponseInfo<T> = {
+    status: 0,
+    text: "",
+    json: undefined,
+  };
 
   constructor(token: string) {
     this.token = token;

@@ -128,6 +128,11 @@ export default defineConfig({
       testMatch: "llmAnalytics.spec.ts",
     },
     {
+      name: "event_api_tests",
+      dependencies: ["setup"],
+      testDir: "./tests/event-api-tests",
+    },
+    {
       name: "api_tests_no_auth",
       testDir: "./tests/general-api-tests",
     },
