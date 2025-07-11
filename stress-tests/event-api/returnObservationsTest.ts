@@ -1,10 +1,13 @@
 import { calculateLoadAnalytics } from "./helpers/resultsAnalytics.ts";
-import EventApiRequestProfiler from "./helpers/requestProfiler.ts";
+import EventApiLoadTester from "./helpers/loadTester.ts";
 import getAllDisastersAndObservations from "./helpers/returnAllDisastersObservations.ts";
 import runBunchesOfRequests, { parseEnv } from "./helpers/runnerUtils.ts";
 import fs from "fs";
 import dotenv from "dotenv";
-import type { Types } from "./helpers/requestProfiler.ts";
+import {
+  EventApiURLBuilder,
+  Types,
+} from "../../tests/helpers/event-api-profiler.ts";
 
 dotenv.config({
   path: [".env.event-api-stress", ".env.event-api-stress.local"],
@@ -29,31 +32,29 @@ const [numberOfRequestsPerTestRun, feed, types, limit, token, timeout] =
     number,
   ];
 
-const eventApiRequestProfiler = new EventApiRequestProfiler(token);
-const searchAllEventsUrl = eventApiRequestProfiler.buildUrl(
-  "https://apps.kontur.io/events/v1/",
-  {
-    feed,
-    types,
-    limit,
-  }
-);
+const loadTester = new EventApiLoadTester(token);
+const searchAllEventsUrl = new EventApiURLBuilder()
+  .setType("event api search")
+  .setParams({ feed, types, limit })
+  .buildUrl();
 
 console.log("Started getting all observations...");
 const { observationIDs } = await getAllDisastersAndObservations(
   searchAllEventsUrl,
-  eventApiRequestProfiler
+  loadTester
 );
 console.log("Finished getting all observations...");
 console.log("Preparing all requests for testing...");
 
 const observationsRequests = observationIDs.map((observationID) => {
   return async function () {
-    const getObservationsUrl = eventApiRequestProfiler.buildUrl(
-      `https://apps.kontur.io/events/v1/observations/${observationID}`
-    );
+    const getObservationsUrl = new EventApiURLBuilder()
+      .setType(`event api raw data (observations)`)
+      .setExtraPath(`${observationID}`)
+      .buildUrl();
+
     const { startTime, responseStatus, payloadSize, error, responseTimeMs } =
-      await eventApiRequestProfiler.fetchWithMetrics(getObservationsUrl);
+      await loadTester.fetchWithMetrics(getObservationsUrl);
     return {
       startTime: new Date(startTime).toISOString(),
       url: getObservationsUrl.toString(),

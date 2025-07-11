@@ -1,6 +1,6 @@
 import { test, expect, APIRequestContext } from "@playwright/test";
-import { getApis } from "../helper";
-import type { AxisData, TestAxisOptions } from "../types";
+import { getApis } from "../helpers/main-helper";
+import type { AxisData, TestAxisOptions } from "../helpers/types";
 
 const [axisDataToGet] = getApis(["axis"], "axis");
 

@@ -5,8 +5,8 @@ import {
   sendGraphqlQuery,
   getReferenceDataForCountry,
   getConsumersAndPushToAnnotations,
-} from "../helper";
-import type { OsmAnalytics } from "../types";
+} from "../helpers/main-helper";
+import type { OsmAnalytics } from "../helpers/types";
 import { fileURLToPath } from "url";
 import { basename } from "path";
 

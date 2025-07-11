@@ -1,5 +1,5 @@
 import { test, expect } from "@playwright/test";
-import { getApis } from "../helper";
+import { getApis } from "../helpers/main-helper";
 
 const [currentUserUrl, appInfoUrl] = getApis(
   ["current user", "app info"],

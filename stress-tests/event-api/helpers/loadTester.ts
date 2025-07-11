@@ -1,31 +1,4 @@
-export type Types = (
-  | "FLOOD"
-  | "TSUNAMI"
-  | "WILDFIRE"
-  | "THERMAL_ANOMALY"
-  | "INDUSTRIAL_HEAT"
-  | "TORNADO"
-  | "WINTER_STORM"
-  | "EARTHQUAKE"
-  | "STORM"
-  | "CYCLONE"
-  | "DROUGHT"
-  | "VOLCANO"
-  | "SITUATION"
-  | "OTHER"
-)[];
-
-type EventApiRequestParams = {
-  feed: string;
-  types?: Types;
-  limit?: number;
-  episodeFilterType?: "ANY" | "NONE" | "LATEST";
-  bbox?: number[];
-  after?: string;
-  eventId?: string;
-};
-
-export default class EventApiRequestProfiler {
+export default class EventApiLoadTester {
   private token: string;
 
   constructor(token: string) {
@@ -80,22 +53,6 @@ export default class EventApiRequestProfiler {
     });
     url.searchParams.set("bbox", newBbox.join(","));
     return url;
-  }
-
-  /**
-   * This function builds a url with the given params
-   * @param url url to build
-   * @param params object with params to append to the url
-   * @returns new url with the params appended
-   */
-  buildUrl(url: string, params?: EventApiRequestParams): URL {
-    const newUrl = new URL(url);
-    if (params) {
-      for (const [key, value] of Object.entries(params)) {
-        newUrl.searchParams.append(key, String(value));
-      }
-    }
-    return newUrl;
   }
 
   /**

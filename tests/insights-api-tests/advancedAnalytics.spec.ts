@@ -3,8 +3,8 @@ import {
   getPolygonsToTest,
   getGraphqlQuery,
   sendGraphqlQuery,
-} from "../helper";
-import type { Analytics } from "../types";
+} from "../helpers/main-helper";
+import type { Analytics } from "../helpers/types";
 
 const polygons = getPolygonsToTest();
 const queryDeadline = 60000;

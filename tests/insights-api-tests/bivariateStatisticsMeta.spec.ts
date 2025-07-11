@@ -3,7 +3,7 @@ import {
   getPolygonsToTest,
   getGraphqlQuery,
   sendGraphqlQuery,
-} from "../helper";
+} from "../helpers/main-helper";
 
 const polygons = getPolygonsToTest();
 const queryDeadline = 60000;

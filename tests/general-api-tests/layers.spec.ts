@@ -1,6 +1,6 @@
 import { test, expect } from "@playwright/test";
-import { getApis } from "../helper";
-import type { Layer } from "../types";
+import { getApis } from "../helpers/main-helper";
+import type { Layer } from "../helpers/types";
 
 const languagesToTestLayers = ["es", "en", "ar", "de", "uk", "id", "ko"];
 const apiObjsToTest = getApis(

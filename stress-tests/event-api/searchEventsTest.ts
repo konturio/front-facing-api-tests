@@ -1,9 +1,12 @@
 import { calculateLoadAnalytics } from "./helpers/resultsAnalytics.ts";
-import EventApiRequestProfiler from "./helpers/requestProfiler.ts";
+import EventApiLoadTester from "./helpers/loadTester.ts";
 import runBunchesOfRequests, { parseEnv } from "./helpers/runnerUtils.ts";
 import fs from "fs";
 import dotenv from "dotenv";
-import type { Types } from "./helpers/requestProfiler.ts";
+import {
+  EventApiURLBuilder,
+  Types,
+} from "../../tests/helpers/event-api-profiler.ts";
 
 dotenv.config({
   path: [".env.event-api-stress", ".env.event-api-stress.local"],
@@ -48,27 +51,27 @@ const [
   string,
   number[],
 ];
-
-const eventApiRequestProfiler = new EventApiRequestProfiler(token);
+const loadTester = new EventApiLoadTester(token);
 
 async function getEvents(ind: number) {
-  const searchEventsUrl = eventApiRequestProfiler.buildUrl(
-    `https://apps.kontur.io/events/v1/`,
-    {
+  const searchEventsUrl = new EventApiURLBuilder()
+    .setType(`event api search`)
+    .setParams({
       feed,
       types,
       limit,
       episodeFilterType,
       bbox,
       after,
-    }
-  );
-  const updatedBboxUrl = eventApiRequestProfiler.moveBBxOnStep({
+    })
+    .buildUrl();
+
+  const updatedBboxUrl = loadTester.moveBBxOnStep({
     shiftStep,
     multiplier: ind + 1,
     url: searchEventsUrl,
   });
-  const updatedAfterUrl = eventApiRequestProfiler.moveAfterDateOnStep({
+  const updatedAfterUrl = loadTester.moveAfterDateOnStep({
     multiplier: ind + 1,
     url: updatedBboxUrl,
   });
@@ -79,7 +82,7 @@ async function getEvents(ind: number) {
     body,
     error,
     responseTimeMs,
-  } = await eventApiRequestProfiler.fetchWithMetrics(updatedAfterUrl);
+  } = await loadTester.fetchWithMetrics(updatedAfterUrl);
 
   const responseBody = body as {
     pageMetadata: { nextAfterValue: string };

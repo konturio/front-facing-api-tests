@@ -5,8 +5,8 @@ import {
   sendGraphqlQuery,
   getReferenceDataForCountry,
   getConsumersAndPushToAnnotations,
-} from "../helper";
-import type { PopulationAnalytics, PopulationData } from "../types";
+} from "../helpers/main-helper";
+import type { PopulationAnalytics, PopulationData } from "../helpers/types";
 import { fileURLToPath } from "url";
 import { basename } from "path";
 
