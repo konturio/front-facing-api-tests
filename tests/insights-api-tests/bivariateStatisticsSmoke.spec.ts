@@ -56,6 +56,7 @@ for (const polygon of polygons) {
       test("Correlation rates array should be empty", async ({
         playwright,
       }) => {
+        test.skip(true, "Bivariate statistics calculations are no more used");
         const request = await playwright.request.newContext();
         const correlationRates = await getCorrelationRates(request, polygon);
         expect(
@@ -69,7 +70,7 @@ for (const polygon of polygons) {
       }) => {
         test.skip(
           true,
-          "This test is skipped as array of correlations should be empty (correlations are switched off for prod currently). If decided to bring correlations back, feel free to activate this test. More info: https://konturio.slack.com/archives/C01GDJZGU2H/p1744881197222189"
+          "This test is skipped as bivariate statistics is no more used. If decided to bring correlations back, feel free to activate this test. More info: https://konturio.slack.com/archives/C01GDJZGU2H/p1744881197222189"
         );
         const request = await playwright.request.newContext();
 
@@ -120,11 +121,11 @@ for (const polygon of polygons) {
       test("Check that layers are not duplicated", async ({ playwright }) => {
         test.skip(
           true,
-          "This test is skipped as array of correlations should be empty (correlations are switched off for prod currently). If decided to bring correlations back, feel free to activate this test. More info: https://konturio.slack.com/archives/C01GDJZGU2H/p1744881197222189"
+          "This test is skipped as bivariate statistics is no more used. If decided to bring correlations back, feel free to activate this test. More info: https://konturio.slack.com/archives/C01GDJZGU2H/p1744881197222189"
         );
         test.fixme(
           true,
-          `This test found an issue https://kontur.fibery.io/Tasks/Task/Quotients-pairs-are-not-unique-in-bivariate-statistics-correlation-rates-20918 , activate the test once the issue is fixed`
+          `This test found an issue https://kontur.fibery.io/Tasks/Task/Quotients-pairs-are-not-unique-in-bivariate-statistics-correlation-rates-20918 , activate the test once the issue is fixed if needed`
         );
 
         const request = await playwright.request.newContext();
@@ -163,7 +164,7 @@ for (const polygon of polygons) {
       }) => {
         test.skip(
           true,
-          "This test is skipped as array of correlations should be empty (correlations are switched off for prod currently). If decided to bring correlations back, feel free to activate this test. More info: https://konturio.slack.com/archives/C01GDJZGU2H/p1744881197222189"
+          "This test is skipped as bivariate statistics is no more used. If decided to bring correlations back, feel free to activate this test. More info: https://konturio.slack.com/archives/C01GDJZGU2H/p1744881197222189"
         );
         const request = await playwright.request.newContext();
 

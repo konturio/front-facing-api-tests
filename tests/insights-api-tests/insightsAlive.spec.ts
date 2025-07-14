@@ -11,7 +11,6 @@ const queryDeadline = 60000;
 const queriesFilesWithGeojson = [
   "advancedAnalytics",
   "bivariateStatisticAxisIndicators",
-  "bivariateStatisticCorrelationRates",
   "analyticsPopulationInfrastructure",
   "bivariateStatisticIndicators",
   "analyticsPopulationInfrastructureResult",
@@ -28,7 +27,6 @@ const queriesFilesNoGeojson: string[] = [
   "bivariateStatisticJustIndicators",
   "bivariateStatisticAxisNoTransformation",
   "getAxes",
-  "bivariateStatisticCorrelationRates",
   "getTransformations",
 ];
 
