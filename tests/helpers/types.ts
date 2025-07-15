@@ -308,3 +308,42 @@ export type RawDataResponse = {
     MessageAttributes: Record<string, unknown>;
   };
 };
+
+export type Types = (
+  | "FLOOD"
+  | "TSUNAMI"
+  | "WILDFIRE"
+  | "THERMAL_ANOMALY"
+  | "INDUSTRIAL_HEAT"
+  | "TORNADO"
+  | "WINTER_STORM"
+  | "EARTHQUAKE"
+  | "STORM"
+  | "CYCLONE"
+  | "DROUGHT"
+  | "VOLCANO"
+  | "SITUATION"
+  | "OTHER"
+)[];
+
+export type EventApiRequestParams = {
+  feed: string;
+  types?: Types;
+  limit?: number | string;
+  episodeFilterType?: "ANY" | "NONE" | "LATEST";
+  bbox?: number[];
+  after?: string;
+  eventId?: string;
+  sortOrder?: string;
+};
+
+export type EventApiRequestsTypes =
+  | "event api search"
+  | "event api return event"
+  | "event api raw data (observations)";
+
+export type ResponseInfo<T> = {
+  status: number;
+  text: string;
+  json: T | undefined;
+};

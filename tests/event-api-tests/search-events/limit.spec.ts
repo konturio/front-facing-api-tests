@@ -2,9 +2,8 @@ import { test, expect, APIRequestContext } from "@playwright/test";
 import {
   EventApiURLBuilder,
   EventApiRequestsExecutor,
-  ResponseInfo,
 } from "../../helpers/event-api-profiler.ts";
-import type { SearchEventApiResponse } from "../../helpers/types";
+import type { SearchEventApiResponse, ResponseInfo } from "../../helpers/types";
 
 async function fetchEvents({
   limit,

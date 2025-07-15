@@ -1,43 +1,10 @@
 import { getApis } from "./main-helper.ts";
-import { APIRequestContext, APIResponse } from "@playwright/test";
-
-export type Types = (
-  | "FLOOD"
-  | "TSUNAMI"
-  | "WILDFIRE"
-  | "THERMAL_ANOMALY"
-  | "INDUSTRIAL_HEAT"
-  | "TORNADO"
-  | "WINTER_STORM"
-  | "EARTHQUAKE"
-  | "STORM"
-  | "CYCLONE"
-  | "DROUGHT"
-  | "VOLCANO"
-  | "SITUATION"
-  | "OTHER"
-)[];
-
-export type EventApiRequestParams = {
-  feed: string;
-  types?: Types;
-  limit?: number | string;
-  episodeFilterType?: "ANY" | "NONE" | "LATEST";
-  bbox?: number[];
-  after?: string;
-  eventId?: string;
-};
-
-type EventApiRequestsTypes =
-  | "event api search"
-  | "event api return event"
-  | "event api raw data (observations)";
-
-export type ResponseInfo<T> = {
-  status: number;
-  text: string;
-  json: T | undefined;
-};
+import { APIRequestContext } from "@playwright/test";
+import {
+  EventApiRequestParams,
+  EventApiRequestsTypes,
+  ResponseInfo,
+} from "./types.ts";
 
 export class EventApiURLBuilder {
   private endpointMap: Record<EventApiRequestsTypes, string>;

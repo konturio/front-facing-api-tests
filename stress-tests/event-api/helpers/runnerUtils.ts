@@ -1,4 +1,4 @@
-import type { Types } from "../../../tests/helpers/event-api-profiler.ts";
+import type { Types } from "../../../tests/helpers/types.ts";
 
 type BunchOfRequestsResults = {
   results: any[];
