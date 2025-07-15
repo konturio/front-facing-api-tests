@@ -4,25 +4,7 @@ import {
   EventApiRequestsExecutor,
   ResponseInfo,
 } from "../../helpers/event-api-profiler.ts";
-
-type SearchEventApiResponse = {
-  pageMetadata: { nextAfterValue: string };
-  data: Array<{
-    eventId: string;
-    name: string;
-    description: string;
-    version: string;
-    type: string;
-    severity: string;
-    active: boolean;
-    startedAt: string;
-    endedAt: string;
-    updatedAt: string;
-    location: string;
-    urls: string[];
-    observations: string[];
-  }>;
-};
+import type { SearchEventApiResponse } from "../../helpers/types";
 
 async function fetchEvents({
   limit,
