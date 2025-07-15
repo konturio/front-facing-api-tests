@@ -2,28 +2,18 @@ import { test, expect, APIRequestContext } from "@playwright/test";
 import {
   EventApiURLBuilder,
   EventApiRequestsExecutor,
+  searchEvents,
 } from "../../helpers/event-api-profiler.ts";
-import type {
-  SearchEventApiResponse,
-  RawDataResponse,
-} from "../../helpers/types";
+import type { RawDataResponse } from "../../helpers/types";
 
 async function fetchFirstObservationId(
   request: APIRequestContext
 ): Promise<string> {
-  const params = { feed: "pdc", limit: 1 };
-  const url = new EventApiURLBuilder()
-    .setType("event api search")
-    .setParams(params)
-    .buildUrl();
-
-  const executor = new EventApiRequestsExecutor<SearchEventApiResponse>(
-    process.env.ACCESS_TOKEN as string
-  );
-  const responseInfo = await executor
-    .sendRequest({ url, request, timeout: 10000 })
-    .then((res) => res.getResponseInfo());
-
+  const responseInfo = await searchEvents({
+    request,
+    params: { feed: "pdc", limit: 1 },
+    timeout: 10000,
+  });
   expect(
     responseInfo.status,
     `Expect response status to be 200 for search request`

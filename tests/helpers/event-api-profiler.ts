@@ -1,9 +1,10 @@
 import { getApis } from "./main-helper.ts";
-import { APIRequestContext } from "@playwright/test";
+import { APIRequestContext, test } from "@playwright/test";
 import {
   EventApiRequestParams,
   EventApiRequestsTypes,
   ResponseInfo,
+  SearchEventApiResponse,
 } from "./types.ts";
 
 export class EventApiURLBuilder {
@@ -59,7 +60,9 @@ export class EventApiURLBuilder {
 
     if (this.currentParams) {
       for (const [key, value] of Object.entries(this.currentParams)) {
-        url.searchParams.append(key, String(value));
+        if (value !== undefined) {
+          url.searchParams.append(key, String(value));
+        }
       }
     }
     return url;
@@ -104,4 +107,34 @@ export class EventApiRequestsExecutor<T = unknown> {
   getResponseInfo() {
     return this.responseInfo;
   }
+}
+
+export async function searchEvents({
+  request,
+  params,
+  timeout,
+}: {
+  request: APIRequestContext;
+  params: EventApiRequestParams;
+  timeout: number;
+}): Promise<ResponseInfo<SearchEventApiResponse>> {
+  const testedURL = new EventApiURLBuilder()
+    .setType("event api search")
+    .setParams(params)
+    .buildUrl();
+
+  test.info().annotations.push({
+    type: "tested url",
+    description: testedURL.toString(),
+  });
+
+  const executor = new EventApiRequestsExecutor<SearchEventApiResponse>(
+    process.env.ACCESS_TOKEN as string
+  );
+
+  const responseInfo = await executor
+    .sendRequest({ url: testedURL, request, timeout })
+    .then((res) => res.getResponseInfo());
+
+  return responseInfo;
 }

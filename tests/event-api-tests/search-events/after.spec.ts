@@ -1,42 +1,6 @@
-import { test, expect, APIRequestContext } from "@playwright/test";
-import {
-  EventApiURLBuilder,
-  EventApiRequestsExecutor,
-} from "../../helpers/event-api-profiler.ts";
-import type {
-  SearchEventApiResponse,
-  ResponseInfo,
-  EventApiRequestParams,
-} from "../../helpers/types";
-
-// Helper to fetch events with given params
-async function fetchEventsWithParams({
-  params,
-  request,
-}: {
-  params: EventApiRequestParams;
-  request: APIRequestContext;
-}) {
-  const testedURL = new EventApiURLBuilder()
-    .setType("event api search")
-    .setParams(params)
-    .buildUrl();
-
-  test.info().annotations.push({
-    type: "tested url",
-    description: testedURL.toString(),
-  });
-
-  const executor = new EventApiRequestsExecutor<SearchEventApiResponse>(
-    process.env.ACCESS_TOKEN as string
-  );
-
-  const responseInfo = await executor
-    .sendRequest({ url: testedURL, request, timeout: 10000 })
-    .then((res) => res.getResponseInfo());
-
-  return responseInfo;
-}
+import { test, expect } from "@playwright/test";
+import { searchEvents } from "../../helpers/event-api-profiler.ts";
+import type { SearchEventApiResponse, ResponseInfo } from "../../helpers/types";
 
 function checkSuccessfulResponse(
   responseInfo: ResponseInfo<SearchEventApiResponse>
@@ -58,9 +22,10 @@ function checkBadRequest(
 test("Check filtering events by 'after' param", async ({ request }) => {
   const feed = "pdc";
   // Get all events (e.g., limit 1000)
-  const allEventsResp = await fetchEventsWithParams({
+  const allEventsResp = await searchEvents({
     params: { feed, limit: 1000 },
     request,
+    timeout: 10000,
   });
   checkSuccessfulResponse(allEventsResp);
 
@@ -75,7 +40,8 @@ test("Check filtering events by 'after' param", async ({ request }) => {
   const after = allEvents[midIdx].updatedAt;
 
   // Make request with 'after'
-  const filteredResp = await fetchEventsWithParams({
+  const filteredResp = await searchEvents({
+    timeout: 10000,
     params: { feed, limit: 20, after },
     request,
   });
@@ -99,7 +65,8 @@ test.describe("Check pagination via 'after' param", () => {
       const after = "2023-09-24T19:09:27Z";
 
       // First request — 1 event
-      const resp1 = await fetchEventsWithParams({
+      const resp1 = await searchEvents({
+        timeout: 10000,
         params: { feed, limit: 1, after, sortOrder },
         request,
       });
@@ -108,7 +75,8 @@ test.describe("Check pagination via 'after' param", () => {
       const nextAfter = resp1.json!.pageMetadata.nextAfterValue;
 
       // Second request — next event
-      const resp2 = await fetchEventsWithParams({
+      const resp2 = await searchEvents({
+        timeout: 10000,
         params: { feed, limit: 1, after: nextAfter, sortOrder },
         request,
       });
@@ -116,7 +84,8 @@ test.describe("Check pagination via 'after' param", () => {
       const data2 = resp2.json!.data;
 
       // Third request — 2 events at once
-      const resp3 = await fetchEventsWithParams({
+      const resp3 = await searchEvents({
+        timeout: 10000,
         params: { feed, limit: 2, after, sortOrder },
         request,
       });
@@ -153,7 +122,8 @@ test("Check error for invalid 'after' param", async ({ request }) => {
   const ExpectError =
     '{"status":"BAD_REQUEST","message":"Failed to convert value of type \'java.lang.String\' to required type \'java.time.OffsetDateTime\'; nested exception is org.springframework.core.convert.ConversionFailedException: Failed to convert from type [java.lang.String] to type [@io.swagger.v3.oas.annotations.Parameter @org.springframework.web.bind.annotation.RequestParam @org.springframework.format.annotation.DateTimeFormat java.time.OffsetDateTime] for value \'123456Z\'; nested exception is java.lang.IllegalArgumentException: Parse attempt failed for value [123456Z]","errors":["after should be of type java.time.OffsetDateTime"]}';
 
-  const resp = await fetchEventsWithParams({
+  const resp = await searchEvents({
+    timeout: 10000,
     params: { feed, limit: 10, after },
     request,
   });
@@ -164,7 +134,8 @@ test("Check error for invalid year in 'after' param", async ({ request }) => {
   const feed = "pdc";
   const after = "1000-04-12T23:20:50.52Z";
   // Expect error may differ, so just check status
-  const resp = await fetchEventsWithParams({
+  const resp = await searchEvents({
+    timeout: 10000,
     params: { feed, limit: 10, after },
     request,
   });
