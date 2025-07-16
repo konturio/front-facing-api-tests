@@ -1,10 +1,6 @@
 import { getJSON, countriesForWorkflow } from "../helpers/main-helper";
 import fs from "fs";
 import path from "path";
-import { fileURLToPath } from "url";
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
 
 function globalTeardown() {
   if (process.env.IS_TESTING_BUSINESS_COUNTRIES_IN_A_ROW_AT_INSIGHTS_API) {
@@ -25,8 +21,8 @@ function globalTeardown() {
     }
     try {
       fs.writeFileSync(
-        path.join(
-          __dirname,
+        path.resolve(
+          process.cwd(),
           `tests/helpers/tests-data/lookup-data/countries-for-workflow.json`
         ),
         JSON.stringify(newCountries)
