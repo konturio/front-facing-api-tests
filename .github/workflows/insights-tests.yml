@@ -60,7 +60,7 @@ jobs:
           gistURL: "https://gist.github.com/amurKontur/${{ secrets.GIST_ID }}"
       - name: Move downloaded file to desired location
         run: |
-          mv ${{ steps.get.outputs.file }} tests/tests-data/lookup-data/countries-for-workflow.json
+          mv ${{ steps.get.outputs.file }} tests/helpers/tests-data/lookup-data/countries-for-workflow.json
 
       - name: Run INSIGHTS API tests
         run: npx playwright test --project=insights_api_tests --grep @fitsLoadTesting
@@ -71,7 +71,7 @@ jobs:
         with:
           token: ${{ secrets.GIST_TOKEN }}
           gist_id: ${{ secrets.GIST_ID }}
-          file_path: "tests/tests-data/lookup-data/countries-for-workflow.json"
+          file_path: "tests/helpers/tests-data/lookup-data/countries-for-workflow.json"
           file_name: "countries-for-workflow.json"
           update: true
 
