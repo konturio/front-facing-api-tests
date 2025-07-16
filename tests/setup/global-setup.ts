@@ -24,7 +24,7 @@ function globalSetup() {
 
   process.env.GRAPHQL_ENDPOINT = graphqlEndpointObject.url as string;
   process.env.ALL_COUNTRIES_PATH =
-    "tests/tests-data/request-bodies/all-countries.json" as string;
+    "tests/helpers/tests-data/request-bodies/all-countries.json" as string;
   process.env.REPO_NAME = "front-facing-api-tests" as string;
 
   if (!process.env.COUNTRIES_TO_TEST) process.env.COUNTRIES_TO_TEST = "";

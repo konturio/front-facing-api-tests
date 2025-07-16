@@ -27,7 +27,7 @@ function globalTeardown() {
       fs.writeFileSync(
         path.join(
           __dirname,
-          `./tests-data/lookup-data/countries-for-workflow.json`
+          `./helpers/tests-data/lookup-data/countries-for-workflow.json`
         ),
         JSON.stringify(newCountries)
       );
