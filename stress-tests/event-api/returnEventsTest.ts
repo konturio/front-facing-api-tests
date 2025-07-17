@@ -4,10 +4,8 @@ import getAllDisastersAndObservations from "./helpers/returnAllDisastersObservat
 import runBunchesOfRequests, { parseEnv } from "./helpers/runnerUtils.ts";
 import fs from "fs";
 import dotenv from "dotenv";
-import {
-  EventApiURLBuilder,
-  Types,
-} from "../../tests/helpers/event-api-profiler.ts";
+import { Types } from "../../tests/helpers/types.ts";
+import { EventApiURLBuilder } from "../../tests/helpers/event-api-profiler.ts";
 
 dotenv.config({
   path: [".env.event-api-stress", ".env.event-api-stress.local"],

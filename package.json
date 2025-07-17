@@ -12,6 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "@slack/web-api": "^7.3.0",
+    "@turf/turf": "^7.2.0",
     "fs": "0.0.1-security",
     "langdetect": "^0.2.1",
     "module": "^1.2.5",
