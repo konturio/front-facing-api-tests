@@ -132,7 +132,7 @@ test("Check error for invalid 'after' param", async ({ request }) => {
 
 test("Check error for invalid year in 'after' param", async ({ request }) => {
   const feed = "pdc";
-  const after = "1000-04-12T23:20:50.52Z";
+  const after = "1000-04-12T23:20:50.52ZZ";
   // Expect error may differ, so just check status
   const resp = await searchEvents({
     timeout: 10000,

@@ -1,4 +1,5 @@
 import { APIRequestContext, TestInfo } from "@playwright/test";
+import { FeatureCollection } from "geojson";
 
 export type PopulationAnalytics = {
   admin: string;
@@ -287,6 +288,7 @@ export type SearchEventApiResponse = {
     location: string;
     urls: string[];
     observations: string[];
+    geometries: FeatureCollection;
   }>;
 };
 
