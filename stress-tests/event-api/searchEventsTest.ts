@@ -47,7 +47,7 @@ const [
   number,
   number,
   string,
-  number[],
+  [number, number, number, number],
 ];
 const loadTester = new EventApiLoadTester(token);
 

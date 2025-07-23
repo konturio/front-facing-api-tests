@@ -87,7 +87,7 @@ test.describe("Check whole earth bbox returns all events", () => {
 });
 
 test("Check invalid bbox returns BAD REQUEST", async ({ request }) => {
-  const bbox = [1169, -1500, -1169, 1500];
+  const bbox = [1169, -1500, -1169, 1500] as [number, number, number, number];
   test.info().annotations.push({ type: "bbox", description: bbox.toString() });
   const params = { feed: "pdc", bbox };
   const expectedError =

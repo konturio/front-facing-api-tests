@@ -333,7 +333,7 @@ export type EventApiRequestParams = {
   types?: Types;
   limit?: number | string;
   episodeFilterType?: "ANY" | "NONE" | "LATEST";
-  bbox?: number[];
+  bbox?: [number, number, number, number];
   after?: string;
   eventId?: string;
   sortOrder?: string;
