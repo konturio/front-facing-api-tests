@@ -1,8 +1,7 @@
 import { test, expect } from "@playwright/test";
 import { searchEvents } from "../../helpers/event-api-profiler.ts";
 import type { SearchEventApiResponse, ResponseInfo } from "../../helpers/types";
-import intersect from "@turf/intersect";
-import bboxPolygon from "@turf/bbox-polygon";
+import { intersect, bboxPolygon } from "@turf/turf";
 import { FeatureCollection, MultiPolygon, Polygon } from "geojson";
 
 function doGeometriesIntersectBBox(
