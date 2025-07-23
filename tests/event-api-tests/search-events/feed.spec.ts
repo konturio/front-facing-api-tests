@@ -20,12 +20,6 @@ function checkSuccessfulFeedResponse(
   ).toBe("string");
 }
 
-function checkNoContentResponse(
-  responseInfo: ResponseInfo<SearchEventApiResponse>
-) {
-  expect(responseInfo.status, "Expect response status to be 204").toBe(204);
-}
-
 const feeds = ["pdc", "micglobal", "kontur-public", "kontur-private"];
 
 feeds.forEach((feed) => {
@@ -42,18 +36,14 @@ feeds.forEach((feed) => {
   });
 });
 
-test("Check that non-existent feed returns 204 No Content", async ({
+test("Check that non-existent feed returns 403 Forbidden to hide actual feeds", async ({
   request,
 }) => {
-  test.fixme(
-    true,
-    "Fix issue https://kontur.fibery.io/Tasks/Task/Invalid-feed-in-search-event-api-request-returns-403-instead-of-204-22263 to activate this test"
-  );
   const params = { feed: "GGG" };
   const resp = await searchEvents({
     params,
     request,
     timeout: 10000,
   });
-  checkNoContentResponse(resp);
+  expect(resp.status, "Expect response status to be 403").toBe(403);
 });
