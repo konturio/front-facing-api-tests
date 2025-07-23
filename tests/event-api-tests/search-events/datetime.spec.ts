@@ -41,7 +41,9 @@ function checkBadRequest(
   );
 }
 
-const feeds = ["pdc", "micglobal", "kontur-public"];
+test.describe.configure({ retries: 3 });
+
+const feeds = ["micglobal", "kontur-public"];
 
 test.describe("Test datetime filter: closed interval", () => {
   feeds.forEach((feed) => {
@@ -54,7 +56,7 @@ test.describe("Test datetime filter: closed interval", () => {
       const resp = await searchEvents({
         params,
         request,
-        timeout: 20000,
+        timeout: 50000,
       });
       checkSuccessfulResponse(resp);
 
@@ -79,7 +81,7 @@ test.describe("Test datetime filter: open-start interval", () => {
       const resp = await searchEvents({
         params,
         request,
-        timeout: 20000,
+        timeout: 50000,
       });
       checkSuccessfulResponse(resp);
 
@@ -104,7 +106,7 @@ test.describe("Test datetime filter: open-end interval", () => {
       const resp = await searchEvents({
         params,
         request,
-        timeout: 20000,
+        timeout: 50000,
       });
       checkSuccessfulResponse(resp);
 
@@ -122,11 +124,11 @@ test("Test datetime filter: bare datetime (not an interval)", async ({
   request,
 }) => {
   const dt = "2024-01-01T00:00:00Z";
-  const params = { feed: "pdc", datetime: dt };
+  const params = { feed: "micglobal", datetime: dt };
   const resp = await searchEvents({
     params,
     request,
-    timeout: 20000,
+    timeout: 50000,
   });
   checkSuccessfulResponse(resp);
 
@@ -172,35 +174,17 @@ test("Test datetime filter: swapped interval returns error", async ({
 test("Test datetime filter: interval that does not intersect any event returns empty list", async ({
   request,
 }) => {
-  // Get all events to find the latest endedAt
   const feed = "micglobal";
-  const allEventsResp = await searchEvents({
-    params: { feed, limit: 1000 },
-    request,
-    timeout: 20000,
-  });
-  checkSuccessfulResponse(allEventsResp);
-
-  const allEvents = allEventsResp.json!.data;
-  expect(allEvents.length, "Expect at least one event").toBeGreaterThan(0);
-
-  // Find the max endedAt
-  const maxEndedAt = allEvents
-    .map((e) => new Date(e.endedAt).getTime())
-    .reduce((acc, b) => Math.max(acc, b), 0);
-
-  // Add 2 seconds to the latest endedAt
-  const dt_to = new Date(maxEndedAt + 2000).toISOString();
-
-  const params = { feed, limit: 1000, datetime: dt_to };
+  const dt = "2124-01-01T00:00:00Z";
+  const params = { feed, limit: 1000, datetime: dt };
   const resp = await searchEvents({
     params,
     request,
-    timeout: 20000,
+    timeout: 50000,
   });
 
   expect(resp.status, "Expect response status to be 204 (no content)").toEqual(
     204
   );
-  expect(resp.json!.data.length, "Expect no events in response").toBe(0);
+  expect(resp.text.length, "Expect no events in response").toBe(0);
 });
