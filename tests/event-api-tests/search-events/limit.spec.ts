@@ -1,60 +1,6 @@
-import { test, expect, APIRequestContext } from "@playwright/test";
-import {
-  EventApiURLBuilder,
-  EventApiRequestsExecutor,
-  ResponseInfo,
-} from "../../helpers/event-api-profiler.ts";
-
-type SearchEventApiResponse = {
-  pageMetadata: { nextAfterValue: string };
-  data: Array<{
-    eventId: string;
-    name: string;
-    description: string;
-    version: string;
-    type: string;
-    severity: string;
-    active: boolean;
-    startedAt: string;
-    endedAt: string;
-    updatedAt: string;
-    location: string;
-    urls: string[];
-    observations: string[];
-  }>;
-};
-
-async function fetchEvents({
-  limit,
-  feed = "kontur-public",
-  request,
-}: {
-  limit?: number | string;
-  feed?: string;
-  request: APIRequestContext;
-}) {
-  const params = { feed, ...(limit !== undefined && { limit }) };
-
-  const testedURL = new EventApiURLBuilder()
-    .setType("event api search")
-    .setParams(params)
-    .buildUrl();
-
-  test.info().annotations.push({
-    type: "tested url",
-    description: testedURL.toString(),
-  });
-
-  const executor = new EventApiRequestsExecutor<SearchEventApiResponse>(
-    process.env.ACCESS_TOKEN as string
-  );
-
-  const responseInfo = await executor
-    .sendRequest({ url: testedURL, request, timeout: 10000 })
-    .then((res) => res.getResponseInfo());
-
-  return responseInfo;
-}
+import { test, expect } from "@playwright/test";
+import { searchEvents } from "../../helpers/event-api-profiler.ts";
+import type { SearchEventApiResponse, ResponseInfo } from "../../helpers/types";
 
 function checkSuccessResponse(
   responseInfo: ResponseInfo<SearchEventApiResponse>,
@@ -95,7 +41,11 @@ testCases.forEach(({ limit, description, max }) => {
   test(`Check search events endpoint with ${description}`, async ({
     request,
   }) => {
-    const responseInfo = await fetchEvents({ limit, request });
+    const responseInfo = await searchEvents({
+      params: { limit, feed: "kontur-public" },
+      request,
+      timeout: 10000,
+    });
     checkSuccessResponse(responseInfo, max);
   });
 });
@@ -111,27 +61,43 @@ const expectedErrorMessageAlphabet =
 test("Check search events endpoint with limit = 0 (bad request)", async ({
   request,
 }) => {
-  const responseInfo = await fetchEvents({ limit: 0, request });
+  const responseInfo = await searchEvents({
+    params: { limit: 0, feed: "kontur-public" },
+    request,
+    timeout: 10000,
+  });
   checkBadRequest(responseInfo, expectedErrorMessageLower);
 });
 
 test("Check search events endpoint with limit = -1 (bad request)", async ({
   request,
 }) => {
-  const responseInfo = await fetchEvents({ limit: -1, request });
+  const responseInfo = await searchEvents({
+    params: { limit: -1, feed: "kontur-public" },
+    request,
+    timeout: 10000,
+  });
   checkBadRequest(responseInfo, expectedErrorMessageLower);
 });
 
 test("Check search events endpoint with limit = 1001 (bad request)", async ({
   request,
 }) => {
-  const responseInfo = await fetchEvents({ limit: 1001, request });
+  const responseInfo = await searchEvents({
+    params: { limit: 1001, feed: "kontur-public" },
+    request,
+    timeout: 10000,
+  });
   checkBadRequest(responseInfo, expectedErrorMessageHigher);
 });
 
 test("Check search events endpoint with limit = 'ff' (bad request)", async ({
   request,
 }) => {
-  const responseInfo = await fetchEvents({ limit: "ff", request });
+  const responseInfo = await searchEvents({
+    params: { limit: "ff", feed: "kontur-public" },
+    request,
+    timeout: 10000,
+  });
   checkBadRequest(responseInfo, expectedErrorMessageAlphabet);
 });

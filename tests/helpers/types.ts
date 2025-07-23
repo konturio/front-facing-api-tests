@@ -1,4 +1,5 @@
 import { APIRequestContext, TestInfo } from "@playwright/test";
+import { FeatureCollection } from "geojson";
 
 export type PopulationAnalytics = {
   admin: string;
@@ -269,4 +270,82 @@ export type FilteredInsightsApiConsumersData = {
   [K in keyof InsightsApiConsumersData]?: {
     [F in keyof InsightsApiConsumersData[K]]?: InsightsApiConsumersData[K][F];
   };
+};
+
+export type SearchEventApiResponse = {
+  pageMetadata: { nextAfterValue: string };
+  data: Array<{
+    eventId: string;
+    name: string;
+    description: string;
+    version: string;
+    type: string;
+    severity: string;
+    active: boolean;
+    startedAt: string;
+    endedAt: string;
+    updatedAt: string;
+    location: string;
+    urls: string[];
+    observations: string[];
+    geometries: FeatureCollection;
+  }>;
+};
+
+export type RawDataResponse = {
+  EventSource: string;
+  EventVersion: string;
+  EventSubscriptionArn: string;
+  Sns: {
+    Type: string;
+    MessageId: string;
+    TopicArn: string;
+    Subject: string | null;
+    Message: string;
+    Timestamp: string;
+    SignatureVersion: string;
+    Signature: string;
+    SigningCertUrl: string;
+    UnsubscribeUrl: string;
+    MessageAttributes: Record<string, unknown>;
+  };
+};
+
+export type Types = (
+  | "FLOOD"
+  | "TSUNAMI"
+  | "WILDFIRE"
+  | "THERMAL_ANOMALY"
+  | "INDUSTRIAL_HEAT"
+  | "TORNADO"
+  | "WINTER_STORM"
+  | "EARTHQUAKE"
+  | "STORM"
+  | "CYCLONE"
+  | "DROUGHT"
+  | "VOLCANO"
+  | "SITUATION"
+  | "OTHER"
+)[];
+
+export type EventApiRequestParams = {
+  feed: string;
+  types?: Types;
+  limit?: number | string;
+  episodeFilterType?: "ANY" | "NONE" | "LATEST";
+  bbox?: [number, number, number, number];
+  after?: string;
+  eventId?: string;
+  sortOrder?: string;
+};
+
+export type EventApiRequestsTypes =
+  | "event api search"
+  | "event api return event"
+  | "event api raw data (observations)";
+
+export type ResponseInfo<T> = {
+  status: number;
+  text: string;
+  json: T | undefined;
 };
