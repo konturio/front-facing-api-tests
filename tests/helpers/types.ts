@@ -279,8 +279,8 @@ export type SearchEventApiResponse = {
     name: string;
     description: string;
     version: string;
-    type: string;
-    severity: string;
+    type: Types[number];
+    severity: Severities[number];
     active: boolean;
     startedAt: string;
     endedAt: string;
@@ -328,6 +328,15 @@ export type Types = (
   | "OTHER"
 )[];
 
+export type Severities = (
+  | "EXTREME"
+  | "SEVERE"
+  | "MODERATE"
+  | "MINOR"
+  | "TERMINATION"
+  | "UNKNOWN"
+)[];
+
 export type EventApiRequestParams = {
   feed: string;
   types?: Types;
@@ -337,6 +346,7 @@ export type EventApiRequestParams = {
   after?: string;
   eventId?: string;
   sortOrder?: string;
+  severities?: Severities;
 };
 
 export type EventApiRequestsTypes =
