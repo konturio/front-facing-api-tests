@@ -50,7 +50,7 @@ test.describe("Test datetime filter: closed interval", () => {
     }) => {
       const dt_from = "2023-01-01T00:00:00Z";
       const dt_to = "2025-06-02T00:00:00Z";
-      const params = { feed, limit: 1000, datetime: `${dt_from}/${dt_to}` };
+      const params = { feed, datetime: `${dt_from}/${dt_to}` };
       const resp = await searchEvents({
         params,
         request,
@@ -75,7 +75,7 @@ test.describe("Test datetime filter: open-start interval", () => {
     }) => {
       const dt_from = "..";
       const dt_to = "2025-06-02T00:00:00Z";
-      const params = { feed, limit: 1000, datetime: `${dt_from}/${dt_to}` };
+      const params = { feed, datetime: `${dt_from}/${dt_to}` };
       const resp = await searchEvents({
         params,
         request,
@@ -98,9 +98,9 @@ test.describe("Test datetime filter: open-end interval", () => {
     test(`Should return only events that intersect with open-end interval for feed '${feed}'`, async ({
       request,
     }) => {
-      const dt_from = "2023-08-02T00:00:00Z";
+      const dt_from = "2024-08-02T00:00:00Z";
       const dt_to = "..";
-      const params = { feed, limit: 1000, datetime: `${dt_from}/${dt_to}` };
+      const params = { feed, datetime: `${dt_from}/${dt_to}` };
       const resp = await searchEvents({
         params,
         request,
@@ -121,8 +121,8 @@ test.describe("Test datetime filter: open-end interval", () => {
 test("Test datetime filter: bare datetime (not an interval)", async ({
   request,
 }) => {
-  const dt = "2020-09-01T00:00:00Z";
-  const params = { feed: "pdc", limit: 1000, datetime: dt };
+  const dt = "2024-01-01T00:00:00Z";
+  const params = { feed: "pdc", datetime: dt };
   const resp = await searchEvents({
     params,
     request,
@@ -173,7 +173,7 @@ test("Test datetime filter: interval that does not intersect any event returns e
   request,
 }) => {
   // Get all events to find the latest endedAt
-  const feed = "pdc";
+  const feed = "micglobal";
   const allEventsResp = await searchEvents({
     params: { feed, limit: 1000 },
     request,
