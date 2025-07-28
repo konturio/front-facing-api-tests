@@ -196,6 +196,10 @@ const expectedLayers = [
   "gfw_total_duration_last_month",
   "gfw_unknown_flag_duration_last_month",
   "gfw_flag_distance_to_home_country",
+  "distance_to_port",
+  "osm_ports_count",
+  "osm_power_plants_capacity_mw",
+  "osm_power_plants_count",
 ];
 
 if (process.env.ENVIRONMENT === "test") {
